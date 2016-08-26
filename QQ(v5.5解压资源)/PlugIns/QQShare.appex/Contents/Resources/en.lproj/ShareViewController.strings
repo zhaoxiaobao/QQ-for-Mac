@@ -1,0 +1,9 @@
+
+/* Class = "NSTextFieldCell"; title = "发送到QQ"; ObjectID = "0xp-rC-2gr"; */
+"0xp-rC-2gr.title" = "Send to QQ";
+
+/* Class = "NSButtonCell"; title = "Send"; ObjectID = "2l4-PO-we5"; */
+"2l4-PO-we5.title" = "Send";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "6Up-t3-mwm"; */
+"6Up-t3-mwm.title" = "Cancel";

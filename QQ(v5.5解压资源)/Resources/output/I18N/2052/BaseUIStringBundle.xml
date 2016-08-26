@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<StringBundle version="1.0">
+  <!--窗口-->
+  <String id="CloseWindow">
+    关闭
+  </String>
+  <String id="MinimizeWindow">
+    最小化
+  </String>
+  <String id="MaxisizeWindow">
+    最大化
+  </String>
+  <String id="RestoreWindow">
+    还原
+  </String>
+  <!--IE-->
+  <String id="IE_LoadingText">
+    正在加载页面，请稍候...
+  </String>
+  <String id="IE_ErrText">
+    由于网络原因，页面显示遇到问题
+  </String>
+  <String id="IE_RetryText">
+    请点击 $REFRESH$ 后重试
+  </String>
+  <String id="IE_Refresh">
+    刷新
+  </String>
+  <!--Toolbar-->
+  <String id="Toolbar_Forward">
+    向前
+  </String>
+  <String id="Toolbar_Backward">
+    向后
+  </String>
+  <String id="Toolbar_Up">
+    上移
+  </String>
+  <String id="Toolbar_Down">
+    下移
+  </String>
+  <String id="Empty_Menu">
+    (空)
+  </String>
+  <!-- System MessageBox -->
+  <String id="SYS_MESSAGEBOX_OK">
+    确定
+  </String>
+  <String id="SYS_MESSAGEBOX_CANCEL">
+    取消
+  </String>
+  <String id="SYS_MESSAGEBOX_RETRY">
+    重试
+  </String>
+  <String id="SYS_MESSAGEBOX_YES">
+    是
+  </String>
+  <String id="SYS_MESSAGEBOX_NO">
+    否
+  </String>
+  <String id="SYS_MESSAGEBOX_ABORT">
+    终止
+  </String>
+  <String id="SYS_MESSAGEBOX_IGNORE">
+    忽略
+  </String>
+  <String id="SYS_MESSAGEBOX_CONTINUE">
+    继续
+  </String>
+  <String id="SYS_MESSAGEBOX_HELP">
+    帮助
+  </String>
+  <!--日历-->
+  <String id="Sunday_Simple">
+    日
+  </String>
+  <String id="Monday_Simple">
+    一
+  </String>
+  <String id="Tuesday_Simple">
+    二
+  </String>
+  <String id="Wednesday_Simple">
+    三
+  </String>
+  <String id="Thursday_Simple">
+    四
+  </String>
+  <String id="Friday_Simple">
+    五
+  </String>
+  <String id="Saturday_Simple">
+    六
+  </String>
+  <String id="Sunday">
+    星期日
+  </String>
+  <String id="Monday">
+    星期一
+  </String>
+  <String id="Tuesday">
+    星期二
+  </String>
+  <String id="Wednesday">
+    星期三
+  </String>
+  <String id="Thursday">
+    星期四
+  </String>
+  <String id="Friday">
+    星期五
+  </String>
+  <String id="Saturday">
+    星期六
+  </String>
+  <String id="PreYear">
+    上一年(长按连续递减)
+  </String>
+  <String id="NextYear">
+    下一年(长按连续递增)
+  </String>
+  <String id="PreMonth">
+    上一月(长按连续递减)
+  </String>
+  <String id="NextMonth">
+    下一月(长按连续递增)
+  </String>
+  <String id="MonthCalCtrl_Help">
+    帮助
+  </String>
+  <String id="MonthCalCtrl_Close">
+    关闭
+  </String>
+</StringBundle>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StringBundle version="1.0">
+	<String id="ERROR">
+		Error
+	</String>
+	<String id="ContactFolderSys">
+		My contact
+	</String>
+	<String id="DEF_FONT">
+		Tahoma
+	</String>
+	<String id="DEF_FONTSIZE">
+		9
+	</String>
+	
+	<String id="PROD_NAME_VER" fmt="true">
+		$__PNAME_V$
+	</String>
+	<String id="PROD_NAME_VER_SUBVER" fmt="true">
+		$__PNAME_V_SV$
+	</String>
+	<String id="NoCase">
+		Case insensitive
+	</String>
+	<String id="ValidCode">
+		Verification code:
+	</String>
+	<String id="Cancel">
+		Cancel
+	</String>
+	<String id="Ok">
+		OK
+	</String>
+	<String id="Apply">
+		Apply
+	</String>
+	<String id="PLEASE_NOTICE">
+		Tips
+	</String>
+	<String id="Send">
+		Send
+	</String>
+	<String id="ValidateCodeNull">
+		The verification code can not be left empty.
+	</String>
+	<String id="ValidateCodeError">
+		Invalid verification code
+	</String>
+	<String id="UnkownConnectError">
+		Unknown network error
+	</String>
+	<String id="TitlePrompt">
+		Tips
+	</String>
+</StringBundle>

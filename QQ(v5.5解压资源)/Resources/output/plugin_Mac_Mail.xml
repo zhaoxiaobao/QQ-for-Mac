@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+    <core-config>
+        <services>
+            <service id="4239B746-2711-4DCD-BE64-7E6C9A2B7F37" name="ITXMailAWokeMgr" clsname="CTXMailAWokeMgr" />
+            <service id="E9521B88-4276-4D2C-90CA-0EDD110FBE05" name="ITXMailTipMgr" clsname="CTXMailTipMgr" />
+        </services>
+        <extensions>
+            <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXMailAWokeMgr">
+                <config>
+                    <info cmd="18" />
+                </config>
+            </extension>
+            <extension point-name="ITXIMLoginEventExt" point-id="ADF9825A-970B-43B3-8600-E768B4424B0E" provider="CTXMailAWokeMgr" />
+            <extension point-name="ITXMailAWokeEventExt" point-id="38A26F7D-5126-484F-8B44-D67B91AFDF1F" provider="CTXMailTipMgr" />
+            <extension id="00000000-0000-0000-0000-000000000BBA" point-name="IMainPanelVasExt" point-id="85F2356C-07B9-4B05-AF9A-1420C79B98A5" provider="CTXMailAWokeMgr">
+                <config path="@thisxtml:MailExt.xml|MainPanelBtn" />
+            </extension>
+            <extension id="F7AB2029-410B-4cd7-A834-144E7D8AFC01" point-name="c_epidTipsVasPlugin" point-id="1B9D0380-6E47-4781-97FA-DD1FAF52E3B0" provider="CMailExtMgr">
+                <config path="@thisxtml:MailExt.xml|Mail" />
+            </extension>
+            <extension id="88DEA252-AC8C-4593-99F4-7D4A91E93827" point-name="GroupMemberMutiNodesMenuExtPoint" point-id="3E20D56D-2748-4350-9AF2-204C5BCDF201" provider="CMailExtMgr">
+                <config path="@thisxtml:MailExt.xml|GroupMemberMutiNodesMenuItem" />
+            </extension>
+            <extension id="374383C4-B50C-4AE1-B8D5-CB2B9AADB7FD" point-name="CFGroupTopToolbarExtPoint" point-id="D7CEB4CB-9D08-4FCD-95F4-276829B30B66" provider="CMailExtMgr">
+                <config mode="path" path="@thisxtml:MailExt.xml|GroupEmail" type="Button" />
+            </extension>
+        </extensions>
+        <components path="Bin" path-debug="BinDebug">
+            <component clsname="CTXMailAWokeMgr" clsid="E41EE1C7-FF68-49D4-8AD7-BF7EA2F97BE5" dllname="Mail.dll" />
+            <component clsname="CTXMailTipMgr" clsid="ADF471C8-BB10-41A1-844C-73637BF0082E" dllname="Mail.dll" />
+            <component clsname="CMailExtMgr" clsid="757BC3E9-4C58-43F1-8DBB-3A03C3AF707E" dllname="Mail.dll" />
+        </components>
+        <objects path="Bin" path-debug="BinDebug">
+            <object id="BA14AE23-8CE6-4DC6-A7E6-960C91DE43D3" name="CMailTipWnd" clsid="EC367661-2A20-4BF5-8737-C5C28CF7B1B5" dllname="Mail.dll" />
+        </objects>
+    </core-config>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringBundle version="1.0">
+	<String id="LoginPanel_Online_S">
+		Online
+	</String>
+	<String id="LoginPanel_Offline_S">
+		Offline
+	</String>
+	<String id="LoginPanel_Latent_S">
+		Invisible
+	</String>
+	<String id="LoginPanel_Busy_S">
+		Busy
+	</String>
+	<String id="LoginPanel_Away_S">
+		Away
+	</String>
+	<String id="LoginPanel_Login">
+		Sign In
+	</String>
+	<String id="LoginPanel_RememberPsw">
+		Remember my password
+	</String>
+	<String id="LoginPanel_Sel_Account">
+		Select the ID you want to sign in with:
+	</String>
+	<String id="LoginPanel_Other_Account">
+		Use another ID to sign in
+	</String>
+	<String id="LoginPanel_AutoLogin">
+		Sign in automatically
+	</String>
+	<String id="SCANVIRUS_BTN_SETTING">
+		Settings
+	</String>
+	<String id="MainPanel_AdjustColor">
+		Change Skin
+	</String>	
+	<String id="LoginPanel_Logining">
+		Signing in as 
+$ACCOUNT$
+	</String>
+	<String id="LoginPanel_Online">
+		Online
+	</String>
+	<String id="LoginPanel_NewAccount">
+		Sign Up
+	</String>
+	<String id="LoginPanel_DelAccount">
+		Delete ID
+	</String>
+	<String id="LoginPanel_QQDoctor">
+		Trojan Scanning and Removal
+	</String>
+	<String id="LoginPanel_More">
+		More
+	</String>
+	<String id="LoginPanel_Account">
+		ID:
+	</String>
+	<String id="LoginPanel_Password">
+		Password:
+	</String>
+	<String id="Product_Name" fmt="true">
+		$__PNAME_V_SV$
+	</String>
+	<String id="MainFrame_Title" fmt="true">
+		$__PNAME_V_TYPE$
+	</String>
+	<String id="LoginPanel_SoftKeyboard">
+		Open On-screen Keyboard
+	</String>
+	<String id="SCANVIRUS_PROMPT_LINK_REINSTALL">Reinstall QQ<!-- 这一串必须是SCANVIRUS_PROMPT_FAIL的子串，意思是将上面字符串中的这个子串变为可点击的链接 --></String>
+	<String id="SCANVIRUS_PROMPT_LINK_CHECK_ONLINE">Online Security Check<!-- 这一串必须是SCANVIRUS_PROMPT_FAIL的子串，意思是将上面字符串中的这个子串变为可点击的链接 -->
+	</String>
+	<String id="LoginPanel_Logo" fmt="true">
+		$__PNAME_V_SV$
+	</String>
+	<String id="LoginPanel_Cancel">
+		Cancel
+	</String>
+	<String id="ContactStatus_Online">
+		Online
+	</String>
+	<String id="ContactStatus_Offline">
+		Offline
+	</String>
+	<String id="ContactStatus_Busy">
+		Busy
+	</String>
+	<String id="ContactStatus_Away">
+		Away
+	</String>
+	<String id="ContactStatus_Invisible">
+		Invisible
+	</String>
+	<String id="ContactStatus_Quiet">
+		Mute
+	</String>
+	<String id="ContactStatus_QMe">
+		Q Me
+	</String>
+	<String id="LoginPanel_Failed">
+		Tips
+	</String>
+	<String id="LoginPanel_GetYourPswBack">
+		Reset Password
+	</String>
+	<String id="STATUS_AVAILABLE">
+		Online
+	</String>
+	<String id="LoginPanel_StatePrompt">
+		Status:
+	</String>
+	<String id="LoginPanel_InputQQNumHere">
+		&lt;Please enter an ID&gt;
+	</String>
+	<String id="CloseWindow">
+		Close
+	</String>
+	<String id="MinimizeWindow">
+		Minimize
+	</String>
+	<String id="MaxisizeWindow">
+		Maximize
+	</String>
+	<String id="RestoreWindow">
+		Restore
+	</String>
+	<String id="LoginFail_ViewDetail">
+		Why you failed to sign in? Click to learn more
+	</String>
+	<String id="LoginFail_Detail">
+		Details
+	</String>
+	<String id="LoginFail_DetailInfo">
+		Your version has been ceased to use. To download and install the latest version.
+	</String>
+	<String id="LoginPanel_Setting">
+		Settings
+	</String>
+	<String id="LoginPanel_Note">
+		Configure your Internet connection before signing in.
+	</String>
+	<String id="LoginPanel_NetSetting">
+		Network Settings
+	</String>
+	<String id="LoginPanel_LoginSetting">
+		Sign-in Settings
+	</String>
+	<String id="LoginPanel_DelAccount_Tips">
+		Delete ID Info
+	</String>
+	<!--登录安全检查-->
+	<String id="SAFEEDIT_LOAD_FAIL">
+		Load failed.
+	</String>
+	<String id="SAFEEDIT_LOAD_FAIL_PROMOTE">
+		Start QQ failed.  QQ security sign-in control is damaged. Please scan virus right now and install QQ software.
+	</String>
+	<String id="SCANVIRUS_PROMPT_FAIL">
+		Scan failed. Use on-screen keyboard to enter your password.
+	</String>
+	<String id="SCANVIRUS_PROMPT_CHECKING">
+		Security check is running. Please wait.
+	</String>
+	<String id="SCANVIRUS_PROMPT_REPAIRING">
+		Repairing files. Please wait.
+	</String>
+	<String id="SCANVIRUS_PROMPT_VIRUS">
+		Warning: Trojan found. Remove it first and then sign in.
+	</String>
+	<String id="SCANVIRUS_PROMPT_VIRUS_VIEW">
+		View Trojan
+	</String>
+	<String id="SCANVIRUS_BTN_OK">
+		OK
+	</String>
+	<String id="SCANVIRUS_BTN_CANCEL">
+		Cancel
+	</String>
+	<String id="SCANVIRUS_BTN_KISSVIRUS">
+		Remove
+	</String>
+	<String id="SCANVIRUS_BTN_REINSTALL">
+		Repair Now
+	</String>
+	<String id="SCANVIRUS_BTN_IGNORE">
+		Ignore
+	</String>
+	<String id="SCANVIRUS_VIRUSTYPE_DEFAULT">
+		Trojan
+	</String>
+	<String id="SCANVIRUS_TITLE">
+		Security Check
+	</String>
+	<String id="SCANVIRUS_BLUEBAR_CANCEL" fmt="true">
+		Scan incomplete. Make sure there are no Trojans.
+	</String>
+	<String id="SCANVIRUS_BLUEBAR_RESCAN">
+		Scan Again
+	</String>
+	<String id="SCANVIRUS_BLUEBAR_FINISHSAFE">
+		No Trojan found.
+	</String>
+	<String id="SCANVIRUS_PROMPT_SCANNING">
+		Removing the Trojan now. Please wait.
+	</String>
+	<String id="SCANVIRUS_GIVEUP_PROMPT">
+		Are you sure you don't want to remove the detected Trojan(s)? Warning: Trojans can steal your QQ password.
+	</String>
+	<String id="SCANVIRUS_TITLE_GIVEUP">
+		Ignore Trojans
+	</String>
+	<String id="SCANVIRUS_GIVEUP_OK">
+		OK
+	</String>
+	<String id="SCANVIRUS_GIVEUP_CANCEL">
+		Cancel
+	</String>	
+	<String id="SCANVIRUS_KILLVIRUS_PROMPT">
+		Please restart your computer now to permanently remove the Trojan(s).
+	</String>
+	<String id="SCANVIRUS_TITLE_REBOOT">
+		Restart Computer
+	</String>
+	<String id="SCANVIRUS_KILLVIRUS_RESTARTNOW">
+		Reboot Now
+	</String>
+	<String id="SCANVIRUS_KILLVIRUS_RESTARTLATER">
+		Reboot Later
+	</String>
+	<String id="SCANVIRUS_SETTING_WEEK">
+		Once a Week
+	</String>
+	<String id="SCANVIRUS_SETTING_DAY">
+		Once a Day
+	</String>
+	<String id="SCANVIRUS_SETTING_TIME">
+		Every Time I Sign In
+	</String>
+	<String id="SCANVIRUS_SETTING_NONE">
+		Do Not Scan When I Sign In
+	</String>
+	<String id="SCANVIRUS_VIEWDETAIL_TITLE">
+		QQ Security Center
+	</String>
+	<String id="SCANVIRUS_VIEWDETAIL_TITLE2">
+		Warning: Trojan detected. Your QQ password may have been stolen!
+	</String>
+	<String id="SCANVIRUS_VIEWDETAIL_PROMPT">
+		QQ Security Center has detected $NUM$ Trojan(s). Please remove the Trojan(s) and change your password immediately.
+	</String>
+	<String id="SCANVIRUS_VIEWDETAIL_HELP">
+		Help: What should I do when QQ detects Trojans?
+	</String>
+	<String id="SCANVIRUS_VIEWDETAIL_RETURN">
+		Back
+	</String>
+	<String id="SCANVIRUS_VIEWDETAILLIST_NAME">
+		Name
+	</String>
+	<String id="SCANVIRUS_VIEWDETAILLIST_TYPE">
+		Type
+	</String>
+	<String id="SCANVIRUS_VIEWDETAILLIST_PATH">
+		Path
+	</String>
+	<String id="SCANVIRUS_PROMPT_REPAIRFAIL_1">
+		Failed to repair files. Please try it again and&#160;
+	</String>
+	<String id="SCANVIRUS_PROMPT_REPAIRFAIL_2">
+		Click Here
+	</String>
+	<String id="SCANVIRUS_PROMPT_REPAIRFAIL_3">
+		&#160;for help.
+	</String>
+	<String id="SCANVIRUS_BTN_RETRY">
+		Retry
+	</String>
+	<String id="SCANVIRUS_PROMPT_REPAIRSUCCESS">
+		Repairing files succeeded! Please scan it now.
+	</String>
+	<String id="SCANVIRUS_BTN_SCANNOW">
+		Scan Now
+	</String>
+	<String id="SCANVIRUS_SETTING_TITLE">
+		Trojan Scanning and Removal Settings
+	</String>
+	<String id="MINILOGINPANEL_TITLE" fmt="true">
+		$__PNAME_V_TYPE$
+	</String>
+	<String id="UserDataDefaultSavePath_Vista">
+    My Documents
+  </String>
+  <String id="UserDataDefaultSavePath_XP">
+    Installation Package Directory
+  </String>
+  <String id="PROD_NAME" fmt="true">
+		$__PNAME$
+	</String>
+</StringBundle>

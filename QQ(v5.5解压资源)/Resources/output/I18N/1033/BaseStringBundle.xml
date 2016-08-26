@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringBundle version="1.0">
+	<String id="Group_File_MoveFail">
+		Failed to move folder to $PATH$
+	</String>
+	<String id="CF_OUT_Discuss">
+		Normal Discussions
+	</String>
+	<String id="CF_PLEASE_ADDMEM_TIPS">
+		You cannot leave contact field blank. Please select contacts.
+	</String>
+	<String id="ContactFolderSys">
+		Friends
+	</String>
+	<String id="ContactFolderUnknown">
+		Untitled group
+	</String>
+	<String id="CUSTOMFACE_DEFAULT_GOURPNAME">
+		Default
+	</String>
+	<String id="CUSTOMFACE_WARN_SAMESHORTCUT">
+		Shortcut "$SHORTCUT$" has already been used, do you want to replace it?
+	</String>
+	<String id="Rich_DEF_FONT">
+		Tahoma
+	</String>
+	<String id="Rich_DEF_FONTSIZE">
+		9
+	</String>
+	<String id="GenderMale">
+		Male
+	</String>
+	<String id="GenderFemale">
+		Female
+	</String>
+	<String id="GenderUnknown">
+		-
+	</String>
+	<String id="Group_Connect_Server_Error">
+		Failed to connect group file server
+	</String>
+	<String id="Group_Connected_Server_Error">
+		Group file server connection interrupted
+	</String>
+	<String id="Group_OldVersion_Tip"/>
+	<String id="Group_RequestSend_Error">
+		Server declines request of sending image file
+	</String>
+	<!-- <String id="Group_SendMsg_Fail">
+		您刚才发送的消息:"$MSG$"没有发送成功。
+失败原因:%s
+	</String> -->
+	<String id="PLEASE_CONFIRME">
+		Please confirm
+	</String>
+	<String id="PROD_NAME_VER" fmt="true">
+		$__PNAME_V$
+	</String>
+	<String id="SERVICENAME_PAIPAI">
+		Paipai
+	</String>
+	<String id="SERVICENAME_QZONE">
+		QZone
+	</String>
+	<String id="SYSMSG_SYSFACE">
+		[Emoticon]
+	</String>
+	<String id="SYSMSG_IMAGE">
+		[Image]
+	</String>
+    <String id="SYSMSG_SOUND">
+		[Sound]
+	</String>
+	<String id="TIP_VIEW">
+		View
+	</String>
+	<String id="TIP_TITLE">
+		System Info
+	</String>
+	<String id="TIP_BUTTON_TIP">
+		Click to learn more
+	</String>
+	<String id="Group_Group">
+		My Groups
+	</String>
+	<String id="Group_Discuss">
+		Discussions
+	</String>
+	<String id="Group_Org">
+		Group organization
+	</String>
+	<String id="Group_RC">
+		Network error or the contact cancelled file transfer, transfer ends
+	</String>
+	<String id="Group_FileSend_NetError">
+    Network error occurred during the file transfer. You could try to send the file again.
+  </String>
+	<String id="Group_FileSend_OpenError">
+		An error occurred while opening the file causing the transmission to be interrupted. Please resend the file.
+	</String>
+	<String id="Group_FileRecv_RemoteStop">
+		The contact stopped file transfer
+	</String>
+	<String id="Group_FileRecv_NetError">
+		A network error occurred while receiving the file data and the transmission is interrupted. You can ask the sender to resend it.
+	</String>
+	<String id="Group_FileRecv_WriteError">
+		An error occurred while writing the file to disk causing the transmission to be interrupted. You can ask the sender to resend the file.
+	</String>
+	<String id="Group_FileRecv_Error">
+		You failed to receive the file because the transmission was interrupted. You can ask the sender to resent the file.
+	</String>
+	<String id="Group_FileRecv_OpenError">
+		Receiving file error, transfer end, you can request the sender to resend
+	</String>
+	<!-- Msg URL Tips Begin-->
+	<String id="GrayURL_Tips" fmt="true">
+    For purposes of security, please open trusted URLs only.
+  </String>
+	<String id="BlackURL_Tips">
+		QQ has identified this as a malicious URL and blocked it.
+	</String>
+	<String id="TencentWhiteURL_Tips">
+		This is an official website from Tencent. Welcome!
+	</String>
+	<String id="NonTencentWhiteURL_Tips">
+		This site is verified to be safe by QQ and will not harm your computer.
+	</String>
+	<String id="GrayURL_WarningMsgOfReceiver">
+		Warning: the message contains a URL which has been reported by users and may harm your computer. QQ Security Center has blocked it.
+	</String>
+	<String id="GrayURL_WarningMsgOfSender">
+		Warning: the message contains a URL which has been reported by users and may harm your computer. QQ Security Center has blocked it.
+	</String>
+	<!-- Msg URL Tips End-->
+
+  <String id="UserDataDefaultSavePath_Vista">
+    My Documents
+  </String>
+  
+  <String id="UserDataDefaultSavePath_XP">
+    Installation Package Directory
+  </String>
+
+  <String id="CF_Group_Image_TooLarge">
+		Image size exceeds the limit. It cannot be sent
+	</String>
+	<String id="CF_Group_Image_TooBig">
+		File size exceeds the limit. It cannot be sent
+	</String>
+	<String id="CF_Group_Image_TooManyCustomFace">
+		Custom emoticons are too many to be sent.
+	</String>
+	<String id="CF_Group_Image_TooManyImage">
+		There are too many images to send.
+	</String>
+
+	<String id="MSGFILE_IN_SHARE">
+		Unable to sign in, please try again later.
+	</String>
+	<String id="LOGINFAIL_1">
+		Network time out. It may be caused by wrong configuration.
+	</String>
+	<String id="LOGINFAIL_2">
+		Refused by Server
+	</String>
+	<String id="LOGINFAIL_3">
+		The version is expired.
+	</String>
+	<String id="LOGINFAIL_4">
+		Server in Maintenance
+	</String>
+	<String id="LOGINFAIL_5">
+		Server Busy
+	</String>
+	<String id="LOGINFAIL_6">
+		Unknown error occurred
+	</String>
+	<String id="LOGINFAIL_7">
+		Unknown error occurred
+	</String>
+	<String id="LOGINFAIL_8">
+		Unknown error occurred
+	</String>
+
+
+
+
+
+
+
+	<String id="FACE_TOOL_TIP0">
+		Smile
+	</String>
+	<String id="FACE_TOOL_TIP1">
+		Grimace
+	</String>
+	<String id="FACE_TOOL_TIP2">
+		Drooling
+	</String>
+	<String id="FACE_TOOL_TIP3">
+		Scowl
+	</String>
+	<String id="FACE_TOOL_TIP4">
+		Chill
+	</String>
+	<String id="FACE_TOOL_TIP5">
+		Sob
+	</String>
+	<String id="FACE_TOOL_TIP6">
+		Shy
+	</String>
+	<String id="FACE_TOOL_TIP7">
+		Silence
+	</String>
+	<String id="FACE_TOOL_TIP8">
+		Sleep
+	</String>
+	<String id="FACE_TOOL_TIP9">
+		Cry
+	</String>
+	<String id="FACE_TOOL_TIP10">
+		Embarrassed
+	</String>
+	<String id="FACE_TOOL_TIP11">
+		On Fire
+	</String>
+	<String id="FACE_TOOL_TIP12">
+		Wink
+	</String>
+	<String id="FACE_TOOL_TIP13">
+		Grin
+	</String>
+	<String id="FACE_TOOL_TIP14">
+		Surprised
+	</String>
+	<String id="FACE_TOOL_TIP15">
+		Frown
+	</String>
+	<String id="FACE_TOOL_TIP16">
+		Cool
+	</String>
+	<String id="FACE_TOOL_TIP17">
+		Blush
+	</String>
+	<String id="FACE_TOOL_TIP18">
+		Scream
+	</String>
+	<String id="FACE_TOOL_TIP19">
+		Puke
+	</String>
+	<String id="FACE_TOOL_TIP20">
+		Chuckle
+	</String>
+	<String id="FACE_TOOL_TIP21">
+		Pleased
+	</String>
+	<String id="FACE_TOOL_TIP22">
+		Doubtful
+	</String>
+	<String id="FACE_TOOL_TIP23">
+		Arrogant
+	</String>
+	<String id="FACE_TOOL_TIP24">
+		Sneer
+	</String>
+	<String id="FACE_TOOL_TIP25">
+		Drowsy
+	</String>
+	<String id="FACE_TOOL_TIP26">
+		Panic
+	</String>
+	<String id="FACE_TOOL_TIP27">
+		Sweating
+	</String>
+	<String id="FACE_TOOL_TIP28">
+		Laugh
+	</String>
+	<String id="FACE_TOOL_TIP29">
+		Soldier
+	</String>
+	<String id="FACE_TOOL_TIP30">
+		Strive
+	</String>
+	<String id="FACE_TOOL_TIP31">
+		Scold
+	</String>
+	<String id="FACE_TOOL_TIP32">
+		Confused
+	</String>
+	<String id="FACE_TOOL_TIP33">
+		Shhh
+	</String>
+	<String id="FACE_TOOL_TIP34">
+		Hypnotized
+	</String>
+	<String id="FACE_TOOL_TIP35">
+		Frustrated
+	</String>
+	<String id="FACE_TOOL_TIP36">
+		In the Dark
+	</String>
+	<String id="FACE_TOOL_TIP37">
+		Skull
+	</String>
+	<String id="FACE_TOOL_TIP38">
+		Hammer
+	</String>
+	<String id="FACE_TOOL_TIP39">
+		Wave
+	</String>
+	<String id="FACE_TOOL_TIP40">
+		Relieved
+	</String>
+	<String id="FACE_TOOL_TIP41">
+		Pick Nose
+	</String>
+	<String id="FACE_TOOL_TIP42">
+		Applause
+	</String>
+	<String id="FACE_TOOL_TIP43">
+		Flushed
+	</String>
+	<String id="FACE_TOOL_TIP44">
+		Hellooo
+	</String>
+	<String id="FACE_TOOL_TIP45">
+		Snub 1
+	</String>
+	<String id="FACE_TOOL_TIP46">
+		Snub 2
+	</String>
+	<String id="FACE_TOOL_TIP47">
+		Yawn
+	</String>
+	<String id="FACE_TOOL_TIP48">
+		Booo
+	</String>
+	<String id="FACE_TOOL_TIP49">
+		Distressed
+	</String>
+	<String id="FACE_TOOL_TIP50">
+		Sniffle
+	</String>
+	<String id="FACE_TOOL_TIP51">
+		Sly
+	</String>
+	<String id="FACE_TOOL_TIP52">
+		Pucker
+	</String>
+	<String id="FACE_TOOL_TIP53">
+		Uh Oh
+	</String>
+	<String id="FACE_TOOL_TIP54">
+		Whimper
+	</String>
+	<String id="FACE_TOOL_TIP55">
+		Cleaver
+	</String>
+	<String id="FACE_TOOL_TIP56">
+		Water Melon
+	</String>
+	<String id="FACE_TOOL_TIP57">
+		Beer
+	</String>
+	<String id="FACE_TOOL_TIP58">
+		Basketball
+	</String>
+	<String id="FACE_TOOL_TIP59">
+		Ping Pong
+	</String>
+	<String id="FACE_TOOL_TIP60">
+		Coffee
+	</String>
+	<String id="FACE_TOOL_TIP61">
+		Rice
+	</String>
+	<String id="FACE_TOOL_TIP62">
+		Pig
+	</String>
+	<String id="FACE_TOOL_TIP63">
+		Rose
+	</String>
+	<String id="FACE_TOOL_TIP64">
+		Wilt
+	</String>
+	<String id="FACE_TOOL_TIP65">
+		Kisses
+	</String>
+	<String id="FACE_TOOL_TIP66">
+		Heart
+	</String>
+	<String id="FACE_TOOL_TIP67">
+		Broken Heart
+	</String>
+	<String id="FACE_TOOL_TIP68">
+		Cake
+	</String>
+	<String id="FACE_TOOL_TIP69">
+		Lightning
+	</String>
+	<String id="FACE_TOOL_TIP70">
+		Bomb
+	</String>
+	<String id="FACE_TOOL_TIP71">
+		Dagger
+	</String>
+	<String id="FACE_TOOL_TIP72">
+		Soccer
+	</String>
+	<String id="FACE_TOOL_TIP73">
+		Ladybug
+	</String>
+	<String id="FACE_TOOL_TIP74">
+		Poop
+	</String>
+	<String id="FACE_TOOL_TIP75">
+		Moon
+	</String>
+	<String id="FACE_TOOL_TIP76">
+		Sun
+	</String>
+	<String id="FACE_TOOL_TIP77">
+		Present
+	</String>
+	<String id="FACE_TOOL_TIP78">
+		Hug
+	</String>
+	<String id="FACE_TOOL_TIP79">
+		Thumbs Up
+	</String>
+	<String id="FACE_TOOL_TIP80">
+		Thumbs Down
+	</String>
+	<String id="FACE_TOOL_TIP81">
+		Shake
+	</String>
+	<String id="FACE_TOOL_TIP82">
+		Victory
+	</String>
+	<String id="FACE_TOOL_TIP83">
+		Admire
+	</String>
+	<String id="FACE_TOOL_TIP84">
+		Beckon
+	</String>
+	<String id="FACE_TOOL_TIP85">
+		Fist
+	</String>
+	<String id="FACE_TOOL_TIP86">
+		Pinky
+	</String>
+	<String id="FACE_TOOL_TIP87">
+		Love
+	</String>
+	<String id="FACE_TOOL_TIP88">
+		No No
+	</String>
+	<String id="FACE_TOOL_TIP89">
+		OK
+	</String>
+	<String id="FACE_TOOL_TIP90">
+		Lovebirds
+	</String>
+	<String id="FACE_TOOL_TIP91">
+		In Love
+	</String>
+	<String id="FACE_TOOL_TIP92">
+		Waddle
+	</String>
+	<String id="FACE_TOOL_TIP93">
+		Sit
+	</String>
+	<String id="FACE_TOOL_TIP94">
+		Aaagh!
+	</String>
+	<String id="FACE_TOOL_TIP95">
+		Twirl
+	</String>
+	<String id="FACE_TOOL_TIP96">
+		Bow
+	</String>
+	<String id="FACE_TOOL_TIP97">
+		Turn Away
+	</String>
+	<String id="FACE_TOOL_TIP98">
+		Jump
+	</String>
+	<String id="FACE_TOOL_TIP99">
+		Surrender
+	</String>
+	<String id="FACE_TOOL_TIP100">
+		Hooray
+	</String>
+	<String id="FACE_TOOL_TIP101">
+		Hey Hey
+	</String>
+	<String id="FACE_TOOL_TIP102">
+		Smooches
+	</String>
+	<String id="FACE_TOOL_TIP103">
+		Fighting Girl
+	</String>
+	<String id="FACE_TOOL_TIP104">
+		Fighting Boy
+	</String>
+	<String id="FACE_TOOL_TIP105">
+		Flu
+	</String>
+	<String id="FACE_TOOL_TIP106">
+		Go
+	</String>
+	<String id="FACE_TOOL_TIP107">
+		Seeking
+	</String>
+	<String id="FACE_TOOL_TIP108">
+		Pretty girl
+	</String>
+	<String id="FACE_TOOL_TIP109">
+		Cat
+	</String>
+	<String id="FACE_TOOL_TIP110">
+		Dog
+	</String>
+	<String id="FACE_TOOL_TIP111">
+		Money
+	</String>
+	<String id="FACE_TOOL_TIP112">
+		Bulb
+	</String>
+	<String id="FACE_TOOL_TIP113">
+		Goblet
+	</String>
+	<String id="FACE_TOOL_TIP114">
+		Music
+	</String>
+	<String id="FACE_TOOL_TIP115">
+		Pill
+	</String>
+	<String id="FACE_TOOL_TIP116">
+		Kiss
+	</String>
+	<String id="FACE_TOOL_TIP117">
+		Meeting
+	</String>
+	<String id="FACE_TOOL_TIP118">
+		Phone
+	</String>
+	<String id="FACE_TOOL_TIP119">
+		Clock
+	</String>
+	<String id="FACE_TOOL_TIP120">
+		Mail
+	</String>
+	<String id="FACE_TOOL_TIP121">
+		TV
+	</String>
+	<String id="FACE_TOOL_TIP122">
+		DuoDuo
+	</String>
+	<String id="FACE_TOOL_TIP123">
+		Beauty
+	</String>
+	<String id="FACE_TOOL_TIP124">
+		Hunlan
+	</String>
+	<String id="FACE_TOOL_TIP125">
+		MoMo
+	</String>
+	<String id="FACE_TOOL_TIP126">
+		Q boy
+	</String>
+	<String id="FACE_TOOL_TIP127">
+		Wine
+	</String>
+	<String id="FACE_TOOL_TIP128">
+		Cola
+	</String>
+	<String id="FACE_TOOL_TIP129">
+		Rain
+	</String>
+	<String id="FACE_TOOL_TIP130">
+		Cloudy
+	</String>
+	<String id="FACE_TOOL_TIP131">
+		Snowman
+	</String>
+	<String id="FACE_TOOL_TIP132">
+		Star
+	</String>
+	<String id="FACE_TOOL_TIP133">
+		Female
+	</String>
+	<String id="FACE_TOOL_TIP134">
+		Male
+	</String>
+
+  <!-- bug report -->
+  <String id="BR_APP_TITLE">
+    Bug Report
+  </String>
+  <String id="BR_INVALIDCMDLINE">
+    Configuration error
+  </String>
+  <String id="BR_DETAIL_SHOW">
+    &lt;&lt;More Information(&amp;D)
+  </String>
+  <String id="BR_DETAIL_HIDE">
+    &gt;&gt;More Information(&amp;D)
+  </String>
+  <String id="BR_FAIL_EXIT">
+    BugReport-Failed
+  </String>
+  <String id="BR_SEND_FAIL">
+    Failed to send error report.
+  </String>
+  <String id="BR_TIP">
+    We're sorry, but an unknown error has caused $AppCallName$ to close.  Would you like to send an error report so we can improve $AppCallName$'s quality.
+  </String>
+  <String id="BR_HELP">
+    I would like to help $AppCallName$ to solve the problem (&amp;A)
+  </String>
+  <String id="BR_CONTACT1">
+    Please enter your telephone number/Email
+  </String>
+  <String id="BR_SEND">
+    &amp;Send Error Report
+  </String>
+  <String id="BR_RESTART">
+    &amp;Restart Program
+  </String>
+  <String id="BR_ASSIST">
+    I would like to help $AppCallName$ to solve the problem (&amp;A)
+  </String>
+  <String id="BR_QQACOUNT">
+    QQ ID:
+  </String>
+  <String id="BR_CONTACT2">
+    Address:
+  </String>
+  <String id="BR_REASON">
+    Enter more information about the problem below
+  </String>
+  <String id="BR_OK">
+    &amp;OK
+  </String>
+  <String id="BR_ERRINFO">
+    Error message:
+  </String>
+
+
+    <String id="IDS_MISTAKE">             Error           </String>
+    <String id="IDS_QQSKIN">              QQ Skins    </String>
+    <String id="IDS_UNINSTALL_SKIN">     Install QQ Skins to the installation directory of QQ. Are you sure you want to continue?	</String>
+    <String id="IDS_QQSCENE">             QQ Scenes	</String>
+    <String id="IDS_UNDLANDINSTALL_SCENE">Download and install QQ Scenes to the installation directory of QQ. Are you sure you want to continue?	</String>
+    <String id="IDS_UNINSTALL_SCENE">     Install QQ Scenes to the installation directory of QQ. Are you sure you want to continue?	</String>
+    <String id="IDS_UNDLANDINSTALL_FACE"> Download and install Custom Emoticons to the installation directory of QQ. Are you sure you want to continue?	</String>
+    <String id="IDS_UNINSTALL_FACE">      Install Custom Emoticons to the installation directory of QQ. Are you sure you want to continue?	</String>
+    <String id="IDS_QQFACE">              QQ Custom Emoticons	</String>
+    <String id="IDS_CONNECT_SERVER">      Connecting server: %s	</String>
+    <String id="IDS_CONNECTSUCCESS_SERVER"> Connect successfully. Downloading now.	</String>
+    <String id="IDS_DL_PATH">             Downloading: %s	</String>
+    <String id="IDS_REMAIN_TIME">         Time Remaining: % second(s) (%dKB has been copied, %dKB in total)	</String>
+    <String id="IDS_TRAN_SPEED">          Transfer Rate: %.1fKB/Second	</String>
+    <String id="IDS_SKIN_KIP">            QQ Skins installation files (*.kip)|*.kip| All files(*.*)|*.*||	</String>
+    <String id="IDS_SCENE_CIP">           QQ Scenes installtion files (*.cip)|*.cip| All files(*.*)|*.*||	</String>
+    <String id="IDS_EMOTION_EIP">         QQ Custom Emoticons installation files (*.eip)|*.eip| All files (*.*)|*.*||</String>
+    <String id="IDS_FILEFORMAT_MISTAKE">  File format error</String>
+    <String id="IDS_IMPORTEMOTION_FAILED"> Import Custom Emoticons failed. Please check if you start up QQ.</String>
+    <String id="IDS_INSTALL_SUCCESS">     Complete</String>
+    <String id="IDS_INSTALL_FAILED">      Installation failed</String>
+    <String id="IDS_INSTALLFILE_SUCCESS"> Installation is complete. \r\n Save file to:%s \r\n</String>
+    <String id="IDS_INSTALLFILE_FAILED">  Installation failed</String>
+    <String id="IDS_FINDREG_FAILED">      Search registry entry failed.</String>
+    <String id="IDS_RUNQQ">               You have not started up QQ yet or you are using an old version.</String>
+    <String id="IDS_DL_DAILED">           Download failed. The URL is illegal.</String>
+    <String id="IDS_BREAKPOINT_MISTAKE">  Break point and file size do not match.</String>
+    <String id="IDS_DLFILE_FINISH">       Download is complete.</String>
+    <String id="IDS_DL_FAILED">           Failed to download</String>
+    <String id="IDS_SERVER_CLOSE">        Server closed the connection.</String>
+    <String id="IDS_WRITEFILE_MISTAKE">   An error occurred while writing a file. The file is open or the disk is full. </String>
+    <String id="IDS_UNCONNECT_SERVER">    Could not connect the server.</String>
+    <String id="IDS_INSTALLFACE_FAILED">  Install emoticons failed.</String>
+    <String id="IDS_READ_FILEINFO">       Reading file info.</String>
+    <String id="IDS_FILE_NOTFOUND">       Could not find the file"</String>
+    <String id="IDS_ForHummerTip">        This QQ version does not support auto sign-in feature. Please enter ID and password to sign in.</String>
+    <String id="IDS_UNAVAIL_SERVER">      Invalid server address.</String>
+    <String id="IDS_UNSUPPORT">           The version you use does not support this function.</String>
+    <String id="IDS_REMAIN_TIME_TITLE">   Time Remaining:</String>
+    <String id="IDS_TRAN_SPEED_TITLE">    Transfer Rate:</String>
+    <String id="IDS_DL_PATH_TITLE">       Download to:</String>
+    <String id="IDS_INSTALL_PATH">        Installation Path:</String>
+    <String id="IDS_SOURCEFILE_PATH">     Resource File Path:</String>
+    <String id="IDS_INSTALL_NOMATCHING">  The installation path and QQ program \r\n you are using do not match. Please restart QQ and then run installation program.</String>
+    <String id="IDS_EMOTION_CFC">         QQ Custom Emoticons installation files (*.cfc)|*.cfc|All files (*.*)|*.*||</String>
+    <String id="IDS_INVOKEQQ_FAILED">     Sorry, the version you use does not support this function. Please download the latest version.</String>
+    <String id="IDS_URL_ERROR">           URL error.</String>
+    <String id="IDS_INSTALL_ERROR">       Installation package error.</String>
+    <String id="IDS_INVOKETM_FAILED">     Sorry, the version you use does not support this function. Please download the latest version.</String>
+    <String id="IDS_NORMALERROR_TIP">     Call related functions failed.</String>
+    <String id="IDS_QQSTART_FAILED">      Auto startup QQ failed. \n Please start up QQ manually. </String>
+    <String id="IDS_TMSTART_FAILED">      Auto startup TM failed. \n Please start up TM manually. </String>
+    <String id="IDS_SYSTEMCHECK_QQ">      You have not started up QQ yet.\n Please start up QQ first and then use this function.\n Do you want to start up QQ now?</String>
+    <String id="IDS_SYSTEMCHECK_TM">      You have not started up TM yet.\n Please start up TM first and then use this function.\n Do you want to start up TM now?</String>
+    <String id="IDS_TIP">                 Tips</String>
+    <String id="IDS_HYPERLINK_FORMAT_ERROR"> URL error.</String>
+    <String id="IDS_LOGINING_TIP">        Signing in now. Please switch QQ/TM later.</String>
+    <String id="IDS_UNSUPPORT_SWITCH">    The version you use does not support QQ/TM switch. Please download the latest version.</String>
+    <String id="IDS_LOGIN_FIRST">         Please sign in first.</String>
+    <String id="IDS_SWITCH_TM">           This function is available on TM. Do you want to switch to TM now?</String>
+    <String id="IDS_SWITCH_QQ">           This function is available on QQ. Do you want to sign in to QQ now?</String>
+    <String id="IDS_LFUINUSE_TIP">        This function is available for QQ/TM ID %d. Please start up QQ/TM first.</String>
+    <String id="IDS_INSTALLFAILED">       Installation failed.</String>
+    <String id="IDS_INVALIDPOINTER">      Invalid QQ/TM. Please check if QQ/TM is closed.</String>
+    <String id="IDS_QQSUPERBAG">          QQ Theme Package</String>
+    <String id="IDS_UNINSTALL_SUPERBAG">  Install QQ Theme Package to the installation directory of QQ. Are you sure you want to continue?</String>
+    <String id="IDS_SELUINERROR">         You have not select QQ ID, or select a wrong one.</String>
+    <String id="IDS_UIPGETHASHERROR">     An error occurred when you get the theme package ID.</String>
+    <String id="IDS_UIPHASHERROR">        Verify theme package ID failed. Please use Theme Package provided by Tencent.</String>
+    <String id="IDS_UIPVERERROR">         The version does not use QQ Theme Package. </String>
+    <String id="IDS_LFUINUSE_QQTIP">      This function is available for QQ ID %d. Do you want to sign in to QQ with this ID?</String>
+    <String id="IDS_LFUINUSE_TMTIP">      This function is available for TM ID %d. Do you want to sign in to QQ with this ID?</String>
+    <String id="IDS_IMAGE_NOTFOUND">      Image not found. Please press F5 to refresh.</String>
+    <String id="IDS_EXCEPTION">           You have not started up QQ yet or you are using an old version.</String>
+    <!--String id="IDS_UNSUPPORT">           您所使用的QQ版本不支持此功能\r\n或者您尚未打开网络硬盘。</String-->
+    <String id="IDS_EMAIL_UNAUTHOR">      Unauthorized</String>
+    <String id="IDS_CHOOSENUM">           Please select the number.</String>
+    <String id="IDS_PUBLICKEY">           000000016322D2BAE69F339AABB9DB1621DCDB3B5E10E3A8</String>
+    <String id="IDS_STARTQQ_NOTIFY">           This function is available for QQ ID %d. Do you want to sign in to QQ with this ID?        </String>
+    <String id="IDS_STARTTM_NOTIFY">           This function is available for TM ID %d. Do you want to sign in to QQ with this ID?        </String>
+    <String id="IDS_FORHUMMER_TIP">           This QQ version does not support auto sign-in feature. Please enter ID and password to sign in.        </String>
+    <String id="BR_CRASH_SIGNATURE">
+      Error Code: $CrashSignature$
+    </String>
+    <String id="Dis_NickName_Separator">、</String>
+    
+</StringBundle>

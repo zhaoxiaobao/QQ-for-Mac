@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<core-config>
+  <services>
+    <service id="3A990F4E-95BC-4F00-AE52-FDD9FBFF303E" name="ITXIM" clsname="CTXIM"/>
+    <service id="78878E81-730D-4717-BF12-A65686FEB706" name="ITXIMConfig" clsname="CTXIMConfig"/>
+    <service id="BD4F3FA6-30B4-4f54-A6AA-35C32CFD08FA" name="ITXCCProtocol" clsname="CTXCCProtocol"/>
+    <service id="C64D3BD5-DCC7-4CCE-BB64-DAC939E641EB" name="ITXServerList" clsname="CTXServerList"/>
+    <service id="EB53EC98-ED11-49EE-B478-FAA157C60EA3" name="ITXMsgStorage" clsname="CTXMsgStorage"/>
+    <service id="56EDFC9C-8C4B-4519-84CC-449C08A33BDB" name="ITXPrelogin" clsname="CTXIMPreLogin"/>
+    <service id="6E557FBC-274B-426E-8FD9-92DA3CD55715" name="ITXAccountList" clsname="CTXAccountList"/>
+    <service id="E92D8C52-3822-4CE3-8BA9-F0B31FD579DE" name="ITXIMContactAccountMgr" clsname="CTXIMContactAccountMgr"/>
+    <service id="C9EBCAF4-C045-4BCB-B457-21A4C6A3B1F1" name="ITXDirectoryMgr" clsname="CTXDirectoryMgr"/>
+    <service id="0749C873-DFC9-4786-9923-A24EF256483E" name="ITXDataImport" clsname="CTXDataImport"/>
+
+    <service id="7B2A9442-39A7-4CF1-8768-1481A8120BD3" name="ITXGroupTOCProtocolCenter" clsname="CTXGroupTOCProtocolCenter"/>
+    <service id="76063A86-D553-44A6-AF7A-12AE87211AA7" name="TTXGroupMgr" clsname="CTXGroupMgr"/>
+    <service id="94160931-CBDD-4A1D-BCCA-F99E91C7E328" name="ITXGroupSessionMgr" clsname="CTXGroupSessionMgr"/>
+    <service id="8D7AE3CD-DF6E-48fa-97DA-B5F88610E243" name="ITXDiscussMgr" clsname="CTXDiscussMgr"/>
+    <service id="D59D2102-E96C-4E74-B3EC-8E33DE6C88A7" name="ITXDiscussSessionMgr" clsname="CTXDiscussSessionMgr"/>
+    <service id="74BE9028-1691-4010-AE9A-AA1DBB9EDFB9" name="ITXGroupFileCenter" clsname="CTXGroupFileCenter"/>
+    <service id="B766B747-D89F-4F97-B5D3-4ABC78327EC6" name="ITXGroupHeadMgr" clsname="CGroupDefinedHeadMng"/>
+
+    <service id="7E7275E4-BE65-45E9-9E66-3CFA6F7508CE" name="ITXFingerUserMgr" clsname="CTXFingerUserMgr"/>
+    <service id="A81C56FD-A4DD-493E-B3B6-AB67F72C1BED" name="IGroupFinger" clsname="CGroupFinger"/>
+    <service id="56EC5BD1-E879-455A-96DF-40C45DC048CD" name="ITXCCSenderEx" clsname="CTXCCServiceEx"/>
+    <service id="293115D6-1D85-4fba-9A4C-ABE311236194" name="ITXCSReceiver" clsname="CTXCSReceiver"/>
+
+    <service id="3B49F7A6-3D8B-4B24-BDC1-6825A686DA47" name="ITXOfflineFileManagerService" clsname="CTXOfflineFileManagerService" />
+    <service id="8C58EB8B-44E4-4170-8F28-61C5B1C2B2EE" name="ITXOfflineFileDataManagerService" clsname="CTXOfflineFileDataManagerService" />
+    
+    <service id="28758122-298E-4380-A3C7-808A16EB917E" name="ITXLongConnectionMgr" clsname="CTXLongConnectionMgr"/>
+    <service id="E026FB1C-304E-474C-8FBC-13861FA07399" name="ITXLongCnnChannelMgr" clsname="CTXLongCnnChannelMgr"/>
+    <service id="6EAC97A1-7E88-46EF-B8AC-98F49FECB6ED" name="ITXStrategyCenter" clsname="CTXStrategyCenter"/>
+
+    <service id="4A2E4F63-A211-46ED-839F-DDFF760D27E8" name="ITXContactFolderMgr" clsname="CTXContactFolderMgr"/>
+    <service id="86E77FA3-BE42-405d-8592-38C3F68A252B" name="ITXGroupFolderMgr" clsname="CTXGroupFolderMgr"/>
+
+
+    <service id="5FAF24FF-CBD2-4719-AFA8-9587F93AD7DB" name="ITXAddrBookMgr" clsname="CTXAddrBookMgr"/>
+
+    <service id="0489C021-192C-401A-B90B-4DDA8A661358" name="ITXIMContactFlagMgr" clsname="CTXIMContactFlagMgr"/>    
+    <service id="F81FCE98-6539-4070-B1EE-7B6BE2ADD1BB" name="ITXIMContactInfoMgr" clsname="CTXIMContactInfoMgr"/>
+    
+    <service id="5E063F81-DBA9-41f0-912F-4B8C626BA1A8" name="ITXIMContactStatusMgr" clsname="CTXIMContactStatusMgr"/>
+    <service id="27F36E1E-8321-4a15-916B-D058CAF157B2" name="ITXIMContactRelationMgr" clsname="CTXIMContactRelationMgr"/>
+    <service id="CEE82B03-34B7-4CD4-BE95-3B743A49F1F1" name="ITXIMContactPresentationMgr" clsname="CTXIMContactPresentationMgr"/>
+
+    <service id="088CE0CD-C65B-4BB7-B356-FB1D963ECA82" name="ITXInfoAssociator" clsname="CTXInfoAssociator"/>
+
+    <service id="5F8B27BD-2BC2-4ED5-B54F-469E5EF2D9DB" name="ITXRCCSSender" clsname="CTXRCCSSender"/>
+    <service id="60A3E686-20FE-4DCC-BB57-7F8FFBCB48DC" name="ITXRichInfoMgr" clsname="CTXRichInfoMgr"/>
+    <service id="0373A8B8-FF6B-4FB0-AC73-F81CD11BEC7F" name="ITXRCContactInfoMgr" clsname="CTXRCContactInfoMgr"/>
+    <service id="E722B28E-04A3-41E8-83EA-CEFF8DAB1C21" name="ITXRCContactPresentationMgr" clsname="CTXRCContactPresentationMgr"/>
+    <service id="05279C61-A97D-477D-8EFA-4E785E1576C0" name="ITXRCContactRelationMgr" clsname="CTXRCContactRelationMgr"/>
+
+    <service id="1CD83340-009D-4148-911A-9C10D9098949" name="ITXValidateCodeMgr" clsname="CTXValidateCodeMgr"/>
+
+    <service id="C595A299-5908-432C-8BBD-D6ACBFE03D14" name="ITXBuddySessionMgr" clsname="CTXBuddySessionMgr"/>
+
+    <service id="74A3F7EE-4F84-413D-9312-55497CA0A081" name="ITXAddBuddyAuthMgr" clsname="CTXAddBuddyAuthMgr"/>
+    <service id="B0A66078-FC78-4DD2-A9F4-F703E834A3E2" name="ITXSessionAuthMgr" clsname="CTXSessionAuthMgr"/>
+    <service id="77640FF9-6C27-428A-A7EE-5C28773FE220" name="ITXStatusAuthMgr" clsname="CTXStatusAuthMgr"/>
+
+    <service id="75F69157-27FD-4054-942B-04D994DBDB87" name="ITXTaskScheduler" clsname="CTXTaskScheduler"/>
+
+    <service id="9CEA26BA-F39E-4D04-BBE6-9F3896339CAD" name="ITXMsgChainMgr" clsname="CTXMsgChainMgr"/>
+    <service id="56215D62-43DD-4831-8B79-0E0BFA2BD2C3" name="ITXMarketingMsg" clsname="CTXMarketingMsg"/>
+
+
+    <service id="2E295D63-0EEE-4BAD-8077-0D49563B8F5F" name="ITXTempSessionMgr" clsname="CTXTempSessionMgr"/>
+    <service id="B88486B8-C64F-4F03-8C66-AECD4899C2A2" name="ITXChatSceneMgr" clsname="CTXChatSceneMgr"/>
+
+    <service id="CE3FAD09-8288-4D22-AF99-AA76BFB8F8C2" name="ITXC2CImageTransferMgr" clsname="CTXC2CImageTransferMgr"/>
+
+    <service id="5A250746-AA04-4A02-8AE2-835FD58378A2" name="ITXImageHttpDownloadMgr" clsname="CTXImageHttpDownloadMgr"/>
+
+    <service id="AA4966E1-2D47-4C70-91DF-0396CFF85B05" name="ITXRecentCommMgr" clsname="CTXRecentCommMgr"/>
+    <service id="7B62C6B4-7341-4A5C-822A-3DEB725C5729" name="ITXContactSearcher" clsname="CTXContactSearcher"/>
+    <service id="8f02c6eb-9be6-4146-806a-30e0e3266605" name="ITXContactSearcherEx" clsname="CTXContactSearcherEx"/>
+
+    <service id="305B1FAE-9319-4A00-8C4F-6FB93ED50F40" name="ITXIMAPIMgr" clsname="CTXIMAPI"/>
+    <service id="0360A34A-2C57-4222-985F-33FC442E207F" name="ITXMessageAPI" clsname="CTXWebPresenceAPI"/>
+
+    <service id="FF2EB23F-AB4D-4C46-B1FD-C1D3C38DFD8E" name="ITXDynamicCodeMgr" clsname="CTXDynamicCodeMgr"/>
+
+    <service id="0212E1B9-1375-43CF-B09F-1BE104F05BE3" name="ITXDataReport" clsname="CTXDataReport"/>
+
+    <service id="4F526D41-B720-44A3-843B-7BE406D4E339" name="ITXSecurityChannelMgr" clsname="CTXSecurityChannelMgr"/>
+
+    <service id="9375394D-1837-4944-828C-530D24A53B40" name="ITXQQLevelMgr" clsname="CTXQQLevelMgr"/>
+
+    <service id="346E8A27-B592-446C-94CC-E0764A24C776" name="ITXMsgRoamCfgMgr" clsname="CTXMsgRoamCfgMgr"/>
+
+    <service id="7AD9D65D-B13C-4B04-8ED9-C9C42680C943" name="ITXVerifyCenter" clsname="CTXVerifyCenterMgr"/>
+
+    <service id="6BAB7D1C-38C0-4DE2-8CB8-233B65618079" name="ITXImageStatusMgr" clsname="CTXImageStatusMgr"/>
+
+    <service id="548DD381-C5A6-4F92-BF9F-18CC87B3FB8C" name="ICustomFaceMgr" clsname="CCustomFaceMgr"/>
+    <!--<service id="9E0A5C7A-A637-4A2A-A6DE-DCFCF30D8BA7" name="ITXCFRLogicMgr" clsname="CTXCFRLogicMgr"/>-->
+    <service id="BFBAA00D-5C4F-4A1E-BEAE-85CF0E7407C3" name="ITXCustomFaceEx" clsname="CTXCustomFaceEx"/>
+
+    <service id="9FDFF902-94EC-4931-B1AA-2AF2BA98AEFD" name="ITXSysEventCenter" clsname="CTXSysEventCenter"/>
+
+    <service id="4A3BC2A6-B111-4F9C-A519-C2F9C24B9DBE" name="ITXDomainValidateMgr" clsname="CTXDomainValidateMgr"/>
+
+    <service id="7F550787-5B23-47C5-84EC-C17DBBD3C67C" name="ITXGrayURLMgr" clsname="CTXGrayURLMgr"/>
+
+    <service id="8B1FAC86-E458-47A7-857C-56F1F83AB6A8" name="ITXServerConfigMgr" clsname="CTXServerConfigMgr"/>
+
+    <service id="B4BFD346-4E83-475A-83AB-D009726FED65" name="ITXMobileMgr" clsname="CTXMobileMgr"/>
+
+    <service id="44FE0B92-7B12-4A68-AA94-0DF61CF03DED" name="ITXModeMgr" clsname="CTXModeMgr"/>
+
+    <service id="67DB6391-A5E6-41B9-83B4-7DC6D749F908" name="ITXThirdPartyKeyMgr" clsname="CTXThirdPartyKeyMgr"/>
+
+    <service id="6A6F644F-3654-4CDE-A6FC-1DC90FEFE468" name="ITXPluginMsgMgr" clsname="CTXPluginMsgMgr"/>
+
+    <service id="96C3A86B-C2BA-47E3-B358-2D7A890E94BA" name="ITXRemarkPageMgr" clsname="CTXRemarkPageMgr"/>
+
+    <service id="1711D8B8-C363-48b9-9F66-C34047861954" name="ITXCSSender" clsname="CTXCSProcessorForLogin"/>
+
+      <service id="883159B6-4B81-4046-9E08-DD11E038E023" name="ITXCSSenderProtobuf" clsname="CTXCSProcessorForLogin"/>
+
+    <service id="C4A09B46-EDB2-4DFD-BD22-9C80E12CAF86" name="ITXIMPostLogin" clsname="CTXIMPostLogin"/>
+    <service id="812788BA-8DD8-4E3B-A1C6-AD057C15EE85" name="ITXPwdGuardState" clsname="CTXPwdGuardState"/>
+
+    <service id="B9B6EB31-47BF-4B56-BCF4-A6CD73BA5381" name="ITXOfflineFileQueryMgr" clsname="CTXOfflineFileQueryMgr"/>
+    <service id="782517D0-3380-410F-B422-029B7D357F89" name="ITXOfflinePicMgr" clsname="CTXOfflinePicMgr"/>
+
+    <service id="C04D34A7-F8F4-453B-A5EC-C92BAE57CDCA" name="ITXComplainMgr" clsname="CTXComplainMgr"/>
+
+    <service id="FD1BEC22-F1FC-4754-8722-D0ED06A96023" name="ITXLongNicknameMgr" clsname="CTXLongNicknameMgr"/>
+
+    <service id="6B61DE71-2414-4b0e-82AE-C56B77629EAC" name="ITXVASFlagMgr" clsname="CTXVASFlagMgr"/>
+
+    <service id="68A9EAFB-AA11-4E39-B8D7-648FF8DABB18" name="ITXQZoneFlagMgr" clsname="CTXQZoneFlagMgr"/>
+    
+    <service id="6B2A7645-67A0-45F0-B68F-07C52A2692CF" name="ITXUserOptTimeStampMgr" clsname="CTXUserOptTimeStampMgr"/>
+
+    <service id="AD86AF58-1EBF-4F16-B71D-79E8E39596E9" name="ITXCSFileFetcher" clsname="CTXCSFileFetcher"/>
+
+    <service id="B5D6269F-9025-4EE3-99A9-33DA9F4EC005" name="ITXCommonServerConfigMgr" clsname="CTXCommonServerConfigMgr"/>
+
+    <service id="ED1E74BC-22D4-487A-B65F-EA3850A2F467" name="ITXCommonServerConfigDownloadCenter" clsname="CTXCommonServerConfigDownloadCenter"/>
+
+    <service id="55AADA2C-9B9D-44D4-97D9-5B1136703410" name="ITXCommonServerConfigUpdateDetectCenter" clsname="CTXCommonServerConfigUpdateDetectCenter"/>
+
+    <service id="C9B13FE4-7905-45B4-8071-C76146EF6072" name="ITXDisastorRecoverMgr" clsname="CTXDisastorRecoverMgr"/>
+
+    <service id="A1C7032B-74AE-441F-B5E0-787C01124BC1" name="ITXTraceRTReportMgr" clsname="CTXTraceRTReportMgr"/>
+
+    <service id="C8730021-E7DE-4F65-988C-7D694C38836E" name="ITXDllHashCheckMgr" clsname="CTXDllHashCheckMgr"/>
+  
+    <service id="DBACCDAC-132F-4F8A-B34E-5DC17C1C614F" name="ITXSNS" clsname="CTXSNS"/>
+    <service id="B59B8A9C-D58D-4FF9-A696-7F966672838B" name="ITXServerShieldCmdMgr" clsname="CTXServerShieldCmdMgr"/>
+    <service id="8676D118-316F-439D-9A8E-1D0CF73FDDB3" name="ITXConvertHFS2CDMgr" clsname="CTXConvertHFS2CDMgr"/>
+
+    <service id="520C538E-F696-4BFA-8B44-B918717A0C8C" name="ITXUserCfgSyncCenter" clsname="CTXUserCfgSyncCenter"/>
+    
+    <service id="E6544AD8-C1FC-48e1-AD9B-D79362E730A7" name="ITXWordMannersCheck" clsname="CTXWordMannersCheck"/>
+    <service id="1F5E5EC6-F0F9-47cf-87E2-07679BA08395" name="ITXClearTempFile" clsname="CTXClearTempFileMgr"/>
+    <service id="FEDD06DE-8CB2-452b-AD70-D3CF74F71E97" name="ITXAddBuddyDataReport" clsname="CTXAddBuddyDataReport"/>
+
+    <service id="137C5F02-A56B-4EE2-AD91-F2A5109BB302" name="ITXWebReportMgr" clsname="CTXWebReportMgr"/>
+
+    <service id="1354E545-12CC-49E7-9BD2-07E53F5AAA39" name="ITXEventCenter" clsname="CTXEventCenterMgr" />
+
+    <service id="F832853A-EE56-4E5C-BA2F-0CBC8BAF8EB8" name="ITXMsgRoamMgr" clsname="CTXMsgRoamMgr" />
+    <service id="92861FB8-EAB0-464E-9ABA-973371570C3B" name="ITXGroupMsgRoamMgr"  clsname="CTXGroupMsgRoamMgr" />
+    <service id="4BC15163-7068-459c-9C96-13D97D1C1A2C" name="ITXDiscussMsgRoamMgr"  clsname="CTXDiscussMsgRoamMgr" />
+    <service id="C818BE32-4ED1-4F21-B37D-AD62943A9A22" name="ITXPicRoamMgr" clsname="CTXPicRoamMgr" />
+    <service id="2856DE19-0B84-4E2A-BBF6-9DFFB6F76EDA" name="ITXC2CPicRoamMgr" clsname="CTXC2CPicRoamMgr" />
+    
+    <service id="CB142545-2C6F-4042-8C8E-AB4706C7C337" name="ITXRoamPicUploadCenter" clsname="CTXRoamPicUploadCenter" />
+    
+    <service id="94303EA1-4541-4C9D-B7F5-A46AB9365C05" name="ITXAreaMgr" clsname="CTXAreaMgr"/>
+
+    <service id="E29E6DB6-98BF-4a70-B7A3-B293ABAB6F94" name="ISameFriend" clsname="CSameFriend"/>
+    <service id="3EEA9FE2-D7E8-4C00-8341-05C0F5FAAC6A" name="ITXBuddyInputStatusMgr" clsname="CTXBuddyInputStatusMgr"/>
+    <service id="B775CF43-CA7B-4CB1-859E-1CDB518F7B81" name="ITXAntiFraudMgr" clsname="CTXAntiFraudMgr"/>
+    <service id="C9689073-2472-40a5-A2C6-658D6781F69D" name="ITXCSPingMgr" clsname="CTXCSPingMgr"/>
+    <service id="6BC86E66-24D3-47d4-957E-4FCB851EC97A" name="ITXContactRecommend" clsname="CTXContactRecommendMgr"/>
+    <service id="24A5B118-00ED-43CB-8616-4C98D52125BE" name="ITXPushToTalkMgr" clsname="CTXPushToTalkMgr"/>
+    <service id="F2C9BBA5-FF41-427f-9DBA-75A6A55255DA" name="ITXGroupPTTMgr" clsname="CTXGroupPTTMgr"/>
+    <service id="AF334000-533B-4da6-98D7-AC356060B2CE" name="ITXProtobuf" clsname="CTXProtobuf"/>
+    <service id="4B6665EA-73F9-4a65-B1BF-E5BE5AA22F49" name="ITXUnreadMsgReporter" clsname="CTXUnreadMsgReporter"/>
+    <service id="C29B0631-5769-4b99-B730-0E9CD6F4AB28" name="ITXBigDataRedirect" clsname="CTXBigDataRedirect" />
+
+    <!-- 讨论组智能备注-->
+    <service id="450B4987-3D7B-4f27-8CCB-F51C19544AE9" name="ITXDiscussRemarkMgr" clsname="CTXDiscussRemarkMgr"/>
+
+    <service id="E10AED18-9B90-478c-B407-179F7BC59853" name="IIMContactInfoEvtExtMatchHelp" clsname="CIMContactInfoEvtExtMatchHelp" />
+  </services>
+
+  <extensions>
+
+    <extension point-name="ITXDataReportEventExt" point-id="203678D2-170C-41BD-B66B-532F3235BDEF" provider="CCustomFaceMgr">
+    </extension>
+
+    <!--
+    <extension point-name="ITXPluginEvtExt" point-id="A02342FC-4FF5-43AC-A055-4EACEBD13CA6" provider="CTXPluginMsgMgr">
+    </extension>
+    -->
+
+    <extension point-name="ITXQQLevelEvtExt" point-id="041C0331-26D2-4CFE-93FD-48E3F5690FC5" provider="CTXCustomFaceEx">
+    </extension>
+
+    <extension point-name="ITXCSPushReceiverExt" point-id="829398B8-1678-4C58-95AF-962224394043" provider="CTXIMContactStatusMgr">
+      <config>
+        <info cmd="129"/>
+      </config>
+    </extension>
+    
+    <extension point-name="ITXCSPushReceiverExt" point-id="829398B8-1678-4C58-95AF-962224394043" provider="CTXContactNotify">
+      <config>
+        <!--0x81, for debug-->
+        <!--<info cmd ="129"/>-->
+        <!--0x12d-->
+        <info cmd="301"/>
+      </config>
+    </extension>
+
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXDynamicCodeMgr">
+      <config>
+        <info cmd="129"/>
+      </config>
+    </extension>
+
+    <extension point-name="ITXIntlSysReceiverExt" point-id="7E178BC9-1A6F-425F-A60D-08E8C0F1872C" provider="CTXBuddySessionMgr">
+      <config>
+        <info cmd="120"/>
+        <info cmd="166"/>
+        <info cmd="167"/>
+      </config>
+    </extension>
+
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXIMContactFlagMgr">
+      <config>
+        <!--0xac-->
+        <info cmd="172"/>
+        <!--<info cmd="121"/>-->
+      </config>
+    </extension>
+
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXTraceRTReportMgr">
+      <config>
+        <info cmd="114"/>
+      </config>
+    </extension>
+
+    <extension point-name="ITXIntlSysReceiverExt" point-id="7E178BC9-1A6F-425F-A60D-08E8C0F1872C" provider="CTXTraceRTReportMgr">
+      <config>
+        <info cmd="114"/>
+      </config>
+    </extension>
+    
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXBuddySessionMgr">
+      <config>
+        <info cmd="9"/>
+        <info cmd="10"/>
+        <info cmd="97"/>
+      </config>
+    </extension>
+
+    <extension point-name="ITXIntlSysReceiverExt" point-id="7E178BC9-1A6F-425F-A60D-08E8C0F1872C" provider="CTXTempSessionMgr">
+      <config>
+        <info cmd="141"/>
+      </config>
+    </extension>
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXTempSessionMgr">
+      <config>
+        <info cmd="140"/>
+        <info cmd="79"/>
+        <info cmd="39"/>
+        <info cmd="31"/>
+      </config>
+    </extension>
+
+    <extension point-name="ITXLinkExt" point-id="441AF80D-2C32-47F0-B1E3-357AFAEB7012" provider="CTXHttpLink">
+      <config>
+        <info type="4D26DF00-33A5-4855-B312-763C7AC5698F"/>
+      </config>
+    </extension>
+
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXMarketingMsg">
+      <config>
+        <info cmd="76"/>
+      </config>
+    </extension>
+
+
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXMiscSysMsg">
+      <config>
+        <info cmd="109"/>
+        <info cmd="117"/>
+      </config>
+    </extension>
+
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXGroupTOCProtocolCenter">
+      <config>
+        <info cmd="32"/>
+        <info cmd="33"/>
+        <info cmd="34"/>
+        <info cmd="35"/>
+        <info cmd="84"/>
+        <info cmd="36"/>
+        <info cmd="85"/>
+        <info cmd="37"/>
+        <info cmd="86"/>
+        <info cmd="38"/>
+        <info cmd="39"/>
+        <info cmd="40"/>
+        <info cmd="41"/>
+        <info cmd="42"/>
+        <info cmd="43"/>
+        <info cmd="44"/>
+        <info cmd="45"/>
+        <info cmd="46"/>
+        <info cmd="87"/>
+        <info cmd="47"/>
+        <info cmd="80"/>
+        <info cmd="82"/>
+        <info cmd="83"/>
+        <info cmd="524"/>
+        <info cmd="732"/>
+      </config>
+    </extension>
+
+
+    <extension point-name="ITXIntlSysReceiverExt" point-id="7E178BC9-1A6F-425F-A60D-08E8C0F1872C" provider="CTXCCServiceEx">
+      <config>
+        <info cmd="120"/>
+        <info cmd="141"/>
+        <info cmd="166"/>
+        <info cmd="167"/>
+      </config>
+    </extension>
+
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXCCServiceEx">
+      <config>
+        <info cmd="9"/>
+        <info cmd="10"/>
+        <info cmd="97"/>
+        <info cmd="140"/>
+        <info cmd="526"/>
+      </config>
+    </extension>
+
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXIMContactInfoMgr">
+      <config>
+        <info cmd="30"/>
+        <info cmd="65"/>
+        <info cmd="73"/>
+      </config>
+    </extension>
+
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXDomainValidateMgr">
+      <config>
+        <info cmd="150"/>
+      </config>
+    </extension>
+
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXPwdGuardState">
+      <config>
+        <info cmd="156"/>
+      </config>
+    </extension>
+      
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXCommonServerConfigUpdateDetectCenter">
+      <config>
+        <info cmd="163"/>
+      </config>
+    </extension>
+
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXIMContactRelationMgr">
+      <config>
+        <info cmd="186" /><!--0xba-->
+        <info cmd="187" />
+        <info cmd="188" />
+        <info cmd="189" />
+        <info cmd="190" />
+        <info cmd="191" /><!--0xbf-->
+        <info cmd="214" />
+      </config>
+    </extension>
+      
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXSysMsgCommonMgr">
+      <config>
+        <info cmd="206" /><!--0xce-->
+      </config>
+    </extension>
+    
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXContactRecommendMgr">
+      <config>
+        <info cmd="192" /><!--0xc0-->
+      </config>
+    </extension>
+
+    <!--addrbook-->
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXAddrBookMgr">
+      <config>
+        <info cmd="224"/>
+      </config>
+    </extension>
+    
+     <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXSC">
+      <config>
+        <info cmd="227"/>
+      </config>
+    </extension>   
+    <!--mac begin CExtReceiver 是用于module检查的，mac qq暂不需要
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CExtReceiver">
+      <config>
+        <info cmd="229"/>
+      </config>
+    </extension>
+     
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXCSPingMgr">
+      <config>
+        <info cmd="237"/>
+      </config>
+    </extension>
+    
+    <extension point-name="ITXIMLoginEventExt" point-id="ADF9825A-970B-43B3-8600-E768B4424B0E" provider="CExtReceiver">
+    </extension> 
+    -->
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CMemIntChk">
+      <config>
+        <info cmd="236"/>
+      </config>
+    </extension> 
+      
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXPushToTalkMgr">
+      <config>
+        <info cmd="208"/>
+      </config>
+    </extension>
+ 
+    <extension point-name="ITXOldSysReceiverExt" point-id="D92097DD-CF17-40eb-9668-EDF8BA54C1B8" provider="CTXMiscSysMsg">
+      <config>
+        <info cmd="6"/>
+      </config>
+    </extension>
+
+    
+    <extension point-name="ITXOldSysReceiverExt" point-id="D92097DD-CF17-40eb-9668-EDF8BA54C1B8" provider="CTXIMContactRelationMgr">
+      <config>
+        <info cmd="1"/>
+        <info cmd="2"/>
+        <info cmd="3"/>
+        <info cmd="4"/>
+        <info cmd="40"/>
+        <info cmd="41"/>
+        <info cmd="42"/>
+        <info cmd="43"/>
+        <info cmd="44"/>
+      </config>
+    </extension>
+    
+    <extension point-name="ITXIMContactNotifyEvent" point-id="26135A29-296A-4A4B-86D8-BDB4423CB4BC" provider="CTXIMContactRelationMgr">
+      <config>
+        <info type="1"/>        
+      </config>
+    </extension>
+
+    <extension point-name="ITXIMContactNotifyEvent" point-id="26135A29-296A-4A4B-86D8-BDB4423CB4BC" provider="CTXStatusAuthMgr">
+      <config>
+        <info type="2"/>
+      </config>
+    </extension>
+
+    <extension point-name="ITXCCReceiverExt" point-id="ADC7E4CB-D3B6-44ac-A20F-45D671D5EDEB" provider="CTXCCServiceEx">
+    </extension>
+
+    <extension point-name="ITXCCReceiverExExt" point-id="A768EADE-A0B7-473F-A724-E0AAE5B72664" provider="CTXLongCnnReception">
+      <config>
+        <info cmd="129"/>
+        <info cmd="1"/>
+        <info cmd="133"/>
+      </config>
+    </extension>
+    
+    <extension point-name="ITXOtherTermCCDataExt" point-id="FCA7AEE3-4C80-4D34-B6F9-7DE523240603" provider="CTXBuddySessionMgr">
+      <config>
+          <info cmd="11"/>
+      </config>
+    </extension>
+
+    <extension point-name="ITXOtherTermCCDataExt" point-id="FCA7AEE3-4C80-4D34-B6F9-7DE523240603" provider="CTXTempSessionMgr">
+      <config>
+          <info cmd="11"/>
+          <info cmd="529"/>
+      </config>
+    </extension>
+    
+    <extension point-name="ITXOtherTermCCDataExt" point-id="FCA7AEE3-4C80-4D34-B6F9-7DE523240603" provider="CFileMsgRoamMgr">
+        <config>
+            <info cmd="529"/>
+        </config>
+    </extension>
+    
+    <extension point-name="ITXRoamMsgExt" point-id="020DA5B3-662C-4E9D-8575-8034DFD6B0BA" provider="CFileMsgRoamMgr">
+        <config>
+            <info cmd="529"/>
+        </config>
+    </extension>
+
+    <extension point-name="ITXCCReceiverExExt" point-id="A768EADE-A0B7-473F-A724-E0AAE5B72664" provider="CTXLongCnnChannelMgr">
+      <config type="ChannelMgr">
+        <info cmd="135"/>
+        <info cmd="75"/>
+        <info cmd="21"/>
+      </config>
+    </extension>
+      
+    <extension point-name="ITXCCReceiverExExt" point-id="A768EADE-A0B7-473F-A724-E0AAE5B72664" provider="CTXOfflineFileQueryMgr">
+      <config>
+        <info cmd="169"/>
+      </config>
+    </extension>
+    
+    <extension point-name="ITXCCReceiverProtobufExt" point-id="A05EC97D-3543-4df8-9D76-59A25A5E56BB" provider="CTXOfflineFileQueryMgr">
+        <config>
+            <info cmd="4"/>
+        </config>
+    </extension>
+    
+    <extension point-name="ITXIMContactInfoEvtExt" point-id="DB17A85C-23F4-462D-9E0D-5BC59C7608B6" provider="CTXStatusAuthMgr">
+    </extension>
+
+    <extension point-name="ITXIMContactRelationEvtExt" point-id="4E16B5AC-3FC4-4f2b-BCA5-42A190955572" provider="CTXSessionAuthMgr">
+    </extension>
+
+    <extension point-name="ITXIMContactRelationEvtExt" point-id="4E16B5AC-3FC4-4f2b-BCA5-42A190955572" provider="CTXStatusAuthMgr">
+    </extension>
+
+    <extension point-name="ITXBuddyListUpdateEvtExt" point-id="F53A710F-F12A-4744-84B4-ECD601BEA53F" provider="CTXIMContactRelationMgr">
+    </extension>
+
+    <extension point-name="ITXBuddyListUpdateEvtExt" point-id="F53A710F-F12A-4744-84B4-ECD601BEA53F" provider="CTXIMContactPresentationMgr">
+    </extension>
+
+    <extension point-name="ITXBuddyListUpdateEvtExt" point-id="F53A710F-F12A-4744-84B4-ECD601BEA53F" provider="CTXContactFolderMgr">
+    </extension>
+
+    <extension point-name="ITXBuddyListUpdateEvtExt" point-id="F53A710F-F12A-4744-84B4-ECD601BEA53F" provider="CTXStatusAuthMgr">
+    </extension>
+
+    <extension point-name="ITXLongCnnAppBeRequestedExt" point-id="009AB745-D1FA-4069-9FEA-6A36CC4BA1F3" provider="CTXC2CImageTransferMgr">
+      <config>
+        <info strGuidApp="00000000-0000-0000-0000-000000000066"/>
+      </config>
+    </extension>
+
+    <extension point-name="ITXLongCnnAppBeRequestedExt" point-id="009AB745-D1FA-4069-9FEA-6A36CC4BA1F3" provider="CTXC2CImageTransferMgr">
+      <config>
+        <info strGuidApp="00000000-0000-0000-0000-00000000006B"/>
+      </config>
+    </extension>
+
+    
+    <extension point-name="IGFReportEvt" point-id="419029C6-A178-4BCF-A2A6-7B45FDAE71C1" provider="CTXDataReport">
+    </extension>
+
+    <extension point-name="ITXIMAPIExt" point-id="4452932C-575E-46D1-92D7-1F8FBF7EF9AE" provider="CTXRichStatusAPI">
+    </extension>
+
+    <extension point-name="ITXIMAPIExt" point-id="4452932C-575E-46D1-92D7-1F8FBF7EF9AE" provider="CTXRichStatusIntlAPI">
+    </extension>
+
+    <extension point-name="ITXIMAPIExt" point-id="4452932C-575E-46D1-92D7-1F8FBF7EF9AE" provider="CTXIMLoginAPI">
+    </extension>
+
+    <extension point-name="ITXIMAPIExt" point-id="4452932C-575E-46D1-92D7-1F8FBF7EF9AE" provider="CTXHyperLink">
+    </extension>
+
+    <extension point-name="ITXIMAPIExt" point-id="4452932C-575E-46D1-92D7-1F8FBF7EF9AE" provider="CTXWebPresenceAPI">
+    </extension>
+
+    <extension point-name="ITXIMAPIExt" point-id="4452932C-575E-46D1-92D7-1F8FBF7EF9AE" provider="CTXFriendInfoAPI">
+    </extension>
+
+    <extension point-name="ITXIMAPIExt" point-id="4452932C-575E-46D1-92D7-1F8FBF7EF9AE" provider="CTXToolsAPI">
+    </extension>
+
+    <extension point-name="ITXIMContactRelationEvtExt" point-id="4E16B5AC-3FC4-4f2b-BCA5-42A190955572" provider="CTXRecentCommMgr">
+    </extension>
+
+    <extension point-name="ITXAddBuddyNotifyEvt" point-id="6509193D-11F0-4300-B9EE-FEC9A0A6FF82" provider="CTXRecentCommMgr">
+    </extension>
+
+    <extension point-name="ITXGroupEventExt" point-id="2DE693C5-930E-4BA5-B81A-7CB14496BFD2" provider="CTXRecentCommMgr">
+    </extension>
+
+    <extension point-name="ITXDiscussEventExt" point-id="123D0179-9381-4A01-A8B2-901D3A2EFEE2" provider="CTXRecentCommMgr">
+    </extension>
+
+    <extension point-name="ITXGroupEventExt" point-id="2DE693C5-930E-4BA5-B81A-7CB14496BFD2" provider="CTXTempSessionMgr">
+    </extension>
+
+    <extension point-name="ITXServerConfigExt" point-id="712E2C31-7B2D-4B1E-806F-F7BEC9371070" provider="CTXMobileMgr">
+    </extension>
+
+    <extension point-name="ITXIMContactInfoEvtExt" point-id="DB17A85C-23F4-462D-9E0D-5BC59C7608B6" provider="CTXMobileMgr">
+    </extension>    
+    
+    <extension point-name="ITXIMContactInfoEvtExt" point-id="DB17A85C-23F4-462D-9E0D-5BC59C7608B6" provider="CTXIMContactAccountMgr">
+    </extension>
+
+    <extension point-name="ITXGroupEventExt" point-id="2DE693C5-930E-4BA5-B81A-7CB14496BFD2" provider="CGroupDefinedHeadMng">
+    </extension>
+
+    <extension point-name="ITXEffectiveReliableBroadcastMsgExt" point-id="8D931235-C60F-4ABB-86FD-E26344FAEF40" provider="CTXServerConfigMgr">
+      <config>
+        <info cmd="169"/>
+      </config>
+    </extension>
+
+    <!--Data Report CodecExt beg-->
+
+    <!--c_QualityofSendCustomFace_SingleReport-->
+    <!--<DRItem rid="0x18005003" clsid="9CDF9193-1BFB-4E30-A3B2-E3AC21ECABAA" dllname="KernelUtil.dll" mode="0x01"/>-->
+    <!--c_QualityofSendImage_SingleReport-->
+    <!--<DRItem rid="0x18005004" clsid="9CDF9193-1BFB-4E30-A3B2-E3AC21ECABAA" dllname="KernelUtil.dll" mode="0x01"/>-->
+    <!--c_CountofHitsOnTheDropMenuOfVideoAudioInAIO-->
+    <!--<DRItem rid="0x20005000" clsid="9CDF9193-1BFB-4E30-A3B2-E3AC21ECABAA" dllname="KernelUtil.dll" mode="0x02"/>-->
+    <!--c_QualityofSendReceiveC2CInterimMessage_SingleReport-->
+    <!--<DRItem rid="0x20005001" clsid="9CDF9193-1BFB-4E30-A3B2-E3AC21ECABAA" dllname="KernelUtil.dll" mode="0x01"/>-->
+    <!--c_QualityofSendReceiveC2CInterimMessagePack_SingleReport-->
+    <!--<DRItem rid="0x20005002" clsid="9CDF9193-1BFB-4E30-A3B2-E3AC21ECABAA" dllname="KernelUtil.dll" mode="0x01"/>-->
+    <!--<DRItem rid="0x20005003" clsid="9CDF9193-1BFB-4E30-A3B2-E3AC21ECABAA" dllname="KernelUtil.dll" mode="0x01"/>-->
+    <!-- c_dwQualityofSendReceiveGroupInterimMessage_SingleReport = 0x20005004 -->
+    <!--<DRItem rid="0x20005004" clsid="9CDF9193-1BFB-4E30-A3B2-E3AC21ECABAA" dllname="KernelUtil.dll" mode="0x01"/>-->
+
+    <!--c_dwQualityofSendReceiveDiscussInterimMessagePack_SingleReport-->
+    <!--<DRItem rid="0x20005005" clsid="9CDF9193-1BFB-4E30-A3B2-E3AC21ECABAA" dllname="KernelUtil.dll" mode="0x02"/>-->
+    <!--c_dwIMBuddyRelatedReport-->
+    <!--<DRItem rid="0xbc005000" clsid="9CDF9193-1BFB-4E30-A3B2-E3AC21ECABAA" dllname="KernelUtil.dll" mode="0x01"/>-->
+    <!--c_dwSettingRelatedReport-->
+    <!--<DRItem rid="0xbc005001" clsid="9CDF9193-1BFB-4E30-A3B2-E3AC21ECABAA" dllname="KernelUtil.dll" mode="0x01"/>-->
+    <!--c_dwDefaultFaceRelatedReport-->
+    <!--<DRItem rid="0xbc005002" clsid="9CDF9193-1BFB-4E30-A3B2-E3AC21ECABAA" dllname="KernelUtil.dll" mode="0x01"/>-->
+    <!--AIO Open Time-->
+    <!--<DRItem rid="0x20001000" clsid="9CDF9193-1BFB-4E30-A3B2-E3AC21ECABAA" dllname="KernelUtil.dll" mode="0x02"/>-->
+    <!--AIO Open Time-->
+    <!--<DRItem rid="0x20001001" clsid="9CDF9193-1BFB-4E30-A3B2-E3AC21ECABAA" dllname="KernelUtil.dll" mode="0x02"/>-->
+    <extension point-name="ITXDataReportCodecExt" point-id="35469066-112F-4CFC-9B97-87D453DE3067" provider="CAIOStatistics">
+      <config>
+        <info type="0x18005003" mode="0x02"/>  
+        <info type="0x20005002" mode="0x02"/>
+        <info type="0x20005003" mode="0x02"/>
+ 
+        <info type="0xbc005000" mode="0x01"/>
+        <info type="0xbc005001" mode="0x01"/>
+      </config>
+    </extension>
+
+
+    <!--dwStatusSpan-->
+    <!--<DRItem rid="0x20000001" clsid="B9254BF1-5A7F-4669-8B24-949086A1E6DA" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!--<DRItem rid="0x38000002" clsid="B9254BF1-5A7F-4669-8B24-949086A1E6DA" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!--dwStatusCount-->
+    <!--<DRItem rid="0x20000002" clsid="B9254BF1-5A7F-4669-8B24-949086A1E6DA" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!--<DRItem rid="0x38000003" clsid="B9254BF1-5A7F-4669-8B24-949086A1E6DA" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!--<DRItem rid="0x38000004" clsid="B9254BF1-5A7F-4669-8B24-949086A1E6DA" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!--dwSpecialContactCount-->
+    <!--<DRItem rid="0x94002000" clsid="B9254BF1-5A7F-4669-8B24-949086A1E6DA" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!-- ****************************** Vip ********************************** -->
+    <!--<DRItem rid="0x20009001" clsid="B9254BF1-5A7F-4669-8B24-949086A1E6DA" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <extension point-name="ITXDataReportCodecExt" point-id="35469066-112F-4CFC-9B97-87D453DE3067" provider="CContactStatistics">
+      <config>
+        <info type="0x38000002" mode="0x02"/>
+        <info type="0x38000005" mode="0x02"/>
+        <info type="0x38000006" mode="0x02"/>
+        <info type="0x38000007" mode="0x02"/>  
+        <info type="0x94002000" mode="0x02"/>
+        <!-- ****************************** Vip ********************************** -->
+        <info type="0x20009001" mode="0x02"/>
+      </config>
+    </extension>
+
+
+    <!-- GROUP_STAT_MAINFRAME_MENU -->
+    <!--<DRItem rid="0x08007000" clsid="8D2BDFD7-FC41-4106-91C4-00E1CBE8A859" dllname="KernelMisc.dll"  mode="0x02"/>-->
+    <!-- GROUP_STAT_SELECT_CONTACT -->
+    <!--<DRItem rid="0x10007000" clsid="8D2BDFD7-FC41-4106-91C4-00E1CBE8A859" dllname="KernelMisc.dll"  mode="0x02"/>-->
+    <!-- GROUP_STAT_USERLIST_CLICK -->
+    <!--<DRItem rid="0x18007000" clsid="8D2BDFD7-FC41-4106-91C4-00E1CBE8A859" dllname="KernelMisc.dll"  mode="0x02"/>-->
+    <!-- GROUP_STAT_MSG -->
+    <!--<DRItem rid="0x20007000" clsid="8D2BDFD7-FC41-4106-91C4-00E1CBE8A859" dllname="KernelMisc.dll"  mode="0x02"/>-->
+    <!-- GROUP_STAT_HEAD_MENU -->
+    <!--<DRItem rid="0x20007001" clsid="8D2BDFD7-FC41-4106-91C4-00E1CBE8A859" dllname="KernelMisc.dll"  mode="0x02"/>-->
+    <!-- GROUP_STAT_MNG_MENU -->
+    <!--<DRItem rid="0x28007000" clsid="8D2BDFD7-FC41-4106-91C4-00E1CBE8A859" dllname="KernelMisc.dll"  mode="0x02"/>-->
+    <!-- GROUP_STAT_USERLIST_MENU -->
+    <!--<DRItem rid="0x28007001" clsid="8D2BDFD7-FC41-4106-91C4-00E1CBE8A859" dllname="KernelMisc.dll"  mode="0x02"/>-->
+    <!-- GROUP_STAT_MSG_SET_MENU -->
+    <!--<DRItem rid="0xbc007000" clsid="8D2BDFD7-FC41-4106-91C4-00E1CBE8A859" dllname="KernelMisc.dll"  mode="0x02"/>-->
+    <!-- GROUP_STAT_MSG_SET_ALL -->
+    <!--<DRItem rid="0x28007003" clsid="8D2BDFD7-FC41-4106-91C4-00E1CBE8A859" dllname="KernelMisc.dll"  mode="0x02"/>-->
+
+    <!--c_CountofHitsOnAccountInfoButton_MultiReport-->
+    <!--<DRItem rid="0x1800001e" clsid="8D2BDFD7-FC41-4106-91C4-00E1CBE8A859" dllname="KernelMisc.dll"  mode="0x02"/>-->
+    <!--c_CountofFriendOnBuddyPanel_MultiReport-->
+    <!--<DRItem rid="0x98000001" clsid="8D2BDFD7-FC41-4106-91C4-00E1CBE8A859" dllname="KernelMisc.dll"  mode="0x01"/>-->
+    <extension point-name="ITXDataReportCodecExt" point-id="35469066-112F-4CFC-9B97-87D453DE3067" provider="CDataReportGroupCodec">
+      <config>
+        <!--<info type ="0x08007000" mode ="0x01" />-->
+        <info type="0x8007000" mode="0x02"/>
+
+        <info type="0x10007000" mode="0x02"/>
+        <info type="0x18007000" mode="0x02"/>
+        <info type="0x20007000" mode="0x02"/>
+        <info type="0x20007001" mode="0x02"/>
+        <info type="0x28007000" mode="0x02"/>
+        <info type="0x28007001" mode="0x02"/>
+        <info type="0xbc007000" mode="0x01"/>
+        <info type="0x28007003" mode="0x02"/>
+
+        <info type="0x1800001e" mode="0x02"/>
+        <info type="0x98000001" mode="0x02"/>
+      </config>
+    </extension>
+
+
+    <!-- UI beg-->
+    <!-- UI_STAT_HEAD_MODE -->
+    <!--<DRItem rid="0x10008000" clsid="02757FC7-70C6-4EE6-8BF2-D9670FE9D788" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!-- UI_STAT_MSGGET -->
+    <!--<DRItem rid="0x30008000" clsid="02757FC7-70C6-4EE6-8BF2-D9670FE9D788" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!-- UI_STAT_WNDMISC -->
+    <!--<DRItem rid="0x38008000" clsid="02757FC7-70C6-4EE6-8BF2-D9670FE9D788" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!-- UI_STAT_MAINFRAME -->
+    <!--<DRItem rid="0xb8008000" clsid="02757FC7-70C6-4EE6-8BF2-D9670FE9D788" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!-- UI end-->
+
+    <!-- ****************************** CAddrBookStatItemistics ********************************** -->
+    <!-- c_StatOfFilterCondition -->
+    <!--<DRItem rid="0x18006000" clsid="1AAF49BF-DFB2-4ef2-A3C8-75FB439046CE" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!-- c_StatOfModifyStartSession -->
+    <!--<DRItem rid="0x18006001" clsid="1AAF49BF-DFB2-4ef2-A3C8-75FB439046CE" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!-- c_StatOfStartSessionByDiffWay -->
+    <!--<DRItem rid="0x18006002" clsid="1AAF49BF-DFB2-4ef2-A3C8-75FB439046CE" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!-- c_StatOfClickButtonInABMainToolBar1 -->
+    <!--<DRItem rid="0x18006003" clsid="1AAF49BF-DFB2-4ef2-A3C8-75FB439046CE" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!-- c_StatOfClickButtonInABMainToolBar2 -->
+    <!--<DRItem rid="0x18006004" clsid="1AAF49BF-DFB2-4ef2-A3C8-75FB439046CE" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!-- c_StatOfClickButtonInABMainToolBar3 -->
+    <!--<DRItem rid="0x18006005" clsid="1AAF49BF-DFB2-4ef2-A3C8-75FB439046CE" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!-- c_StatOfPersonalAndWorkCardOperation1 -->
+    <!--<DRItem rid="0x18006006" clsid="1AAF49BF-DFB2-4ef2-A3C8-75FB439046CE" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!-- c_StatOfPersonalAndWorkCardOperation2 -->
+    <!--<DRItem rid="0x18006007" clsid="1AAF49BF-DFB2-4ef2-A3C8-75FB439046CE" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!-- c_StatOfPersonalAndWorkCardOperation3 -->
+    <!--<DRItem rid="0x18006008" clsid="1AAF49BF-DFB2-4ef2-A3C8-75FB439046CE" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!-- c_StatOfAddContactWay1 -->
+    <!--<DRItem rid="0x28006000" clsid="1AAF49BF-DFB2-4ef2-A3C8-75FB439046CE" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!-- c_StatOfAddContactWay2 -->
+    <!--<DRItem rid="0x28006001" clsid="1AAF49BF-DFB2-4ef2-A3C8-75FB439046CE" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!-- c_StatOfViewContactInfoByDiffWay -->
+    <!--<DRItem rid="0x28008000" clsid="1AAF49BF-DFB2-4ef2-A3C8-75FB439046CE" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!-- c_StatOfAddDelFolderWay -->
+    <!--<DRItem rid="0x20006000" clsid="1AAF49BF-DFB2-4ef2-A3C8-75FB439046CE" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!-- c_StatOfUserViews -->
+    <!--<DRItem rid="0x10006000" clsid="1AAF49BF-DFB2-4ef2-A3C8-75FB439046CE" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!-- c_StatOfDirectNoContact -->
+    <!--<DRItem rid="0x08006000" clsid="1AAF49BF-DFB2-4ef2-A3C8-75FB439046CE" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <extension point-name="ITXDataReportCodecExt" point-id="35469066-112F-4CFC-9B97-87D453DE3067" provider="CAddrBookStatistics">
+      <config>
+        <info type="0x18006000" mode="0x02"/>
+        <info type="0x18006001" mode="0x02"/>
+        <info type="0x18006002" mode="0x02"/>
+        <info type="0x18006003" mode="0x02"/>
+        <info type="0x18006004" mode="0x02"/>
+        <info type="0x18006005" mode="0x02"/>
+        <info type="0x18006006" mode="0x02"/>
+        <info type="0x18006007" mode="0x02"/>
+        <info type="0x18006008" mode="0x02"/>
+        <info type="0x28006000" mode="0x02"/>
+        <info type="0x28006001" mode="0x02"/>
+        <info type="0x28008000" mode="0x02"/>
+        <info type="0x20006000" mode="0x02"/>
+        <info type="0x10006000" mode="0x02"/>
+
+        <!--<info type ="0x08006000" mode ="0x02" />-->
+        <info type="0x8006000" mode="0x02"/>
+      </config>
+    </extension>
+
+    <!--<DRItem rid="0x10001000" clsid="A4BE1C34-C120-456C-90A3-B1416E52CD2E" dllname="KernelMisc.dll" mode="0x02"/>-->
+    <!--<DRItem rid="0x90001001" clsid="A4BE1C34-C120-456C-90A3-B1416E52CD2E" dllname="KernelMisc.dll" mode="0x02"/>-->
+    <!--<DRItem rid="0xbc000001" clsid="5FD12A15-B0E2-4A84-B3EE-07763109CE28" dllname="KernelMisc.dll" mode="0x02"/>-->
+    <!--<DRItem rid="0x20001002" clsid="5FD12A15-B0E2-4A84-B3EE-07763109CE28" dllname="KernelMisc.dll" mode="0x02"/>-->
+    <!--<DRItem rid="0x20000003" clsid="5FD12A15-B0E2-4A84-B3EE-07763109CE28" dllname="KernelMisc.dll"  mode="0x02"/>-->
+    <extension point-name="ITXDataReportCodecExt" point-id="35469066-112F-4CFC-9B97-87D453DE3067" provider="CMiscStatistics">
+      <config>
+        <info type="0x8c004008" mode="0x02"/>            
+      </config>
+    </extension>
+
+    <!-- // the follow is a codec for test -->
+    <extension point-name="ITXDataReportCodecExt" point-id="35469066-112F-4CFC-9B97-87D453DE3067" provider="CDataReportCodecTest">
+      <config>
+        <info type="0x88888888" mode="0x03"/>
+      </config>
+    </extension>
+
+    <!-- ****************************** UserSetting ********************************** -->
+    <!--<DRItem rid="0x10002000" clsid="8BAAA27D-283D-4674-8629-66A425EE4A7D" dllname="KernelMisc.dll"  mode="0x02"/>-->
+    <!--<DRItem rid="0x20005006" clsid="8BAAA27D-283D-4674-8629-66A425EE4A7D" dllname="KernelMisc.dll"  mode="0x02"/>-->
+    <!-- ****************************** LongCnnReport ********************************** -->
+    <!--<DRItem rid="0x80003000" clsid="49775116-DF08-479d-8B3B-368439D10CD7" dllname="LongCnn.dll"  mode="0x03"/>-->
+    <extension point-name="ITXDataReportCodecExt" point-id="35469066-112F-4CFC-9B97-87D453DE3067" provider="CDataReportLongCnnCodec">
+      <config>
+        <info type="0x80003000" mode="0x03"/>
+      </config>
+    </extension>  
+
+    <!-- ****************************** PerformanceReport ********************************** -->
+    <!--<DRItem rid="0x38001000" clsid="3982FD5E-70C6-4EE6-8BF2-D9670FE9D123" dllname="KernelUtil.dll"  mode="0x02"/>-->
+    <!--<DRItem rid="0x38001001" clsid="3982FD5E-70C6-4EE6-8BF2-D9670FE9D123" dllname="KernelUtil.dll"  mode="0x01"/>-->
+    <!--<DRItem rid="0x38001002" clsid="3982FD5E-70C6-4EE6-8BF2-D9670FE9D123" dllname="KernelUtil.dll"  mode="0x01"/>-->
+    <!--<DRItem rid="0x38001003" clsid="3982FD5E-70C6-4EE6-8BF2-D9670FE9D123" dllname="KernelUtil.dll"  mode="0x01"/>-->
+    <!--<DRItem rid="0x38001004" clsid="3982FD5E-70C6-4EE6-8BF2-D9670FE9D123" dllname="KernelUtil.dll"  mode="0x01"/>-->
+    <!--<DRItem rid="0x18001000" clsid="3982FD5E-70C6-4EE6-8BF2-D9670FE9D123" dllname="KernelUtil.dll"  mode="0x01"/>-->
+    <!--<DRItem rid="0x30001001" clsid="3982FD5E-70C6-4EE6-8BF2-D9670FE9D123" dllname="KernelUtil.dll"  mode="0x01"/>-->
+    <extension point-name="ITXDataReportCodecExt" point-id="35469066-112F-4CFC-9B97-87D453DE3067" provider="CPerformanceReportCodec">
+      <config>
+        <!--<info type ="0x38001000" mode ="0x01" />
+        <info type ="0x38001001" mode ="0x01" />-->
+        <info type="0x38001002" mode="0x02"/>
+        <!--<info type ="0x38001003" mode ="0x02" />
+        <info type ="0x38001004" mode ="0x02" />
+        <info type ="0x18001000" mode ="0x02" />-->
+        <info type="0x30001001" mode="0x02"/>
+      </config>
+    </extension>
+
+    <!-- ****************************** MainFrameReport ********************************** -->
+    <!--<DRItem rid="0xbc008001" clsid="F3EE811A-2F8D-4A5A-B2D9-1077C68732FD" dllname="KernelMisc.dll" mode="0x02"/>-->
+    <!--<DRItem rid="0x10005000" clsid="F3EE811A-2F8D-4A5A-B2D9-1077C68732FD" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!--<DRItem rid="0x10005002" clsid="F3EE811A-2F8D-4A5A-B2D9-1077C68732FD" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!--<DRItem rid="0x10005003" clsid="F3EE811A-2F8D-4A5A-B2D9-1077C68732FD" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!--<DRItem rid="0x10005004" clsid="F3EE811A-2F8D-4A5A-B2D9-1077C68732FD" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!--<DRItem rid="0x18005000" clsid="F3EE811A-2F8D-4A5A-B2D9-1077C68732FD" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!--<DRItem rid="0x18005001" clsid="F3EE811A-2F8D-4A5A-B2D9-1077C68732FD" dllname="KernelMisc.dll" mode="0x02"/>-->
+    <!--<DRItem rid="0x18005005" clsid="F3EE811A-2F8D-4A5A-B2D9-1077C68732FD" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!--<DRItem rid="0x18005006" clsid="F3EE811A-2F8D-4A5A-B2D9-1077C68732FD" dllname="KernelMisc.dll" mode="0x02"/>-->
+    <!--<DRItem rid="0x18005007" clsid="F3EE811A-2F8D-4A5A-B2D9-1077C68732FD" dllname="KernelMisc.dll" mode="0x02"/>-->
+    <!--<DRItem rid="0x38005000" clsid="F3EE811A-2F8D-4A5A-B2D9-1077C68732FD" dllname="KernelMisc.dll" mode="0x02"/>-->
+    <!--<DRItem rid="0x18000000" clsid="F3EE811A-2F8D-4A5A-B2D9-1077C68732FD" dllname="KernelMisc.dll" mode="0x02"/>-->
+    <!--<DRItem rid="0x98005000" clsid="F3EE811A-2F8D-4A5A-B2D9-1077C68732FD" dllname="KernelMisc.dll" mode="0x02"/>-->
+    <!--<DRItem rid="0x28009000" clsid="F3EE811A-2F8D-4A5A-B2D9-1077C68732FD" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!--<DRItem rid="0x18002000" clsid="F3EE811A-2F8D-4A5A-B2D9-1077C68732FD" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!--<DRItem rid="0xbc008000" clsid="F3EE811A-2F8D-4A5A-B2D9-1077C68732FD" dllname="KernelMisc.dll" mode="0x01"/>-->
+    <!--<DRItem rid="0x30005001" clsid="F3EE811A-2F8D-4A5A-B2D9-1077C68732FD" dllname="KernelMisc.dll" mode="0x01"/>-->
+
+
+
+    <!--<DRItem rid="0x38000001" clsid="8BAAA27D-283D-4674-8629-66A425EE4A7D" dllname="KernelMisc.dll" mode="0x02"/>-->
+    <!--<DRItem rid="0xbc000002" clsid="5FD12A15-B0E2-4A84-B3EE-07763109CE28" dllname="KernelMisc.dll" mode="0x01"/>-->
+
+    <!-- ****************************** SecurityChnDataReport ********************************** -->
+    <!--<DRItem rid="0xbc00b000" clsid="0DE785F2-A340-4190-A929-9A79190595EF" dllname="IM.dll" mode="0x03"/>-->
+    <!--<DRItem rid="0xbc00b001" clsid="0DE785F2-A340-4190-A929-9A79190595EF" dllname="IM.dll" mode="0x03"/>-->
+    <extension point-name="ITXDataReportCodecExt" point-id="35469066-112F-4CFC-9B97-87D453DE3067" provider="CDataReportSecurityChnCodec">
+      <config>
+        <info type="0xbc00b000" mode="0x03"/>
+        <info type="0xbc00b001" mode="0x03"/>
+      </config>
+    </extension>
+
+    <extension point-name="ITXDataReportCodecExt" point-id="35469066-112F-4CFC-9B97-87D453DE3067" provider="CCSCReporterCodec">
+      <config>
+        <info type="0x30001002" mode="0x02"/>
+        <info type="0x30001003" mode="0x02"/>
+      </config>
+    </extension>
+
+    <extension point-name="ITXDataReportCodecExt" point-id="35469066-112F-4CFC-9B97-87D453DE3067" provider="CFSPerfCodec">
+      <config>
+        <info type="0x28003007" mode="0x01"/>
+      </config>
+    </extension>
+
+    <extension point-name="ITXDataReportCodecExt" point-id="35469066-112F-4CFC-9B97-87D453DE3067" provider="CRoamPicTotalDRCodec">
+      <config>
+        <info type="0x18005005" mode="0x02"/>
+      </config>
+    </extension>
+    <!--Data Report CodecExt end-->
+
+    <extension point-name="ITXClearTempFileEventExt" point-id="6F7D7672-933A-4ffc-94D5-57C761F6695F" provider="CTXClearTempFileEventExtGeneralProvider">
+      <config>
+        <info type="0x00000001"/>
+      </config>
+    </extension>
+  </extensions>
+
+  <extension-points>
+    <extension-point name="ITXCCReceiverExExt" id="A768EADE-A0B7-473F-A724-E0AAE5B72664">
+      <config>
+        <info cmd="75">
+          <extension type="HandShake"/>
+          <extension type="ChannelMgr"/>
+        </info>
+        <info cmd="21">
+          <extension type="HandShake"/>
+          <extension type="ChannelMgr"/>
+        </info>
+      </config>
+    </extension-point>
+  </extension-points>
+
+  <components path="Bin" path-debug="BinDebug">
+    <component clsname="CTXIMConfig" clsid="ADA4012A-31E8-4752-ACFC-BA1C58C0CDB1" dllname="KernelUtil.dll"/>
+    <component clsname="CTXDirectoryMgr" clsid="BBC1A69F-A0E1-43EA-9919-A08585FC211A" dllname="KernelUtil.dll"/>
+    <component clsname="CTXDataImport" clsid="F8A78B2A-7283-467C-A5E2-4C8185B96329" dllname="KernelUtil.dll"/>
+    <component clsname="CTXIMAPI" clsid="0A1B107D-3BD0-42EC-8539-1091E442F92F" dllname="KernelUtil.dll"/>
+    <component clsname="CTXRichStatusAPI" clsid="FC06124A-F6B4-40D3-8C76-E1F78893C203" dllname="KernelUtil.dll"/>
+    <component clsname="CTXRichStatusIntlAPI" clsid="01EFA625-7F6F-4AA2-A4B2-575077F8876C" dllname="KernelUtil.dll"/>
+    <component clsname="CTXIMLoginAPI" clsid="3F423DA1-A010-48A1-8CED-A59FB636C7AC" dllname="KernelUtil.dll"/>
+    <component clsname="CTXHyperLink" clsid="38B811DE-1289-43E1-B15F-6FEABC64D0D5" dllname="KernelUtil.dll"/>
+    <component clsname="CTXWebPresenceAPI" clsid="C65563CC-8645-4C44-B82F-C8A084BFBB01" dllname="KernelUtil.dll"/>
+    <component clsname="CTXFriendInfoAPI" clsid="20DDDF32-166A-4A5C-8F6E-9FF31EE9A6DA" dllname="KernelUtil.dll"/>
+    <component clsname="CTXToolsAPI" clsid="699B46A4-1BD9-4F2E-9E97-9E4F508BA11D" dllname="KernelUtil.dll"/>
+    <component clsname="CTXIM" clsid="A5216A66-5E57-4098-92DC-63E897F88365" dllname="IM.dll"/>
+    <component clsname="CTXIMPreLogin" clsid="3DDA8982-9A15-4587-95A7-BD83B216F73A" dllname="IM.dll"/>
+    <component clsname="CTXCCProtocol" clsid="5EF5F630-AAD8-435b-BEAF-33A8C256C148" dllname="IM.dll"/>
+    <component clsname="CTXServerList" clsid="6C66B65C-5023-4CA8-BD01-4C992E906C66" dllname="IM.dll"/>
+    <component clsname="CTXConnInfoMgr" clsid="E3F4F4E5-02EF-4A8B-B82D-0F938E796EE9" dllname="IM.dll"/>
+    <component clsname="CTXMsgStorage" clsid="A875AE08-E87E-48F4-8806-CE4E1BE59758" dllname="IM.dll"/>
+    <component clsname="CTXAccountList" clsid="0A0AA5C7-4B50-4F22-A15A-285EC2B91833" dllname="IM.dll"/>
+    <component clsname="CTXIMContactAccountMgr" clsid="992600AC-0CBC-42FF-943D-D7CDAFABD6A2" dllname="IM.dll"/>
+    <component clsname="CTXGroupTOCProtocolCenter" clsid="D7D6ED90-F09C-463B-9E2D-856A26EAF883" dllname="IM.dll"/>
+    <component clsname="CTXGroupMgr" clsid="7973D83A-AA95-4C6A-B21B-6192569D8724" dllname="IM.dll"/>
+    <component clsname="CTXGroupSessionMgr" clsid="2057B3D5-82EF-4D85-A758-64C634E201CA" dllname="IM.dll"/>
+    <component clsname="CTXDiscussMgr" clsid="9D4FDCAF-1E69-465e-BA50-A8050ABAFC65" dllname="IM.dll"/>
+    <component clsname="CTXDiscussSessionMgr" clsid="9EA1A323-8635-4BE4-BF29-F3C8058DA1FB" dllname="IM.dll"/>
+    <component clsname="CTXGroupFileCenter" clsid="692A0D73-1E7C-48EC-8930-F7B4B51121A5" dllname="IM.dll"/>
+    <component clsname="CTXFingerUserMgr" clsid="3C9015A5-38B2-4124-A2BA-4E873C27367E" dllname="KernelMisc.dll"/>
+    <component clsname="CGroupFinger" clsid="B3CA95E3-E648-4DBD-814F-0CE48A2D8BBC" dllname="KernelMisc.dll"/>
+    <component clsname="CTXDynamicCodeMgr" clsid="3984B828-E86B-4F04-A493-67AFD65ECFD7" dllname="KernelMisc.dll"/>
+    <component clsname="CTXCCServiceEx" clsid="045C2D33-273C-40AA-B4C1-5E861917E9F6" dllname="IM.dll"/>
+    <component clsname="CTXCSReceiver" clsid="F32FDA95-F8A3-4b93-9362-72E114FA04FA" dllname="IM.dll"/>
+    <component clsname="CTXLongConnectionMgr" clsid="4048EED5-3EE5-4D7B-91E2-01008488BBBE" dllname="LongCnn.dll"/>
+    <component clsname="CTXHandShakeMgr" clsid="CAED4B2D-6A78-4DE0-B024-1AC7ABAA06EC" dllname="LongCnn.dll"/>
+    <component clsname="CTXLongCnnChannelMgr" clsid="B2ABA92F-A7EE-42F1-9EA4-32325405B74F" dllname="LongCnn.dll"/>
+    <component clsname="CTXLongCnnReception" clsid="FDB2B79B-3954-4D80-B601-F2D5C8C0C3A8" dllname="LongCnn.dll"/>
+    <component clsname="CTXStrategyCenter" clsid="852E706B-AF08-4C8D-9AA5-439A9F8D1D3D" dllname="LongCnn.dll"/>
+    <component clsname="CTXContactFolderMgr" clsid="D4A3176B-E9CA-4B8C-92D9-4DA70298206E" dllname="IM.dll"/>
+    <component clsname="CTXGroupFolderMgr" clsid="0FB522A8-7D15-419d-895C-8AD0E48E2450" dllname="IM.dll"/>
+    <component clsname="CTXIMContactFlagMgr" clsid="DD4B11B7-C7E8-4770-8F65-9B736EBE78B1" dllname="IM.dll"/>
+    <component clsname="CTXIMContactInfoMgr" clsid="C20F8F2F-28A7-44E9-B8D7-8C8630BC9096" dllname="IM.dll"/>    
+    <component clsname="CTXIMContactStatusMgr" clsid="BBBAF15A-F44C-4c6f-A59F-A029ED3374D3" dllname="IM.dll"/>
+    <component clsname="CTXContactNotify" clsid="8CE6899D-EC58-4473-AE88-8BC3091831E3" dllname="IM.dll"/>
+    <component clsname="CTXIMContactRelationMgr" clsid="0FCB5BFA-6D57-42bb-B97F-DAE4A913D254" dllname="IM.dll"/>
+    <component clsname="CTXIMContactPresentationMgr" clsid="2737C08D-09F1-4931-8712-2FE1359823A3" dllname="IM.dll"/>
+    <component clsname="CTXInfoAssociator" clsid="DBF732C8-5739-4D65-88B2-C2A95C4AAB2A" dllname="IM.dll"/>
+    <component clsname="CGroupDefinedHeadMng" clsid="A169AC70-785E-4458-867D-2ABDBC811655" dllname="IM.dll"/>
+    <component clsname="CTXRCCSSender" clsid="C006E3A5-782F-4C09-8069-FE9997DECAD0" dllname="IM.dll"/>
+    <component clsname="CTXRichInfoMgr" clsid="FFE41C1A-8665-4229-855C-B647D12D48AB" dllname="IM.dll"/>
+    <component clsname="CTXRCContactInfoMgr" clsid="D590DC5A-87FE-4651-9917-297B8FE39E7C" dllname="IM.dll"/>
+    <component clsname="CTXRCContactPresentationMgr" clsid="3B160CA4-E44F-4497-9ED0-046C300FFD50" dllname="IM.dll"/>
+    <component clsname="CTXRCContactRelationMgr" clsid="A6977728-9E90-4290-9C66-6BE2809B83B0" dllname="IM.dll"/>
+    <component clsname="CTXValidateCodeMgr" clsid="96331677-1F2B-438E-9BB6-CFDE0D228C12" dllname="IM.dll"/>
+    <component clsname="CTXBuddySessionMgr" clsid="A1476053-2D29-4F88-A7BA-5262A3B8797A" dllname="IM.dll"/>
+    <component clsname="CTXAddBuddyAuthMgr" clsid="F5B81141-AE5D-42D5-A06F-FD3FF90A12FB" dllname="IM.dll"/>
+    <component clsname="CTXSessionAuthMgr" clsid="310BBBA1-369A-4222-A7F5-FA8C76575B06" dllname="IM.dll"/>
+    <component clsname="CTXStatusAuthMgr" clsid="89E08EB1-BB72-4A59-9E01-2E6EA3B51AA2" dllname="IM.dll"/>
+    <component clsname="CTXTaskScheduler" clsid="2BF6DA4F-2647-4D38-B8B7-FA11E23A3201" dllname="IM.dll"/>
+    <component clsname="CTXMsgChainMgr" clsid="55A3D914-8F6A-4E9A-B417-929DF54C33CD" dllname="IM.dll"/>
+    <component clsname="CTXMarketingMsg" clsid="B8F1462F-A6A2-441D-918A-AE3249D4FD2C" dllname="IM.dll"/>
+    <component clsname="CTXMiscSysMsg" clsid="4E9BEE14-DE75-4CDC-8883-1B839794289A" dllname="IM.dll"/>
+    <component clsname="CTXTempSessionMgr" clsid="98C79824-E89E-416D-9287-63C92D821784" dllname="IM.dll"/>
+    <component clsname="CTXChatSceneMgr" clsid="C80A8AD5-C580-472F-9FE7-69648C41BE45" dllname="IM.dll"/>
+    <component clsname="CTXC2CImageTransferMgr" clsid="F951629A-82FA-4A78-AB7C-404BD5DF7FA5" dllname="IM.dll"/>
+    <component clsname="CTXImageHttpDownloadMgr" clsid="A70AEF1F-4B05-442B-ABA6-D333C20AC035" dllname="IM.dll"/>
+    <component clsname="CTXRecentCommMgr" clsid="9B9E45F2-C376-45E4-AF66-D6B78646937E" dllname="IM.dll"/>
+    <component clsname="CTXContactSearcher" clsid="99B59EA5-FB03-4BA5-9561-BA69299A1325" dllname="KernelMisc.dll"/>
+    <component clsname="CTXContactSearcherEx" clsid="c0fc0107-6dd3-4808-880f-f58885cb5250" dllname="KernelMisc.dll"/>
+    <component clsname="CTXDataReport" clsid="852F3226-B59F-434A-8A19-A9B8C5D34AFB" dllname="KernelUtil.dll"/>
+    <component clsname="CTXHttpLink" clsid="C1AD9260-005D-4645-A19A-C2CF7E0B2A6F" dllname="KernelUtil.dll"/>
+    <component clsname="CTXSecurityChannelMgr" clsid="6ADFD919-10BB-47F4-AC8E-0ABBD4425B49" dllname="IM.dll"/>
+    <component clsname="CTXQQLevelMgr" clsid="B5AB92E0-168A-4FB6-B408-1783973C32E4" dllname="IM.dll"/>
+    <component clsname="CTXMsgRoamCfgMgr" clsid="0C933B70-89A1-4406-91D2-05ECA66B37A9" dllname="IM.dll"/>
+    <component clsname="CTXVerifyCenterMgr" clsid="EC981055-312A-4F44-9909-E7B4EEB1349B" dllname="IM.dll"/>
+    <component clsname="CTXImageStatusMgr" clsid="9682E2F3-9A76-4072-BBA9-7C34785EF120" dllname="IM.dll"/>
+    
+    <component clsname="CTXAddrBookMgr" clsid="EFEBB189-F3E4-41F5-BD1B-44E490077C63" dllname="IM.dll"/>
+    <component clsname="CTXSC" clsid="3FDE0F8D-5AB7-476B-AF12-E12C3B59192F" dllname="IM.dll"/>
+    <component clsname="CTXCSPingMgr" clsid="5CC1270B-B4BE-4d33-A069-9FA32B4B9F67" dllname="IM.dll"/>
+    
+    
+    <component clsname="CCustomFaceMgr" clsid="68BF07DE-9EF6-4162-86E5-89F9081064B5" dllname="IM.dll"/>
+    <!--<component clsname="CTXCFRLogicMgr" clsid="36D5D0FA-73BC-44B4-B814-689CF26A08AE" dllname="IM.dll"/>-->
+    <component clsname="CTXCustomFaceEx" clsid="2A2F6B51-E523-4d0f-8593-325842E3DDCD" dllname="IM.dll"/>
+
+    <component clsname="CTXSysEventCenter" clsid="88AA45FD-2AF0-4D62-B962-BD6A66FE757D" dllname="IM.dll"/>
+    <component clsname="CTXDomainValidateMgr" clsid="BB9A5E0B-1812-48A2-B64A-E9466F096542" dllname="IM.dll"/>
+    <component clsname="CTXGrayURLMgr" clsid="973E2470-06F0-4AAD-8E32-4C37E43816E1" dllname="IM.dll"/>
+    <component clsname="CTXServerConfigMgr" clsid="9CB5520D-F40D-4A09-9CA1-5A1CCA6B5032" dllname="IM.dll"/>
+    <component clsname="CTXMobileMgr" clsid="C4BBB7A9-4A85-4A7E-A777-67449B60B955" dllname="IM.dll"/>
+    <component clsname="CTXModeMgr" clsid="6ED4E792-02FF-427C-9BEE-3E693AA30EE8" dllname="IM.dll"/>
+    <component clsname="CTXThirdPartyKeyMgr" clsid="4844EC8A-798B-4384-933A-ACE7E36274EA" dllname="IM.dll"/>
+    <component clsname="CTXPluginMsgMgr" clsid="E04AC17E-AD27-405A-8AB9-5D0DA2AE9968" dllname="IM.dll"/>
+    <component clsname="CTXRemarkPageMgr" clsid="3248540D-699E-44A1-BDFD-ACC1C49A5D48" dllname="IM.dll"/>
+    <component clsname="CTXCSProcessorForLogin" clsid="0E972D52-8E13-4537-9732-145BD2E80074" dllname="IM.dll"/>
+    <component clsname="CTXIMPostLogin" clsid="16A410D9-DE81-4373-A317-564AD7EED2F7" dllname="IM.dll"/>
+    <component clsname="CTXOfflineFileQueryMgr" clsid="BF5F7F12-169E-4725-BC43-CFF2A57F0858" dllname="IM.dll"/>
+    <component clsname="CTXOfflinePicMgr" clsid="089610AB-887C-4C48-A2C8-804BA8B43E25" dllname="IM.dll"/>
+    <component clsname="CTXComplainMgr" clsid="657DDD9A-13BA-45FE-9F81-7571A2930F08" dllname="IM.dll"/>
+    <component clsname="CTXLongNicknameMgr" clsid="414F9EA0-3964-43f4-84A2-E790E06A6D80" dllname="IM.dll"/>
+    <component clsname="CTXUserOptTimeStampMgr" clsid="3b2a1a63-71c0-463e-8d3e-44356e7ce4ec" dllname="IM.dll"/>
+    <component clsname="CTXVASFlagMgr" clsid="46F1A40C-203F-4642-AAAA-5135B1825CDF" dllname="IM.dll"/>
+    <component clsname="CTXQZoneFlagMgr" clsid="270C9FD7-D7D6-4F65-BDBC-69AC6EF3406E" dllname="IM.dll"/>
+    <component clsname="CTXCSFileFetcher" clsid="3E096CFF-CB99-44af-B9B8-022372DC3A80" dllname="IM.dll"/>
+    <component clsname="CTXCommonServerConfigMgr" clsid="23cd1e28-3391-4edf-b98b-c98e23895c8a" dllname="IM.dll"/>    
+    <component clsname="CTXCommonServerConfigDownloadCenter" clsid="87a982f7-fab0-40a2-b657-51ac951af901" dllname="IM.dll"/>
+    <component clsname="CTXCommonServerConfigUpdateDetectCenter" clsid="07b50067-89ca-48f1-940f-e9c1373d6f77" dllname="IM.dll"/>
+    <component clsname="CTXDisastorRecoverMgr" clsid="4D622399-F426-498c-A4D1-32FD7743A0A6" dllname="IM.dll"/>
+    <component clsname="CTXDllHashCheckMgr" clsid="76B656D1-995F-438b-81E4-623EA54AF95A" dllname="IM.dll"/>
+    <component clsname="CTXSNS" clsid="B3007B3E-32C8-4C68-AC3E-F804707368B8" dllname="IM.dll"/>
+    <component clsname="CTXServerShieldCmdMgr" clsid="1D985DA1-07A9-4790-897F-0B12DAF014B6" dllname="IM.dll"/>
+    <component clsname="CTXConvertHFS2CDMgr" clsid="D62A61B7-63DC-49F2-92AF-F901E63CD15E" dllname="IM.dll"/>
+    <component clsname="CTXUserCfgSyncCenter" clsid="DADC78E7-5BEC-43da-81F4-26BDE20C27E1" dllname="IM.dll"/>
+    <component clsname="CTXWordMannersCheck" clsid="07AE4962-6E8C-4774-97DA-2F6AD3919BAD" dllname="IM.dll"/>
+    <component clsname="CTXClearTempFileMgr" clsid="D22FD2CD-72F2-453E-A1E2-CE6FDBDFD4CF" dllname="IM.dll"/>
+    <component clsname="CTXAddBuddyDataReport" clsid="12661F6C-A5D7-44AE-9F4E-F9CEC47E9DA1" dllname="IM.dll"/>
+    <component clsname="CTXWebReportMgr" clsid="61C8A71D-F6C5-4066-9247-6529D07AEC19" dllname="IM.dll"/>    
+    <component clsname="CTXRoamPicUploadCenter" clsid="0A7F9FBC-4B6E-4a9e-9BAF-32BBB2135F3E" dllname="IM.dll" />
+    <component clsname="CTXAreaMgr" clsid="60C48DFE-8794-449e-99FF-747BB2F35C0C" dllname="IM.dll" />
+
+    <component clsname="CSameFriend" clsid="637856CA-D335-4223-BD00-6B1DFA4259C7" dllname="IM.dll" />
+    <!--mac begin CExtReceiver 是用于module检查的，mac qq暂不需要
+	<component clsname="CExtReceiver" clsid="05E76583-4D5D-430a-B855-FD9E4C88B888" dllname="IM.dll"/>
+	-->
+    <component clsname="CMemIntChk" clsid="DBF00D9F-B91B-42e1-8324-A358D9169237" dllname="IM.dll"/>
+    <component clsname="CTXSysMsgCommonMgr" clsid="327EE7CD-64E6-4012-88CB-F2ABD1E2CCF6" dllname="IM.dll"/>
+    <component clsname="CTXPushToTalkMgr" clsid="4D72C666-1449-4E89-9D6F-28F185A78590" dllname="IM.dll"/>
+    <component clsname="CTXGroupPTTMgr" clsid="6e944434-e1a8-4e8b-a442-79fceb371a28" dllname="IM.dll"/>
+      
+    <!--DataReport beg-->
+    <component clsname="CContactStatistics" clsid="B9254BF1-5A7F-4669-8B24-949086A1E6DA" dllname="KernelMisc.dll"/>
+    <component clsname="CDataReportGroupCodec" clsid="8D2BDFD7-FC41-4106-91C4-00E1CBE8A859" dllname="KernelMisc.dll"/><component clsname="CAddrBookStatistics" clsid="1AAF49BF-DFB2-4ef2-A3C8-75FB439046CE" dllname="KernelMisc.dll"/>    
+    <component clsname="CMiscStatistics" clsid="5FD12A15-B0E2-4A84-B3EE-07763109CE28" dllname="KernelMisc.dll"/>    
+    <component clsname="CTXPwdGuardState" clsid="0EAA3905-7BA2-4E32-ABE0-3A1247E321F4" dllname="KernelMisc.dll"/>
+    <component clsname="CTXTraceRTReportMgr" clsid="EBDEFF67-46FD-4D64-9E62-1BD288DB69E1" dllname="KernelMisc.dll"/> 
+    <component clsname="CAIOStatistics" clsid="9CDF9193-1BFB-4E30-A3B2-E3AC21ECABAA" dllname="KernelUtil.dll"/>    
+    <component clsname="CPerformanceReportCodec" clsid="3982FD5E-70C6-4EE6-8BF2-D9670FE9D123" dllname="KernelUtil.dll"/>
+    <component clsname="CDataReportCodecTest" clsid="8B2B62A0-CDA8-4b90-BC83-4DB2710AA111" dllname="KernelUtil.dll"/>
+    <component clsname="CDataReportLongCnnCodec" clsid="49775116-DF08-479d-8B3B-368439D10CD7" dllname="LongCnn.dll"/>
+    <component clsname="CDataReportSecurityChnCodec" clsid="0DE785F2-A340-4190-A929-9A79190595EF" dllname="IM.dll"/>
+    <component clsname="CCSCReporterCodec" clsid="B7AAD59B-D1A6-4cf9-9920-5E7320736E75" dllname="IM.dll"/>
+    <component clsname="CFSPerfCodec" clsid="AFE2FC5F-2C11-465D-BB5A-7446A68EBFD2" dllname="KernelMisc.dll"/>
+    <component clsname="CTXEventCenterMgr" clsid="9c1852c1-4176-499c-a25c-3167caf0d473" dllname="IM.dll"/>
+    
+    <component clsname="CTXMsgRoamMgr" clsid="42737913-6C4B-4221-87E4-17ECEF38BBE9" dllname="IM.dll"/>
+    <component clsname="CTXGroupMsgRoamMgr" clsid="FD775628-FBCF-4626-ABDB-9F2AA2A2D103" dllname="IM.dll" />
+    <component clsname="CTXDiscussMsgRoamMgr" clsid="B4F9D948-FDEE-4f94-A09B-403EE013B3C7" dllname="IM.dll" />
+    
+    <component clsname="CTXPicRoamMgr" clsid="6D231F35-4584-4A55-AFC7-317652355754" dllname="IM.dll"/>
+    <component clsname="CTXC2CPicRoamMgr" clsid="DA9E68E2-29C6-4AC2-AA90-63DE3A2C65D1" dllname="IM.dll" />
+    <component clsname="CRoamPicTotalDRCodec" clsid="37A76AEF-4F7E-45d0-BEFA-14A320002546" dllname="IM.dll"/>
+    
+
+    <!--Data Report end-->
+
+    <component clsname="CTXClearTempFileEventExtGeneralProvider" clsid="9983D35B-2E1C-4b16-942A-F110AF68C06D" dllname="IM.dll"/>
+    <component clsname="CTXBuddyInputStatusMgr" clsid="DB736108-859E-4375-BF8B-9F5B6531C135" dllname="IM.dll"/>
+    <component clsname="CTXAntiFraudMgr" clsid="39288CE5-9883-488B-9731-829AC62D3812" dllname="IM.dll"/>
+    <component clsname="CTXContactRecommendMgr" clsid="3CED0D8E-9867-4AD4-BA2E-ACAE969E7021" dllname="IM.dll"/>
+    <component clsname="CTXProtobuf" clsid="BA6F63D3-EC19-42C2-961D-25FCD7B9C325" dllname="PreloginLogic.dll"/>
+    
+    <component clsname="CTXBigDataRedirect" clsid="7219F125-FE41-48ba-BCE5-6EE03B15F02E" dllname="IM.dll" />
+
+    <component clsname="CTXUnreadMsgReporter" clsid="64737606-3E25-49ee-AF2A-C19FD4184DA1" dllname="IM.dll"/>
+    <component clsname="CTXOfflineFileManagerService" clsid="57EC5858-90A1-4c12-A68E-2CC81E5ACFCD" dllname="IM.dll" />
+    <component clsname="CTXOfflineFileDataManagerService" clsid="4998624F-B0AA-42c0-AA24-201847FA9C79" dllname="IM.dll" />
+    <!--讨论组智能备注-->
+    <component clsname="CTXDiscussRemarkMgr"  clsid="28480740-A415-414b-BBD2-8ECE92EB414D" dllname="IM.dll"/>
+    <component clsname="CIMContactInfoEvtExtMatchHelp" clsid="410238D9-DE34-413b-99AA-881962961180" dllname="PreloginLogic.dll" />
+
+  </components>
+
+  <objects path="Bin" path-debug="BinDebug">
+    <object id="5764FD51-EBA3-46dc-8DF7-44FC91C4AA7E" name="CCsSeqManager" clsid="A5ACCFC9-FA57-4f95-B8BA-77040ABF16B6" dllname="PreloginLogic.DLL"/>
+    <object name="ITXMsgPack" id="A1A62363-EF82-4038-8CAF-2069EAF7C065" clsid="B403106A-F20B-4F42-8B08-0DEBA2D8E2BA" dllname="IM.dll"/>
+    <object name="ITXIMSvrSealCrypto" id="EDC5158A-8148-401A-9F2B-A72863BCA24A" clsid="0712228A-0EAF-4A58-828D-689C11A8E594" dllname="IM.dll"/>
+    <object name="ITXIMSvrSealCrypto2" id="84DF95E0-495C-4458-8499-104C9F3871C1" clsid="F9708D0E-A70D-4878-8ED0-F86D42A47850" dllname="IM.dll"/>
+    <object name="ITXLoginSignSource" id="46E726F1-3DE8-4151-BA85-1E0703D7537A" clsid="40944F92-7112-4785-B298-999E6459F98A" dllname="KernelMisc.dll"/>
+    <object name="ITXUDPFetcher" id="026619E2-2BEE-47A2-84EF-4BB1F2B103C7" clsid="861D6C88-136F-4C25-9DAE-E48A2C9E2137" dllname="IM.dll"/>
+    <object name="ITXFileSender" id="319BAEC5-D87D-492E-80F0-8D5364E248F1" clsid="101E86BC-C706-4424-B53F-90D01B783415" dllname="LongCnn.dll"/>
+    <object name="ITXFileReceiver" id="50215BC9-6F30-41BB-A402-082EF5C6D20F" clsid="361617FE-0611-416E-AE08-220D69DDF1DC" dllname="LongCnn.dll"/>
+    <object name="ITXOfflineFileSendJob" id="14D6050A-6127-4AC1-B8E6-93E7E851E533" clsid="5CE360A9-7037-404E-8337-0C378ECBB84F" dllname="IM.dll"/>
+    <object name="ITXOfflineFileRecvJob" id="259CCB8B-2561-4852-9725-5094AEBACE5E" clsid="342AD61E-D14F-48C8-9D66-06C85D7460E0" dllname="IM.dll"/>
+    <object name="ITXDiscussFileSendJob" id="25fe4004-e55a-4a99-a6f7-d4702c9d65be" clsid="a3b7c586-6acc-49ea-9ae5-85b068a8d3d0" dllname="IM.dll"/>
+    <object name="ITXDiscussFileRecvJob" id="5049baf6-9b96-4acc-a88d-576c2b7c0632" clsid="9721395a-16c8-4ca1-9020-603360dde3a0" dllname="IM.dll"/>
+    
+    <object name="ITXOnlineQueryMgr" id="CFE6FD41-547A-4b83-840E-128E8CEB58B1" clsid="846E290E-777F-4333-B959-13825DB4819C" dllname="IM.dll"/>
+    <object name="ITXBigDataDownload" id="D45EBFD0-6455-4b7e-9EC6-C61AB3BF751B" clsid="4A1171A4-60BB-4b9d-9788-60884ADDB305" dllname="IM.dll" />
+    <object name="IIMContactInfoEvtExtMatch" id="1488981B-B061-4fa6-8D45-0C2E0F689A35" clsid="AFA2B6FA-D3C3-4604-A318-BA217EFD8F87" dllname="IM.dll"/>
+  </objects>
+</core-config>

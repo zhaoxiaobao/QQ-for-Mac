@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Languages>
+	<Language LCID="1078" Name="Afrikaans" Code="af"/>
+	<Language LCID="1052" Name="Albanian" Code="sq"/>
+	<Language LCID="1025" Name="Arabic" Code="ar"/>
+	<Language LCID="1067" Name="Armenian" Code="hy"/>
+	<Language LCID="2092" Name="Azerbaijani" Code="az"/>
+	<Language LCID="1059" Name="Belorussia" Code="be"/>
+	<Language LCID="5146" Name="Bosnian" Code="bs-ba"/>
+	<Language LCID="1026" Name="Bulgarian" Code="bg"/>
+	<Language LCID="1109" Name="Burmese" Code="my"/>
+	<Language LCID="3076" Name="Chinese (Traditional)" Code="zh-hk"/>
+	<Language LCID="1027" Name="Catalan" Code="ca"/>
+	<Language LCID="1050" Name="Croatian" Code="hr"/>
+	<Language LCID="1029" Name="Czech" Code="cs"/>
+	<Language LCID="1030" Name="Danish" Code="da"/>
+	<Language LCID="1043" Name="Dutch" Code="nl"/>
+	<Language LCID="1033" Name="English" Code="en-us"/>
+	<Language LCID="1061" Name="Estonian" Code="et"/>
+	<Language LCID="1065" Name="Farsi" Code="fa"/>
+	<Language LCID="1035" Name="Finnish" Code="fi"/>
+	<Language LCID="1036" Name="French" Code="fr"/>
+	<Language LCID="2108" Name="Gaelic" Code="gd"/>
+	<Language LCID="1031" Name="German" Code="de"/>
+	<Language LCID="1032" Name="Greek" Code="el"/>
+	<Language LCID="1095" Name="Gujarati" Code="gu"/>
+	<Language LCID="1037" Name="Hebrew" Code="he"/>
+	<Language LCID="1081" Name="Hindi" Code="hi"/>
+	<Language LCID="1038" Name="Hungarian" Code="hu"/>
+	<Language LCID="1039" Name="Icelandic" Code="is"/>
+	<Language LCID="1057" Name="Indonesian" Code="id"/>
+	<Language LCID="1040" Name="Italian" Code="it"/>
+	<Language LCID="1041" Name="Japanese" Code="ja"/>
+	<Language LCID="1107" Name="Khmer" Code="km"/>
+	<Language LCID="1042" Name="Korean" Code="ko"/>
+	<Language LCID="1108" Name="Lao" Code="lo"/>
+	<Language LCID="1062" Name="Latvian" Code="lv"/>
+	<Language LCID="1063" Name="Lithuanian" Code="lt"/>
+	<Language LCID="1071" Name="Macedonian" Code="mk"/>
+	<Language LCID="1086" Name="Malay" Code="ms"/>
+	<Language LCID="2052" Name="Chinese (Simplified)" Code="zh-cn"/>
+	<Language LCID="1104" Name="Mongolian" Code="mn"/>
+	<Language LCID="1044" Name="Norwegian" Code="no"/>
+	<Language LCID="1045" Name="Polish" Code="pl"/>
+	<Language LCID="2070" Name="Portuguese" Code="pt"/>
+	<Language LCID="1094" Name="Punjabi" Code="pa"/>
+	<Language LCID="1048" Name="Romanian" Code="ro"/>
+	<Language LCID="1049" Name="Russian" Code="ru"/>
+	<Language LCID="3098" Name="Serbian" Code="sr"/>
+	<Language LCID="1113" Name="Sindhi" Code="sd"/>
+	<Language LCID="1051" Name="Slovak" Code="sk"/>
+	<Language LCID="1060" Name="Slovenian" Code="sl"/>
+	<Language LCID="1143" Name="Somali" Code="so"/>
+	<Language LCID="1034" Name="Spanish" Code="es"/>
+	<Language LCID="1089" Name="Swahili" Code="sw"/>
+	<Language LCID="1053" Name="Swedish" Code="sv"/>
+	<Language LCID="1097" Name="Tamil" Code="ta"/>
+	<Language LCID="1092" Name="Tatar" Code="tt"/>
+	<Language LCID="1054" Name="Thai" Code="th"/>
+	<Language LCID="1055" Name="Turkish" Code="tr"/>
+	<Language LCID="1058" Name="Ukrainian" Code="uk"/>
+	<Language LCID="1056" Name="Urdu" Code="ur"/>
+	<Language LCID="1066" Name="Vietnamese" Code="vi"/>
+	<Language LCID="1106" Name="Welsh" Code="cy-gb"/>
+	<Language LCID="1085" Name="Yiddish" Code="yi"/>
+	<Language LCID="1130" Name="Yoruba" Code="yo"/>
+</Languages>

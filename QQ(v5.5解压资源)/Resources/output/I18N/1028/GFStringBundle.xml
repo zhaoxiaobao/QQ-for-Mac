@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StringBundle version="1.0">
+  <String id="IE_Refresh">
+    重新整理
+  </String>
+ <String id="IE_RetryText">
+    請按一下 $REFRESH$ 後重試
+  </String>
+ <String id="Empty_Menu">
+    (空)
+  </String>
+   <!-- System MessageBox -->
+   <String id="SYS_MESSAGEBOX_OK">
+    確定
+  </String>
+   <String id="SYS_MESSAGEBOX_CANCEL">
+    取消
+  </String>
+  <String id="SYS_MESSAGEBOX_RETRY">
+    重試
+  </String>
+ <String id="SYS_MESSAGEBOX_YES">
+    是
+  </String>
+ <String id="SYS_MESSAGEBOX_NO">
+    否
+  </String>
+   <String id="SYS_MESSAGEBOX_ABORT">
+    終止
+  </String>
+   <String id="SYS_MESSAGEBOX_IGNORE">
+    忽略
+  </String>
+  <String id="SYS_MESSAGEBOX_CONTINUE">
+    繼續
+  </String>
+ <String id="SYS_MESSAGEBOX_HELP">
+    説明
+  </String>
+   <!--日历-->
+  <String id="Sunday_Simple">
+    日
+  </String>
+  <String id="Monday_Simple">
+    一
+  </String>
+  <String id="Tuesday_Simple">
+    二
+  </String>
+  <String id="Wednesday_Simple">
+    三
+  </String>
+  <String id="Thursday_Simple">
+    四
+  </String>
+  <String id="Friday_Simple">
+    五
+  </String>
+  <String id="Saturday_Simple">
+    六
+  </String>
+  <String id="Sunday">
+    星期日
+  </String>
+  <String id="Monday">
+    星期一
+  </String>
+  <String id="Tuesday">
+    星期二
+  </String>
+  <String id="Wednesday">
+    星期三
+  </String>
+  <String id="Thursday">
+    星期四
+  </String>
+  <String id="Friday">
+    星期五
+  </String>
+  <String id="Saturday">
+    星期六
+  </String>
+  <String id="PreYear">
+    上一年(長按連續遞減)
+  </String>
+  <String id="NextYear">
+    下一年(長按連續遞增)
+  </String>
+  <String id="PreMonth">
+    上一月(長按連續遞減)
+  </String>
+  <String id="NextMonth">
+    下一月(長按連續遞增)
+  </String>
+  <String id="MonthCalCtrl_Help">
+    説明
+  </String>
+ <String id="MonthCalCtrl_Close">
+    關閉
+  </String>
+  <String id="LoginPanel_CapslockOpen">
+    大寫鎖定已開啓
+  </String>
+ <String id="UtilInfo_ElmCount">
+    統計數目:$COUNT$個
+  </String>
+<String id="CloseWindow">
+		關閉
+	</String>
+<String id="MaxisizeWindow">
+		最大化
+	</String>
+  <String id="RestoreWindow">
+		還原
+	</String>
+	<String id="MinimizeWindow">
+		最小化
+	</String>
+  <String id="LoginPanel_DelAccount_Tips">
+		移除帳戶資訊
+	</String>
+		 <String id="Flash_ErrorText">
+    您的flash播放器版本過低，為了能夠正常顯示，請您點選下載最新版本。
+  </String>
+ 	<String id="Flash_DownloadUrl">
+    http://ptlogin2.qq.com/flash_plugin
+  </String>    
+  <String id="IE_LoadingText">
+    正在載入頁面，請稍候...
+  </String>
+ <String id="IE_ErrText">
+    由於網路原因，頁面顯示遇到問題
+  </String>
+<String id="Tips_Forward">
+    向前
+  </String>
+  <String id="Tips_Backward">
+    向後
+  </String>
+</StringBundle>

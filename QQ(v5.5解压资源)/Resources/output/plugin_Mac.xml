@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <core-config>
+        <services>
+            <service id="7485AA5B-A29B-4C5F-BE64-20D72C36E683" name="ITXFileTransferMgr" clsname="CTXFileTransferMgr" />
+            <service id="85CBD627-542C-47F5-BEC8-52E703894BC6" name="ITXFolderTransferMgr" clsname="CTXFolderTransferMgr" />
+            <service id="F9ECE580-0E81-4D52-BAFF-B3BEEB5626F7" name="ITXOfflineFileTransferMgr" clsname="CTXOfflineFileTransferMgr" />
+            <service id="98A19206-1F2C-4625-BAD7-89F5D425408A" name="IFileMsgRoamMgr" clsname="CFileMsgRoamMgr"/>
+            <service id="1bb97db0-e995-4481-8708-d3dfeef40ebc" name="ITXDiscussFileTransferMgr" clsname="CTXDiscussFileTransferMgr" />
+            <service id="80D78C8D-EFC2-42D7-9EB4-BAE5AF5CB67B" name="ITXFileTransferSecurityCenter" clsname="CTXFileTransferSecurityCenter" />
+            <service id="222D7947-862F-4359-996D-9A430C16A24A" name="IFileTransferFrameMgr" clsname="CFileTransferFrameMgr" />
+            <service id="6194EEE2-F8F8-4F99-8A92-1F88096919F9" name="ITXOn2OfflineFileMgr" clsname="CTXOn2OfflineFileMgr" />
+			<!-- Video Audio -->
+			<service id="88A9C269-31EF-41DA-A219-65E9D30BCE87" name="ITXAudioVideoCommMgr" clsname="CTXAudioVideoCommMgr" />
+            <service id="3BAEDA13-6343-4705-A226-C073CB9298AC" name="ITXAVCommRegistry" clsname="CTXAVCommRegistry" />
+            <service id="1BA0BDE7-1C57-4D13-B779-0F9E228D5C48" name="ITXMobileOnlineMgr" clsname="CTXMobileOnlineMgr" />
+            <!-- <service id="5028E99A-BBAE-430E-BC7C-D051539A7661" name="ITXAVFrameMgr" clsname="CTXAVFrameMgr" /> -->
+            <!-- <service id="977A83FD-9FE5-4883-9D7C-C13C2B9A8DAC" name="ITXC2AudioTransferMgr" clsname="CTXC2CAudioTransferMgr" /> -->
+            <!-- <service id="33498E55-C65C-49ED-AA37-A8A9656ABD2A" name="ITXAudioMsgMgr" clsname="CTXAudioMsgMgr" /> -->
+            <!-- 2011-05-09 Amos, audio & video -->
+			
+			<!-- add by renzzhang to test -->
+			<!--service id="03FE7364-1217-4004-B8BC-7309D0645135" name="ITXAudioVideoService" clsname="CTXAudioVideoMgr" /-->
+			<service id="03FE7364-1217-4004-B8BC-7309D0645135" name="ITXAudioVideoService" clsname="CTXCommonAVMgr" />
+			<service id="9BB8D02D-AAF6-4631-AA2D-624DDBAA49D2" name="ITXPCAudioVideoService" clsname="CTXAudioVideoMgr" />
+			<service id="4265A928-377A-4288-9397-E9E74A87893C" name="ITXMobileAudioVideoService" clsname="CTXMobileAudioVideoMgr" />
+			
+            <service id="A2AFB1E2-0CA4-4c2a-BCA5-37551318C7F6" name="ITXAudioVideoHandler" clsname="CTXAudioVideoExtension" />
+            <service id="FEDD06DE-8CB2-452b-AD70-D3CF74F71E97" name="ITXAddBuddyDataReport" clsname="CTXPureServiceMgr" />
+			<service id="9D9738CD-5755-4969-BA3B-32D572540D33" name="ITXWBlogConfigCenter" clsname="CTXWBlogConfigCenter"/>
+            <service id="7D7BF455-CEC4-4654-A0C1-B6C48DDFFFEF" name=
+                "ITXWBlogMsgMgr" clsname="CTXWBlogMsgMgr"/>
+            <service id="98A19206-1F2C-4625-BAD7-89F5D425408A" name="IFileMsgRoamMgr" clsname="CFileMsgRoamMgr"/>
+            <service id="4A1F418F-272F-4D8F-9091-18C5C55888D3" name=
+                "ITXWBlogMsgPumpMgr" clsname="CTXWBlogMsgPumpMgr"/>
+            <service id="DC21F916-A18F-471F-A881-A42BFB9716D6" name=
+                "ITXWBlogIdMgr" clsname="CTXWBlogIdMgr"/>
+            <service id="FD96B1E2-5518-499A-B710-E1CF8D431761" name=
+                "ITXWBlogAccountMgr" clsname="CTXWBlogAccountMgr"/>
+            <service id="8DF620E1-99B1-4EB1-9C27-9FEF55E1C6AD" name=
+                "ITXDataCenterMgr" clsname="CTXDataCenterMgr"/>
+			<service id="31A4AD4E-C593-4EB5-9711-9B29F171BF60" name="IWBlogCountAndFrequencyMgr" clsname="CWBlogCountAndFrequencyMgr"/>
+            <service id="42BED080-8A92-473A-BCB1-9846054AAC62" name="ITXFriendBlogFetcher" clsname="CTXFriendBlogFetcher"/>
+            <service id="D130D6BD-280B-453C-BC62-32CDF71AA7D4" name="ITXQzoneDataService" clsname="CTXQzoneDataService"/>
+			<!--add by renzzhang for minilongcnn -->
+			<service id="07C5A814-80E2-43E8-9E0A-B99110EB94BE" name="ITXMiniLongCnnMgr" clsname="CTXMiniLongCnnMgr"/>
+			<service id="7A463B59-AD42-48B2-AF5A-528CAE247BEF" name="ITXMobileVideo" clsname="CTXMobileVideo"/>
+            <service id="FA98F0B4-D1D2-49a8-BC8B-5388691DFE59" name="IPC2MobileMgr" clsname="CPC2MobileMgr"/>
+            <service id="3BEEAF70-7826-46D8-B686-BA4002ED2DAF" name="IFileTransMgr" clsname="CFileTransMgr"/>
+            <service id="40F86170-6EA6-4CF8-9A68-5851F7C6FD2D" name="IQzonePushMsgMgrExt" clsname="CQzonePushMsgMgr"/>
+            <service id="7E12B36B-3509-4203-B20C-7130E2A73F0E" name="ITXCCSenderProtobuf" clsname="CTXCCServiceProtobuf" />
+            <service id="BCEA3C42-D8E5-428e-BA3C-97DB0C263FA7" name="IFaceStoreDownloadMgr" clsname="FaceStoreDownloadMgr"/>
+        </services>
+        <extensions>
+            <extension point-name="ITXLongCnnAppBeRequestedExt" point-id="009AB745-D1FA-4069-9FEA-6A36CC4BA1F3" provider="CTXFileTransferMgr">
+                <config>
+                    <info strGuidApp="00000000-0000-0000-0000-000000000065" />
+                </config>
+            </extension>
+            <extension point-name="ITXOtherTermCCDataExt" point-id="FCA7AEE3-4C80-4D34-B6F9-7DE523240603" provider="CTXFileTransferMgr">
+                <config>
+                    <info cmd="73"/>
+                    <info cmd="75"/>
+                </config>
+            </extension>
+			<extension point-name="ITXLongCnnAppBeRequestedExt" point-id="009AB745-D1FA-4069-9FEA-6A36CC4BA1F3" provider="CTXFolderTransferMgr">
+			<config>
+				<info strGuidApp="00000000-0000-0000-0000-000000000088" />
+			</config>
+			</extension>
+			<extension point-name="ITXLongCnnAppBeRequestedExt" point-id="009AB745-D1FA-4069-9FEA-6A36CC4BA1F3" provider="CTXAudioVideoMgr">
+                <config>
+                    <info strGuidApp="78418DE1-4726-47BD-BB23-56429C4ADFA1" />
+                    <!-- <info strGuidApp="00000000-0000-0000-0000-000000000088" /> -->
+                </config>
+            </extension>
+            <extension point-name="ITXOfflineFileComeExt" point-id="59F96696-3AAE-4B15-8BAA-8E7D84C4AEEB" provider="CTXOfflineFileTransferMgr" />
+            <extension id="4FB16D0E-EAEE-4FDA-A858-405F27C00268" point-name="ICFBuddyTopToolbarExt" point-id="9D20D179-705F-4BDD-8067-2D6427B53490" provider="CFileTransferFrameMgr">
+                <config mode="path" path="@thisxtml:BuddyTopToolbar.xml|File" type="Button" />
+            </extension>
+            <extension id="F3824D5A-61AB-4427-95CB-87A0F4AC8DF9" point-name="IGFCRMTopToolbarExt" point-id="85F4D020-FA65-433a-9A5A-727E9B465EA4" provider="CFileTransferFrameMgr">
+                <config mode="path" path="@thisxtml:BuddyTopToolbar.xml|CRMFile" type="Button" />
+            </extension>
+            <extension point-name="ITXFileTransferBeReqeustExt" point-id="53449C4E-8ABD-4779-9A9E-D4C7FE738B82" provider="CFileTransferFrameMgr" />
+            <extension point-name="ITXOfflineFileTransferBeReqeustExt" point-id="0491BFBE-413B-4DA8-BF35-61985FFB05E1" provider="CFileTransferFrameMgr" />
+            <!--extension point-name="IChatFrameExt" point-id="D5A768FA-E015-4C0B-967A-82A208EA765D" provider="CFileTransferFrameMgr">
+    </extension-->
+            <extension point-name="ITXDataRouteFilterExt" point-id="D5362940-C114-4911-8EDF-40884CB33B25" provider="CFileTransferFrameMgr">
+                <config route="strLinkRouteName" level="100" />
+            </extension>
+            <extension id="3368A1E1-2B27-4BA3-A08B-474FEE35DA7C" point-name="IConfigPageExt" point-id="770F91B1-D4AE-40E6-B040-2E06E6AA7F85" provider="CFileTransferConfigPageExt">
+                <config path="@thisxtml:FileTranfserSetting.xml|ConfigPageExtProp" />
+            </extension>
+            <extension id="1157D36F-8699-4756-8C02-748D91013332" point-name="IContactNodeCommMenuExt" point-id="C5B624FE-9778-45FB-9CFE-212FB603BA28" provider="CFileTransferFrameMgr">
+                <config mode="path" path="@thisxtml:BuddyTopToolbar.xml|FileTransferMenu" />
+            </extension>
+            <extension id="9BD0117E-BDF1-435E-A2AA-B11E9B7B15F4" point-name="IConfigCenterSafeExt" point-id="68061D9C-0F9B-4555-A3C7-E2BA319FE320" provider="CFileTransferConfigPageExt" />
+            <extension point-name="ITXDataReportEventExt" point-id="203678D2-170C-41BD-B66B-532F3235BDEF" provider="CFileTransferFrameMgr" />
+            <extension point-name="ITXCFDelayLoadExt" point-id="B04D0C8E-4629-4F4C-A12D-DACCE973258A" provider="CFileTransferFrameMgr" />
+			<extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXWBlogNotifyMgr">
+				<config>
+					<info cmd="177" />
+				</config>
+			</extension>
+            <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CQzonePushMsgMgr">
+                <config>
+                    <info cmd="24" />
+                    <info cmd="76" />
+                </config>
+            </extension>
+			<!--add by renzzhang for minilongcnn-->
+			<!--remove by hugoyao for delete the old engine-2015.5.20-->
+            <!--<extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXMiniLongCnnMgr">
+				<config>
+					<info cmd="193" />
+				</config>
+			</extension>-->
+            <extension point-name="ITXSYSReceiverProtobufExt" point-id="B588E3EA-CC7C-4488-9897-8D8B409E933C" provider="CFileTransMgr">
+				<config>
+					<info msgtype="528" submsgtype="9"/>
+				</config>
+			</extension>
+            <extension point-name="ITXSYSReceiverProtobufExt" point-id="B588E3EA-CC7C-4488-9897-8D8B409E933C" provider="CMultiTerminalMsgMgr">
+				<config>
+					<info msgtype="528" submsgtype="8"/>
+				</config>
+			</extension>
+            <extension point-name="ITXCCReceiverProtobufExt" point-id="A05EC97D-3543-4df8-9D76-59A25A5E56BB" provider="CTXOfflineFileTransferMgr">
+                <config>
+                    <info cmd="5"/>
+                </config>
+            </extension>
+            <extension point-name="ITXCCReceiverProtobufExt" point-id="A05EC97D-3543-4df8-9D76-59A25A5E56BB" provider="CTXOfflineFileTransferMgr">
+                <config>
+                    <info cmd="3"/>
+                </config>
+            </extension>
+            
+            <extension point-name="ITXSYSReceiverProtobufExt" point-id="B588E3EA-CC7C-4488-9897-8D8B409E933C" provider="CPC2MobileMgr">
+                <config>
+                    <info msgtype="528" submsgtype="2"/>
+                </config>
+            </extension>
+            <extension point-name="ITXSYSReceiverProtobufExt" point-id="B588E3EA-CC7C-4488-9897-8D8B409E933C" provider="CPC2MobileMgr">
+                <config>
+                    <info msgtype="528" submsgtype="9"/>
+                </config>
+            </extension>
+            <extension point-name="ITXSYSReceiverProtobufExt" point-id="B588E3EA-CC7C-4488-9897-8D8B409E933C" provider="CPC2MobileMgr">
+                <config>
+                    <info msgtype="528" submsgtype="10"/>
+                </config>
+            </extension>
+            <extension point-name="ITXSYSReceiverProtobufExt" point-id="B588E3EA-CC7C-4488-9897-8D8B409E933C" provider="CPC2MobileMgr">
+                <config>
+                    <info msgtype="528" submsgtype="14"/>
+                </config>
+            </extension>
+            <extension point-name="ITXSYSReceiverProtobufExt" point-id="B588E3EA-CC7C-4488-9897-8D8B409E933C" provider="CPC2MobileMgr">
+                <config>
+                    <info msgtype="528" submsgtype="19"/>
+                </config>
+            </extension>
+            
+            <extension point-name="ITXSYSReceiverProtobufExt" point-id="B588E3EA-CC7C-4488-9897-8D8B409E933C" provider="CTXCCServiceProtobuf">
+                <config>
+                    <info msgtype="529" submsgtype="*" />
+                </config>
+            </extension>
+            
+            <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CAVSDKCore">
+                <config>
+                    <info cmd="734" />
+                    <info cmd="193" />
+                </config>
+            </extension>
+            
+            <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CMAVS2CMgr">
+                <config>
+                    <info cmd="519" />
+                </config>
+            </extension>
+            
+            <extension point-name="ITXSYSReceiverProtobufExt" point-id="B588E3EA-CC7C-4488-9897-8D8B409E933C" provider="CMAVS2CMgr">
+                <config>
+                    <info msgtype="528" submsgtype="38" />
+                </config>
+            </extension>
+            
+            <extension point-name="IMAVRecv0x8DExt" point-id="1616F7A3-1D37-4400-81B8-096D0547AB33" provider="CMAVS2CExtMgr">
+                <config>
+                </config>
+            </extension>
+            
+            <extension point-name="IMAVRecvPMDExt" point-id="B3E6594A-1974-42A8-AEC3-4FF8C7339AAC" provider="CMAVS2CExtMgr">
+                <config>
+                </config>
+            </extension>
+            
+            <extension point-name="IMAVRecv0xC3Ext" point-id="771CEBE9-DB17-47A4-A278-1243608F040B" provider="CMAVS2CExtMgr">
+                <config>
+                </config>
+            </extension>
+            
+            <extension point-name="IMAVRecv0x95Ext" point-id="78E070B3-A7F0-4E4D-A862-7E3E4EE1F865" provider="CMAVS2CExtMgr">
+                <config>
+                </config>
+            </extension>
+                
+			<extension point-name="ITXMiniLongCnnAppBeRequestedExt" point-id="A5DF8F9F-9CDA-419B-AC36-E35B268F17C9" provider="CTXMobileAudioVideoMgr" />
+        </extensions>
+        <components path="Bin" path-debug="BinDebug">
+            <component clsname="CTXOn2OfflineFileMgr" clsid="FE23C755-9B03-41D4-B244-30C903CCE594" dllname="FileTransfer.dll" />
+            <component clsname="CTXFileTransferMgr" clsid="2BA609A6-BF62-4ACB-8A45-572F3EE08741" dllname="FileTransfer.dll" />
+			<component clsname="CTXFolderTransferMgr" clsid="11B8FAA4-E496-4A3E-9EE5-85D591B60ED6" dllname="FileTransfer.dll" />
+            <component clsname="CTXOfflineFileTransferMgr" clsid="71915893-DBC9-4332-AE1B-B63D5DEFF037" dllname="FileTransfer.dll" />
+            <component clsname="CFileMsgRoamMgr" clsid="61759CF4-9046-40da-AEAF-84F03F3FEA08" dllname="FileTransfer.dll" />
+            <component clsname="CTXDiscussFileTransferMgr" clsid="44f99639-0e53-44f1-98e9-4e9f7b3f8584" dllname="FileTransfer.dll" />
+            <component clsname="CTXFileTransferSecurityCenter" clsid="C30B89E3-72BF-430C-A282-644BC10371D0" dllname="FileTransfer.dll" />
+            <component clsname="CFileTransferFrameMgr" clsid="64717DF6-86CE-427A-9352-543C7F59250A" dllname="FileTransfer.dll" />
+            <component clsname="CFileTransferConfigPageExt" clsid="4883A127-C38F-4BDC-8DB3-AC35C9234CCC" dllname="FileTransfer.dll" />
+            <component clsname="CTXMobileOnlineMgr" clsid="5E5F9B5A-6940-4AF8-AE8E-FCF23AF477EB" dllname="MobileOnline.dll" />
+			<component clsname="CTXAudioVideoCommMgr" clsid="0BA28174-1A6B-416A-99FE-C463CBBE03E7" dllname="AudioVideo.dll" />
+            <component clsname="CTXAVCommRegistry" clsid="F352EB8B-C5BE-49B5-8741-E6CBDF8C5D7D" dllname="AudioVideo.dll" />
+            <component clsname="CTXAVFrameMgr" clsids="378CEDD6-9884-4034-B997-B0A119BAF93E" dllname="AudioVideo.dll" />
+            <component clsname="CAVConfigPageExt" clsid="014C5C63-2443-4A4A-9E6D-CAA974E55C06" dllname="AudioVideo.dll" />
+            <component clsname="CTXAudioMsgMgr" clsid="2E273206-14FF-4411-801E-7A98326D2CD5" dllname="AudioVideo.dll" />
+            <component clsname="CTXC2CAudioTransferMgr" clsid="957AC750-1F51-494C-90C2-4FC57F320242" dllname="AudioVideo.dll" />
+            <component clsname="CGAudioUiExtProvider" clsid="62C08C5A-4223-49C7-8DA4-0641391DEB28" dllname="AudioVideo.dll" />
+            <component clsname="CGAudioService" clsid="77455C20-A99E-4680-8E21-0FFC601DD9A3" dllname="AudioVideo.dll" />
+            <component clsname="CGAudioConnExtProvider" clsid="0C6344DD-1B4D-46FB-88D5-4D528130211D" dllname="AudioVideo.dll" />
+			<component clsname="CTXCCServiceProtobuf" clsid="CA6EE287-4E73-472d-8610-E18F3E99E016" dllname="IM.dll" />
+            
+			<!--add by renzzhang to test -->
+			<component clsname="CTXCommonAVMgr" clsid="05843060-A766-405c-9FF3-2EEDEF766EA6" dllname="AudioVideo.dll" />
+			<component clsname="CTXMobileAudioVideoMgr" clsid="B4DA150A-30E8-4b8a-8AA7-0913FC6B379E" dllname="AudioVideo.dll" />
+			
+            <component clsname="CTXAudioVideoMgr" clsid="35C0CF6E-CF91-428e-90A3-E880509B5590" dllname="AudioVideo.dll" />
+            <component clsname="CTXAudioVideoExtension" clsid="BB3B3F0C-13C8-4fd4-B6F9-21225667069A" dllname="AudioVideo.dll" />
+            <component clsname="CTXPureServiceMgr" clsid="48b2e604-75fd-42eb-bd8e-e55d06bd6bf0" dllname="AudioVideo.dll" />
+			<component clsname="CTXWBlogNotifyMgr" clsid="56d5f68f-be12-4ed4-800a-d8bd413de4f6" dllname="WBlog.dll" exit-order="1"/>
+            <component clsname="CTXWBlogIdMgr" clsid="bad460e6-dfaa-4234-a59a-2fbc95b53744" dllname="WBlog.dll" exit-order="1"/>
+			<component clsname="CTXWBlogConfigCenter" clsid="D22910AB-50F4-4020-BE5A-2A45B76B2D0E" dllname="WBlog.dll" exit-order="1"/>
+            <component clsname="CTXWBlogAccountMgr" clsid="7CAC73DC-FB53-4341-B1E5-78C9ABEA0C98" dllname="WBlog.dll" exit-order="1"/>
+			<component clsname="CWBlogCountAndFrequencyMgr" clsid="7A0EFAA1-EDEC-4224-A71C-267730AEB89B" dllname="WBlog.dll" exit-order="1"/>
+            <component clsname="CTXWBlogMsgMgr" clsid="D214E1EF-C32C-4EE4-883C-18A8FC0A34B6" dllname="WBlog.dll" exit-order="1"/>
+            <component clsname="CTXWBlogMsgPumpMgr" clsid="462209AB-AF73-4D0E-8E41-6F6A669F9B3C" dllname="WBlog.dll" exit-order="1"/>
+            <component clsname="CTXDataCenterMgr" clsid="721D92B5-2B3F-4D93-AD9C-5C3D533329EA" dllname="WBlog.dll" exit-order="1"/>
+            <component clsname="CTXFriendBlogFetcher" clsid="52E7B2CD-255C-47BB-BA0C-89C6621DA41D" dllname="Qzone.dll" exit-order="1"/>
+            <component clsname="CTXQzoneDataService" clsid="812B3BE3-1D23-48A8-BE55-12AF9D8220C6" dllname="Qzone.dll" exit-order="1"/>
+			<!--add by renzzhang for minilongcnn -->
+			<component clsname="CTXMiniLongCnnMgr" clsid="0CC231FC-FCFE-404F-A3D6-A0D8B4C3DD73" dllname="AudioVideo.dll" exit-order="1"/>
+			<component clsname="CTXMobileVideo" clsid="DA208392-4CC7-4BB0-8E8A-0D2719540C14" dllname="AudioVideo.dll" exit-order="1"/>
+            <component clsname="CAVSDKCore" clsid="33B040B7-1C64-4FAA-B0BB-F25140B3F00E" dllname="AudioVideo.dll" exit-order="1"/>
+            <component clsname="CMAVS2CMgr" clsid="DE2AEEF5-47AD-4A5F-B328-738A8EB870A3" dllname="AudioVideo.dll" exit-order="1"/>
+            <component clsname="CMAVS2CExtMgr" clsid="eff9b122-69e2-4d66-8c48-a8849e409967" dllname="AudioVideo.dll" exit-order="1"/>
+            <component clsname="CPC2MobileMgr" clsid="E1A4F6B6-B8C0-4410-BCDD-55CF596E04FA" dllname="Qzone.dll" exit-order="1"/>
+            <component clsname="CFileTransMgr" clsid="BBEA53FA-BFB1-4E92-9239-DDB476E38988" dllname="Qzone.dll" exit-order="1"/>
+            <component clsname="CQzonePushMsgMgr" clsid="B246430C-63B1-43DC-BB26-905B50C317EC" dllname="Qzone.dll" exit-order="1"/>
+            <component clsname="FaceStoreDownloadMgr" clsid="CE55FAE5-4BAE-4d49-880C-343042134024" dllname="Qzone.dll" exit-order="1"/>
+        </components>
+</core-config>

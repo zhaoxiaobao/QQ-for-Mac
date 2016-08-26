@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<core-config>
+  <services>
+    <service id="0E9DDB35-91E5-4562-B209-BF8B175A13AF" name="ITXProxyValidateMgr" clsname="CTXProxyValidateMgr"/>
+    <service id="ED6E9E44-6E6A-4A06-84F5-C804C818CEB3" name="ITXTaskTrayFactory" clsname="CTaskTrayFactory"/>
+    <service id="C07DE78E-5DEA-4F99-A282-11CE12C2426D" name="ITXChatSessionMgr" clsname="CTXChatSessionMgr"/>
+    <service id="3EEA9FE2-D7E8-4C00-8341-05C0F5FAAC6A" name="ITXBuddyInputStatusMgr" clsname="CTXBuddyInputStatusMgr"/>
+    <service id="B775CF43-CA7B-4CB1-859E-1CDB518F7B81" name="ITXAntiFraudMgr" clsname="CTXAntiFraudMgr"/>
+    <service id="222C9E7D-6D3D-4BAF-BD7A-F907CFA866A1" name="ICameraMgr" clsname="CCameraMgr"/>
+    <service id="4F8018A4-C542-41C2-BBC6-5D558D107BCD" name="IMainFrameMgr" clsname="CMainFrameMgr"/>
+    <service id="90256F95-0A7D-47A3-9818-4C3170A56581" name="IAddGroupMgr" clsname="CAddGroupMgr"/>
+    <service id="867198D0-39FB-4FB8-BE4E-8EB93EC6DD8A" name="IAddBuddyMgr" clsname="CAddBuddyMgr"/>
+    <service id="E5F3C6B6-4A6D-453E-96BB-2D44C9D9D6FB" name="IFingerFrameMgr" clsname="CFingerFrameMgr"/>
+    <service id="20DC0B5A-D33D-4DF0-9C56-DC9CBCF5441D" name="ITXSysFaceDraw" clsname="CTXSysFaceDraw"/>
+    <service id="41D26ED5-7680-4631-BCC1-5E523037F70A" name="IPluginCenter" clsname="CPluginCenter"/>
+    <service id="D3301FA6-72DF-4359-8732-75F0A87BAD64" name="ITXPopupTipMgr" clsname="CTXPopupTipMgr"/>
+    <service id="1B80B301-7A64-4A05-BCF2-A689197D8344" name="ITXMsgMgr" clsname="CTXMsgMgr"/>
+    <service id="BC8A0898-ECED-4ED6-B851-AD83734EDBE9" name="ITXLoginLogo" clsname="CTXLoginLogo" />
+	  <service id="2455946C-CA1C-4712-AD74-4CF472DAC834" name="IConfigCenter" clsname="CConfigCenter"/>
+	  <service id="005615FA-489D-408E-8D44-93DD816A05AC" name="ISafeCheckConfigMgr" clsname="CSafeCheckConfigMgr"/>
+    <service id="1C38572D-9C73-4663-BDF8-28E0E6604E9F" name="IMainMenuMgr" clsname="CMainMenuMgr"/>
+    <service id="93475FA2-8704-464F-A7BE-C68391C1C109" name="IGroupConfigFrameMgr" clsname="CGroupConfigFrameMgr"/>
+    <service id="121FF250-574E-49DB-8034-5E7F237224C1" name="IGroupAttendContentFrameMgr" clsname="CGroupAttendContentFrameMgr"/>
+    <service id="C4FBC567-36E9-47B2-90B2-BE77A0B978A5" name="ICustomGroupHeadWndMgr" clsname="CCustomGroupHeadWndMgr"/>
+    <service id="9FB4531C-8BE3-4A2C-B860-733914B84AF7" name="IContactTipsMgr" clsname="CContactTipsMgr"/>
+    <service id="06D55D7A-FB51-47D7-AB28-A6E01AD8EBAF" name="IGroupTipsMgr" clsname="CGroupTipsMgr"/>
+    <service id="C5D96646-1500-4B84-A79A-19C86C960335" name="IPersonalImageMgr" clsname="CPersonalImageMgr"/>
+    <service id="E5993774-9D26-4E25-9E83-B44551DD703D" name="IMiscConfigMgr" clsname="CMiscConfigMgr"/>
+    <service id="ACA13BD6-2296-4339-8DB3-6859BDED81DF" name="ITXPromptPolicy" clsname="CTXPromptPolicy"/>
+    <service id="2ADE0FEC-DB7D-4488-ACCC-8D7090A674BB" name="ILoginExceptionFrame" clsname="CLoginExceptionFrame"/>
+    <service id="EA349758-FD8C-4AB3-B678-7F054245D63F" name="IHotKeyMgr" clsname="CHotKeyMgr"/>
+    <service id="D6791416-81DC-4201-81C4-4748F0079EED" name="ICustomHeadWndMgr" clsname="CCustomHeadWndMgr"/>
+    <service id="586DACC3-91FD-48F7-83FC-5F2DA82D83A9" name="IChatFrameSetting" clsname="CChatFrameSetting"/>
+    <service id="CECFAE54-293B-45CE-A4D9-30EE4AC207B2" name="ITXSoundConfig" clsname="CTXSoundConfig"/>
+    <service id="A4139C19-536B-4a4c-B363-70E2A963308D" name="ITXJumpConfig" clsname="CTXJumpConfig"/>
+	<service id="A4A82402-933A-438b-B3F6-6286EEAC8604" name="ITXLoginSettingConfig" clsname="CTXLoginSettingConfig"/>
+    <service id="26ADF482-CFCF-4830-A26B-9FDBA628618A" name="IDelAccountWndMgr" clsname="CDelAccountWndLogic"/>
+    <service id="D6A595B6-1DF8-4D16-9C3B-1002616AA42F" name="IUseAgreementMgr" clsname="CUseAgreementFrame"/>
+    <service id="E374F427-8565-4BA3-82B3-676342B2E83E" name="ITXExitFlow" clsname="CTXExitFlow"/>
+    <service id="5E8ED316-E5D1-4FE4-950F-5A579478A724" name="ITXContactConfig" clsname="CTXContactConfig"/>
+    <service id="E5516A11-57EA-4C79-B9D7-39F7DD4F206A" name="IValidCodeFoundationMgr" clsname="CValidCodeFoundationMgr"/>      
+    <service id="1A1CDEC5-3EB5-4996-87FE-3AE07A192F03" name="ICustomFaceFrameMgr" clsname="CCustomFaceFrameMgr"/>
+    <service id="AE6118E0-2113-4279-B41E-607AA48C3B33" name="ITXAppCenter" clsname="CTXAppCenter"/>
+    <service id="B0880E45-BB03-4FAA-89E5-748F48E5CBD4" name="ITXAutoReplaySetting" clsname="CTXAutoReplaySetting"/>
+    <service id="67C513DD-1A10-47C1-A4CA-E41079E5F558" name="ITXSkinMgr" clsname="CTXSkinMgr"/>
+    <service id="216B9490-5306-489B-A239-2554F21A729D" name="IReLoginWnd" clsname="CReLoginWnd"/>
+    <service id="7BF57832-182D-434e-AA43-4B27F0F59056" name="IMainPanelSideBarMgr" clsname="CMainPanelSideBarMgr"/>
+    <service id="13A1DD24-331A-46AD-81F4-578C6D3B03A1" name="IMainPanelSideBarUIMgr" clsname="CMainPanelSideBarUIMgr"/>
+    
+    <service id="1B862C05-45BC-43E8-8585-E4E1772818F8" name="IAreaStrategyMgr"     clsname="CAreaStrategyMgr"/>
+    <service id="59652C7D-9AD0-490A-9720-8BCCA9B48A28" name="IAreaStrategyCalcMgr" clsname="CAreaStrategyCalcMgr"/>
+    
+    <service id="C665CD55-2095-4FEA-AA0B-05F95665C01E" name="IClickInstallMgr" clsname="CClickInstLogicMgr"/>
+    <service id="10F7BE4E-649A-4279-BAE2-93F949E3A1FF" name="ISaveMiscInfo" clsname="CSaveMiscInfo"/>
+    <service id="87C28E3B-84DF-4CD4-968F-65A01CA4D0CE" name="IFaceEditMgr" clsname="CFaceEditMgr"/>
+    <service id="4C19DB6D-096F-487B-B601-AE0EDB873CAD" name="IRichFaceFrameMgr" clsname="CRichFaceFrameMgr"/>
+    <service id="20ABC4E9-4C96-4850-BAE5-75DC9E81023D" name="ISecurityImpeachMgr" clsname="CSecurityImpeachMgr"/>
+    <service id="E36812BE-CA14-4512-8B2B-E35B6360F863" name="IPasswordGuardFrameMgr" clsname="CPasswordGuardFrameMgr"/>
+    <service id="0454F978-8CA0-4A48-8A21-8ACC382D9121" name="IUpdateMiniPortalMgr" clsname="CTXUpdateMiniPortalMgr"/>
+    <service id="3FDF9922-8C14-4471-A39E-A4AA4D823C35" name="IImportTrayMgr" clsname="CImportTrayMgr"/>
+    <service id="9FDB7DBB-CBD3-47DF-BD79-DD4FE4678E6E" name="IPwdGuardStateAppMgr" clsname="CPwdGuardStateAppMgr"/>
+    <service id="F1F5DC73-7072-4277-A2F8-B2C65DCFA509" name="ITXQInterLiveMgr" clsname="CTXQInterLiveMgr"/> 
+    <service id="3BC363CB-4761-4FFC-A5C2-7F75D3BFD133" name="IImportSettingMgr" clsname="CImportSettingMgr"/>
+    <service id="D4B0904C-7374-4F44-85E0-8E3BA4F29EA4" name="ITXAutoUpdate" clsname="CTXAutoUpdateMgr"/>
+    <service id="49E7610D-80F2-44A0-A2A1-77ADAC4D3E5D" name="ITXNormalTipMgr" clsname="CTXNormalTipMgr"/>
+    <!--<service id="95B03CCA-7261-4F0F-A702-E5B2A7362C52" name="ILNNEscCfgDataMgr" clsname="CLNNEscCfgDataMgr"/>-->
+    <!--<service id="634F5073-A6A8-4038-AF48-0827017D01AB" name="ILNNStorageMgr" clsname="CLNNStorageMgr"/>-->
+    <service id="A0A3B965-1BA9-4FB9-BE1B-78568F043023" name="ILNNEscMgr" clsname="CLNNEscMgr"/>
+    <service id="3E671AAA-1B11-49C9-B5A7-78DA195778D5" name="IRichtipsDataMgr" clsname="CRichTipsDataMgr"/>
+    <service id="47BD8507-B6DF-431B-A6C2-36EB06CAB18D" name="ITXCampusGroupInfoMgr" clsname="CTXCampusGroupInfoMgr" />
+    <service id="C0BB5F93-44B3-4181-9EF4-91EB6AD68DDF" name="ITXCampusGroupUserInfoMgr" clsname="CTXCampusGroupUserInfoMgr" />
+    <service id="0CBB2F9E-1A7B-49AD-BF9D-3BB2EBD79000" name="ITXCampusGroupUserTipMgr" clsname="CTXCampusGroupUserTipMgr" />
+    <service id="3E5B9110-2860-4913-A21F-6C9609B6867E" name="ITXOldSysBroadcastMgr" clsname="CTXOldSysBroadcastMgr"/>
+    <service id="351287AD-7909-4C78-9F4F-53B75512C644" name="ISilverLight" clsname="CTXSilverLightMisc"/>
+    <service id="357D0EA1-4117-4D90-9E85-BD30EFC2FB9F" name="IVipConfig" clsname="CVipConfig"/>
+    <service id="8F455FBD-88FB-4D79-A0B7-8F5E8E0DD3AA" name="ITXPushedMenuMgr" clsname="CTXPushedMenuMgr"/>
+    <service id="73190515-2874-482A-8A75-3EBFE05A0105" name="ILNNRichTipsMgr" clsname="CLNNRichTipsMgr"/>
+    <service id="FB872BAC-D07A-40F5-B390-7F3F5A8A9445" name="ITXQuickReplySetting" clsname="CTXQuickReplySetting"/>
+    <service id="9F7E994A-9D57-475B-8966-38BBB119B99F" name="ITXReconnectMgr" clsname="CTXReconnectMgr"/>
+    <service id="D3D8FE2B-B31D-4081-8566-8EF584E12449" name="IGroupMiniportalMgr" clsname="CGroupMiniportalMgr"/>
+    <service id="8314EFDD-172F-4BE8-AA5F-8856EACC1EA0" name="IGroupSpaceMsgMgr" clsname="CGroupSpaceMsgMgr"/>
+    <service id="9F0467A4-AFD9-438B-B02F-38E1F4C02FA7" name="IGroupBtnReportCenter" clsname="CGroupBtnReportCenter"/>
+    <service id="55828A27-B188-4680-9C07-CDF789D5B706" name="ITXThreadServiceProvider" clsname="CTXThreadServiceProvider"/>
+    <service id="6190D466-DD4F-4FC7-9FD8-DEE579717177" name="IRichFindResultTestMgr" clsname="CRichFindResultTestMgr"/>
+    <service id="BC1B0877-B79D-43F1-9062-ACA50ACFE3CF" name="IAreaPresentMgr" clsname="CAreaPresentMgr"/>
+    <service id="E2C9FEB1-A1AD-46CB-B64C-0CCFC9029113" name="IContactFilterDataMgr" clsname="CContactFilterDataMgr"/>
+    <service id="4AEB96AE-BBD0-4928-849B-E0DDE33EBBE2" name="ISurveyMgr" clsname="CSurveyMgr"/>
+    <service id="F1B73DBA-529B-476B-A86F-0E35D55C8551" name="ITXFileMappingMgr" clsname="CTXFileMappingMgr"/>
+    <service id="D2B2023D-3FDB-46DE-B5AB-65A8B45C4403" name="IStateReportCenter" clsname="CStateReportCenter"/>
+    <service id="BF21763B-E836-431E-A3C7-557622880D19" name="ITXGroupMiniportalInfoMgr" clsname="CGroupMiniportalInfoMgr"/>
+    <service id="6B85A3CA-CABE-4C93-AB27-E3D8AB74A3BA" name="IUserSoftReport" clsname="CUserSoftReport"/>
+    <service id="633C8A9C-8BD7-4397-B116-5CD42865287F" name="IDelContactMgr" clsname="CDelContactMgr"/>
+    <service id="3A1B3EA4-09D4-4C42-8846-9C499E3C05A3" name="IMsoMgr" clsname="CMsoMgr"/>
+    <service id="D70DB733-1598-43c3-977F-B8FBF0069AF4" name="IDiscussSysMsgMgr" clsname="CTXDiscussSysMsgMgr"/>
+  </services>
+
+  <extensions>
+    <extension point-name="ITXYellowBarEvtExt" point-id="A3C10198-3C1A-4D74-812D-5C395F7A94A7" provider="CUserSoftReport"/>
+    <extension point-name="IHyperLinkCustomFaceExt" point-id="CA812191-E3D4-4A20-97DF-ACE3E39B2D10" provider="CCustomFaceFrameMgr"/>
+    <extension point-name="ITXDataReportEventExt" point-id="203678D2-170C-41BD-B66B-532F3235BDEF" provider="CTXAutoReplaySetting"/>
+    <extension point-name="ITXIMLoginEventExt" point-id="ADF9825A-970B-43B3-8600-E768B4424B0E" provider="CTXPostLoginFlow">
+    </extension>
+    <extension point-name="ITXIMContactInfoEvtExt" point-id="DB17A85C-23F4-462D-9E0D-5BC59C7608B6" provider="CTXPostLoginFlow">
+    </extension>
+    <extension point-name="ITXIMConnectionEventExt" point-id="DC652929-20C0-4AC8-B8C7-2C1689DB2CF6" provider="CTXReconnectMgr">
+    </extension>
+    <extension point-name="ITXIMLoginEventExt" point-id="ADF9825A-970B-43B3-8600-E768B4424B0E" provider="CTXReconnectMgr">
+    </extension>
+    <extension point-name="ITXIMLoginEventExt" point-id="ADF9825A-970B-43B3-8600-E768B4424B0E" provider="CTXSkinMgr">
+    </extension>
+    <extension point-name="ITXDataSourceFactoryExt" point-id="E3D27335-A033-41E4-A2FE-E565ED35F520" provider="CTXDataSourceFactory">
+      <config>
+        <info type="Contact" />
+        <info type="SelfContact" />
+        <info type="PublicInfo" />
+        <info type="SelfPublicInfo" />
+      </config>
+    </extension>
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXBuddyInputStatusMgr">
+      <config>
+        <info cmd="121" />
+      </config>
+    </extension>
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXAntiFraudMgr">
+        <config>
+            <info cmd="230" />
+        </config>
+    </extension>
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXChatSessionMgr">
+      <config>
+        <info cmd="151" />
+      </config>
+    </extension>
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CMainPanelSideBarUIMgr">
+      <config>
+        <info cmd="67" />
+      </config>
+    </extension> 
+
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXAutoUpdateMgr">
+      <config>
+        <info cmd="74"/>
+      </config>
+    </extension>
+
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXGroupSysBusinessMgr">
+      <config>
+        <info cmd="45" />
+      </config>
+    </extension>
+      
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CMsoMgr">
+      <config>
+        <info cmd="196"/>
+      </config>
+    </extension>
+
+    <extension point-name="ITXDataRouteFilterExt" point-id="D5362940-C114-4911-8EDF-40884CB33B25" provider="CTXChatSessionMgr">
+      <config route="buddy,group,discuss" level="50" subtype="ccmsg,tempmsg,groupmsg,discussmsg,3,4"/>
+    </extension>
+
+    <extension point-name="ITXDataRouteFilterExt" point-id="D5362940-C114-4911-8EDF-40884CB33B25" provider="CTXMsgTipsFilter">
+  		<config route="buddy,group,system,discuss,mobile" level="5"/>
+    </extension>
+    <extension point-name="ITXDataRouteFilterExt" point-id="D5362940-C114-4911-8EDF-40884CB33B25" provider="CTXSoundFilter">
+  		<config route="buddy,group,system,discuss,mobile" level="20" />
+    </extension>
+    
+   
+    <extension point-name="ITXDataRouteFilterExt" point-id="D5362940-C114-4911-8EDF-40884CB33B25" provider="CTXMsgChainFilter">
+  		<config route="buddy,group,system,discuss,mobile" level="10" />
+    </extension>
+    
+    <extension point-name="ITXDataRouteFilterExt" point-id="D5362940-C114-4911-8EDF-40884CB33B25" provider="CTXOSTipsFilter">
+  		<config route="system" level="6000" subtype="1" />
+    </extension>
+
+    <extension point-name="ITXDataRouteFilterExt" point-id="D5362940-C114-4911-8EDF-40884CB33B25" provider="CCameraMgr">
+      <config route="hotkey" level="10" type="Camera" />
+    </extension>
+    
+    <extension point-name="ITXDataRouteFilterExt" point-id="D5362940-C114-4911-8EDF-40884CB33B25" provider="CTXSafeLinkCheckFilter">
+      <config route="strLinkRouteName" level="1000"/>
+    </extension>
+    
+    <extension point-name="ITXDataRouteFilterExt" point-id="D5362940-C114-4911-8EDF-40884CB33B25" provider="CTXBroadcastTipsFilter">
+  		<config route="system" level="6000" subtype="2" />
+    </extension>
+    
+    <extension point-name="ITXDataRouteFilterExt" point-id="D5362940-C114-4911-8EDF-40884CB33B25" provider="CTXOnlinePromptMgr">
+      <config route="onlinePrompt" level="100"/>
+    </extension>
+    <extension point-name="ITXDataRouteFilterExt" point-id="D5362940-C114-4911-8EDF-40884CB33B25" provider="CWirelessOnlineTipExtMgr">
+      <config route="onlinePrompt,offlinePrompt" level="90"/>
+    </extension>
+     <extension point-name="ITXDataRouteFilterExt" point-id="D5362940-C114-4911-8EDF-40884CB33B25" provider="CTXOnlineTipMgr">
+      <config route="onlinePrompt" level="60"/>
+     </extension>
+     <extension point-name="ITXDataRouteFilterExt" point-id="D5362940-C114-4911-8EDF-40884CB33B25" provider="CTXPluginStrategyCenter">
+       <config route="strLinkRouteName" level="900"/>
+     </extension>
+    <extension point-name="ITXDataRouteFilterExt" point-id="D5362940-C114-4911-8EDF-40884CB33B25" provider="CTXOldSysBroadcastMgr">
+      <config route="system" level="50" subtype="oldbroadcast"/>
+    </extension>
+    <extension point-name="ITXOldSysReceiverExt" point-id="D92097DD-CF17-40eb-9668-EDF8BA54C1B8" provider="CTXOldSysBroadcastMgr">
+      <config>
+        <info cmd="6" />
+      </config>
+    </extension>
+    <extension point-name="ITXPluginMsgEventExt" point-id="8E1BD860-972A-4972-9764-B55C9EE7CAAD" provider="CTXPluginStrategyCenter">
+    </extension>
+    <extension point-name="ITXContactIMStatusEvtExt" point-id="65FDDA98-1AF6-4A28-BBA4-D6C668F0514E" provider="CTXStatusPromptMgr">
+    </extension>
+    <extension point-name="ITXContactIMStatusEvtExt" point-id="65FDDA98-1AF6-4A28-BBA4-D6C668F0514E" provider="CTXOnlinePromptMgr">
+    </extension>
+
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXGBKPopTipMgr">
+      <config>
+        <info cmd="24" />
+        <info cmd="76" />
+      </config>
+    </extension>
+    
+    <extension point-name="ITXEffectiveReliableBroadcastMsgExt" point-id="8D931235-C60F-4ABB-86FD-E26344FAEF40" provider="CTXGBKPopTipMgr">
+      <config>
+        <info cmd="24" />
+        <info cmd="76" />
+      </config>
+    </extension>
+
+    <extension point-name="ITXSessionEventExt" point-id="D95C8459-F41A-4820-875F-83637C407D1B" provider="CTXBuddyMsgAgent">
+    </extension>
+    <extension point-name="ITXAddBuddyNotifyEvt" point-id="6509193D-11F0-4300-B9EE-FEC9A0A6FF82" provider="CTXBuddyMsgAgent">
+    </extension>  
+    <extension point-name="ITXMsgChainEvtExt" point-id="D8C4BE05-7857-46E6-9691-FAF2D9C53C61" provider="CTXMsgTipsFilter">
+    </extension>
+    <extension point-name="ITXGroupEventExt" point-id="2DE693C5-930E-4BA5-B81A-7CB14496BFD2" provider="CTXGroupMsgAgent">
+    </extension>
+    <extension point-name="ITXDiscussEventExt" point-id="123D0179-9381-4A01-A8B2-901D3A2EFEE2" provider="CTXGroupMsgAgent">
+    </extension>
+    <extension point-name="ITXGroupEventExt" point-id="2DE693C5-930E-4BA5-B81A-7CB14496BFD2" provider="CGroupConfigFrameMgr">
+    </extension>
+    <extension point-name="ITXGroupEventExt" point-id="2DE693C5-930E-4BA5-B81A-7CB14496BFD2" provider="CTXChatSessionMgr">
+    </extension>
+    <extension point-name="ITXDiscussEventExt" point-id="123D0179-9381-4A01-A8B2-901D3A2EFEE2" provider="CTXChatSessionMgr">
+    </extension>
+    <extension point-name="ITXSessionEventExt" point-id="D95C8459-F41A-4820-875F-83637C407D1B" provider="CTXChatSessionMgr">
+    </extension>
+    <extension point-name="ITXServerConfigExt" point-id="712E2C31-7B2D-4B1E-806F-F7BEC9371070" provider="CTXBuddyInputStatusMgr">
+    </extension>
+    <extension point-name="ITXIMContactInfoEvtExt" point-id="DB17A85C-23F4-462D-9E0D-5BC59C7608B6" provider="CCustomHeadWndMgr">
+    </extension>
+    <extension point-name="ITXQQObjectCallExt" point-id="328491C6-5BFC-4B9F-92C1-7EBD616A3581" provider="CAddBuddyMgr">
+    </extension>
+    <extension point-name="ITXQQObjectCallExt" point-id="328491C6-5BFC-4B9F-92C1-7EBD616A3581" provider="CPluginCenter">
+    </extension>
+    
+    <extension point-name="
+      " point-id="AAF5ECFA-6E48-416A-934D-A91407E732D6" provider="CGroupSysMsgFrameMgr">
+        <config>
+          <info maintype="system" subtype="4"/>
+        </config>
+    </extension>
+    <extension point-name="ITXMsgChainDisposeExt" point-id="AAF5ECFA-6E48-416A-934D-A91407E732D6" provider="CAddBuddyMgr">
+      <config>
+        <info maintype="system" subtype="3"/>
+      </config>
+    </extension>
+    <extension point-name="ITXLinkExt" point-id="441AF80D-2C32-47F0-B1E3-357AFAEB7012" provider="CGroupSysMsgFrameMgr">
+      <config>
+        <info type="7751d180-c082-459e-9468-eea06648eb3f"/>
+        <info type="1e3bfe24-6ae3-4b14-86ea-3faa7794a655"/>
+      </config>
+    </extension>
+    <extension point-name="ITXIMContactRelationEvtExt" point-id="4E16B5AC-3FC4-4f2b-BCA5-42A190955572" provider="CTXQInterLiveMgr">
+    </extension>
+    <extension point-name="ITXShowValidateCodeExt" point-id="1D724CBD-2F8B-485A-A220-B1DE77AAEDFB" provider="CValidCodeFoundationMgr"/>
+    <extension id="189FD6C2-FCFF-497D-9C77-34C74525B6D1"  point-name="IMainPanelSideBarExt" point-id="9DD3FD50-16C5-4b12-97D3-B2E6704B8301" provider="CMainMySerivicePage"/>
+    <extension id="11B0146D-F6C0-4CDF-84C6-50BDD6B66C56" point-name="SearchControlExtPoint" point-id="31C9F6C9-B936-4ad7-B16B-D0858C91430F" provider="CSearchContactMgr"/>
+    <extension point-name="ITXIMContactInfoEvtExt" point-id="DB17A85C-23F4-462D-9E0D-5BC59C7608B6" provider="CTXQInterLiveMgr">
+    </extension>
+    <extension point-name="ITXQQObjectCallExt" point-id="328491C6-5BFC-4B9F-92C1-7EBD616A3581" provider="CTXQInterLiveMgr">
+    </extension>
+    <extension point-name="ITXCampusGroupExt" id="9FB1F3DD-A43E-4473-972B-C12ADF02F1A3" point-id="FC924F13-E8D0-47ce-94E6-6B2B9B6BEB26" provider="CTXCampusGroupExtMgr">
+    </extension>
+    <extension point-name="ITXTipsMenuVASExt" id="76891308-57D2-4c0e-8BFF-C799419EFD9D" point-id="1B9D0380-6E47-4781-97FA-DD1FAF52E3B0" provider="CTXCampusGroupExtMgr">
+    </extension>
+    <extension id="DA868ACD-0509-49DA-A4B4-2EA7AFCE8B98" point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXCampusGroupUserInfoMgr">
+      <config>
+        <info cmd="45" />
+      </config>
+    </extension>
+    <extension id="9AEAA668-A60C-40A5-A27A-2371DD4991C7" point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXCampusGroupInfoMgr">
+      <config>
+        <info cmd="45" />
+      </config>
+    </extension>
+    <extension id="10B15221-4766-4F45-85ED-AA4D64C0F4E2" point-name="ITXCCReceiverExExt" point-id="A768EADE-A0B7-473F-A724-E0AAE5B72664" provider="CTXShakeWindowTipMgr">
+      <config>
+        <info cmd="175" />
+      </config>
+    </extension>
+    <extension id="6A9F43CB-6FF4-4317-81E7-CABD6D778F9B" point-name="ConfigCenterChatFrameSetSortExtPoint" point-id="E6A9E266-A76C-456F-BC4D-B408A54ED337" provider="CTXShakeWindowMgr"/>
+    <extension id="2C5E9534-C65B-4DFD-93E8-166F56617F40" point-name="ConfigCenterChatFrameSetSortExtPoint" point-id="E6A9E266-A76C-456F-BC4D-B408A54ED337" provider="CTXChatFrameSplitMgr"/>
+    <extension point-name="ITXAIOSidebarExt" id="E93268B3-1B64-4002-AEA0-11BA5CCA452B" point-id="8FE711E1-796A-46CB-B734-F31F962369BB" provider="CTXCampusGroupExtMgr">
+    </extension>
+    <extension point-name="ITXQQObjectCallExt" id="01950D9B-C7FD-4449-8089-BE2A5DCC3822" point-id="328491C6-5BFC-4B9F-92C1-7EBD616A3581" provider="CTXCampusGroupExtMgr">
+    </extension>
+	<extension point-name="IShowVirusAfterScan" point-id="E1247B84-5BF8-4fc8-B9DC-E952A5F4B3FD" provider="CShowVirusAfterScan">
+    </extension>
+    <extension point-name="ITXDataReportCodecExt" point-id="35469066-112F-4CFC-9B97-87D453DE3067" provider="CThemeStatistics">
+      <config>
+        <info type ="0x30005002" mode ="0x01" />
+        <info type ="0x30005003" mode ="0x01" />
+      </config>
+    </extension>
+    <extension id="0A896091-F825-499b-9F88-4B51206C18E8" point-name="ITXDataRouteFilterExt" point-id="D5362940-C114-4911-8EDF-40884CB33B25" provider="CPwdGuardStateAppMgr">
+      <config route="TrayIconFactoryRoute" level="100"/>
+	</extension>
+	<extension id="6FE27A6A-4B20-4ca6-B2DA-382BD15C99A1" point-name="ITXDataRouteFilterExt" point-id="D5362940-C114-4911-8EDF-40884CB33B25" provider="CPwdGuardStateAppMgr">
+      <config route="TrayMsgBoxRoute" level="100"/>
+	</extension>
+	<extension id="2977C07B-277F-47c0-B263-6933398499BC" point-name="ITXMsgChainDisposeExt" point-id="AAF5ECFA-6E48-416A-934D-A91407E732D6" provider="CPwdGuardStateAppMgr">
+      <config>
+        <info maintype="system" subtype="MsgSubType_PwdGuardState"/>
+      </config>
+    </extension>
+    <extension id="416210D9-3E45-4A5E-9DF3-3E28F3960000" point-name="ITXMsgChainDisposeExt" point-id="AAF5ECFA-6E48-416A-934D-A91407E732D6" provider="CTXOldSysBroadcastMgr">
+      <config>
+        <info maintype="system" subtype="oldbroadcast"/>
+      </config>
+    </extension>
+  <extension id="9CC6A9C2-7821-4FD4-9F72-AEACE42CC9F9"  point-name="IContactStatusFlag" point-id="C8188ABD-29AD-4E0E-986C-53BD273233DE" provider="CTXMobileExtMgr"/>
+	<extension id="9BE3D19B-CA33-4414-9FA1-3075E44B160E"  point-name="IContactTipsVASFlagExt" point-id="1B9D0380-6E47-4781-97FA-DD1FAF52E3B0" provider="CTXMobileExtMgr" />
+	<extension id="63B352E8-660B-4B6C-B709-2A027888324A"  point-name="IContactTipsVASFlagExt" point-id="1B9D0380-6E47-4781-97FA-DD1FAF52E3B0" provider="CTXMobileExtMgr" />
+  <extension id="A3A08483-ACE4-4F91-8CE7-005B307F2C1B"  point-name="IContactTipsVASFlagExt" point-id="1B9D0380-6E47-4781-97FA-DD1FAF52E3B0" provider="CTXMobileExtMgr" />
+  <extension point-name="ITXNormalTipMgrExt" point-id="86E0C99A-C57E-423D-BB80-A37602ABA088" provider="CTXMobileExtMgr"/>
+	<extension id="8B4D9AF0-6C4C-4EAA-99C1-22D3BB441197"  point-name="CFBuddyEntMenuExtPoint" point-id="2FD0448E-FB4C-4785-9934-DB3C54B809A5" provider="CTXMobileExtMgr"/>
+    <extension id="8E55371E-5100-4F59-B00F-F2A7696F554E" point-name="ITXDataRouteFilterExt" point-id="D5362940-C114-4911-8EDF-40884CB33B25" provider="CTXMobileExtMgr">
+      <config route="TrayIconFactoryRoute" level="100"/>
+    </extension>
+    <extension id="B246F7D4-E7C3-4617-8805-97E74022BC81" point-name="ITXDataRouteFilterExt" point-id="D5362940-C114-4911-8EDF-40884CB33B25" provider="CTXMobileExtMgr">
+      <config route="TrayMsgBoxRoute" level="100"/>
+    </extension>
+    <extension point-name="ITXDataReportCodecExt" point-id="35469066-112F-4CFC-9B97-87D453DE3067" provider="CUIDataReportCodec">
+      <config>
+        <info type ="0x10008000" mode ="0x02" />
+        <info type ="0x30008000" mode ="0x02" />
+        <info type ="0x38008000" mode ="0x02" />
+        <info type ="0xb8008000" mode ="0x02" />
+      </config>
+    </extension>
+    <extension point-name="ITXDataReportCodecExt" point-id="35469066-112F-4CFC-9B97-87D453DE3067" provider="CMsgMgrStatistics">
+      <config>
+        <info type ="0x10001000" mode ="0x02" />
+        <info type ="0x90001001" mode ="0x02" />
+      </config>
+    </extension>
+    <extension point-name="ITXDataReportCodecExt" point-id="35469066-112F-4CFC-9B97-87D453DE3067" provider="CMiscAppStatistics">
+      <config>
+        <info type ="0xbc000001" mode ="0x02" />
+        <info type ="0x20001002" mode ="0x02" />
+        <info type ="0x20000003" mode ="0x02" />
+        <info type ="0xbc000002" mode ="0x02" />
+      </config>
+    </extension>
+    <extension point-name="ITXDataReportCodecExt" point-id="35469066-112F-4CFC-9B97-87D453DE3067" provider="CContactAppStatistics">
+      <config>
+        <info type ="0x38000003" mode ="0x02" />
+        <info type ="0x38000004" mode ="0x02" />
+      </config>
+    </extension>
+    <extension point-name="ITXDataReportCodecExt" point-id="35469066-112F-4CFC-9B97-87D453DE3067" provider="CDataReportUserSettingCodec">
+      <config>
+        <info type ="0x10002000" mode ="0x02" />
+        <info type ="0x20005006" mode ="0x02" />
+        <info type ="0x38000001" mode ="0x02" />
+        <info type ="0x38000008" mode ="0x02" />
+      </config>
+    </extension>
+    <extension point-name="ITXDataReportCodecExt" point-id="35469066-112F-4CFC-9B97-87D453DE3067" provider="CLocateDataReport">
+      <config>
+        <info type ="0x20000007" mode ="0x02" />
+        <info type ="0x20000005" mode ="0x02" />
+      </config>
+    </extension>
+    <extension id="E5EF110C-D039-4edc-AA2E-CEEF3315AD63" point-name="FriendInfoFramePageExt" point-id="CE2BAD2F-3F66-4705-9BB4-2DCB099E3354" provider="CGroupCardPageExt" />
+    <extension id="D192818E-F4E1-4E4C-8DB0-FCF3A197EE98" point-name="RichFindResult_RegionExtPoint" point-id="73795B8B-CB32-4587-A834-360EFB265357" provider="CRichFingerFrameExtProvider"/>
+    <extension id="AC8A20EB-2AB8-4A85-8BAE-ACD2D26D1914" point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CGroupMiniportalMgr">
+      <config>
+        <info cmd="45" />
+      </config>
+    </extension>
+    <extension id="2AABF0A0-3B0F-4CEE-9F05-4F45F332F668" point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CGroupSpaceMsgMgr">
+      <config>
+        <info cmd="45" />
+      </config>
+    </extension>
+    <extension point-name="ITXDataRouteFilterExt" point-id="D5362940-C114-4911-8EDF-40884CB33B25" provider="CGroupSpaceMsgMgr">
+      <config route="strLinkRouteName" level="750"/>
+    </extension>
+    <extension id="FF1D86BB-5DE3-4e4c-A802-3A2823976281" point-name="GroupNodeUpdateFlagExtPoint" point-id="8F1D4132-6A1F-4888-83BE-F792380EDB42" provider="CGroupMiniportalExtMgr" />
+    <extension id="4A92177D-65F1-476E-ADEE-3836D644D497" point-name="ITXGroupMiniportalEvt" point-id="C03D4EB6-4D98-46B1-90BE-A79D7AE3E7E3" provider="CGroupMiniportalExtMgr" />
+    <extension id="B568CB68-8E74-40B3-A23C-8F2BD1943609" point-name="ContactHeadStatusTagExtPoint" point-id="E978C006-95CD-4ef3-939B-6C3B6059EE7C" provider="CTXWebQQExtMgr"/>
+    <extension id="81A30C3E-DFBB-40CA-B536-6AE60802EE6E"  point-name="IContactStatusFlag" point-id="C8188ABD-29AD-4E0E-986C-53BD273233DE" provider="CTXWebQQExtMgr"/>
+    <extension point-name="ITXCommonServerConfigMgrExt" point-id="CB7D5F5B-36C5-4116-AEA2-15EC1B4C70DF" provider="CTXPushedMenuMgr"/>
+    
+    <extension point-name="ITXSYSReceiverExt" point-id="533897A7-574E-4eb1-8FD4-1F0DC034E2C5" provider="CTXDiscussSysMsgMgr">
+        <config>
+            <info cmd="524"/>
+        </config>
+    </extension>
+
+  </extensions>
+  
+  <extension-points>
+    <extension-point name="IGFTestToolbarExt" id="2A36429C-9E94-47E6-B080-D2F7DC3399B0">
+      <config>
+        <extension id="5aacd9a9-c193-415b-97ca-9e1a5de36949"/>
+        <extension id="675dc49b-5166-4089-b232-30bc71305068"/>
+        <extension id="675dc49b-5166-4089-b232-30bc71305067"/>
+      </config>
+    </extension-point>
+    <!--容器类：Toolbar，TabCtrl，StackPanel等可以多个插件并存的显示-->
+    <extension-point name="MainPanelServiceBarExtPoint" id="85F2356C-07B9-4B05-AF9A-1420C79B98A5">
+       <config>
+         <extension  name="Qzone" id="00000000-0000-0000-0000-000000000BB9" visibleInQQ="true" panelID="3001"/>
+         <extension  name="Mail" id="00000000-0000-0000-0000-000000000BBA" visibleInQQ="true" panelID="3002"/>
+         <extension  name="PaiPai" id="00000000-0000-0000-0000-000000000BBB" visibleInQQ="true" panelID="3003"/>
+         <extension  name="PayCenter" id="00000000-0000-0000-0000-000000000BBC" visibleInQQ="true" panelID="3004"/>
+         <extension  name="WenWen" id="00000000-0000-0000-0000-000000000BBD" visibleInQQ="true" panelID="3005"/>
+         <extension  name="Today" id="00000000-0000-0000-0000-000000000BBE" visibleInQQ="true" panelID="3006"/>
+       </config>
+    </extension-point>    
+    <!--主面板SideBar的默认顺序，当本地没有记录顺序的时候采用此顺序-->
+    <extension-point name="MainPanelSidebarExtPoint" id="9DD3FD50-16C5-4b12-97D3-B2E6704B8301">
+      <config>
+        <extension  name="Contact" id="00000000-0000-0000-0000-0000000003E9" visibleInQQ="true" panelID="1001" visibleInTM="true"/>
+        <extension  name="PaiPaiList" id="00000000-0000-0000-0000-0000000003EA" visibleInQQ="true" panelID="1002" visibleInTM="false"/>
+        <extension  name="NetBar"  id="00000000-0000-0000-0000-0000000003F7" visibleInQQ="true" panelID="1015" visibleInTM="false"/>
+        <extension  name="NetDisk" id="00000000-0000-0000-0000-0000000003F0" visibleInQQ="true" panelID="1008" visibleInTM="true"/>
+        <extension  name="PaiPai"  id="00000000-0000-0000-0000-000000002723" visibleInQQ="true" panelID="10019" visibleInTM="false"/>
+        <!--<extension  name="Olympic" id="00000000-0000-0000-0000-000000002726" visibleInQQ="true" panelID="10022" visibleInTM="true"/>-->
+        <extension  name="Qzone"    id="00000000-0000-0000-0000-000000002731" visibleInQQ="true" panelID="10033" visibleInTM="false"/>
+        <extension  name="Magazine" id="00000000-0000-0000-0000-000000002715" visibleInQQ="false" panelID="10005" visibleInTM="false"/>
+        <extension  name="Stock"    id="00000000-0000-0000-0000-000000002AFA" visibleInQQ="true" panelID="11002" visibleInTM="true"/>
+        <extension  name="Taotao"   id="00000000-0000-0000-0000-00000000271A" visibleInQQ="false" panelID="10010" visibleInTM="false"/>
+		    <extension  name="Bookmark" id="00000000-0000-0000-0000-000000002724" visibleInQQ="false" panelID="10020" visibleInTM="false"/>
+        <!--<extension  name="Sobar" id="00000000-0000-0000-0000-000000002728"  visibleInQQ="false" panelID="10024" visibleInTM="false"/>-->
+        <extension  name="SBuddy" id="00000000-0000-0000-0000-0000000003F3" visibleInQQ="true" panelID="1011" visibleInTM="false"/>
+        <extension  name="QQGame" id="00000000-0000-0000-0000-000000002719" visibleInQQ="true" panelID="10009" visibleInTM="false"/>
+        <extension  name="LoveWall" id="00000000-0000-0000-0000-000000002714" visibleInQQ="true" panelID="10004" visibleInTM="false"/>
+        <extension  name="MyService" id="00000000-0000-0000-0000-000000000064" visibleInQQ="false" panelID="100" visibleInTM="false"/>
+        <extension  name="PaiPaiChongzhi" id="00000000-0000-0000-0000-000000002725" visibleInQQ="true" panelID="10021" visibleInTM="true"/>
+      </config>
+    </extension-point>    
+    <extension-point name="MainPanelQuickRunBarExtPoint" id="1534E0CC-486D-4de0-91D4-B8E5ACDDF65F">
+      <config>
+        <extension  name="Wireless" id="00000000-0000-0000-0000-0000000007D1" visibleInQQ="true" panelID="2001"/>
+        <extension  name="QQGame" id="00000000-0000-0000-0000-0000000007D2" visibleInQQ="true" panelID="2002"/>
+        <extension  name="QQGameCht" id="00000000-0000-0000-0000-0000000007D3" visibleInQQ="true" panelID="2003"/>
+        <extension  name="TT" id="00000000-0000-0000-0000-0000000007D4" visibleInQQ="true" panelID="2004"/>
+        <extension  name="QQChat" id="00000000-0000-0000-0000-0000000007D5" visibleInQQ="true" panelID="2005"/>
+        <extension  name="QQPet" id="00000000-0000-0000-0000-0000000007D6" visibleInQQ="true" panelID="2006"/>
+        <extension  name="QQMusic" id="00000000-0000-0000-0000-0000000007D7" visibleInQQ="true" panelID="2007"/>
+        <extension  name="QQLive" id="00000000-0000-0000-0000-0000000007D8" visibleInQQ="true" panelID="2008"/>
+      </config>
+    </extension-point>
+    <extension-point name="MyServiceExtPoint" id="D2789E97-5517-49d1-A484-AC1E7AC6BD7F">
+      <config>
+        <extension  name="Mango"   id="A79F0214-0462-438F-A218-11341295F257"/>
+        <extension  name="Zhilian" id="33C84C9C-1FF9-450D-BEE0-92DCC9612300"/>
+      </config>
+    </extension-point>
+    <extension-point name="CFBuddyTopToolbarExtPoint" id="9D20D179-705F-4BDD-8067-2D6427B53490">
+      <config>
+        <extension  name="Video" id="FAF61A7E-5D50-4F8B-A320-BF682016A8FA"/>
+        <extension  name="Audio" id="943306B1-0122-43D8-AE45-99C92A6AE35A"/>
+        <extension  name="FileTransfer" id="4FB16D0E-EAEE-4FDA-A858-405F27C00268"/>
+        <extension  name="Wireless" id="FAF17D69-670E-461E-AC71-9E77F7B7F277"/>
+        <extension  name="Invite" id="E6F61BCB-269D-44B5-925F-F7827B1E5B21"/>
+        <extension  name="cbtnImpeachUin" id="cbtnImpeachUin"/>
+        <extension  name="Entertament" id="213DD6CE-F3EB-45FD-916C-8257B48D4EF6"/>
+        <extension  name="Application" id="73C3264D-2485-4B36-A7EB-43E8D06611AD"/>
+        <extension  name="CFTempSessionSetting" id="501DD9C9-9CC0-4392-8164-5937E1D4097E"/>
+        <extension  name="CFTempSessionAddFriend" id="D43F51E4-6ABF-418E-9C99-4615D38C0E0F"/>
+      </config>
+    </extension-point>
+    <extension-point name="CFGroupTopToolbarExtPoint" id="D7CEB4CB-9D08-4FCD-95F4-276829B30B66">
+      <config>
+        <extension  name="GroupEmail" id="374383C4-B50C-4AE1-B8D5-CB2B9AADB7FD"/>
+        <extension  name="GroupZone" id="GroupZone"/>
+        <extension  name="CampusGroupAddress" id="CampusGroupAddress"/>
+        <extension  name="GroupShare" id="266366A7-01E1-4A78-BDAD-9985736A0381"/>
+        <extension  name="GroupSetting" id="GroupSetting"/>
+        <!--asam:1.24 多人语音 F001.FR001 发起入口-->
+        <extension  name="GroupAudio" id="24E5106E-D2AB-4F89-A928-4721639ED484"/>
+        <extension  name="GroupMMS" id="GroupMMS"/>
+        <extension  name="GroupLive" id="GroupLive"/>
+        <extension  name="btnImpeachUin" id="btnImpeachUin"/>
+      </config>
+    </extension-point>
+    <extension-point name="CFBuddyEntMenuExtPoint" id="2FD0448E-FB4C-4785-9934-DB3C54B809A5">
+      <config>
+        <extension  name="QQLive" id="62A8CB20-41D7-4A95-9729-B02723E4701C"/>
+        <extension  name="MobileQQ" id ="8B4D9AF0-6C4C-4EAA-99C1-22D3BB441197"/>
+        <extension  name="QQRing" id="E8920D6D-7656-4D18-8833-BB0FA298330C"/>
+      </config>
+    </extension-point>
+
+    <extension-point name="CFBuddyQuickbarExtPoint" id="7CC799EF-FBF6-4dc8-9F54-2BBA2C2300C5">
+      <config>
+        <extension  name="FontSetup" id="378D5C57-01A3-4E0D-A577-14DDDB0DFEB3"/>
+        <extension  name="CustomFace" id="E97B2230-F38A-490C-9924-EE5C4DEB35E5"/>
+        <extension  name="RichFace" id="9B9076AA-65B5-4254-A329-34A818C48904"/>
+        <extension  name="Twitter" id="D86526C7-104E-4D43-8CA7-D8E0860B2698"/>
+        <extension  name="VertLine1" id="7651F741-1FEC-4638-B0E8-32ACE1EC0D91"/>
+        <extension  name="AudioMsg" id="639316B4-09B4-4d3c-A1CA-E1D75EAC422A"/>
+        <extension  name="SendPic" id="1523FE56-3B72-4AB0-AEE8-1DF66E9A66B3"/>
+        <extension  name="QQMusic" id="6CEE7336-D8D3-4574-8C27-BCA70C105BAB"/>
+        <extension  name="PaiPaiGift" id="0FAF048E-7917-43ED-BF23-14BE9DE2A6B5"/>
+        <extension  name="ScreenCapture" id="7DA510E3-525D-4E0E-A6EB-0702026EE1EF"/>
+        <extension  name="VertLine2" id="2C8434BA-7F79-4104-9900-9FBA1A042434"/>
+        <extension  name="GroupMsgSet" id="9AD21608-66C7-45AA-941A-FF3F153ED0D8"/>
+        <extension  name="MsgHistory" id="0FFBF7E4-75E6-4266-B7AB-A250DED3AC63"/>
+      </config>
+    </extension-point>
+    <extension-point name="CFGroupQuickbarExtPoint" id="66417D6B-78A5-4069-8A11-6D2ED17309DA">
+      <config>
+        <extension  name="FontSetup" id="378D5C57-01A3-4E0D-A577-14DDDB0DFEB3"/>
+        <extension  name="CustomFace" id="E97B2230-F38A-490C-9924-EE5C4DEB35E5"/>
+        <extension  name="RichFace" id="9B9076AA-65B5-4254-A329-34A818C48904"/>
+        <extension  name="VertLine1" id="7651F741-1FEC-4638-B0E8-32ACE1EC0D91"/>
+        <extension  name="SendPic" id="1523FE56-3B72-4AB0-AEE8-1DF66E9A66B3"/>
+        <extension  name="QQMusic" id="3865E7A0-AD1E-444C-8446-8810A2F49ACB"/>
+        <extension  name="ScreenCapture" id="7DA510E3-525D-4E0E-A6EB-0702026EE1EF"/>
+        <extension  name="VertLine2" id="2C8434BA-7F79-4104-9900-9FBA1A042434"/>
+        <extension  name="GroupMsgSet" id="9AD21608-66C7-45AA-941A-FF3F153ED0D8"/>
+        <extension  name="MsgHistory" id="0FFBF7E4-75E6-4266-B7AB-A250DED3AC63"/>
+      </config>
+    </extension-point>
+    <extension-point name="CFBuddyAbstractModeControExtPoint" id="D9D2EA05-9A79-424a-B39D-6B39C656B81F">
+      <config>
+        <extension  name="Title" id="B8FD9C47-2F50-4FCC-8466-BC3354EA7739"/>
+        <extension  name="QZone" id="FEDA4B13-100E-4F31-A004-6B6290DC0C74"/>
+        <extension  name="PaiPai" id="47733282-E591-48BF-93AD-55489A8DE4D4"/>
+        <extension  name="WenWen" id ="FB1ACC9D-8859-43AC-A82F-FA02F583A24E" />
+        <extension  name="QQShow" id ="A5A73929-B93C-4FC8-B0DC-37784AC8DF8E" />
+      </config>
+    </extension-point>
+    <extension-point name="CFBuddyContactShowExtPoint" id="45E7054C-FA64-4476-9FB9-A1060027FAF0">
+      <config>
+        <extension  name="AdRichButton" id="B116E2DC-F037-4124-A404-B2CFC1C3EA98"/>
+        <extension  name="WirelessShow" id="1909281C-DB96-4939-98F9-63141DF212AD"/>
+        <extension  name="QQShow" id="65894D2E-2E38-42D0-A404-FDDF7D98A864"/>
+      </config>
+    </extension-point>
+    <extension-point name="SelfInfoFramePageExtPoint" id="1933B699-577B-4A68-BA07-C0C83BE89DF9">
+      <config>
+        <extension  name="Qzone" id="66F39670-BD3C-4d70-8FBB-F232C5B15469"/>
+        <extension  name="Paipai" id="D46309B3-0513-4475-8581-C815D1BB501B"/>
+        <extension  name="QQShow" id="C6674F60-5B70-48f4-BCAE-E582375DD523"/>
+      </config>
+    </extension-point>
+    <extension-point name="FriendInfoFramePageExtPoint" id="CE2BAD2F-3F66-4705-9BB4-2DCB099E3354">
+      <config>
+        <extension  name="PersonalInfo" id="TB_PersonalInfo"/>
+        <extension  name="QQShow"       id="39FDC0F5-7CFD-4FA4-8DA8-FED47492624C"/>
+        <extension  name="QQGame"       id="5609D100-A35C-4006-853D-4232A8484361"/>
+        <extension  name="QQPet"        id="45DBB945-FDD7-4948-9E84-696CFF9630DD"/>
+        <extension  name="SNSApp"       id="0B2047A7-A226-4AA5-AFE2-DCE6405E2082"/>
+        <extension  name="GroupCard"    id="E5EF110C-D039-4edc-AA2E-CEEF3315AD63"/>
+      </config>
+    </extension-point>
+    <extension-point name="ContactTipsBarExtPoint" id="31728033-C04B-4676-A89E-74EB83F001C5">
+      <config>
+        <extension  name="Qzone" id="54CDBCA0-2530-4C90-AC56-58775808EC3F"/>
+        <extension  name="GameLife" id="A5C88D40-5FF5-4539-A99B-EE7C624870E8"/>
+        <extension  name="Paipai" id="FE35002B-18EF-4CAC-A47A-A878BFE87AF8"/>
+        <extension  name="WenWen" id="4A110EF3-5EB3-4807-92DA-8AD4E52FD10D"/>
+      </config>
+    </extension-point>
+    <extension-point name="GroupNodeExtPoint" id="A34172D7-E93B-46ad-B60E-9FFBE4525559">
+      <config>
+        <extension  name="QBar" id="867C9796-8A18-4e0f-B47D-8F8AF867239A"/>
+        <extension  name="QQChat" id="38B15D49-F29B-4874-89D5-668B95FC14C8"/>
+      </config>
+    </extension-point>    
+    
+    <extension-point name="VASFlagBarExtPoint" id="1B9D0380-6E47-4781-97FA-DD1FAF52E3B0">
+      <config>
+        <extension  name="Member" id="C3E3B563-DB37-43f6-9BD0-1C8EB09F89CA"/>
+        <extension  name="Qzone" id="51C4171E-7B9E-40bc-9D42-CD7423076B20"/>
+        <extension  name="PaipaiSeller" id="FAD9D888-5F9F-4777-ADA4-7851CE0FDA59"/>
+        <extension  name="PaipaiBuyer" id="9116E2BE-0D5E-4A32-ADF1-C43A2350982A"/>
+        <extension  name="Mail" id="F7AB2029-410B-4cd7-A834-144E7D8AFC01"/>
+        <extension  name="QQShowVip" id="C7900957-7BC8-417d-B993-D922BA044ACF"/>
+        <extension  name="QzoneVip" id="5C025B66-FC66-4c0a-9DFA-BA74418D4055"/>
+        <extension  name="QQGameVip" id="4D91F719-F3F4-45d5-8023-A9233273A67B"/>
+        <extension  name="QQTangVip" id="4F8F6119-19EE-4900-9F98-130D8E94FE4D"/>
+        <extension  name="QQPetVip" id="17F730CF-15BC-4091-81CE-2EF71D9544C3"/>
+        <extension  name="QQMusicVip" id="6ED038A2-A576-4EB5-B02D-E26F637C0AB7"/>
+        <extension  name="DNFVip" id="B17AC311-68F6-4781-ADBC-1EA86CD0FEE5"/>
+        <extension  name="QQRing" id="CB1E417C-4883-46a2-8DE0-A1795F9454D6"/>
+        <extension  name="Camera" id="3C335032-37A3-455b-8A46-7D05FA266442"/>
+        <extension  name="MobileBind" id="38DC1C88-D1DA-43D1-8DC0-1D5C38F011B9"/>
+        <extension  name="SmsMonthly" id="079D87DA-183A-4916-BCA2-029E6BA62C43"/>
+        <extension  name="MQQ_FlyQQ" id="6727EAE0-3EAF-48EE-8E1B-A05E70872F6B"/>
+        <extension  name="MobileQQ" id="9BE3D19B-CA33-4414-9FA1-3075E44B160E"/>
+        <extension  name="3GQQ" id="63B352E8-660B-4B6C-B709-2A027888324A"/>
+        <extension  name="WAPQQ" id="A3A08483-ACE4-4F91-8CE7-005B307F2C1B"/>
+        <extension  name="VoiceMsg" id="A41B4B47-38A8-4120-86BD-8F6346AEDA2B"/>
+        <extension  name="3DShow" id="37E5DFA4-0CDD-472a-9F47-608F43163F84"/>
+        <extension  name="QQPet" id="8B6341DC-FC54-4072-9304-61B715EEB1C1"/>
+        <extension  name="DNF" id="1E26561B-92DB-4468-A697-3C0D8E34FF41"/>
+        <extension  name="XunXian" id="10474408-58B6-400A-B2D2-FAFE9B496821"/>
+        <extension  name="CF" id="E0EBB9DA-7A4C-4C8E-A597-D4DF722BFFB0"/>
+        <extension  name="CFVIP" id="E6A1E672-0C25-4351-8084-80C0B8664C7A"/>
+        <extension  name="QQFlyIsland" id="01A38B99-FC57-4979-8B92-9B656C70AA3E"/>
+        <extension  name="QQDancer" id="3ADEC966-5FCB-469A-9E13-C60D4351ABAF"/>
+        <extension  name="FreeFantacy" id="B6A724A3-D9E2-4729-867E-4750C5243494"/>
+        <extension  name="SuperMoto" id="CDABFB31-187E-4063-94CA-7A83174DE8C1"/>
+        <extension  name="QQSG" id="BDD779B4-5E3B-4f23-AE77-62D8197BD1DD"/>
+        <extension  name="HuaXia2" id="57BBD743-BE23-4f99-A274-3A0691A38084"/>
+        <extension  name="R2Beat" id="DFF8990A-DE6D-4395-93A8-F60266BAFDCB"/>
+        <extension  name="QQFO" id="F4CCAA98-442E-4be5-86DB-29C3E669CB61"/>
+        <extension  name="QQTang" id="20316E74-E97C-48dd-B7E9-4DCF0B00800C"/>
+        <extension  name="QQBattleZone" id="3EF6E36D-B7B5-4b24-BBEE-92F49ECC4370"/>
+        <extension  name="QQLove_Normal" id="1F7C106E-EF20-4ea0-A25C-981A9B98876E"/>
+        <extension  name="QQHome" id="DF742836-EC60-4603-A230-411B99C823E0"/>
+        <extension  name="QQDownload" id="D0564C1E-9B22-4324-8954-16599A495DCC"/>
+        <extension  name="Album" id="27E7FF69-F2C2-47d2-AE25-2012E89D8DDD"/>
+        <extension  name="QQMagazine" id="A560B223-14BB-4fee-9C63-8442D3DCBB25"/>
+        <extension  name="QQMusic" id="CEEC1368-D3C9-4c55-A386-031D8679CE45"/>
+        <extension  name="QQVideo" id="5A2AC479-9067-4369-9C35-850E2BE61527"/>
+        <extension  name="TaoTao" id="AC0FEAB2-014E-457f-9A3D-CD8254EF060B"/>
+        <extension  name="QQTalk" id="856682B3-988C-4a91-911F-79C0A466616D"/>
+        <extension  name="QQBookmark" id="B73CA9B6-B3B5-47b6-B315-9D90C4371819"/>
+        <extension  name="QQLiveVip" id="097D5418-B615-4be5-8DB6-F51DE84E9A5B"/>
+        <extension  name="PayCenter" id="0394BC0D-12BD-405f-9466-E068377D747D"/>
+        <extension  name="QBar" id="F9681D7E-50B2-4798-9912-52E3FDE7B651"/>
+        <extension  name="Sobar" id="45EC41F6-7B06-46FE-BAF8-7093505A63B1"/>
+        <extension  name="WenWen" id="B6A1A2EE-639C-4b6f-A5B6-E22FD1EBFB11" />
+        <extension  name="QQSchool" id="76891308-57D2-4c0e-8BFF-C799419EFD9D" />
+        <extension  name="LoveWall" id="48AD6E86-857F-4F7D-BEC1-5428C7C30E7E" />
+      </config>
+    </extension-point>
+    <extension-point name="ContactNodeUpdateFlagExtPoint" id="3835105B-FD37-4FF9-B728-99AE643146E1">
+      <config>
+        <extension  name="Paipai" id="A1B60ED9-4FE1-4364-A033-6E0B1F38FDE5"/>
+        <extension  name="Qzone" id="03334DBA-C546-4691-B322-6B2F7CFBA54C"/>
+        <extension  name="WenWen" id="0C55DA65-60C5-462b-8216-87D3C0416D5D" />
+      </config>
+    </extension-point>
+    <extension-point name="ContactNodeLongNameExtPoint" id="32BB4951-EC65-4238-91C5-CF2F87058DD4">
+      <config>
+        <extension  name="Qzone" id="662A0010-A4CE-47f6-8109-79FE8011F80E"/>
+        <extension  name="WenWen" id="93A65FA9-1335-4c7a-8182-F3B722908640" />
+      </config>
+    </extension-point>
+    <extension-point name="ContactNodeCommFlagExtPoint" id="4A6C7BC5-906D-4DD4-81A7-9D2F96CDD8DE">
+      <config>
+        <extension  name="Wireless" id="A780EB72-DDF5-418D-B6FF-A880755EBD88"/>
+        <extension  name="Video" id="0CFAF320-8A4D-4935-8EBA-99136F64B838"/>
+      </config>
+    </extension-point>
+    <extension-point name="ContactNodeSortByIdExtPoint" id="96D710CE-42A3-49e0-B63B-8C4EEDDE03DE">
+      <config>
+        <extension  name="Video" id="81E8BC1F-AE25-4d09-8371-7AE75278DC3D"/>
+      </config>
+    </extension-point>
+    <extension-point name="ContactNodeSortByStatusExtPoint" id="724003F3-2284-4598-A46E-C99AA1991629">
+		<config>
+        <extension  name="MobileClient" id="MobileClient"/>
+        <extension  name="MobileWap" id="MobileWap"/>
+        <extension  name="Mobile3G" id="Mobile3G"/>
+        <extension  name="Wireless" id="948AA56B-D239-4dd3-A949-021582CBFEC9"/>
+      </config>
+    </extension-point>
+    <extension-point name="c_epidContactStatusFlag" id="27511096-F5B9-41e8-9033-DF9AC66826D1">
+      <config>
+        <extension  name="Qzone" id="662A0010-A4CE-47f6-8109-79FE8011F80E"/>
+      </config>
+    </extension-point>
+    <extension-point name="ConfigCenterGeneralPageExtPoint" id="DB6FA116-52C8-433C-A744-95A88A302129">
+      <config>
+        <extension  name="AutoStart"  id="68FF4260-74D5-4357-85F3-DEC65C144693"/>
+        <extension  name="AutoLogin"  id="9C752842-8D99-40E4-B862-70C5B6E28A0A"/>
+        <extension  name="StatusSel"  id="F32FF3AF-5CC3-4D5C-A256-EFD0E3D38321"/>
+        <extension  name="QQPet"     id="B039EBB1-C381-45D4-B35F-4D7EE64C64E3"/>
+        <extension  name="PaiPaiTip"  id="6E7D49FE-C89A-4395-82B1-E8E7B22C0E24"/>
+        <extension  name="TodayShow"  id="36D3A250-A719-40A9-8715-26FCB9F667F1"/>
+        <extension  name="MemTip"     id="0E83D8EE-7789-4B1D-8AFE-3031D9ED5C3F"/>
+      </config>
+    </extension-point>
+    <extension-point name="ConfigCenterInstantStatusPageExtPoint" id="6A6DCA92-B6EE-4c0a-87FF-84E545B20EAD">
+      <config>
+        <extension  name="InputStatus"  id="DB55500F-2AC8-4AB3-8BD6-B6E8617469E1"/>
+        <extension  name="Weather"  id="53491AED-EBE1-4044-8F9F-91C71FDE9C14"/>
+        <extension  name="QQMusic"      id="826ECC72-65F9-477A-8CED-0C7C62126BDC"/>
+        <extension  name="QQLive"       id="8D2BF975-DA37-4430-B188-3BA4ABCE9491"/>
+        <extension  name="QQGame"       id="0A6535C6-6FEF-40B8-B702-C30D844B41B6"/>
+        <extension  name="MMOG"       	id="437B3ED0-E4A3-45BB-8DB7-1E20DFD979B4"/>
+        <extension  name="QQChat"       id="021B435A-ECDA-41E6-B746-7FACD9453649"/>
+      </config>
+    </extension-point>
+    <extension-point name="ConfigCenterSafePageExtPoint" id="68061D9C-0F9B-4555-A3C7-E2BA319FE320">
+      <config>
+        <extension  name="ScanInterval"       id="2A30F350-39CE-4796-A457-EEC216FD1895"/>
+        <extension  name="FileSecuriyLevel"   id="9BD0117E-BDF1-435E-A2AA-B11E9B7B15F4"/>
+      </config>
+    </extension-point>
+
+    
+    <extension-point name="PersonalImageExtPoint" id="9AD06DEC-28B5-4E14-B959-54228696AEA8">
+      <config>
+        <extension  name="WirelessShow" id="AE5188B6-2C99-43B0-98A2-522BB93C0033"/>
+        <extension  name="QQShow" id="9552698A-1DB4-48FA-8E5B-E3A266C8FB81"/>
+      </config>
+    </extension-point>
+    <extension-point name="ConfigCenterPageExtPoint" id="770F91B1-D4AE-40E6-B040-2E06E6AA7F85">
+      <config>
+        <extension  name="Favor" id="TB_Basic_Favor"/>      
+        <extension  name="FileTransfer" id="3368A1E1-2B27-4BA3-A08B-474FEE35DA7C"/>
+        <extension  name="AVConfig"     id="7EF5914D-7C80-474A-8661-03A3D7316E9F"/>
+        <extension  name="Blocklist" id="TB_Privacy_Blocklist"/>   
+      </config>
+    </extension-point>
+    <extension-point name="MainMenuAllServicesExtPoint" id="426A6C41-FF48-4430-84AA-8DD2E4796773">
+      <config>
+        <extension  name="PushedMenu1" id="PushedMenu1"/>
+        <extension  name="PushedMenu2" id="PushedMenu2"/>
+        <extension  name="PushedMenu3" id="PushedMenu3"/>
+        <extension  name="PushedMenu4" id="PushedMenu4"/>
+        <extension  name="PushedMenu5" id="PushedMenu5"/>
+        <extension  name="PushedMenu6" id="PushedMenu6"/>
+        <extension  name="SepPushedMenu" id="SepPushedMenu"/>
+        <extension name="Menu_NetGames" id="Menu_NetGames"/>
+        <extension name="Menu_QQMobile" id="Menu_QQMobile"/>
+        <extension name="Menu_News" id="Menu_News"/>
+        <extension name="Menu_Ecommerce" id="Menu_Ecommerce"/>
+      </config>
+    </extension-point>
+    <extension-point name="MainMenuGameExtPoint" id="E215B5F3-BDD7-49a6-9493-FAA6B4EED161">
+      <config>
+        <extension name="MMOGMenuDNF" id="6AA28890-BFF5-4D86-878E-CC5CDB627ECE"/>
+        <extension name="MMOGMenuXunXian" id="4E75175E-DF44-4B56-9CE6-AE630175565D"/>
+        <extension name="MMOGMenuQQFFO" id="B8ED2491-8CD3-4150-BAD2-3B9055205D49"/>
+        <extension name="MMOGMenuQQSG" id="BE4DA154-D758-4648-9F0F-D6C3C76C9A23"/>
+        <extension name="MMOGMenuQQHuaXia" id="6CBDFDB6-9006-46C7-BBB4-FE055922572E"/>
+        <extension name="MMOGMenuQQFO" id="7F62764F-18E6-4669-A749-8B796220FE8E"/>
+        <extension name="MMOGMenuCF" id="D374495E-F302-44FF-A2EA-FC1FA33A56D9"/>
+        <extension name="MMOGMenuQQDancer" id="C825B132-3CD5-4BC8-A663-EC9965CA411A"/>
+        <extension name="MMOGMenuQQSpeed" id="DF6A0B52-09B3-4998-BEC4-CF6363ACCE52"/>
+        <extension name="MMOGMenuQQR2BETA" id="C0D753C4-427E-4507-9B46-5BF313775E5E"/>
+        <extension name="MMOGMenuQQTang" id="FE640F95-9408-45B9-AB4D-111738FD11FC"/>
+        <extension name="MMOGMenuQQGame" id="94004265-A985-458E-AADA-42D9960C2E51"/>
+        <extension name="MainMenuQQGameCht" id="B9D1AA58-E992-4faf-9C3B-777157156C53"/>
+      </config>
+    </extension-point>
+    <extension-point name="MainMenuToolExtPoint" id="5ED8A32A-336E-4a95-8816-FE96942FF264">
+      <config>
+        <extension  name="Menu_Memo" id="9D203119-830A-4A72-9B2C-9C8502CE9712"/>
+        <extension  name="Menu_Favorite" id="AADF3E98-4E04-4A27-AD38-625270D96A1B"/>
+        <extension  name="Menu_Contact_MsgMgr" id="Menu_Contact_MsgMgr"/>
+        <extension  name="Meun_MsgImportWizard" id="Meun_MsgImportWizard"/>
+        <extension  name="SendMobileMsg" id="790561AF-4ED5-4E97-98B9-7D56DADDC3D3"/>
+        <extension  name="Menu_Contact_FindContact" id="Menu_Contact_FindContact"/>
+        <extension  name="Menu_Tool_PluinMgr" id="Menu_Tool_PluinMgr"/>
+        <extension  name="Menu_Contact_ResumeData" id="Menu_Contact_ResumeData"/>
+      </config>
+    </extension-point>
+    <extension-point name="MainMenuNewsExtPoint" id="2A317946-0AFB-4694-82AC-83C714AE6269">
+      <config>
+        <extension  name="Menu_News_Order" id="Menu_News_Order"/>
+        <extension  name="Today" id="4ABA28B1-48E7-4426-B9AD-CC23632E77B5"/>
+      </config>
+    </extension-point>
+    <extension-point name="MainMenuEcommerceExtPoint" id="69060AE5-F7C9-4f56-8215-299938C3CF00">
+      <config>
+        <extension name="PayCenter" id="4E0E1FDF-2E6B-4D1C-ADA0-D6FC623DD394"/>
+        <extension name="Menu_Ecommerce_QQCharge" id="Menu_Ecommerce_QQCharge"/>
+        <extension name="Menu_Ecommerce_MobileCharge" id="Menu_Ecommerce_MobileCharge"/>
+        <extension name="Menu_Ecommerce_GameCharge" id="D5573E59-76EF-465F-A9EE-47EB4FD4E6DD"/>
+        <extension name="Menu_Ecommerce_BookTicket" id="B7A3E77E-F037-41B6-8772-DC2375A44419"/>
+        <extension name="Menu_Ecommerce_SuperShopping" id="956F1F78-6D8D-40CE-8C6E-6FEA63C391FF"/>
+      </config>
+    </extension-point>
+    <extension-point name="MainMenuWirelessExtPoint" id="8CFBDF09-2C01-4d40-9851-3647EB1BBA69">
+      <config>
+        <extension  name="Menu_QQMobile_Lastist" id="Menu_QQMobile_Lastist"/>
+        <extension  name="sep1" id="sep1"/>
+        <extension  name="Wireless" id="A69FC6B2-F187-4630-9BE8-D22A942E38BC"/>
+        <extension  name="Menu_QQMobile_Bind" id="Menu_QQMobile_Bind"/>
+        <extension  name="sep2" id="sep2"/>
+        <extension  name="Menu_QQMobile_MobileQQ" id="Menu_QQMobile_MobileQQ"/>
+        <extension  name="Menu_QQMobile_3GQQ" id="Menu_QQMobile_3GQQ"/>
+        <extension  name="Menu_QQMobile_WAP" id="Menu_QQMobile_WAP"/>
+        <extension  name="Menu_QQMobile_Game" id="Menu_QQMobile_Game"/>
+        <extension  name="Menu_QQMobile_Msg" id="Menu_QQMobile_Msg"/>
+        <extension  name="sep3" id="sep3"/>
+        <extension  name="Menu_QQMobile_AudioVIP" id="Menu_QQMobile_AudioVIP"/>
+        <extension  name="Menu_QQMobile_Ring" id="Menu_QQMobile_Ring"/>
+        <extension  name="Menu_QQMobile_lingtong" id="Menu_QQMobile_lingtong"/>
+        <extension  name="sep4" id="sep4"/>
+        <extension  name="Menu_QQMobile_qianliyan" id="Menu_QQMobile_qianliyan"/>
+        <extension  name="Menu_QQMobile_MsgSuper" id="Menu_QQMobile_MsgSuper"/>
+        <extension  name="Menu_QQMobile_SuperQQ" id="Menu_QQMobile_SuperQQ"/>
+      </config>
+    </extension-point>
+    <extension-point name="MainMenuHelpExtPoint" id="DA37D310-DC06-483d-980E-D6AE06DC776B">
+      <config>
+        <extension  name="Menu_MenuHelp_OnlineUpdate" id="Menu_OnlineUpdate"/>
+        <extension  name="Menu_MenuHelp_IMQQ" id="Menu_IAmQQ"/>
+        <extension  name="SubSmallSep3" id="SubSmallSep3"/>
+        <extension  name="Menu_MenuHelp_Theme" id="Menu_HelpTheme"/>
+        <extension  name="Menu_MenuHelp_Question" id="Menu_QuestionAndAdvance"/>
+        <extension  name="Menu_MenuHelp_Blog" id="Menu_ProductBlog"/>
+        <extension  name="Menu_MenuHelp_CustomerService" id="Menu_Help_CustomerCenter"/>
+        <extension  name="Menu_MenuHelp_Agreement" id="Menu_Help_UserAgreement"/>
+        <extension  name="Menu_MenuHelp_UserSoftReport" id="2F2A414D-F40B-494d-9653-38DE61DB0611"/>
+        <extension  name="Menu_MenuHelp_About" id="Menu_Help_AboutDlg"/>
+      </config>
+    </extension-point>
+    <extension-point name="MainMenuMainExtPoint" id="0C26B7C9-CF39-4a52-93A6-350C7E56373E">
+      <config>
+        <extension  name="Menu_ALLServices" id="Menu_ALLServices"/>
+        <extension  name="Menu_QQVIP" id="99E11F25-B931-4359-B4B3-33DC3F69EB87"/>
+        <extension  name="SmallSep1" id="SmallSep1"/>
+        <extension  name="Menu_Tools" id="Menu_Tools"/>
+        <extension  name="Menu_Setting" id="Menu_Setting"/>
+        <extension  name="SmallSep2" id="SmallSep2"/>
+        <extension  name="Menu_SecrityCenter" id="Menu_SecrityCenter"/>
+        <extension  name="Menu_QuestionAndAdvance" id="Menu_QuestionAndAdvance"/>
+        <extension  name="Menu_Help" id="Menu_Help"/>
+        <extension  name="SmallSep3" id="SmallSep3"/>
+        <extension  name="Menu_Switch" id="Menu_Switch"/>
+        <extension  name="Menu_Exit" id="Menu_Exit"/>
+      </config>
+    </extension-point>
+    <extension-point name="ContactNodeMenuExtPoint" id="C5B624FE-9778-45FB-9CFE-212FB603BA28">
+      <config>
+        <extension  name="Send_Message" id="Send_Message"/>
+        <extension  name="Wireless" id="4C462672-C2A2-4B27-BBF0-286C820E7967"/>
+        <extension  name="MENU_SENDEMAIL" id="MENU_SENDEMAIL"/>
+        <extension  name="AudioVideo" id="AAC0A3DA-B424-40A2-A9C8-8C24E66C7777"/>
+        <extension  name="FileTransfer" id="1157D36F-8699-4756-8C02-748D91013332"/>
+        <extension  name="sep1" id="sep1"/>
+        <extension  name="CRMSpace" id="CRMSpace"/>
+        <extension  name="Qzone" id="3B55DD80-C101-46d1-8DE3-2E14954FECD7"/>
+        <extension  name="Vip" id="1FE53313-5DF8-43E4-A121-BDF7599A0EC4"/>
+        <extension  name="PayCenter" id="DD07B52A-5246-449A-B63A-F2F2A39B8F53"/>
+        <extension  name="QQGame" id="FBD3A1DF-F363-48CD-8C0E-6469335D228F"/>
+        <extension  name="PaiPaiGift" id="2F15A52C-96A0-4CDD-B9B4-2F618A67B9B7"/>
+        <extension  name="Wireless2" id="CED08FAF-E9D7-42E8-AB73-6A0D3F802CA8"/>
+        <extension  name="sep2" id="sep2"/>
+        <extension  name="MoveUser" id="MoveUser"/>
+        <extension  name="MENU_ADDTOCONTACT" id="MENU_ADDTOCONTACT"/>
+        <extension  name="MENU_REMOVEFROMRECENTLIST" id="MENU_REMOVEFROMRECENTLIST"/>
+        <extension  name="Move_To_Blacklist" id="Move_To_Blacklist"/>
+        <extension  name="Delete_Contact" id="Delete_Contact"/>
+        <extension  name="MENU_IMPEACHUSER" id="MENU_IMPEACHUSER"/>      
+        <extension  name="Rename_Contact" id="Rename_Contact"/>
+        <extension  name="sep3" id="sep3"/>
+        <extension  name="SetAuth" id="SetAuth"/>
+        <extension  name="sep4" id="sep4"/>
+        <extension  name="History_Record" id="History_Record"/>
+        <extension  name="Edit_Profile" id="Edit_Profile"/>
+   
+      </config>
+    </extension-point>
+    <extension-point name="QInterLiveContactNodeMenuExtPoint" id="A276B3B9-DE6B-4473-9DD3-6834F54103B7">
+      <config>
+        <extension  name="Send_Message" id="Send_Message"/>
+        <extension  name="sep1" id="sep1"/>
+        <extension  name="Qzone" id="D1EAF97D-E30B-4899-99AC-4F195C67D704"/>
+        <extension  name="sep2" id="sep2"/>
+        <extension  name="MoveUser" id="MoveUser"/>
+        <extension  name="MENU_ADDTOCONTACT" id="MENU_ADDTOCONTACT"/>
+        <extension  name="MENU_REMOVEFROMRECENTLIST" id="MENU_REMOVEFROMRECENTLIST"/>
+        <extension  name="Move_To_Blacklist" id="Move_To_Blacklist"/>
+        <extension  name="Delete_Contact" id="Delete_Contact"/>
+        <extension  name="MENU_IMPEACHUSER" id="MENU_IMPEACHUSER"/>
+        <extension  name="Rename_Contact" id="Rename_Contact"/>
+        <extension  name="sep3" id="sep3"/>
+        <extension  name="SetAuth" id="SetAuth"/>
+        <extension  name="sep4" id="sep4"/>
+        <extension  name="History_Record" id="History_Record"/>
+      </config>
+    </extension-point>
+    <extension-point name="ContactNodeMySelfMenuExtPoint" id="113C79DA-B084-48a9-9D0A-2DE281C6D7F3">
+      <config>
+        <extension  name="Qzone" id="76F72EA6-31AB-4BA1-AD12-1524A016FFBD"/>
+        <extension  name="ChangeMyInfo" id="ChangeMyInfo"/>
+        <extension  name="ChangeMyHeadImage" id="ChangeMyHeadImage"/>
+        <extension  name="ShowMyHeadImage" id="ShowMyHeadImage"/>
+      </config>
+    </extension-point>
+    <extension-point name="GroupMemberNodeMenuExtPoint" id="0E180D0C-BF92-46AA-B8AE-2463F66610F5">
+      <config>
+        <extension  name="SendMsg" id="SendMsg"/>
+        <extension  name="Wireless" id="BE29E22C-05C3-41ED-B0FF-B06E815F868B"/>
+        <extension  name="sep1" id="sep1"/>
+        <extension  name="ViewInfo" id="ViewInfo"/>
+        <extension  name="Qzone" id="B48A12CE-E320-43C9-B7CA-53ACDCE3AAD0"/>
+        <extension  name="sep2" id="sep2"/>
+        <extension  name="ModifyCard" id="ModifyCard"/>
+        <extension  name="AddFriend" id="AddFriend"/>
+        <extension  name="Sheild" id="Sheild"/>
+        <extension  name="Remove" id="Remove"/>
+      </config>
+    </extension-point>
+    <extension-point name="ContactNodeHeadExtPoint" id="CCBCC925-F7F1-43f0-8ED0-A4B5FEC432E6">
+      <config>
+        <extension  name="Wireless" id="099754BE-6834-4d3c-B6BB-0C297CF7BFF6"/>
+      </config>
+    </extension-point>
+    <extension-point name="ContactNodeNameExtPoint" id="82C7C3CC-4A8A-4aec-B9CA-AA5832BEFAA3">
+      <config>
+      </config>
+    </extension-point>
+    <extension-point name="ContactNodeHeadFlagExtPoint" id="FE13085C-BCE5-455a-BB72-6EF61175592C">
+      <config>
+      </config>
+    </extension-point>
+    <extension-point name="ContactNodeNameFontExtPoint" id="73FD9EF4-7359-4eb8-B0F1-5CDEB5A878D8">
+      <config>
+      </config>
+    </extension-point>
+    <extension-point name="ContactNodeStatusExtPoint" id="C8188ABD-29AD-4e0e-986C-53BD273233DE">
+      <config>
+      </config>
+    </extension-point>
+    <extension-point name="CFRichFaceExtPoint" id="24AC1FDA-99AE-4583-B8C1-47D460E7E53F">
+      <config>
+        <extension  name="Winks" id="C9B8199A-BB53-4251-869A-71E80F151871"/>
+        <extension  name="Graffito" id="A6F672F5-9806-4B76-B952-A43AFDA1367D"/>
+		<extension  name="QQPet" id="CCD350A4-889B-4351-A10C-B49FA12B9767"/>
+	  </config>
+    </extension-point>
+    <extension-point name="SearchControlExtPoint" id="31C9F6C9-B936-4ad7-B16B-D0858C91430F">
+    </extension-point>
+    <extension-point name="CFBuddyAppMenuExtPoint" id="E47BB4E7-8012-4ea3-B9DA-DB9D4B1B5ACB">
+      <config>        
+        <extension name="RemoteHelp" id="DFCB839D-5842-4AA4-A318-772D83BD405B"/>
+        <extension name="PayCenter" id="DB15B989-9DC3-4595-AFC8-E96860601706"/>
+      </config>
+    </extension-point>
+    <extension-point name="CampusGroupUserTipExtPoint" id="FC924F13-E8D0-47CE-94E6-6B2B9B6BEB26">
+      <config>
+        <extension name="CampusGroupUserInfo" id="9FB1F3DD-A43E-4473-972B-C12ADF02F1A3" />
+      </config>
+    </extension-point>
+    <extension-point name="ConfigCenterBasicPromptPageExtPoint" id="F5E1502F-3286-4957-9BF3-31FCC9B956C7">
+      <config>
+      </config>
+    </extension-point>
+    <extension-point name="ConfigCenterChatFrameSetExtPoint" id="E6A9E266-A76C-456F-BC4D-B408A54ED337">
+      <config>
+        <extension name="WinksShow" id="8F68D0AE-2855-490A-8D95-F999325E41CA"/>
+        <extension name="QQShow" id="B655ED09-8091-47F7-AAD1-2C712806B5A4"/>
+        <extension name="ShakeWindow" id="6A9F43CB-6FF4-4317-81E7-CABD6D778F9B"/>
+        <extension name="ForbidAd" id="ForbidAd"/>
+        <extension name="ShowPluginFrame" id="2C5E9534-C65B-4DFD-93E8-166F56617F40"/>
+      </config>
+    </extension-point>
+    <extension-point name="ConfigCenterContactInfoShowSetExtPoint" id="FC43E180-41EA-4285-A271-BD826224C3FD">
+      <config>
+      </config>
+    </extension-point>
+    <extension-point name="CFTopQZoneExtPoint" id="CC79F667-A36A-4ecd-B796-484EA47F954A">
+      <config>
+        <extension name="Qzone" id="3A78FB49-F709-4152-B7CA-3931C5A35AC4"/>
+      </config>
+    </extension-point>
+    <extension-point name="FriendInfoBasicPageExtPoint" id="8531B000-7C6F-45DD-BE7F-FF11DEC0725A">
+      <config>
+        <extension name="AccountRegion" id="PersonalInfo_BasicInfoRegion"/>
+        <extension name="BriefRegion" id="PersonalInfo_DetailInfoRegion"/>
+        <extension name="Qzone" id="D48A260A-C40B-41B4-A41B-0C3FCC040087"/>
+        <extension name="PaiPaiGift" id="4B941F93-D97A-470F-9493-0C36418FAF65"/>
+        <extension name="PaiPai" id="9C702DD1-A41D-4f07-A2A3-1378AE2E983B"/>
+        <extension name="ContactRegion" id="PersonalInfo_MoreInfoRegion"/>
+        <extension name="RemarkRegion" id="PersonalInfo_RemarkInfoRegion"/>
+      </config>
+    </extension-point>
+    <extension-point name="RichFindResult_AdvancedSearchExtPoint" id="681BAB58-9F35-46ef-AD7F-47AF69FA0BDD">
+      <config>
+        <extension name="AdvancedSearch" id="F653DE12-421B-4865-826B-D7F9884C4A97"/>
+        <extension name="LastPage_Btn" id="LastPage_Btn"/>
+        <extension name="NextPage_Btn" id="NextPage_Btn"/>       
+      </config>
+    </extension-point>
+   </extension-points>
+
+
+  <components path="Bin" path-debug="BinDebug">
+    <component clsname="CUserSoftReport" clsid="88F6D809-5D61-45A6-A2D0-72DBFEC58542" dllname="AppMisc.dll" exit-order="1"/>
+    <component clsname="CTXDataSourceFactory" clsid="30CE7B78-BD6B-4DC7-8251-B6974A35728C" dllname="AppMisc.dll" exit-order="1"/>
+    <component clsname="CTXProxyValidateMgr" clsid="C761C41F-E38E-4921-AECB-04E1E1AB2615" dllname="MainFrame.dll" exit-order="1"/>
+    <component clsname="CMainFrameMgr" clsid="8DEC02B6-FEDA-44A5-B898-21F5E9FFC53C" dllname="MainFrame.dll" exit-order="1"/>
+    <component clsname="CFingerFrameMgr" clsid="B0A3D41F-39E5-4044-85E1-743C6326E211" dllname="AppMisc.dll" exit-order="1"/>
+    <component clsname="CCustomHeadWndMgr" clsid="B646F605-B84B-428B-9F69-D377FE22AAED" dllname="AppMisc.dll" exit-order="1"/>
+    <component clsname="CAddGroupMgr" clsid="A461BDAF-9A5E-4354-985D-AD597D2F120C" dllname="AppMisc.dll" exit-order="1"/>
+    <component clsname="CAddBuddyMgr" clsid="B6ED4FEF-9BE2-4D43-8A9F-06609724D2FA" dllname="AppMisc.dll" exit-order="1"/>
+    <component clsname="CTXPostLoginFlow" clsid="AD20A360-AFFF-4826-A4C3-D80D6FB5797C" dllname="AppUtil.dll" exit-order="1"/>
+    <component clsname="CTaskTrayFactory" clsid="8D4401A7-6189-4253-A1F6-8E6551DFC6B0" dllname="TaskTray.dll" exit-order="1"/>
+    <component clsname="CTXChatSessionMgr" clsid="A32BA999-2A0B-4DB7-BEE7-582BBB5E6C09" dllname="ChatFrame.dll" exit-order="1"/>
+    <component clsname="CTXBuddyInputStatusMgr" clsid="DB736108-859E-4375-BF8B-9F5B6531C135" dllname="ChatFrame.dll" exit-order="1"/>
+    <component clsname="CTXAntiFraudMgr" clsid="39288CE5-9883-488B-9731-829AC62D3812" dllname="ChatFrame.dll" exit-order="1"/>
+    <component clsname="CChatFrameSetting" clsid="5FC741B7-9846-4001-820B-62F43FD630CE" dllname="ChatFrame.dll" exit-order="1"/>
+    <component clsname="CCameraMgr" clsid="1E150D11-EE63-4A1A-A212-C0C353D48892" dllname="Camera.dll" exit-order="1"/>
+    <component clsname="CCustomFaceFrameMgr" clsid="E71F1A9E-45EC-4783-9B39-5C165E646D25" dllname="CustomFace.dll" exit-order="1"/>
+    <component clsname="CTXSysFaceDraw" clsid="F2A204BE-4DB7-4E30-9913-A017F3A23B1E" dllname="AppUtil.dll" exit-order="1"/>
+    <component clsname="CTXPluginStrategyCenter" clsid="1AED01FB-46F8-4777-8412-B06F92D60A43" dllname="AppUtil.dll" exit-order="1"/>
+    <component clsname="CPluginCenter" clsid="B1B62264-27FF-4AC3-AF00-6460E3E25030" dllname="AppMisc.dll" exit-order="1"/>
+    <component clsname="CTXBuddyMsgAgent" clsid="4A709A28-C51F-444F-8168-7FEAC729F30A" dllname="SystemMsg.dll" exit-order="1"/>
+    <component clsname="CTXMsgTipsFilter" clsid="A75E13CF-8CA1-4C8B-A533-31753BDFA501" dllname="SystemMsg.dll" exit-order="1"/>
+    <component clsname="CTXSoundFilter" clsid="7874735C-C4D8-413C-B5FE-0060A97811A2" dllname="SystemMsg.dll" exit-order="1"/>
+    <component clsname="CTXMsgChainFilter" clsid="116475A6-5079-4701-9231-86C4B47AC5CC" dllname="SystemMsg.dll" exit-order="1"/>
+    <component clsname="CTXPopupTipMgr" clsid="9ACC3B47-AB18-41D1-9ACA-18845545845B" dllname="SystemMsg.dll" exit-order="1"/> 
+    <component clsname="CTXGroupMsgAgent" clsid="969E2A07-9C50-4AA2-82A4-1C1E09E488C5" dllname="SystemMsg.dll" exit-order="1"/>
+    <component clsname="CGroupSysMsgFrameMgr" clsid="77D3171F-A689-461A-A647-FA179E5B75B3" dllname="SystemMsg.dll" exit-order="1"/>
+    <component clsname="CTXOSTipsFilter" clsid="405D8F0D-1048-4C26-B12B-F8F0612CB4FA" dllname="SystemMsg.dll" exit-order="1"/>    
+    <component clsname="CTXBroadcastTipsFilter" clsid="860D8507-B9DB-4B8C-B87B-BB57BF325F8F" dllname="SystemMsg.dll" exit-order="1"/>
+    <component clsname="CContactNodeLogic" clsid="608F03CF-D865-42B5-B00B-AB918DBB4B03" dllname="MainFrame.dll" exit-order="1"/>
+    <component clsname="CTXMsgMgr" clsid="6C66A9EC-D434-4342-ADC7-F7F7C9D5016B" dllname="MsgMgr.dll" exit-order="1"/>
+    <component clsname="CTXLoginLogo" clsid="4176BD3C-8C53-42BB-BE9B-D59C0B7EF304" dllname="MainFrame.dll" />
+	<component clsname="CSafeCheckConfigMgr" clsid="207A317F-4BB4-4885-A421-76FBC3939C73" dllname="MainFrame.dll" exit-order="1"/>
+    <component clsname="CDelAccountWndLogic" clsid="24C750FF-C752-492B-AADC-F3D6D3D6F79F" dllname="MainFrame.dll" exit-order="1"/>
+	<component clsname="CConfigCenter" clsid="725D19A7-835B-4E54-88B8-B039FAB1DFD1" dllname="ConfigCenter.dll" exit-order="1"/>
+    <component clsname="CMainMenuMgr" clsid="E76C0C97-A1BB-42D3-9A8B-05B53C6FA715" dllname="MainFrame.dll" exit-order="1"/>
+    <component clsname="CGroupConfigFrameMgr" clsid="77D3171F-A689-461A-A647-FA179E5B75B3" dllname="AppMisc.dll" exit-order="1"/>
+    <component clsname="CGroupAttendContentFrameMgr" clsid="AEDF8C91-8078-4E69-96B2-A4ACF22D4F21" dllname="AppMisc.dll" exit-order="1"/>
+    <component clsname="CCustomGroupHeadWndMgr" clsid="2982C88F-F9CC-4485-BEB6-4B59A8F74D54" dllname="AppMisc.dll" exit-order="1"/>
+    <component clsname="CContactTipsMgr" clsid="3769A3EA-F343-4017-9A54-F302D291FD54" dllname="AppMisc.dll" exit-order="1"/>
+    <component clsname="CGroupTipsMgr" clsid="0A4E7078-DAF7-45A2-A816-7559F021BB89" dllname="AppMisc.dll" exit-order="1"/>
+    <component clsname="CPersonalImageMgr" clsid="F93EB6CE-DD1E-49E8-9AAD-06EAC437550F" dllname="AppUtil.dll" exit-order="1"/>
+    <component clsname="CMiscConfigMgr" clsid="8499BD96-41F9-42F4-A5DB-02B9F84D131E" dllname="AppUtil.dll" exit-order="1"/>
+    <component clsname="CTXPromptPolicy" clsid="E76A521E-3632-4646-A6C0-11CFF0D7147C" dllname="SystemMsg.dll" exit-order="1"/>
+    <component clsname="CTXStatusPromptMgr" clsid="6179A62A-D342-4A41-A32F-BD6F0EF5840F" dllname="SystemMsg.dll" exit-order="1"/>
+    <component clsname="CLoginExceptionFrame" clsid="C50F9AD9-3858-46D2-9CF8-00E900A72BC0" dllname="MainFrame.dll" exit-order="1"/>
+    <component clsname="CHotKeyMgr" clsid="79929DE1-E0A3-4FCA-AE5A-EAC6A551FA7D" dllname="AppMisc.dll" exit-order="1"/>
+    <component clsname="CTXSoundConfig" clsid="ADC46628-9E52-4EAF-9E52-D39F4D207174" dllname="AppUtil.dll" exit-order="1"/>
+    <component clsname="CTXJumpConfig" clsid="45F0A9F7-AD39-4ec9-8C0E-D44C1FC77161" dllname="AppUtil.dll" exit-order="1"/>
+	<component clsname="CTXLoginSettingConfig" clsid="A4DD211A-67D8-46ff-A3C4-79C522B5D99D" dllname="AppUtil.dll" exit-order="1"/>
+    <component clsname="CTXOnlineTipMgr" clsid="549AF8AA-2291-4C2A-9D8D-B9C1B7B86DC3" dllname="SystemMsg.dll" exit-order="1"/>
+    <component clsname="CWirelessOnlineTipExtMgr" clsid="3CC5654A-BC72-4A94-BC58-8D685216579E" dllname="SystemMsg.dll" exit-order="1"/>
+    <component clsname="CTXOnlinePromptMgr" clsid="EFAD4FE3-0033-4DF5-A7DF-EE0F68AE1B3F" dllname="SystemMsg.dll" exit-order="1"/>
+    <component clsname="CUseAgreementFrame" clsid="D99B2B42-FBD7-453D-9F34-0A915E0ADFC7" dllname="MainFrame.dll" exit-order="1"/>
+    <component clsname="CTXExitFlow" clsid="96BDAEDD-02AE-4213-B8BA-A6AE155882C3" dllname="AppUtil.dll" exit-order="1"/>
+    <component clsname="CTXContactConfig" clsid="E0FE9324-3E8F-404B-935D-0D487BA1930B" dllname="AppUtil.dll" exit-order="1"/>
+    <component clsname="CValidCodeFoundationMgr" clsid="F020A7CE-BCAA-47A1-B7E1-9D3CC3AA13F9" dllname="AppUtil.dll" exit-order="1"/>      
+    <component clsname="CTXSafeLinkCheckFilter" clsid="9782E2D3-7E4C-41E3-A8A3-62CF1CC6085F" dllname="AppMisc.dll" exit-order="1"/>
+    <component clsname="CTXAppCenter" clsid="19BBAA76-5306-4732-802A-03CBE42FAAF7" dllname="AppMisc.dll" exit-order="1"/>
+    <component clsname="CTXAutoReplaySetting" clsid="80A23314-81AC-4B76-AECF-D8750A024FCC" dllname="AppMisc.dll" exit-order="1"/>
+    <component clsname="CTXSkinMgr" clsid="98064143-B98C-4D8C-B038-A38196B88851" dllname="SkinMgr.dll" exit-order="1"/>
+    <component clsname="CReLoginWnd" clsid="2AE46A31-1151-4102-8AF0-C03991954832" dllname="MainFrame.dll" exit-order="1"/>
+    <component clsname="CMainPanelSideBarMgr" clsid="96F2FCDB-5B53-4a19-B3D5-0646242BF2D3" dllname="MainFrame.dll" exit-order="1"/>
+    <component clsname="CMainPanelSideBarUIMgr" clsid="FE47AECF-9155-48E2-B495-B58C214C45CD" dllname="MainFrame.dll" exit-order="1"/>
+    <component clsname="CAreaStrategyMgr" clsid="96F2FCDB-5B53-4a19-B3D5-0646242BF2D3" dllname="AppUtil.dll" exit-order="1"/>
+    <component clsname="CAreaStrategyCalcMgr" clsid="D209A240-A894-4911-9773-24B0F3A2114D" dllname="AppUtil.dll" exit-order="1"/>
+    <component clsname="CMainPanel" clsid="E4394D14-BBF1-446E-9FB5-E679E2F0CE12" dllname="MainFrame.dll" exit-order="1"/>
+    <component clsname="CMainMySerivicePage" clsid="FCCBD56E-4A4B-48dc-BD2E-D33E968CBFB0" dllname="MainFrame.dll" exit-order="1"/>
+    <component clsname="CClickInstLogicMgr" clsid="02E012FC-AFDB-4B1E-B349-3DA21843849C" dllname="AppMisc.dll" exit-order="1"/>
+    <component clsname="CSaveMiscInfo" clsid="6FCC6874-81D8-4286-A981-DAA744E880E3" dllname="AppMisc.dll" exit-order="1"/>
+    <component clsname="CFaceEditMgr" clsid="7374C249-A46F-41A6-BA40-E94CBF7F8BED" dllname="CustomFace.dll" exit-order="1"/>
+    <component clsname="CRichFaceFrameMgr" clsid="68C28CF6-B493-491C-800D-B21EF747D37E" dllname="ChatFrame.dll" exit-order="1"/>
+    <component clsname="CSecurityImpeachMgr" clsid="B9AABD57-D03C-4E61-A0A6-5F4786680FB1" dllname="AppMisc.dll" exit-order="1"/>
+    <component clsname="CSearchContactMgr" clsid="91A0B6F0-6FA4-4E15-9AC1-6BA373A277F6" dllname="AppUtil.dll" exit-order="1"/>
+    <component clsname="CPasswordGuardFrameMgr" clsid="6D38B5AF-7FB2-4B87-B8C6-D9ECDFB7A13B" dllname="AppUtil.dll" exit-order="1"/>
+    <component clsname="CTXUpdateMiniPortalMgr" clsid="C6A4D53C-B934-434D-978F-E13FA7BF4E77" dllname="MainFrame.dll" exit-order="1"/>
+    <component clsname="CImportTrayMgr" clsid="3905DDC1-6FFA-45A7-AF5F-B28A39C8DD89" dllname="MsgMgr.dll" exit-order="1"/> 
+    <component clsname="CPwdGuardStateAppMgr" clsid="D7B6D931-1408-4CD5-9413-DD7069B58C8E" dllname="AppUtil.dll" exit-order="1"/>
+    <component clsname="CImportSettingMgr" clsid="8DA55B99-0BE4-4A22-B7C0-DB922DD70373" dllname="MsgMgr.dll" exit-order="1"/>
+    <component clsname="CTXQInterLiveMgr" clsid="47236D55-6958-4637-B486-4E95C085232B" dllname="QInterLive.dll" exit-order="1"/>
+    <component clsname="CTXAutoUpdateMgr" clsid="BA0AD65C-B83A-484C-BCF0-963B1DCEBF90" dllname="AppUtil.dll"/>
+    <component clsname="CTXGroupSysBusinessMgr" clsid="C5C9288A-BBD3-4479-8FEC-329891A718CB" dllname="AppMisc.dll" exit-order="1"/>
+    <component clsname="CTXNormalTipMgr" clsid="732121B6-72C8-4A5E-81FA-261FC019A8B1" dllname="AppMisc.dll" exit-order="1"/>
+    <component clsname="CTXGBKPopTipMgr" clsid="A488E7C8-79CD-4312-8A1D-76BD98BDF666" dllname="SystemMsg.dll"/>
+    <!--<component clsname="CLNNEscCfgDataMgr" clsid="54EE782C-7651-486F-8AE7-5C4AAB2DF706" dllname="AppMisc.dll"/>-->
+    <!--<component clsname="CLNNStorageMgr" clsid="9682FB64-8E22-4145-AF77-4EB6A01D7464" dllname="AppMisc.dll"/>-->
+    <component clsname="CLNNEscMgr" clsid="234CD573-B80B-45BA-A474-B37102DD0B1A" dllname="AppMisc.dll"/>
+    <component clsname="CRichTipsDataMgr" clsid="D2B07817-5EB6-42AD-AA4B-BDE18590C444" dllname="AppMisc.dll"/>
+    <component clsname="CTXCampusGroupExtMgr" clsid="25BC2A47-59EE-4C41-AFED-1B16CC048B6B" dllname="AppMisc.dll" exit-order="1"/>
+    <component clsname="CTXCampusGroupInfoMgr" clsid="88FCC89D-03BB-430E-BA6D-67D9C6699E45" dllname="AppMisc.dll" exit-order="1"/>
+    <component clsname="CTXCampusGroupUserInfoMgr" clsid="0228B496-FFEB-4316-B022-4933E9A6CB05" dllname="AppMisc.dll" exit-order="1"/>
+    <component clsname="CTXCampusGroupUserTipMgr" clsid="BF9CDD83-C71A-465C-9C2A-937912F2FE91" dllname="AppMisc.dll" exit-order="1"/>
+    <component clsname="CTXOldSysBroadcastMgr" clsid="149C22D2-14D7-49E8-8571-FB4CB2543027" dllname="SystemMsg.dll" exit-order="1"/>
+    <component clsname="CTXSilverLightMisc" clsid="4D82E653-8CD0-4652-A5F0-E5921FD6F8FE" dllname="AppUtil.dll" exit-order="1"/>
+    <component clsname="CThemeStatistics" clsid="69D9D722-375A-4B2B-BB90-1ED6E6ACAFE5" dllname="SkinMgr.dll" exit-order="1"/>
+    <component clsname="CVipConfig" clsid="4D036319-B56E-4D9A-8EA9-FF959968AAA3" dllname="AppUtil.dll" exit-order="1"/>
+    <component clsname="CTXShakeWindowTipMgr" clsid="C465622C-EB16-45B7-876B-F3D21872A757" dllname="ChatFrame.dll" exit-order="1"/>
+    <component clsname="CTXShakeWindowMgr" clsid="E6F8C19F-97AF-445C-909E-823297BCBFC1" dllname="ChatFrame.dll" exit-order="1"/>
+    <component clsname="CTXChatFrameSplitMgr" clsid="7A1B63F2-2DE3-488B-BB99-EC41F8036952" dllname="ChatFrame.dll" exit-order="1"/>    
+    <component clsname="CTXPushedMenuMgr" clsid="BB479BA7-084E-4DDE-A2DE-FF53287DB809" dllname="MainFrame.dll" exit-order="1"/>
+	  <component clsname="CShowVirusAfterScan" clsid="06A01963-BAB3-4f68-B811-3D0FB8E3CC18" dllname="MainFrame.dll" exit-order="1"/>
+	  <component clsname="CLNNRichTipsMgr" clsid="A12A760A-952F-4192-8B04-EE7C9BA9BACA" dllname="AppCtrl.dll" exit-order="1"/>
+    <component clsname="CTXQuickReplySetting" clsid="3DC4B19A-D19D-4F04-9CC5-AAD54411331B" dllname="AppMisc.dll" exit-order="1"/>
+    <component clsname="CTXReconnectMgr" clsid="5E8A1513-D324-4167-94D4-57F205BE0934" dllname="TaskTray.dll" exit-order="1"/>
+	  <component clsname="CTXMobileExtMgr" clsid="DC600FFC-0B7B-4F58-BCF1-8F2393E82B6A" dllname="AppUtil.dll" exit-order="1"/>
+    <!--数据上报扩展 beg-->
+    <component clsname="CUIDataReportCodec" clsid="5BA02C5A-B96A-4165-8AAC-B9D6E80639C2" dllname="AppUtil.dll"/>
+    <component clsname="CMsgMgrStatistics" clsid="AD093736-720A-47FB-B505-1FEE286D2113" dllname="AppUtil.dll"/>
+    <component clsname="CMiscAppStatistics" clsid="286DFC57-1FDD-412F-AA5B-09AF88BFE733" dllname="AppUtil.dll"/>
+    <component clsname="CContactAppStatistics" clsid="26711498-A877-4031-82E1-BC7DEAEA0B57" dllname="AppUtil.dll"/>
+    <component clsname="CDataReportUserSettingCodec" clsid="8BAAA27D-283D-4674-8629-66A425EE4A7D" dllname="AppUtil.dll"/>
+    <component clsname="CGroupMiniportalMgr" clsid="E6EF41A3-1A82-4C84-896C-F3BF23C163D3" dllname="GroupApp.dll"/>
+    <component clsname="CGroupSpaceMsgMgr" clsid="2983DE13-18EF-42CF-B42B-F7C7CA896A1C" dllname="GroupApp.dll"/>
+    <component clsname="CGroupBtnReportCenter" clsid="247EFCA4-BB53-4C03-8429-512E9EF3BF5F" dllname="GroupApp.dll"/>
+    <component clsname="CTXThreadServiceProvider" clsid="1D2630C8-3E68-45B3-9257-1562A41E80FF" dllname="AppUtil.dll"/>
+    <component clsname="CGroupCardPageExt" clsid="DDA88125-E3DE-4bb3-86DC-B3FB0A23EDD4" dllname="ContactInfoFrame.dll" />
+    <component clsname="CRichFindResultTestMgr" clsid="63C1586D-3E01-4D99-BA6C-4079CC7420FE" dllname="AppMisc.dll"/>
+    <component clsname="CLocateDataReport" clsid="6140D727-9E1C-47A9-8B1D-3BBCCCFF3103" dllname="MainFrame.dll"/>
+    <component clsname="CAreaPresentMgr" clsid="F11AF810-BA90-4EDD-ADB5-2DA092A2D5DE" dllname="MainFrame.dll"/>
+    <component clsname="CRichFingerFrameExtProvider" clsid="EF80D055-9D53-40FD-B8D8-950CF7A786F7" dllname="AppMisc.dll"/>
+    <component clsname="CContactFilterDataMgr" clsid="38281D30-F9A0-4046-8D3E-19423DF5A828" dllname="MainFrame.dll"/>
+    <component clsname="CSurveyMgr" clsid="E9C4944E-0B23-4550-B5F9-729D5594990B" dllname="AppMisc.dll"/>
+    <component clsname="CTXFileMappingMgr" clsid="8322E2F2-A6CA-4FEA-9F6A-FE0CB3C791ED" dllname="AppUtil.dll"/>
+    <component clsname="CStateReportCenter" clsid="D7D2CB48-DC53-47DB-802F-22F5A00C17B0" dllname="AppUtil.dll"/>
+    <component clsname="CGroupMiniportalExtMgr" clsid="1BF28840-AF29-44D6-BAE6-C15F90D90AF4" dllname="GroupApp.dll" />
+    <component clsname="CGroupMiniportalInfoMgr" clsid="35048647-9510-443B-A32A-AC704FD6E896" dllname="GroupApp.dll" />
+    <component clsname="CTXWebQQExtMgr" clsid="8C860077-7BF3-4698-B777-A6E46F51A48D" dllname="AppMisc.dll"/>
+    <component clsname="CDelContactMgr" clsid="9654B373-2D5C-4B21-9599-AD205C348975" dllname="MainFrame.dll"/>
+    <component clsname="CMsoMgr" clsid="A0795776-2B06-4A1B-82E0-3524CE8AFF42" dllname="AppUtil.dll"/>
+    <component clsname="CTXDiscussSysMsgMgr" clsid="36A35436-7B26-4cea-B722-31DEBC89B827" dllname="AppFramework.dll"/>
+  </components>
+  
+ <objects path="Bin" path-debug="BinDebug">
+  <object id="D9EAAE3D-F21E-411B-919D-874EE0D49654" name="CTXThemeSetup" clsid="2711FF7C-BFCB-4322-B9A2-DF10A6CFF77E" dllname="SkinMgr.dll"/>
+	<object id="9F9F258A-9AD7-434F-B8A1-479EA75FA9D8" name="CMainContactPage" clsid="3006EB87-3BA7-4778-AF5F-B6FE41343028" dllname="MainFrame.dll"/>
+	<object id="8B96CD69-ACF1-4B30-8EE3-19D4CF6C761A" name="CGroupPanelPage" clsid="229E0BC0-3158-4158-A690-81D8DE004FEB" dllname="MainFrame.dll"/>
+	<object id="2170F623-7839-4CDF-90FF-90050969AADA" name="CMainRecentPage" clsid="70FCD7E0-0B9F-44F5-B176-20E5FF5F6FE9" dllname="MainFrame.dll"/>
+	<object id="C4E6EAD7-D684-4a1d-86F0-835FCDE64D60" name="CMainMyServicePage" clsid="FCCBD56E-4A4B-48dc-BD2E-D33E968CBFB0" dllname="MainFrame.dll"/>
+	<object id="E6B202CD-0B13-4D3C-A68E-7EFEAA1AF183" name="CSoftKeyboard" clsid="757D40F8-5CCF-4C2D-A982-014A6F12C07D" dllname="MainFrame.dll"/>
+	<object id="0D83AFAD-0D7E-4EE5-BAFD-DE74FED10C9E" name="CInputBox" clsid="E79676CC-FC1E-486A-BF72-B69885F4DFE6" dllname="AppMisc.dll"/>
+	<object id="5F501A94-DDBC-477E-8B86-C2C2907A653A" name="CValidCodeWnd" clsid="379F16A1-37BA-4A00-A5FF-619D23581219" dllname="AppUtil.dll"/>
+	<object id="DD3AF02D-07FE-4549-9A0F-C8B2BF682B73" name="CSelectContact" clsid="9103CC39-8701-4D53-B9DE-A86BFD8FD925" dllname="AppMisc.dll"/>
+	<object id="97D22BDF-43E1-4381-9FDE-D43D8305E8FD" name="CSearchContact" clsid="45484D21-A64E-43CC-82B2-01588651EFCC" dllname="MainFrame.dll"/>
+	<object id="93475FA2-8704-464F-A7BE-C68391C1C109" name="CGroupConfigFrameMgr" clsid="77D3171F-A689-461A-A647-FA179E5B75B3" dllname="AppMisc.dll"/>
+	<object id="9E1C9854-DCE0-4A40-900B-A2E1046EE8C0" name="CSearchContactList" clsid="0438F02C-8719-4A32-97AC-8AF2E1807C90" dllname="MainFrame.dll"/>
+	<object id="CFD5B6A3-3D0B-40E5-A308-0EE19B8D296D" name="CSearchContactItem" clsid="34BDDD19-C981-4589-AA22-5602A8CF977B" dllname="MainFrame.dll"/>
+	<object id="85E6F46A-8A20-4215-82C2-E3312EC9F656" name="CAdjustColorWnd" clsid="324A876D-458D-40E2-A2D2-236652CBC7EC" dllname="MainFrame.dll"/>
+	<object id="1AB2B44D-EE9C-466F-B865-E37939D7741F" name="CTXChatMainWnd" clsid="355A2993-426C-4442-B7F6-F577982705DD" dllname="ChatFrame.dll"/>
+	<object id="2A6EFA70-0ED5-4B65-9A1F-E8BD251B9CC0" name="CTXBCFSideBar" clsid="2537827E-31A0-4A62-91C0-F41882727424" dllname="ChatFrame.dll"/>
+	<object id="E5F279FF-D544-4292-8665-632335368313" name="CTXBCFSideBarExtLogic" clsid="50E1DA8F-7089-4B8D-8520-DC59F9CA823C" dllname="ChatFrame.dll"/>
+	<object id="37BB7147-A7C7-4572-B179-F7336E0A4A3B" name="CTXBCFContactShowFrame" clsid="FA971DA1-2CB6-446F-BB8B-286D0926319B" dllname="ChatFrame.dll"/>
+	<object id="8BE0C335-2144-4A16-8AAE-82C75B3CB486" name="CTXRichEditCtrl" clsid="BC359A9A-EAE7-43A6-99A0-2D5767D3A184" dllname="AppUtil.dll"/>
+	<object id="D77B6C0D-04FF-4342-8895-361A3483E750" name="CTXChatRichEdit" clsid="982E470E-C480-4296-9920-4181ABF5E083" dllname="AppUtil.dll"/>
+	<object id="8453C5F2-8565-4d1f-A237-B66F8BAFEFEB" name="CTXBlueBar" clsid="355A2993-426C-4442-B7F6-F577982705DE" dllname="ChatFrame.dll"/>
+	<object id="CE53BF9E-0486-4AF0-84B9-BCD70DB90BC8" name="CTXYellowBar" clsid="3A41F65E-F86B-4090-9706-67783E1873FE" dllname="MainFrame.dll"/>
+	<object id="3CB3A86B-CAB4-4BBB-9B14-C207F6BF6D3A" name="CTXGroupMemListNode" clsid="6013DB54-8AEE-4AA3-8040-F05B2EBE5C90" dllname="ChatFrame.dll"/>
+	<object id="61BA68AD-6F19-4B0C-840E-1F7AB6B8D191" name="CTXGroupMemList" clsid="267A251C-441D-4D25-ACC8-1DD335282265" dllname="ChatFrame.dll"/>
+	<object id="B88131F7-9F80-4899-985A-9C2B22538FB1" name="CTXGroupMemContainer" clsid="F4B368C1-33E9-402A-A908-E4BA06A1F1B4" dllname="ChatFrame.dll"/>
+	<object id="1122C794-3414-4774-AB62-264BE712C1FB" name="CTXCFToolBarExtLogic" clsid="8D5A5BE9-3A60-4665-BAEC-F3B319AA0A7A" dllname="ChatFrame.dll"/>
+	<object id="DAFE0D15-F7EC-467F-BB4D-7DDB94E58AF4" name="CTXContactMenuExtLogic" clsid="A6FDB551-D545-4636-AD04-A9279B2D8A3D" dllname="MainFrame.dll"/>
+	<object id="F92CF9E1-B63D-40DC-A4A9-073599FB02A4" name="CModeHead" clsid="D7CA2459-F941-4156-8F0E-88F7C50D2859" dllname="AppUtil.dll"/>
+	<object id="BA2A7B82-5007-4752-9292-8D05649FE4F7" name="CModeFlag" clsid="39F5B384-EE02-4F01-A34D-188A19A3D98F" dllname="AppUtil.dll"/>
+	<object id="8107AB7F-6948-4D11-8F92-AB4BDA72C001" name="CModeBuleTip" clsid="0D7AB046-533C-4942-AED5-BA503B8633E9" dllname="AppUtil.dll"/>
+	<object id="EBF52499-AEF9-4ACB-98CE-D6D2541F581C" name="CFileEdit" clsid="D0BCC96A-3C1F-4572-99D9-2F436166ACDF" dllname="AppUtil.dll"/>
+	<object id="C85ECDC8-0FD0-4C1B-984F-76C744A1A103" name="CContactHead" clsid="595866E9-78EC-42A1-AD40-654412C6AFDF" dllname="AppUtil.dll"/>
+	<object id="C37A4B14-E6B7-453F-AB37-81B8D0FED135" name="CGroupHead" clsid="14EFD3AA-F5F6-4892-A233-E58F50983AD2" dllname="AppUtil.dll"/>
+	<object id="41AA39B4-B97D-457A-B913-B993B434B9C5" name="CModeHeadEx" clsid="A15C08DF-98E5-4AAA-9D52-1A932EBC5C0D" dllname="AppUtil.dll"/>
+	<object id="62FB3385-8A76-4F43-A447-11718D75E7AB" name="CGroupSysMsgFrame" clsid="66BF2EB2-86C9-43A5-BF46-AE61D50F80E5" dllname="SystemMsg.dll"/>
+	<object id="1E18BB7B-2C9A-4E2B-8968-AB9B4563DEA7" name="CContactControlExtLogic" clsid="8D95AD1D-965F-412B-BF21-19D88C6F3E3A" dllname="AppUtil.dll"/>
+	<object id="F2DF8D42-4B76-4d4f-9632-14047A732EAC" name="CFaceMgrCtrl" clsid="A1B7EB46-A166-4cc3-A67D-1AA4475FC1A3" dllname="CustomFace.dll"/>
+	<object id="F15DF0F6-6CB8-4CAA-A437-AB5085C5F6EA" name="CContactTabCtrlExtLogic" clsid="3E0B1F65-6BB4-43B7-8FF6-86B1E3B3CA28" dllname="AppUtil.dll"/>
+	<object id="45E989EC-65EC-4f12-9D61-97A462D021B7" name="CSecurityTip" clsid="291C4F04-EF1F-48fb-AAFA-1C36BA02697F" dllname="ChatFrame.dll"/>
+	<object id="6252709A-2E03-4936-A7BC-45CD3F3B73DE" name="CEELContactHelper" clsid="12FDDA8D-6626-4616-B44B-8EF887C52C52" dllname="AppUtil.dll"/>
+	<object id="53B542E5-0944-47C8-BEF5-D6F68B02D60E" name="CEELSortHelper" clsid="924330DA-A747-4E83-94AB-A2B5156FF0A5" dllname="AppUtil.dll"/>
+	<object id="7F04042A-F2F6-4802-8CD6-B051A1EB2AF0" name="CEELStrategyHelper" clsid="E6F5A799-4AAA-49F4-AEBD-A55F459E1C98" dllname="AppUtil.dll"/>
+	<object id="3E9EB7FA-B5E2-4A78-83C1-ABADCAB320B1" name="CQQLevelCtrl" clsid="AE2FEC63-FC97-49D6-9542-4ACFB150CAE1" dllname="AppUtil.dll"/>
+	<object id="46799BD9-F89A-4850-98BC-F7B61AEADCCA" name="CQQVipFlag" clsid="977F424E-9DA4-434C-8674-DDA56BC0352B" dllname="AppUtil.dll"/>
+	<object id="D17D13BB-843D-462C-94F0-EAE832925B7A" name="CQQVASFlag" clsid="A63D6EE2-8D01-4A75-8A36-0CD73BE830F8" dllname="AppUtil.dll"/>
+	<object id="F0C4B1E4-F17E-4F0E-9B0F-5F8820433965" name="CQQVASFlag_PageMode" clsid="2985D5F3-9A97-4246-B50D-70F28B9B922B" dllname="AppUtil.dll"/>   
+	<object id="1D363BD1-BAF3-4878-BBCC-DBC6335BBBA5" name="CModeViewCtrl" clsid="C45D01D2-C89C-4F74-ACE6-7A0D915131AA" dllname="AppUtil.dll"/>
+	<object id="6BDB2E08-1EDF-4AB0-934A-F87A98BD652A" name="CStatusStatic" clsid="DE0766CE-FA41-4C41-A6FA-ED6626D9D3C0" dllname="MainFrame.dll"/>
+	<object id="1EC7E162-E206-4D5D-8437-8FF78DD89CB3" name="CTXCheckBoxContainerExtLogic" clsid="9391A9F7-3E2F-4768-BC0D-76416A1BCFBF" dllname="ConfigCenter.dll"/>
+	<object id="50D97B18-A503-4852-A959-D84735A42E81" name="CModeNode" clsid="89725435-3762-4A78-A4BA-2C785801CD6D" dllname="MainFrame.dll"/>
+	<object id="BB4C6F63-D67F-4A0B-B312-8843911070B1" name="CSimpleControl" clsid="E3692EB5-4867-477F-BE7D-5BDE9435EA0B" dllname="AppUtil.dll"/>
+	<object id="B3D27E8F-8A76-4864-A910-DD70C9724C5B" name="CSearchListItemBase" clsid="D9DD9DCA-C7F8-4178-859A-8DC2D04C6AA8" dllname="AppUtil.dll"/>
+	<object id="601A9BF2-1BC9-457B-9798-BDBF8D81066F" name="CSimpleControl" clsid="941900AD-EA1F-4231-9C30-271D2320AF38" dllname="AppUtil.dll"/>
+	<!--<object id="9D5437FE-16C4-4889-A12B-D3E835A61D4E" name="CSearchListSimpleItem" clsid="03DDF4AE-95B1-4CBF-B86A-1B52FE83DE71" dllname="AppUtil.dll"/>-->
+	<object id="DA2C21A6-5D18-4FF3-BC0A-29BC6D707B69" name="CSearchListContainer" clsid="8D00FCD5-7B62-43C4-B71C-F0053E86FEB3" dllname="AppUtil.dll"/>
+	<object id="25BF7B07-0798-452A-BD50-936296442F17" name="CSearchControl" clsid="28BA0089-DC41-4EC9-927B-5757F051E9B7" dllname="AppUtil.dll"/>
+	<object id="D81723EE-F3E5-4C68-B2B5-97B269ADA360" name="CSearchListContactItem" clsid="830EB445-C537-4CDF-878A-F101249E2F85" dllname="AppUtil.dll"/>
+	<object id="406D074E-C2BB-4C0C-8E22-E7708CFC1B71" name="CSearchListGroupItem" clsid="6ECBC255-F357-447B-AB35-48AA4E83E97D" dllname="AppUtil.dll"/>
+	<!--<object id="84BE5E23-A7E1-41BC-994B-FB7BD4A9EA67" name="CSearchRichEdit" clsid="93564C39-FD98-4AB2-A8EB-CCB88D328AFF" dllname="AppUtil.dll"/>-->
+	<object id="E3B60420-ACD7-4A3C-83D0-D8CEC6D954F6" name="CSearchStackPanel" clsid="5115C7C6-D2A6-42AF-AAC6-386111EEE9E3" dllname="AppUtil.dll"/>
+	<object id="3C11A05F-93A0-47F4-9B18-83B4B5A8EEFE" name="CSearchListContactNoResultItem" clsid="AB8C3CB1-F2A7-4199-9B1F-4F2373B92262" dllname="AppUtil.dll"/>
+	<object id="99BB5E0F-EA60-4E0F-8300-B36E46AFFA39" name="CTextBlock" clsid="A2491978-B712-4F5A-92F8-B16E868937F9" dllname="AppUtil.dll"/>
+	<object id="32BC6FA7-9169-415A-9607-B54EA4F694F5" name="CSearchRichEditEx" clsid="A88E985E-67F2-44AA-85FF-B65CCC66DF37" dllname="AppUtil.dll"/>
+	<object id="10FC8364-AB65-43C0-B05E-2A2FE2E05C2C" name="CContactTextBlock" clsid="5B5A5B00-97C9-4801-8A9A-EE009B990409" dllname="AppUtil.dll"/>
+	<object id="E39A3CAB-5E38-4BE9-B197-6BBF37F373A6" name="CGroupTextBlock" clsid="09076C6F-CEDC-472D-BBA7-0090233BEE1E" dllname="AppUtil.dll"/>
+	<object id="E8ECE14D-9C9C-4458-BB4F-A8735CEB83B1" name="CFaceCanvasFrm" clsid="276B68C1-52B0-4160-91C0-91545FA33B44" dllname="CustomFace.dll"/>
+	<object id="640FC02B-5CFB-4039-93A3-8D6CF1499DD1" name="CFaceEditTip" clsid="2DA6B422-2372-4CAD-AC74-73E2D7832831" dllname="ChatFrame.dll"/>
+	<object id="1BBCF839-CCCC-40FA-A3CD-9C46D44866D9" name="CMainFaceEditWnd" clsid="DEFBC0CA-66C0-4A2F-9391-3D900EB87C67" dllname="CustomFace.dll"/>
+	<object id="4C6CA11C-67FC-4A5E-802D-D8EF127EF3E5" name="CTextLayer" clsid="1A9BBA71-1F0E-4BCF-B6D9-DD3813849521" dllname="CustomFace.dll"/>
+	<object id="A7FE47B8-6339-4C72-AEB3-DFB5BD289512" name="CGraphLayer" clsid="33951F94-B934-47C1-A6A7-AB92C6D53C21" dllname="CustomFace.dll"/>
+	<!--object id="1451852A-0519-4e30-BAEA-DE83A8EB1951" name="CDelContactPromptDlg" clsid="C08C6E1B-5183-44d0-9A3B-15C0E130FADC" dllname="MainFrame.dll"/-->
+	<object id="A38AD953-30BA-4265-A023-79D0D87BE75A" name="CFileTransferSendFrame" clsid="9DCECED8-EABB-469B-BA56-9F50E6E39982" dllname="AppUtil.dll"/>
+	<object id="0818510C-2282-4071-9194-D151858D9FA2" name="CPwdGuardStateCtrl" clsid="28313BB5-4FB9-4BC3-BA8C-FDC0CFF3CBAD" dllname="AppUtil.dll"/>
+	<object id="B97008AE-10C9-4498-ADC0-C8AAD63A3946" name="CTXCampusGroupUserTipWin" clsid="9D7BBCD8-485A-4F3C-A109-0C2FA19AA60E" dllname="AppMisc.dll"/>
+	<object id="CB3C59AC-F5F6-44B5-BB30-31B8860BCF66" name="CTXTipRichCtrlExtLogic" clsid="716D41D9-6999-42F9-8B19-6CC74D0B235D" dllname="AppMisc.dll"/>
+	<object id="521C24CC-45CC-435A-B3FA-F0B9E6023815" name="CTXTipRichCtrl" clsid="61D73EA8-B96E-41D1-9EE0-474529D8313F" dllname="AppMisc.dll"/>
+	<object id="4F671E07-59DA-469C-9824-75E9D41C72E3" name="CTXCampusGroupUserTipCtrl" clsid="588994D5-B71F-4361-87FA-11DB088FA48F" dllname="AppMisc.dll"/>
+	<object id="61CC0A0A-FF02-4C19-BD39-49937BF68D7F" name="CRichStatusCtrl" clsid="DDA40A10-5F33-472B-ACCE-D75B434AEFA2" dllname="AppCtrl.dll"/>
+	<object id="AEEA476B-2016-4F26-BBB1-72B959E90A96" name="CContactInfoFrameLinkItemExtLogic" clsid="8052E97D-962F-47A5-98BA-9F5AB0465430" dllname="ContactInfoFrame.dll"/>
+	<object id="82E8313C-1AB4-4A95-9795-778F9F8F0A8A" name="CAdvancedMsgBox" clsid="522BFF39-9C05-4803-87C3-61B24C4A81DF" dllname="AppCtrl.dll"/>
+	<object id="6A6E38B1-6526-495B-8F47-856E7D2038F0" name="CTXCampusGroupDynInfoCtrl" clsid="E8C0B72C-1F4D-432B-BFE6-1511485032B1" dllname="AppMisc.dll"/>
+	<object id="EFBD8C57-1C1A-4948-82B1-E4EA34692C02" name="CLNNExtCtrl" clsid="0A56C85C-BBA5-4BF2-8F41-C12FDAEB4CF9" dllname="AppCtrl.dll"/>
+	<object id="BDD830A2-6166-4689-92C3-5BFEA00ACD71" name="CLNNEscRichEdit" clsid="CD067061-5A92-4D54-9371-99074BF7DC6E" dllname="AppCtrl.dll"/>
+	<object id="28AB6285-EE2D-4955-960C-EA34DB424D90" name="CLNNModeNodeDraw" clsid="B3E90DB6-13ED-4DFE-9020-CE2EE8A5187E" dllname="AppCtrl.dll"/>
+	<object id="6CE58487-32C0-4F87-812F-81A72EA1581C" name="CLNNComboRichEdit" clsid="5D01D135-19C1-487E-A2A4-CEA23C3B0C7E" dllname="AppCtrl.dll"/>
+	<object id="0B4E451F-8E30-49BC-BA75-66DA4466598D" name="CLNNRichTips" clsid="2B56AF22-840C-49FA-9289-2F92EA523DDE" dllname="AppCtrl.dll"/>
+	<object id="45B154E2-DC7D-4ACE-A3C3-5998841C96FD" name="CGFImageTextLink" clsid="7DBA0C69-9AD4-4FD8-BE6B-6ECC618D2371" dllname="AppCtrl.dll"/>
+   <object id="95ACDAFD-ACE3-4B87-A00E-88F2044D7464" name="CContactFolderNode" clsid="E94D4FE9-70BB-45B7-B00A-6DE9A41F3E79" dllname="MainFrame.dll"/>
+   <object id="8CC9CA4A-3F72-4605-8527-E7983918068B" name="CListLayout" clsid="472FC176-E706-41DA-98C2-0D9656835D2A" dllname="MainFrame.dll"/>
+	<object id="CC972625-3DA0-4E0B-8F35-B7CF7188B2D7" name="CLinkTips" clsid="EC5382BF-8A88-4F5C-A446-9DA94A21605E" dllname="AppCtrl.dll"/>
+  <object id="8CB7D875-8F57-4AEF-8C6D-E23416015040" name="CInputMessageBox" clsid="81A960ED-D001-4C09-B464-956676AA61A6" dllname="AppCtrl.dll"/>
+  <object id="79948894-E385-45CC-8C07-8C46512BAA5D" name="CTXContactInfoFrameTester" clsid="D688B3D7-03B1-4D09-8E41-A2CC07AE173F" dllname="ContactInfoFrame.dll"/>
+  <object id="D8DAA3B2-EF4B-4F19-AA2F-E9F4FD7B2F0C" name="CTXSmartRichEdit" clsid="E6C108B6-8B3A-464A-A19F-437EFC743578" dllname="AppUtil.dll"/>
+  <object id="744B1F11-72C8-4A26-BE95-853BCA3B6898" name="CTXQuickReplyAdapter" clsid="3890D8C6-B6C7-4BFA-ABF6-7E8B73BE1F4B" dllname="AppMisc.dll"/>
+  <object id="CBEB0F7B-0BFD-456E-9B2D-8D8FEED7E09B" name="CGFPwdSafeEdit" clsid="585B33FC-0CD5-41C0-98D9-F4381800D4C4" dllname="AppUtil.dll"/>
+  <object id="7A96EABE-387C-49CD-80C2-2BF6A66D3E87" name="CQQVASFlagMultilineMode" clsid="0C06F112-2927-4B24-A179-9DA4B856CD65" dllname="AppUtil.dll"/>
+  <object id="3F41DA2C-C463-426F-8388-551F3BED3BC9" name="CThemeScrollBarMgr" clsid="D04A5273-2D06-476A-B3A6-2781E764A292" dllname="ConfigCenter.dll"/>
+  <object id="ABFD7E8B-45BE-4552-9641-D05B389A5B0D" name="CThemeScrollBar" clsid="B0CCEBA7-D03C-4E48-BC19-3883F7AE470A" dllname="ConfigCenter.dll"/>
+  <object id="E98AB76C-C03B-49F3-92D4-D4E864BAEEF2" name="CFloatingThemeScrollView" clsid="7367A31C-D420-49E2-B4F4-EE7016813B80" dllname="ConfigCenter.dll"/>
+  <object id="8ED98576-5890-4583-8A53-AAD8B21726EF" name="CThemeBoxUnit" clsid="C9374B7A-ABCA-4A76-BFFB-858788AD186B" dllname="ConfigCenter.dll"/>
+  <object id="E67BF8C2-9EF0-4717-8921-87C7E9490D8E" name="CRichFindResultItem" clsid="D9371EED-BFA8-412E-BA91-A2FB927C28BF" dllname="AppMisc.dll"/>
+  <object id="F1EEAB10-9EE2-4BB2-98A7-3F8A74262021" name="CRichFindResultCtrl" clsid="0E3BC084-B2DE-451E-8C81-1309DC64350B" dllname="AppMisc.dll"/>
+  <object id="0D08C741-39A3-4DEE-8713-98A42249E891" name="CContactFilterFrame" clsid="46BD03A7-9D9F-499C-800B-D11157115DB1" dllname="MainFrame.dll"/>
+   <object id="B9988476-FF39-409F-977D-4DD2A47EDBBA" name="CContactBox" clsid="A290F057-6F0B-4E04-88BD-95C7AC876406" dllname="MainFrame.dll"/>
+   <object id="CAC7999F-607D-4B44-A9B3-AF299EDD7458" name="CDelContact" clsid="870BCC6E-CDD2-48F1-B8C7-04D694803A05" dllname="MainFrame.dll"/>
+  <object id="F896313D-E038-427C-BF4C-11C2A49B0270" name="CAreaStrategyUnit" clsid="9C6DA6F5-B5FB-4650-8B61-584A4EAC144C" dllname="AppUtil.dll"/>
+ </objects>
+</core-config>

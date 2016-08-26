@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StringBundle version="1.0">
+  <!-- url -->
+  <String id="CUSTOMERHEAD_SERVER_URL">
+    cface_tms.qq.com
+  </String>
+  
+  <String id="CUSTOMHEAD_UPLOADURL">
+    http://cface.qq.com/cgi-bin/cface/upload
+  </String>
+  
+  <String id="Group_DownloadLayer">
+    http://group.qq.com/layer.zip
+  </String> 
+  
+  <String id="CUSTOMHEAD_UPLOADURL2">
+    http://cface.qq.com/cgi-bin/cface/upload2
+  </String>
+  
+  <String id="CUSTOMHEAD_BIG_UPLOADURL2">
+    http://cface.qq.com/cgi-bin/cface/upload3
+  </String>
+
+  <String id="CUSTOMHEAD_BIG_UPLOADURL3">
+    http://cface2.qq.com/cgi-bin/cface/upload3
+  </String>
+  
+  <String id="CUSTOMHEAD_UPLOADURL2_DYN">
+    http://u.viphead.qq.com/client/setface.php
+  </String>
+  
+  <String id="CUSTOMHEAD_DOWNLOAD_DEFAULT_URL">
+    http://getface.qq.com:80/GetFile
+  </String>
+  
+  <String id="CUSTOMHEAD_DOWNLOAD_DEFAULT_URL_DYN">
+    http://d.viphead.qq.com:80
+  </String>
+  
+  <String id="LongCnn_UdpSynServer1">
+    synserver.tencent.com:8000
+  </String>
+  <String id="LongCnn_UdpSynServer2">
+    synserver2.tencent.com:8000
+  </String>
+  <String id="LongCnn_UdpSynServer3">
+    synserver3.tencent.com:8000
+  </String>
+  <String id="LongCnn_UdpSynServer4">
+    synserver4.tencent.com:8000
+  </String>
+  <String id="LongCnn_TcpRelayServer1">
+    RelayServer.tencent.com:443
+  </String>
+  <String id="LongCnn_TcpRelayServer2">
+    RelayServer2.tencent.com:443
+  </String>
+  <String id="LongCnn_UdpRelayServer1">
+    RelayServer.tencent.com:8000
+  </String>
+  <String id="LongCnn_UdpRelayServer2">
+    RelayServer2.tencent.com:8000
+  </String>
+  <String id="LongCnn_TacticServer">
+    tactic.qq.com:443
+  </String>
+  <String id="LongCnn_UdpPingServer1">
+    sz.tencent.com:8000
+  </String>
+  <String id="LongCnn_UdpPingServer2">
+    sz2.tencent.com:8000
+  </String>
+  <String id="LongCnn_UdpPingServer3">
+    sz3.tencent.com:8000
+  </String>
+  <String id="LongCnn_UdpPingServer4">
+    sz4.tencent.com:8000
+  </String>
+  <String id="LongCnn_UdpPingServer5">
+    sz5.tencent.com:8000
+  </String>
+  <String id="LongCnn_UdpPingServer6">
+    sz6.tencent.com:8000
+  </String>
+  <String id="LongCnn_UdpPingServer7">
+    sz7.tencent.com:8000
+  </String>
+  <String id="LongCnn_P2PServer">
+    newp2pserver.qq.com:8000
+  </String>
+  <String id="LongCnn_P2PServer_Old">
+    p2pserver.qq.com:8000
+  </String>
+  <String id="DR_UDPServer_A_IDC1">
+    rs1.qq.com
+  </String> 
+  <String id="DR_UDPServer_A_IDC2">
+    rs2.qq.com
+  </String> 
+  <String id="DR_TCPServer_A_IDC1">
+    ts1.qq.com
+  </String> 
+  <String id="DR_TCPServer_A_IDC2">
+    ts2.qq.com
+  </String> 
+  <String id="DR_UDPServer_B">
+    rs7.qq.com|rs8.qq.com|rs9.qq.com
+  </String>
+  <String id="DR_TCPServer_B">
+    ts7.qq.com|ts8.qq.com|ts9.qq.com
+  </String>
+  <String id="Group_FileServer1">
+    groupfile.qq.com:443
+  </String>
+  <String id="Group_FileServer2">
+    groupfile2.qq.com:443
+  </String>
+  <String id="Group_FileServer3">
+    groupfile3.qq.com:443
+  </String>
+  <String id="Group_FileServer4">
+    groupfile4.qq.com:443
+  </String>
+  <String id="Group_FileServerHardcode">
+    124.115.5.209:443
+  </String>
+  <String id="Group_FileServerHardcode2">
+    124.115.5.210:443
+  </String>
+  <String id="Group_FileServerrj">
+    groupfiledr.qq.com:443
+  </String>
+
+  <String id="P2PDownload_DefaultStateSvr">
+    pdllog01.qq.com:80
+  </String>
+  <String id="P2PDownload_HardcodeStateSvr">
+    padst.qq.com:8000
+  </String>
+  <String id="P2PDownload_HardcodeUDPServer">
+    pdldir0.qq.com:8000
+  </String>
+  <String id="P2PDownload_HardcodeTCPServer">
+    pdldir0.qq.com:80
+  </String>
+  <String id="P2PDownload_HardcodeStunServer">
+    stun-b1.qq.com:8000
+  </String>
+  
+  <String id="CUSTOMFACE_ROAMURL">
+    http://faceroam.client.qq.com:8000
+  </String>
+
+  <String id="HTTPDataReport_DefaultUrl">
+    http://upload_data.qq.com:80
+  </String>
+
+  <String id="InsertState_Url">
+    http://jump.qq.com/clienturl_153?uin=%ld
+  </String>
+
+  <String id="CommonServerConfig_HttpDownload">
+    http://pcf.qq.com
+  </String>
+  
+  	<!--new added MailURL-->  
+	  <String id="IDS_WRITEEMAIL">
+    http://ptlogin2.qq.com/qqmail?Fun=clientread&amp;ADUIN=$ADUIN$&amp;ADSESSION=iii&amp;ADTAG=jjj&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;ptlang=$LANG$&amp;httptype=$HTTPTYPE$
+</String>
+  <String id="ContactTipsVASFlagExt_Mail_Contact_URL">
+    http://ptlogin2.qq.com/qqmail?ptlang=$LANG$&amp;Fun=clientwrite&amp;type=com_$CODE$&amp;uin=$UIN$&amp;k=$KEY$&amp;email=$CUIN$@qq.com&amp;httptype=$HTTPTYPE$
+</String>
+  <String id="MailServer_URL">
+   qqmail.tencent.com
+  </String>
+  <String id="GroupMultiNodeMail_URL">
+    http://ptlogin2.qq.com/qqmail?ptlang=$LANG$&amp;Fun=clientwrite&amp;type=com_2&amp;uin=$UIN$&amp;k=$KEY$
+</String>
+  <String id="IDS_GROUP_URL_MAIL_NEW">
+    http://ptlogin2.qq.com/qqmail?fun=clientwrite&amp;gid=$GID$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;ptlang=$LANG$&amp;httptype=$HTTPTYPE$
+</String>
+<String id="IDS_MAIL_OPENMYMAILBOX">
+  http://ptlogin2.qq.com/qqmail?ptlang=$LANG$&amp;Fun=clientread&amp;uin=$UIN$&amp;k=$KEY$&amp;httptype=$HTTPTYPE$
+</String>
+  <String id="IDS_MAIL_OPENONEMAIL">
+    http://ptlogin2.qq.com/qqmail?ptlang=$LANG$&amp;Fun=clientread&amp;uin=$UIN$&amp;k=$KEY$&amp;mailid=$ID$&amp;httptype=$HTTPTYPE$
+</String>
+
+	<!--new Added QzoneURL-->
+	<String id="QZONE_HOME_URL">http://qzone.qq.com</String>
+  <String id="USERQZONE_URL">http://user.qzone.qq.com/$user$</String>
+  <String id="MOREQZONEPAGE_URL">http://users.qzone.qq.com/cgi-bin/user/cgi_show_updatelist</String>
+  <String id="QQSpaceServerAddr">qzone-client.qq.com:8000</String>
+  <String id="QzoneAlbumUrl">http://tipsimage.qq.com/album/$user$/$albumid$</String>
+  <String id="QzoneNavigateUrl">http://imgcache.qq.com/qzone/jump.html#zzpanelkey=$KEY$&amp;zzpaneluin=$UIN$&amp;url=$URL$</String>
+  <String id="QzoneNavigateUrlPt2">http://ptlogin2.qq.com/jump?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;u1=$URL$</String>
+  <String id="QzonePhotoUrl">http://tipsimage2.qq.com/tips/$UIN$/4</String>
+  <String id="QzoneTipsSettingUrl">http://$user$.qzone.qq.com/</String>
+  <String id="QzoneUrl">http://qzone.qq.com/</String>
+  <String id="QzoneContentHttpUpdateUrl">http://update.qzone.qq.com/cgi-bin/user/updatelist</String>
+  <String id="URL_Qzone_ContactInfo">http://ptlogin2.qq.com/qzone_hummer?clientuin=$UIN$&amp;clientkey=$KEY$&amp;suin=$ContactUin$&amp;ptlang=$LANG$</String>
+  <String id="URL_QQSpaceServerIP">qzone-client.qq.com:8000</String>
+  <String id="URL_QzoneSideBarTabCtrl">http://update.qzone.qq.com/cgi-bin/user/cgi_updatelist_tab</String>
+  <String id="URL_QQHOMEPAGE">http://www.qq.com</String>
+  <String id="URL_Qzone_InfoCenter">infocenter.qzone.qq.com:8000</String>
+  <String id="USERQZONE_HOMEPAGE_URL">http://user.qzone.qq.com/$user$/</String>
+  <String id="QzoneAlbumPhotoUrl">http://user.qzone.qq.com/$user$?url=http%253A//photo.qq.com/tips_jump.htm%2523uin%253D$user$%2526albumid%253D$albumid$%2526photoid%253D$photoid$</String>
+  <String id="USERQZONE_INFOCENTER_URL">http://user.qzone.qq.com/$user$/infocenter</String>
+  <String id="CityManUrl">http://ptlogin2.qq.com/jump?clientuin=$UIN$&amp;clientkey=$KEY$&amp;ptlang=$LANG$&amp;u1=http%3A//city.qzone.qq.com</String>
+  <String id="FriendsUrl">http://ptlogin2.qq.com/jump?clientuin=$UIN$&amp;clientkey=$KEY$&amp;ptlang=$LANG$&amp;u1=http%3A%2F%2Fuser.qzone.qq.com/$CUIN$/interact</String>  
+  <String id="ContactTipsVASFlagExt_QzoneVip_URL">http://ptlogin2.qq.com/clienturl_168?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;service_type=home&amp;subtype=1&amp;aid=im</String>
+  <String id="ContactTipsVASFlagExt_QzoneVip_NewUrl">http://ptlogin2.qq.com/client2yellow?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;target=yellowgrade&amp;vuin=$CUIN$</String>
+  <String id="ContactTipsVASFlagExt_QzoneVip_Introduce_URL">http://ptlogin2.qq.com/client2yellow?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$</String>
+  <String id="ContactTipsVASFlagExt_QzoneVip_Introduce_NewURL">http://ptlogin2.qq.com/client2yellow?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;target=yellowtell</String>
+  <String id="ContactTipsVASFlagExt_Qzone_URL">http://imgcache.qq.com/qzone/jump.html#zzpanelkey=$KEY$&amp;zzpaneluin=$UIN$&amp;url=http://user.qzone.qq.com/$CUIN$</String>
+  <String id="ContactTipsVASFlagExt_Album_URL">http://ptlogin2.qq.com/clienturl_97?ptlang=$LANG$&amp;ownerid=$CUIN$</String>
+  <String id="QzoneDarenAvatarUrl">http://daren1.store.qq.com/city/qqclient/$UIN$</String>
+  <String id="QzoneSpaceAvatarUrl">http://qlogo$ROUTEID$.store.qq.com/qzonelogo/$UIN$/1/0</String>
+  <String id="QzoneAdSearch">http://soren.qzone.qq.com/cgi-bin/soren/cgi_userinfo_search?bSimple=0</String>
+  <String id="QzoneSpaceUrl">http://user.qzone.qq.com/$UIN$/profile</String>
+  <String id="QzoneDarenUrl">"http://city.qzone.qq.com/html/user/guest.htm#uin=$UIN$</String>
+  <String id="IDS_WRITEEMAIL_TOBUDDY">
+    http://ptlogin2.qq.com/qqmail?Fun=clientwrite&amp;type=com_$CODE$&amp;email=$EMAIL$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;ptlang=$LANG$&amp;httptype=$HTTPTYPE$
+  </String>
+  <String id="IDS_QQMAIL_FMT">
+    $UIN$@qq.com
+  </String>
+  <String id="IDS_GROUP_URL_MAIL_NEW">
+		http://ptlogin2.qq.com/qqmail?fun=clientwrite&amp;gid=$GID$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;ptlang=$LANG$&amp;httptype=$HTTPTYPE$
+  </String>
+</StringBundle>

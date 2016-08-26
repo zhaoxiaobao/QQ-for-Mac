@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringBundle ver="100">
+	<String id="Title_Common_WndTitle">Security Verification</String>
+	<String id="Title_Common_PromptTitle">Security Verification</String>
+	<String id="Option_Common_OtherType">Other</String>
+	<String id="Button_Common_OK">OK</String>
+	<String id="Button_Common_Cancel">Cancel</String>
+	<String id="Button_Common_ReInput">Input Again</String>
+	<String id="Button_Common_NextStep">Next</String>
+	<String id="Button_Common_PreStep">Previous</String>
+	<String id="Common_SelectTypePrompt">How to verify your identity?</String>
+	<String id="Common_Include">Include</String>
+	
+	<String id="PwdGuardCard_Name">Password Protection Card</String>
+	<String id="PwdGuardCard_Title">Password Protection Card Verification</String>
+	<String id="PwdGuardCard_ClickToSetting">&lt;Title=&quot;Click here to set&quot;,Url=&quot;http://ptlogin2.qq.com/im_mibaoka_shezhi?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&quot;&gt;</String>
+	<String id="PwdGuardCard_StateText">Cards with matrix numbers, &lt;Title=&quot;View details&quot;,Url=&quot;http://ptlogin2.qq.com/im_mb_help?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&quot;&gt;</String>
+	<String id="PwdGuardCard_LocPrompt">Coordinates:</String>
+	<String id="PwdGuardCard_NumPrompt">Numbers:</String>
+	<String id="Link_PwdGuardCard_Setting">&lt;Title=&quot;Set a password protection card&quot;,Url=&quot;http://ptlogin2.qq.com/immibaoka?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&quot;&gt;</String>
+	<String id="PwdGuardCard_FocusPrompt">Please input the numbers of corresponding coordinates referring to the password protection card.</String>
+	<String id="PwdGuardCard_NotRemind">Don't ask me again.</String>
+	<String id="PwdGuardCard_RemindText">Security alert: This password protection card has been verified for too many times. Please bind a new password protection card as soon as possible to ensure the security of your ID.</String>
+	<String id="Tip_PwdGuardCard_InputInvalid">Please enter all the numbers in the password protection card.</String>
+	
+	<String id="Question_Name">Password protection question</String>
+	<String id="Question_Title">Verification of password protection card question</String>
+	<String id="Question_ClickToSetting">&lt;Title=&quot;Click here to set&quot;,Url=&quot;http://ptlogin2.qq.com/im_wenti_shezhi?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&quot;&gt;</String>
+	<String id="Question_StateText">&lt;Title=&quot;Forgot the answer?&quot;,Url=&quot;http://ptlogin2.qq.com/im_question?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&quot;&gt;</String>
+	<String id="Question_QuestionPrompt">Question$NUM$: $QUESTION_TEXT$</String>
+	<String id="Question_AnswerPrompt">Answer:</String>
+	<String id="Link_Question_ChangeQuestion">Change One</String>
+	<String id="Tip_Question_InputInvalid">Please enter the secret answer.</String>
+	<String id="Link_Question_Setting"></String>
+	
+	<String id="SMS_Name">SMS</String>
+	<String id="SMS_Title">SMS Verification</String>
+	<String id="SMS_ClickToSetting">&lt;Title=&quot;Click here to set&quot;,Url=&quot;http://ptlogin2.qq.com/im_phone_shezhi?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&quot;&gt;</String>
+	<String id="SMS_StateText"></String>
+	<String id="SMS_MobileNumPrompt">Your mobile number for password protection is: $MOBILE_NUM$</String>
+	<String id="SMS_InputPrompt">Please input the verification code you have received:</String>
+	<String id="SMS_InputEditDefaultText">8-digit verification code</String>
+	<String id="SMS_MarkupText">Verification code is the 8-digit number you have received.</String>
+	<String id="SMS_OperatePrompt">Please send &quot;SS#QQ number&quot; to $ACCESS_NUM$.</String>
+	<String id="SMS_OperatePrompt_1">Please send &quot;SS#$UIN$&quot; to $ACCESS_NUM$.</String>
+	<String id="Tip_SMS_InputInvalid">Please enter the 8 digits number.</String>
+	<String id="Link_SMS_Setting"></String>
+	
+	<String id="MobileToken_Name">Mobile Token</String>
+	<String id="MobileToken_Title">Mobile Token Verification</String>
+	<String id="MobileToken_ClickToSetting"></String>
+	<String id="MobileToken_StateText"></String>
+	<String id="MobileToken_InputPrompt">Please input the displayed numbers referring to the TOKEN card software of your mobile</String>
+	<String id="MobileToken_InputEditDefaultText">6 digits dynamic password</String>
+	<String id="Tip_MobileToken_InputInvalid">Pleae enter 6 digits dynamic password.</String>
+	<String id="Link_MobileToken_Setting"></String>
+	
+	<String id="PhoneIVR_Name">Telephone IVR</String>
+	<String id="PhoneIVR_Title">Telephone IVR Verification</String>
+	<String id="PhoneIVR_ClickToSetting"></String>
+	<String id="PhoneIVR_StateText"></String>
+	<String id="PhoneIVR_Prompt">Please dial 95508. After getting through, please put down the telephone and finish the operation within 5 minutes.</String>
+	<String id="Link_PhoneIVR_Setting"></String>
+</StringBundle>

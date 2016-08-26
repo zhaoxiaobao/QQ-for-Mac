@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringBundle version="1.0">
+<!--    <String id="IDS_URL_OPEN_GROUPSHARE">-->
+<!--        http://ptlogin2.qq.com/group2?clientuin=$UIN$&amp;clientkey=$KEY$&amp;gid=$GCODE$&amp;type=102&amp;uri=share-->
+<!--    </String>-->
+    <String id="IDS_URL_OPEN_SUPPORT">
+        http://ptlogin2.qq.com/MacQQ_Support?clientuin=$UIN$&amp;clientkey=$KEY$ 
+    </String>
+    <String id="IDS_URL_STOCK_ARGUMENTS">
+        uin=$UIN$&amp;key=$KEY$
+    </String>
+</StringBundle>

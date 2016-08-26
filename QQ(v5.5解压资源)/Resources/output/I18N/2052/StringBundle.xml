@@ -1,0 +1,7523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StringBundle version="1.0">
+	<String id="RecoverTip">以下是您上次退出程序时未处理的消息。
+	</String>
+	<String id="NothingToRecover">上次关闭前没有未处理的信息。
+	</String>
+	<String id="Resume_Data">恢复关闭前状态
+	</String>
+	<String id="Title_Resume_Data_Crash">异常关闭恢复
+	</String>
+	<String id="Text_Resume_Data_Crash">上次遇到异常关闭，可能存在未处理的信息。您是否现在处理？
+	</String>
+	<String id="Import_Msg_Stop_Import">导入未完成，您确定要终止导入吗？
+	</String>
+	<String id="Import_Msg_Stop_AutoImport">自动导入未完成，如果终止导入，您需要手动启动数据导入工具来导入数据。确定要终止导入吗？
+	</String>
+	<String id="Import_Msg_Import_Again">再次导入
+	</String>
+	<String id="ImportTool_MsgAndFace_File_Hint">可导入的文件类型为:*.db,*.bak,*.eip,*.eif
+	</String>
+	<String id="ImportTool_Msg_File_Hint">可导入的文件类型为:*.db,*.bak
+	</String>
+	<String id="ImportTool_Face_File_Hint">可导入的文件类型为:*.eip,*.eif
+	</String>
+	<String id="Import_Msg_Import_File_Open">浏览
+	</String>
+	<String id="Import_Msg_Import_File">请选择导入的文件,
+	</String>
+	<String id="Import_Msg_Import_Folder_Hint">请指定您要导入的数据所在的号码文件夹，如:
+	</String>
+	<String id="Import_Msg_Import_Folder_Hint_ExamplePath">C:\Program File\Tencent\QQ\1234567
+	</String>
+	<String id="ImportTool_Import_Auto_Hint">导入工具将自动搜索旧版本的安装目录，并从中导入数据。
+	</String>
+	<String id="Import_Msg_Import_Folder_Browse">浏览
+	</String>
+	<String id="Import_Msg_Import_Folder">请选择导入的目录:
+	</String>
+	<String id="Import_Msg_Import_Type">请选择要导入的内容:
+	</String>
+	<String id="Import_Msg_Import_Type_Msg">消息记录
+	</String>
+	<String id="Import_Msg_Import_Type_Face">自定义表情
+	</String>
+	<String id="Import_Msg_Import_Auto">自动搜索导入
+	</String>
+	<String id="Import_Msg_Import_From_Folder">从指定目录导入
+	</String>
+	<String id="Import_Msg_Import_From_File">从指定文件导入
+	</String>
+	<String id="ImportToos_Msg_Type">请选择导入消息记录的方式:
+	</String>
+	<String id="ImportToos_Face_Type">请选择导入自定义表情的方式:
+	</String>
+	<String id="ImportToos_FaceAndMsg_Type">请选择导入自定义表情和消息记录的方式:
+	</String>
+	<String id="Import_Msg_Btn_Cancel">取消
+	</String>
+	<String id="Import_Msg_Btn_Next">下一步
+	</String>
+	<String id="Import_Msg_Btn_Pre">上一步
+	</String>
+	<String id="ImportTool_FileType_Msg">导入文件(*.db;*.bak;)|*.db;*.bak||"
+	</String>
+	<String id="ImportTool_FileType_Face">导入文件(*.eip;*.eif)|*.eip;*.eif||"
+	</String>
+	<String id="ImportTool_FileType_FaceAndMsg">导入文件(*.db;*.bak;*.eip;*.eif)|*.db;*.bak;*.eip;*.eif||"
+	</String>
+	<String id="Import_Msg_Title">数据导入工具
+	</String>
+	<String id="Tips_Import_Msg">数据导入工具
+	</String>
+	<String id="Import_Msg_Folder_No_Exist">该目录不存在可导入的内容
+	</String>
+	<String id="Import_Msg_No_Sel_File">请选定要导入的文件
+	</String>
+	<String id="Import_Msg_File_No_Exist">文件不存在
+	</String>
+	<String id="Import_Msg_File_Type_Wrong">文件类型错误
+	</String>
+	<String id="Import_Msg_Analyse_Hint">正在分析消息记录...
+	</String>
+	<String id="Import_Msg_Doing_Hint">正在导入消息记录...
+	</String>
+	<String id="Import_Face_Doing_Hint">正在导入自定义表情...
+	</String>
+	<String id="Import_Msg_Done_Count">已导入$COUNT$条
+	</String>
+	<String id="Import_Face_Done_Count">已导入$COUNT$个
+	</String>
+	<String id="Import_Done_Btn">完成
+	</String>
+	<String id="Import_Btn_Import">导入
+	</String>
+	<String id="Title_MoveStorage" fmt="true">$__PNAME$数据迁移
+	</String>
+	<String id="StorageTool_MovingMsg">正在迁移消息记录...
+	</String>
+	<String id="StorageTool_MovingCustomFace">正在迁移自定义表情...
+	</String>
+	<String id="StorageTool_MovingImage">正在迁移图片...
+	</String>
+	<String id="StorageTool_MovingRecvFile">正在迁移接收到的文件...
+	</String>
+	<String id="StorageTool_PosExeFolder">把个人文件夹迁移到安装目录。
+	</String>
+	<String id="StorageTool_PosMyDocument">把个人文件夹迁移到“我的文档”。
+	</String>
+	<String id="StorageTool_PosUserDefine">把个人文件夹迁移到:
+	</String>
+	<String id="StorageTool_SkipImage">确定不迁移图片吗？
+	</String>
+	<String id="StorageTool_SkipRecvFile">确定不迁移接收到的文件吗？
+	</String>
+	<String id="StorageTool_CancelHint">迁移未完成，确定要终止迁移吗？
+	</String>
+	<String id="StorageTool_ViewCancelFile">查看未迁移的文件
+	</String>
+	<String id="StorageTool_ViewOldFile">查看历史文件
+	</String>
+	<String id="StorageTool_Success_WriteFail">无法访问目标位置，部分文件未被迁移，您可以手动迁移或导入这些文件。
+	</String>
+	<String id="StorageTool_Success_DiskFull">磁盘空间不足，部分文件未被迁移，您可以手动迁移或导入这些文件。
+	</String>
+	<String id="StorageTool_Success_FileExist">目标位置存在同名文件，部分文件未被迁移，您可以手动迁移或导入这些文件。
+	</String>
+	<String id="StorageTool_Error_WriteFail">迁移失败，无法访问目标位置。个人文件夹将继续保存在$OLDPATH$
+	</String>
+	<String id="StorageTool_Error_DiskFull">迁移失败，目标位置磁盘空间不足。个人文件夹将继续保存在$OLDPATH$
+	</String>
+	<String id="StorageTool_Success_OldWriteFail">无法访问目标位置，部分文件未被迁移。
+	</String>
+	<String id="StorageTool_Success_OldDiskFull">磁盘空间不足，部分文件未被迁移。
+	</String>
+	<String id="StorageTool_Success_OldFileExist">目标位置存在同名文件，部分文件未被迁移。
+	</String>
+  <String id="StorageTool_Success">
+    数据迁移已完成。
+  </String>
+  <String id="Button_StorageTool_Skip">跳过
+	</String>
+	<String id="StorageTool_DefaultFail_FromSetup">迁移失败，您可以登录后在设置中心再次修改个人文件夹的保存位置。
+	</String>
+	<String id="StorageTool_DefaultFail_FromConfig">迁移失败，请重试。
+	</String>
+	<String id="Title_StartFail" fmt="true">启动$__PNAME$失败
+	</String>
+	<String id="MovingUserData" fmt="true">正在迁移个人文件夹，为了保证您的数据完整，请等待迁移完成后再启动$__PNAME$。
+	</String>
+	<String id="Title_ResetStoragePos" fmt="true">启动$__PNAME$
+	</String>
+	<String id="ResetStoragePos">无法访问个人文件夹:
+$PATH$
+个人文件夹将被保存到安装目录。
+	</String>
+	<String id="ResetStoragePos_Vista">无法访问个人文件夹:
+$PATH$
+个人文件夹将被保存到“我的文档”。
+	</String>
+	<String id="StoragePathInvalidate">个人文件夹保存位置无效。您没有权限在此位置写入数据。请重新选择。
+	</String>
+	<String id="Import_Msg_No_Msg">未搜索到消息记录
+	</String>
+	<String id="Import_Face_No_Face">未搜索到自定义表情
+	</String>
+	<String id="ImportTool_Face">自定义表情
+	</String>
+	<String id="ImportTool_Msg">消息记录
+	</String>
+	<String id="ImportTool_Setting">用户设置
+	</String>
+	<String id="ImportTool_ImportSetting_Complete">完成
+	</String>
+	<String id="ImportTool_Complete">导入成功。
+	</String>
+	<String id="ImportTool_Cancel">导入已取消。
+	</String>
+	<String id="ImportTool_Error">导入失败！
+	</String>
+	<String id="ImportTool_Error_No_Data">导入失败。没有找到用户数据，请确认您指定的目录是否正确。
+	</String>
+	<String id="ImportTool_Error_NoDataFile">导入失败，无法打开数据文件。
+	</String>
+	<String id="ImportTool_Error_Auto_No_Data">导入失败，无法找到数据。
+	</String>
+	<String id="ImportTool_Error_SelFolder_No_Data">导入失败，无法找到数据。
+	</String>
+	<String id="ImportTool_Error_NoMsgData">消息记录导入失败，无法找到数据。
+	</String>
+	<String id="ImportTool_Error_NoMsgFile">消息记录导入失败，无法打开文件。
+	</String>
+	<String id="ImportTool_Error_NoFaceData">自定义表情导入失败，无法找到数据。
+	</String>
+	<String id="ImportTool_Error_NoFaceFile">自定义表情导入失败，无法打开文件。
+	</String>
+	<String id="ImportTool_CanImortMore">继续导入更多数据，请点击“再次导入”。
+	</String>
+	<String id="ImportTool_ImportProcess">$PERCENT$%
+	</String>
+	<String id="Tab_UserData">文件记录
+	</String>
+	<String id="PageUserData_PersonalFolder">个人文件夹
+	</String>
+	<String id="PageUserData_ChoosePersonalFolder">选择个人文件夹(用于保存消息记录等数据)的保存位置。
+	</String>
+	<String id="Option_PageUserData_SaveToExeFolder">保存到安装目录下
+	</String>
+	<String id="Option_PageUserData_SaveToExeFolderForVista">保存到安装目录下(Vista系统不支持此项)
+	</String>
+	<String id="Option_PageUserData_SaveToMyDocument">保存到“我的文档”(推荐)
+	</String>
+	<String id="Option_PageUserData_UserDefine">自定义
+	</String>
+	<String id="Title_PageUserData_PathInvalidate">警告
+	</String>
+	<String id="PageUserData_PathInvalidate">路径无效，请重新选择。
+	</String>
+	<String id="PageUserData_PathWriteFail">个人文件夹保存位置无效，您没有权限在此位置写入数据。请重新选择。
+	</String>
+	<String id="PageUserData_InvalidateSubPath">个人文件夹保存位置无效。新的保存位置不能是原位置的子文件夹。请重新选择。
+	</String>
+	<String id="PageUserData_MsgData">消息记录
+	</String>
+	<String id="Button_PageUserData_Browse">浏览
+	</String>
+	<String id="Tip_TextNewsTipContent">点击查看详情
+	</String>
+	<String id="Tip_TextNewsPic">查看
+	</String>
+	<String id="Tips_PageUserData_ExeFolder">保存在安装路径“$PATH$”
+	</String>
+	<String id="Tips_PageUserData_MyDocument">保存在“我的文档\Tencent Files”
+Windows系统推荐您将数据保存在我的文档。
+	</String>
+	<String id="Tips_PageUserData_Vista">Vista系统不支持此项
+	</String>
+	<String id="Tips_PageUserData_OtherFolder">指定其他保存位置
+	</String>
+	<String id="Title_MoveStorageHint">修改存储位置
+	</String>
+	<String id="PageUserData_RestartQQ" fmt="true">$__PNAME$将重新启动以完成数据文件的转移。是否继续？
+	</String>
+	<String id="PageUserData_NotEnoughSpace">磁盘空间不足，个人文件夹的保存位置无效，请重新选择。(所需磁盘空间:$NEEDSPACE$ M)
+	</String>
+	<String id="PageUserData_NotEnoughSpace_NotPrecise">磁盘空间不足，个人文件夹的保存位置无效，请重新选择。(所需磁盘空间:大于$NEEDSPACE$ M)
+	</String>
+	<String id="StorageTool_CloseQQ" fmt="true">请关闭所有正在运行的$__PNAME_V$，以完成数据文件的转移。
+	</String>
+	<String id="LongNickDefaultText">编辑个性签名
+	</String>
+	<String id="Error">错误
+	</String>
+	<String id="InitFailure">初始化失败，请重新安装。
+	</String>
+	<String id="ContactFolderUnknown">未命名分组
+	</String>
+	<String id="GenderUnknown">－
+	</String>
+	<String id="UtilInfo_ElmCount">统计数目:$COUNT$个
+	</String>
+	<!-- 截图 -->
+	<!--String id="IDS_CaptureTip_Hint">顶点位置&#x0d;&#x0a;(%d,%d)&#x0d;&#x0a;矩形大小&#x0d;&#x0a;(%d,%d)&#x0d;&#x0a;光标坐标&#x0d;&#x0a;(%d,%d)</String-->
+	<String id="Welcome_Word" fmt="true">欢迎使用$__PNAME$截屏
+    请按住鼠标左键不放选择截图区域
+    点右键或者按ESC退出
+	</String>
+	<String id="Camera_oper_tip">请双击完成截图
+    点右键或者按ESC取消选择
+	</String>
+	<String id="Camera_SelectHint">按鼠标左键不放选择截取范围
+	</String>
+	<String id="Camera_ExitOperHint">按'ESC'键或鼠标右键退出
+	</String>
+	<String id="Camera_ReSelectHint">点击鼠标右键重新选择
+	</String>
+	<String id="Camera_FixSelectAreaHint">松开鼠标左键确定截取范围
+	</String>
+	<String id="Camera_ExitOperHintEx">按'ESC'键退出
+	</String>
+	<String id="Camera_AdjustAreaHint">用鼠标左键调整截取范围
+	</String>
+	<String id="Camera_FinishHint">截取范围内双击左键完成截图
+	</String>
+	<String id="Camera_RectTip">区域大小:$WIDTH$*$HEIGHT$
+    当前RGB:($COLORR$,$COLORG$,$COLORB$)
+	</String>
+	<!-- 以下是群相关的字符串 -->
+	<String id="Create_Discuss_Tip_Title">提示
+	</String>
+	<String id="Create_Discuss_Fail">创建讨论组失败
+	</String>
+	<String id="Group_Account">帐号
+	</String>
+	<String id="NoSearchResult">无好友搜索结果...
+	</String>
+	<String id="NoSearchResultGroupMem">无群成员搜索结果...
+	</String>
+	<String id="SearchContactTip">搜索好友及关联信息
+	</String>
+	<String id="SearchContactOperTip">输入QQ号码、姓名/昵称、拼音、email查找好友和群
+	</String>
+	<String id="SearchGroupMemOperTip">输入QQ号码、姓名/昵称、拼音、email查找群成员
+	</String>
+	<String id="SearchContactFont">宋体
+	</String>
+	<String id="Group_NickName">昵称
+	</String>
+	<String id="Group_Sex">性别
+	</String>
+	<String id="Group_LastTime">最后发言
+	</String>
+	<String id="Group_SetMem">设置成员
+	</String>
+	<String id="Group_DelMem">删除成员
+	</String>
+	<String id="Group_SetMgr">设置管理员
+	</String>
+	<String id="Group_DelMgr">删除管理员
+	</String>
+	<String id="Group_SendMsg">发送即时消息
+	</String>
+	<String id="Group_JumpSpace">访问成员QQ空间
+	</String>
+	<String id="Group_ViewInfo">查看资料
+	</String>
+	<String id="Group_AddFriend">加为QQ好友
+	</String>
+	<String id="Group_Group">群
+	</String>
+	<String id="Group_Discuss">讨论组
+	</String>
+	<String id="Group_Org">群内组织
+	</String>
+	<String id="Group_RC">对方取消了文件传送或网络错误，传输终止
+	</String>
+	<String id="Group_FileSend_NetError">传输过程遇到网络错误，传输终止，您可以让对方尝试重新传送该文件
+	</String>
+	<String id="Group_FileSend_OpenError">打开要发送的文件时出错，传输终止，你可以尝试重新发送该文件
+	</String>
+	<String id="Group_FileRecv_RemoteStop">对方终止文件传输
+	</String>
+	<String id="Group_FileRecv_NetError">接受文件数据时网络出错，传输中断，你可以尝试让对方重新发送该文件
+	</String>
+	<String id="Group_FileRecv_WriteError">写入文件出错，传输终止，可能磁盘不够空间或其他原因造成，你可以尝试让对方重新发送该文件
+	</String>
+	<String id="Group_FileRecv_Error">接受文件失败，传输中断，你可以尝试让对方重新发送该文件
+	</String>
+	<String id="Group_FileRecv_OpenError">打开要接受的文件时出错，传输终止，你可以让对方尝试重新发送该文件
+	</String>
+	<String id="Group_File_MoveFail">移动文件夹到$PATH$失败
+	</String>
+	<!-- <String id="Group_SendMsg_Fail">
+		您刚才发送的消息:"$MSG$"没有发送成功。
+失败原因:%s
+	</String> -->
+	<String id="Group_Connected_Server_Error">到群文件服务器的连接中断
+	</String>
+	<String id="Group_Connect_Server_Error">连接群文件服务器失败
+	</String>
+	<String id="Group_RequestSend_Error">服务器拒绝申请发送图片文件
+	</String>
+	<!-- 群相关的字符串结束 -->
+	<!-- 表情管理 -->
+	<String id="CUSTOMFACE_ADD_GROUP_NAME_EMPTY">请输入分组名。
+	</String>
+	<String id="CUSTOMFACE_CUSTOMFACE_MANAGE">表情管理
+	</String>
+	<String id="CUSTOMFACE_Mgr_MoreFace">更多表情
+	</String>
+	<String id="CUSTOMFACE_TEMPSESSION_TIP">此会话不支持自定义表情
+	</String>
+	<String id="CUSTOMFACE_PRE_PAGE">上一页
+	</String>
+	<String id="CUSTOMFACE_NEXT_PAGE">下一页
+	</String>
+	<String id="CUSTOMFACE_DEFAULT_GOURPNAME">默认
+	</String>
+	<String id="CUSTOMFACE_WARN_SAMESHORTCUT">您已经有表情使用了快捷键"$SHORTCUT$"，是否确定撤销原有的快捷键？
+	</String>
+	<String id="CUSTOMFACE_WARN_SAMESYSSHORTCUT">不能设置与系统表情相同的快捷键，请重新设置。
+	</String>
+	<String id="PLEASE_CONFIRME">提示
+	</String>
+	<String id="FACE_TOOL_TIP0">微笑
+	</String>
+	<String id="FACE_TOOL_TIP1">撇嘴
+	</String>
+	<String id="FACE_TOOL_TIP2">色
+	</String>
+	<String id="FACE_TOOL_TIP3">发呆
+	</String>
+	<String id="FACE_TOOL_TIP4">得意
+	</String>
+	<String id="FACE_TOOL_TIP5">流泪
+	</String>
+	<String id="FACE_TOOL_TIP6">害羞
+	</String>
+	<String id="FACE_TOOL_TIP7">闭嘴
+	</String>
+	<String id="FACE_TOOL_TIP8">睡
+	</String>
+	<String id="FACE_TOOL_TIP9">大哭
+	</String>
+	<String id="FACE_TOOL_TIP10">尴尬
+	</String>
+	<String id="FACE_TOOL_TIP11">发怒
+	</String>
+	<String id="FACE_TOOL_TIP12">调皮
+	</String>
+	<String id="FACE_TOOL_TIP13">呲牙
+	</String>
+	<String id="FACE_TOOL_TIP14">惊讶
+	</String>
+	<String id="FACE_TOOL_TIP15">难过
+	</String>
+	<String id="FACE_TOOL_TIP16">酷
+	</String>
+	<String id="FACE_TOOL_TIP17">冷汗
+	</String>
+	<String id="FACE_TOOL_TIP18">抓狂
+	</String>
+	<String id="FACE_TOOL_TIP19">吐
+	</String>
+	<String id="FACE_TOOL_TIP20">偷笑
+	</String>
+	<String id="FACE_TOOL_TIP21">可爱
+	</String>
+	<String id="FACE_TOOL_TIP22">白眼
+	</String>
+	<String id="FACE_TOOL_TIP23">傲慢
+	</String>
+	<String id="FACE_TOOL_TIP24">饥饿
+	</String>
+	<String id="FACE_TOOL_TIP25">困
+	</String>
+	<String id="FACE_TOOL_TIP26">惊恐
+	</String>
+	<String id="FACE_TOOL_TIP27">流汗
+	</String>
+	<String id="FACE_TOOL_TIP28">憨笑
+	</String>
+	<String id="FACE_TOOL_TIP29">大兵
+	</String>
+	<String id="FACE_TOOL_TIP30">奋斗
+	</String>
+	<String id="FACE_TOOL_TIP31">咒骂
+	</String>
+	<String id="FACE_TOOL_TIP32">疑问
+	</String>
+	<String id="FACE_TOOL_TIP33">嘘...
+	</String>
+	<String id="FACE_TOOL_TIP34">晕
+	</String>
+	<String id="FACE_TOOL_TIP35">折磨
+	</String>
+	<String id="FACE_TOOL_TIP36">衰
+	</String>
+	<String id="FACE_TOOL_TIP37">骷髅
+	</String>
+	<String id="FACE_TOOL_TIP38">敲打
+	</String>
+	<String id="FACE_TOOL_TIP39">再见
+	</String>
+	<String id="FACE_TOOL_TIP40">擦汗
+	</String>
+	<String id="FACE_TOOL_TIP41">抠鼻
+	</String>
+	<String id="FACE_TOOL_TIP42">鼓掌
+	</String>
+	<String id="FACE_TOOL_TIP43">糗大了
+	</String>
+	<String id="FACE_TOOL_TIP44">坏笑
+	</String>
+	<String id="FACE_TOOL_TIP45">左哼哼
+	</String>
+	<String id="FACE_TOOL_TIP46">右哼哼
+	</String>
+	<String id="FACE_TOOL_TIP47">哈欠
+	</String>
+	<String id="FACE_TOOL_TIP48">鄙视
+	</String>
+	<String id="FACE_TOOL_TIP49">委屈
+	</String>
+	<String id="FACE_TOOL_TIP50">快哭了
+	</String>
+	<String id="FACE_TOOL_TIP51">阴险
+	</String>
+	<String id="FACE_TOOL_TIP52">亲亲
+	</String>
+	<String id="FACE_TOOL_TIP53">吓
+	</String>
+	<String id="FACE_TOOL_TIP54">可怜
+	</String>
+	<String id="FACE_TOOL_TIP55">菜刀
+	</String>
+	<String id="FACE_TOOL_TIP56">西瓜
+	</String>
+	<String id="FACE_TOOL_TIP57">啤酒
+	</String>
+	<String id="FACE_TOOL_TIP58">篮球
+	</String>
+	<String id="FACE_TOOL_TIP59">乒乓
+	</String>
+	<String id="FACE_TOOL_TIP60">咖啡
+	</String>
+	<String id="FACE_TOOL_TIP61">饭
+	</String>
+	<String id="FACE_TOOL_TIP62">猪头
+	</String>
+	<String id="FACE_TOOL_TIP63">玫瑰
+	</String>
+	<String id="FACE_TOOL_TIP64">凋谢
+	</String>
+	<String id="FACE_TOOL_TIP65">示爱
+	</String>
+	<String id="FACE_TOOL_TIP66">爱心
+	</String>
+	<String id="FACE_TOOL_TIP67">心碎
+	</String>
+	<String id="FACE_TOOL_TIP68">蛋糕
+	</String>
+	<String id="FACE_TOOL_TIP69">闪电
+	</String>
+	<String id="FACE_TOOL_TIP70">炸弹
+	</String>
+	<String id="FACE_TOOL_TIP71">刀
+	</String>
+	<String id="FACE_TOOL_TIP72">足球
+	</String>
+	<String id="FACE_TOOL_TIP73">瓢虫
+	</String>
+	<String id="FACE_TOOL_TIP74">便便
+	</String>
+	<String id="FACE_TOOL_TIP75">月亮
+	</String>
+	<String id="FACE_TOOL_TIP76">太阳
+	</String>
+	<String id="FACE_TOOL_TIP77">礼物
+	</String>
+	<String id="FACE_TOOL_TIP78">拥抱
+	</String>
+	<String id="FACE_TOOL_TIP79">强
+	</String>
+	<String id="FACE_TOOL_TIP80">弱
+	</String>
+	<String id="FACE_TOOL_TIP81">握手
+	</String>
+	<String id="FACE_TOOL_TIP82">胜利
+	</String>
+	<String id="FACE_TOOL_TIP83">抱拳
+	</String>
+	<String id="FACE_TOOL_TIP84">勾引
+	</String>
+	<String id="FACE_TOOL_TIP85">拳头
+	</String>
+	<String id="FACE_TOOL_TIP86">差劲
+	</String>
+	<String id="FACE_TOOL_TIP87">爱你
+	</String>
+	<String id="FACE_TOOL_TIP88">NO
+	</String>
+	<String id="FACE_TOOL_TIP89">OK
+	</String>
+	<String id="FACE_TOOL_TIP90">爱情
+	</String>
+	<String id="FACE_TOOL_TIP91">飞吻
+	</String>
+	<String id="FACE_TOOL_TIP92">跳跳
+	</String>
+	<String id="FACE_TOOL_TIP93">发抖
+	</String>
+	<String id="FACE_TOOL_TIP94">怄火
+	</String>
+	<String id="FACE_TOOL_TIP95">转圈
+	</String>
+	<String id="FACE_TOOL_TIP96">磕头
+	</String>
+	<String id="FACE_TOOL_TIP97">回头
+	</String>
+	<String id="FACE_TOOL_TIP98">跳绳
+	</String>
+	<String id="FACE_TOOL_TIP99">挥手
+	</String>
+	<String id="FACE_TOOL_TIP100">激动
+	</String>
+	<String id="FACE_TOOL_TIP101">街舞
+	</String>
+	<String id="FACE_TOOL_TIP102">献吻
+	</String>
+	<String id="FACE_TOOL_TIP103">左太极
+	</String>
+	<String id="FACE_TOOL_TIP104">右太极
+	</String>
+	<String id="FACE_TOOL_TIP105">非典
+	</String>
+	<String id="FACE_TOOL_TIP106">闪人
+	</String>
+	<String id="FACE_TOOL_TIP107">找
+	</String>
+	<String id="FACE_TOOL_TIP108">美眉
+	</String>
+	<String id="FACE_TOOL_TIP109">猫咪
+	</String>
+	<String id="FACE_TOOL_TIP110">小狗
+	</String>
+	<String id="FACE_TOOL_TIP111">钱
+	</String>
+	<String id="FACE_TOOL_TIP112">灯泡
+	</String>
+	<String id="FACE_TOOL_TIP113">酒杯
+	</String>
+	<String id="FACE_TOOL_TIP114">音乐
+	</String>
+	<String id="FACE_TOOL_TIP115">药丸
+	</String>
+	<String id="FACE_TOOL_TIP116">吻
+	</String>
+	<String id="FACE_TOOL_TIP117">会议
+	</String>
+	<String id="FACE_TOOL_TIP118">电话
+	</String>
+	<String id="FACE_TOOL_TIP119">时间
+	</String>
+	<String id="FACE_TOOL_TIP120">邮件
+	</String>
+	<String id="FACE_TOOL_TIP121">电视
+	</String>
+	<String id="FACE_TOOL_TIP122">多多
+	</String>
+	<String id="FACE_TOOL_TIP123">美女
+	</String>
+	<String id="FACE_TOOL_TIP124">汉良
+	</String>
+	<String id="FACE_TOOL_TIP125">毛毛
+	</String>
+	<String id="FACE_TOOL_TIP126">Q仔
+	</String>
+	<String id="FACE_TOOL_TIP127">白酒
+	</String>
+	<String id="FACE_TOOL_TIP128">汽水
+	</String>
+	<String id="FACE_TOOL_TIP129">下雨
+	</String>
+	<String id="FACE_TOOL_TIP130">多云
+	</String>
+	<String id="FACE_TOOL_TIP131">雪人
+	</String>
+	<String id="FACE_TOOL_TIP132">星星
+	</String>
+	<String id="FACE_TOOL_TIP133">女
+	</String>
+	<String id="FACE_TOOL_TIP134">男
+	</String>
+	<!-- 用户状态 -->
+	<String id="STATUS_OFFLINE">离线
+	</String>
+	<String id="STATUS_AWAY">离开
+	</String>
+	<String id="AWAY_SUB_COMEBACKSOON">离开一会，马上回来
+	</String>
+	<String id="AWAY_SUB_OUTFORMEAL">外出就餐
+	</String>
+	<String id="AWAY_SUB_MEETING">会议中
+	</String>
+	<String id="AWAY_SUB_OUTFORSOMETHING">外出办事
+	</String>
+	<String id="STATUS_INVISIBLE">隐身
+	</String>
+	<String id="STATUS_BUSY">忙碌
+	</String>
+	<String id="BUSY_SUB_WORKING">工作中
+	</String>
+	<String id="BUSY_SUB_CALLING">正在打电话
+	</String>
+	<!-- 用户状态 -->
+	<!-- 账号相关 -->
+	<String id="EMAIL_UNAUTHOR">未验证
+	</String>
+	<!-- 账号相关 -->
+	<!-- 地理位置 -->
+	<String id="FIND_PROVINCE_Z_START">$ ,
+	</String>
+	<String id="FIND_PROVINCE_Z2">国外$ ,美国,日本,英国,法国,德国,加拿大,澳大利亚,俄罗斯,新西兰,意大利,韩国,比利时,瑞士,新加坡,墨西哥,荷兰,巴西,印度,爱尔兰,马来西亚,丹麦,南非,西班牙,其他,
+	</String>
+	<String id="FIND_PROVINCE_Z3">北京$ ,北京,
+	</String>
+	<String id="FIND_PROVINCE_Z4">上海$ ,上海,
+	</String>
+	<String id="FIND_PROVINCE_Z5">天津$ ,天津,
+	</String>
+	<String id="FIND_PROVINCE_Z6">重庆$ ,重庆,
+	</String>
+	<String id="FIND_PROVINCE_Z7">河北$ ,石家庄,唐山,秦皇岛,邯郸,邢台,保定,张家口,承德,沧州,廊坊,衡水,
+	</String>
+	<String id="FIND_PROVINCE_Z8">山西$ ,太原,大同,阳泉,长治,晋城,朔州,晋中,运城,忻州,临汾,吕梁,
+	</String>
+	<String id="FIND_PROVINCE_Z9">内蒙古$ ,呼和浩特,包头,乌海,赤峰,通辽,鄂尔多斯,呼伦贝尔,乌兰察布盟,锡林郭勒盟,巴彦淖尔盟,阿拉善盟,兴安盟,
+	</String>
+	<String id="FIND_PROVINCE_Z10">辽宁$ ,沈阳,大连,鞍山,抚顺,本溪,丹东,锦州,葫芦岛,营口,盘锦,阜新,辽阳,铁岭,朝阳,
+	</String>
+	<String id="FIND_PROVINCE_Z11">吉林$ ,长春,吉林,四平,辽源,通化,白山,松原,白城,延边朝鲜族自治州,
+	</String>
+	<String id="FIND_PROVINCE_Z12">黑龙江$ ,哈尔滨,齐齐哈尔,鹤岗,双鸭山,鸡西,大庆,伊春,牡丹江,佳木斯,七台河,黑河,绥化,大兴安岭,
+	</String>
+	<String id="FIND_PROVINCE_Z13">江苏$ ,南京,无锡,徐州,常州,苏州,南通,连云港,淮安,盐城,扬州,镇江,泰州,宿迁,
+	</String>
+	<String id="FIND_PROVINCE_Z14">浙江$ ,杭州,宁波,温州,嘉兴,湖州,绍兴,金华,衢州,舟山,台州,丽水,
+	</String>
+	<String id="FIND_PROVINCE_Z15">安徽$ ,合肥,芜湖,蚌埠,淮南,马鞍山,淮北,铜陵,安庆,黄山,滁州,阜阳,宿州,巢湖,六安,亳州,池州,宣城,
+	</String>
+	<String id="FIND_PROVINCE_Z16">福建$ ,福州,厦门,莆田,三明,泉州,漳州,南平,龙岩,宁德,
+	</String>
+	<String id="FIND_PROVINCE_Z17">江西$ ,南昌,景德镇,萍乡,新余,九江,鹰潭,赣州,吉安,宜春,抚州,上饶,
+	</String>
+	<String id="FIND_PROVINCE_Z18">山东$ ,济南,青岛,淄博,枣庄,东营,潍坊,烟台,威海,济宁,泰安,日照,莱芜,德州,临沂,聊城,滨州,菏泽,
+	</String>
+	<String id="FIND_PROVINCE_Z19">河南$ ,郑州,开封,洛阳,平顶山,焦作,鹤壁,新乡,安阳,濮阳,许昌,漯河,三门峡,南阳,商丘,信阳,周口,驻马店,济源,
+	</String>
+	<String id="FIND_PROVINCE_Z20">湖北$ ,武汉,黄石,襄樊,十堰,荆州,宜昌,荆门,鄂州,孝感,黄冈,咸宁,随州,仙桃,天门,潜江,神农架,恩施土家族苗族自治州,
+	</String>
+	<String id="FIND_PROVINCE_Z21">湖南$ ,长沙,株洲,湘潭,衡阳,邵阳,岳阳,常德,张家界,益阳,郴州,怀化,娄底,湘西土家族苗族自治州,
+	</String>
+	<String id="FIND_PROVINCE_Z22">广东$ ,广州,深圳,珠海,汕头,韶关,佛山,江门,湛江,茂名,肇庆,惠州,梅州,汕尾,河源,阳江,清远,东莞,中山,潮州,揭阳,云浮,
+	</String>
+	<String id="FIND_PROVINCE_Z23">广西$ ,南宁,柳州,桂林,梧州,北海,防城港,钦州,贵港,玉林,百色,贺州,河池,来宾,崇左,
+	</String>
+	<String id="FIND_PROVINCE_Z24">海南$ ,海口,三亚,五指山,琼海,儋州,文昌,万宁,东方,澄迈,定安,屯昌,临高,白沙黎族自治县,江黎族自治县,乐东黎族自治县,陵水黎族自治县,保亭黎族苗族自治县,琼中黎族苗族自治县,
+	</String>
+	<String id="FIND_PROVINCE_Z25">四川$ ,成都,自贡,攀枝花,泸州,德阳,绵阳,广元,遂宁,内江,乐山,南充,宜宾,广安,达州,眉山,雅安,巴中,资阳,阿坝藏族羌族自治州,甘孜藏族自治州,凉山彝族自治州,
+	</String>
+	<String id="FIND_PROVINCE_Z26">贵州$ ,贵阳,六盘水,遵义,安顺,铜仁,毕节,黔西南布依族苗族自治州,黔东南苗族侗族自治州,黔南布依族苗族自治州,
+	</String>
+	<String id="FIND_PROVINCE_Z27">云南$ ,昆明,曲靖,玉溪,保山,昭通,丽江,思茅,临沧,文山壮族苗族自治州,红河哈尼族彝族自治州,西双版纳傣族自治州,楚雄彝族自治州,大理白族自治州,德宏傣族景颇族自治州,怒江傈傈族自治州,迪庆藏族自治州,
+	</String>
+	<String id="FIND_PROVINCE_Z28">西藏$ ,拉萨,那曲,昌都,山南,日喀则,阿里,林芝,
+	</String>
+	<String id="FIND_PROVINCE_Z29">陕西$ ,西安,铜川,宝鸡,咸阳,渭南,延安,汉中,榆林,安康,商洛,
+	</String>
+	<String id="FIND_PROVINCE_Z30">甘肃$ ,兰州,金昌,白银,天水,嘉峪关,武威,张掖,平凉,酒泉,庆阳,定西,陇南,临夏回族自治州,甘南藏族自治州,
+	</String>
+	<String id="FIND_PROVINCOE_Z31">青海$ ,西宁,海东,海北藏族自治州,黄南藏族自治州,海南藏族自治州,果洛藏族自治州,玉树藏族自治州,海西蒙古族藏族自治州,
+	</String>
+	<String id="FIND_PROVINCE_Z32">宁夏$ ,银川,石嘴山,吴忠,固原,
+	</String>
+	<String id="FIND_PROVINCE_Z33">新疆$ ,乌鲁木齐,克拉玛依,石河子,阿拉尔,图木舒克,五家渠,吐鲁,哈密,和田,阿克苏,喀什,克孜勒苏柯尔克孜自治州,巴音郭楞蒙古自治州,昌吉回族自治州,博尔塔拉蒙古自治州,伊犁哈萨克自治州,
+	</String>
+	<String id="FIND_PROVINCE_Z34">香港$ ,香港,
+	</String>
+	<String id="FIND_PROVINCE_Z35">澳门$ ,澳门,
+	</String>
+	<String id="FIND_PROVINCE_Z_END">台湾$ ,台北,高雄,基隆,台中,台南,新竹,嘉义,台北县,宜兰县,新竹县,桃园县,苗栗县,台中县,彰化县,南投县,嘉义县,云林县,台南县,高雄县,屏东县,台东县,花莲县,澎湖县,
+	</String>
+	<!-- 地理位置字符串结束 -->
+	<!-- FileTransfer 安全设置 Begin-->
+	<String id="FileTransfer_RenameSuffix">重命名
+	</String>
+	<!-- FileTransfer 安全设置 End-->
+	<!--  抽出来的杂项  -->
+	<!-- Tray -->
+	<String id="TRAY_MENU_OTHER">个性状态
+	</String>
+	<String id="TRAY_MENU_SHOWMSGTIPS">显示消息提示
+	</String>
+	<String id="TRAY_MENU_DISABLESOUND">关闭声音提示
+	</String>
+	<String id="TRAY_MENU_MSGSETTING">来消息设置
+	</String>
+	<String id="TRAY_MENU_OPENMAINFRAME">打开主面板
+	</String>
+	<String id="TRAY_MENU_QUITIM">退出
+	</String>
+	<!-- Msg URL Tips Begin-->
+	<String id="GrayURL_Tips" fmt="true">为了您的$__PNAME$安全，请只打开来源可靠的网址。
+	</String>
+	<String id="BlackURL_Tips">此网址被大量QQ用户举报，可能会被QQ安全中心阻止。
+	</String>
+	<String id="TencentWhiteURL_Tips">此网址为腾讯公司官方网站，欢迎访问。
+	</String>
+	<String id="NonTencentWhiteURL_Tips" fmt="true">此网站为$__PNAME$信任的网站，在大多数情况下，访问不会带来风险。
+	</String>
+	<!-- Msg URL Tips End-->
+	<!-- System MessageBox -->
+	<String id="SYS_MESSAGEBOX_OK">确定
+	</String>
+	<String id="SYS_MESSAGEBOX_CANCEL">取消
+	</String>
+	<String id="SYS_MESSAGEBOX_RETRY">重试
+	</String>
+	<String id="SYS_MESSAGEBOX_YES">是
+	</String>
+	<String id="SYS_MESSAGEBOX_NO">否
+	</String>
+	<String id="SYS_MESSAGEBOX_ABORT">终止
+	</String>
+	<String id="SYS_MESSAGEBOX_IGNORE">忽略
+	</String>
+	<String id="SYS_MESSAGEBOX_CONTINUE">继续
+	</String>
+	<String id="SYS_MESSAGEBOX_HELP">帮助
+	</String>
+	<String id="MAINFRAME_MENU">菜单
+	</String>
+	<String id="MAINFRAME_ADD">添加
+	</String>
+	<String id="MAINFRAME_FIND">查找
+	</String>
+	<!-- ChatFrame相关的字符串 -->
+  <String id="CF_SENDBUDDYFAST_TIP">
+    对不起，您说话太快了，坐下来，泡杯咖啡休息会儿吧。
+  </String>
+	<String id="CF_ENTER_SENDMSG">按Enter键发送消息
+	</String>
+	<String id="CF_INPUT_STATE">正在输入
+	</String>
+	<String id="CF_UNUSUAL_PLACE_LOGIN">异地登录
+	</String>
+	<String id="Tips_CF_UNUSUAL_PLACE_LOGIN">您的好友正在常用地点以外地区登录QQ，请核实好友身份。
+	</String>
+	<String id="CF_Float_Wnd">浮动窗口
+	</String>
+	<String id="CF_CTRLENTER_SENDMSG">按Ctrl+Enter键发送消息
+	</String>
+	<String id="CF_MESSAGEMODE">消息模式
+	</String>
+	<String id="CF_BUDDYTOPTOOLBAR_VIDIO">视频
+	</String>
+	<String id="CF_BUDDYTOPTOOLBAR_AUDIO">语音
+	</String>
+	<String id="CF_BUDDYTOPTOOLBAR_SENDFILE">传文件
+	</String>
+	<String id="CF_BUDDYTOPTOOLBAR_MMS">发送短信
+	</String>
+	<String id="CF_BUDDYTOPTOOLBAR_ENTERMENT">娱乐
+	</String>
+	<String id="BTN_BUDDYTOPTOOLBAR_ENTERMENT">娱乐
+	</String>
+	<String id="CF_BUDDYTOPTOOLBAR_APPLICATION">应用
+	</String>
+	<String id="Btn_BUDDYTOPTOOLBAR_APPLICATION">应用
+	</String>
+	<String id="CF_BUDDYTOPTOOLBAR_INVITE">邀请好友进行多人会话
+	</String>
+	<String id="BTN_BUDDYTOPTOOLBAR_INVITE">多人会话
+	</String>
+	<String id="CF_UPDATE_CONTENT_TITLE">$NAME$最近:
+	</String>
+	<String id="CF_SEND_C2CMSG_FAILED">可能由于网络原因，"$MSG$"的消息发送失败。
+	</String>
+	<String id="CF_ADDMEM_FAIL_FULL">讨论组成员个数已经达到上限，请重新创建讨论组。
+	</String>
+	<String id="CF_CREATEDIS_FAIL_FULL">对不起，已选联系人已超过讨论组人数上限，临时讨论组最多支持20人。
+	</String>
+	<String id="CF_SEND_C2CIMAGE_FAILED">可能由于网络原因，图片发送失败。
+	</String>
+	<String id="CF_EDITMSG_NONE_IMAGE">您所发信息中包含的图片可能已经被删除，信息不能发送。
+	</String>
+	<String id="CF_GROUPTOPTOOLBAR_EMAIL">发送群邮件
+	</String>
+	<String id="CF_GROUPTOPTOOLBAR_WRITEEMAIL">撰写群邮件
+	</String>
+	<String id="CF_GROUPSETMSG_FORBIDMSG">屏蔽消息(只显示消息数目)
+	</String>
+	<String id="CF_GROUPSETMSG_FORBIDPIC">仅屏蔽群内图片
+	</String>
+	<String id="CF_GROUPTOPTOOLBAR_ADDRESS">通讯录
+	</String>
+	<String id="CF_GROUPCODE_NAME" fmt="true">($$FLAG$$) $$CLASS$$
+	</String>
+	<String id="CF_GROUPSETTYPENOTIP_TIP">您开启了屏蔽消息(接收不提示消息)功能
+	</String>
+	<String id="CF_GROUPSETTYPENOTIP_TIP2">您切换到屏蔽消息(接收不提示消息)功能
+	</String>
+	<String id="CF_GROUPSETTYPESHOWMSGCOUNT_TIP">您开启了屏蔽消息(只显示消息数目)功能
+	</String>
+	<String id="CF_GROUPSETTYPESHOWMSGCOUNT_TIP2">您切换到屏蔽消息(只显示消息数目)功能
+	</String>
+	<String id="CF_GROUPSETTYPEFORBIDALLMSG_TIP">您开启了屏蔽消息(完全阻止群内消息)功能
+	</String>
+	<String id="CF_GROUPSETTYPEFORBIDALLMSG_TIP2">您切换到屏蔽消息(完全阻止群内消息)功能
+	</String>
+	<String id="CF_NOTGROUPFORBIDPIC_TIP">您关闭了群内图片屏蔽功能
+	</String>
+	<String id="CF_GROUPFORBIDPIC_TIP">您开启了群内图片屏蔽功能
+	</String>
+	<String id="CF_SELF_AWAY_TIP">您仍然处于“离开(忙碌)”，请及时修改在线状态
+	</String>
+	<String id="CF_GROUPMEMO_SHOW_TIP">展开群动态
+	</String>
+	<String id="CF_GROUPMEMO_HIDE_TIP">收起群动态
+	</String>
+  <String id="CF_GROUPMEMLIST_SHOW_TIP">展开群成员
+  </String>
+  <String id="CF_GROUPMEMLIST_HIDE_TIP">收起群成员
+  </String>
+  <String id="CF_GETGROUPPIC_TIP">点击获取图片
+	</String>
+	<String id="CF_Search_GroupMem">搜索群成员
+	</String>
+	<String id="CF_Search_GroupMem_IN">收起群成员搜索框
+	</String>
+	<String id="CF_Search_GroupMem_OUT">展开群成员搜索框
+	</String>
+	<String id="CF_CHATSCENE_TAB">场景
+	</String>
+  <String id="CF_GROUPCARD_TAB">
+    群名片
+  </String>
+	<String id="CF_CHATSCENE_QQSHOW">个人形象
+	</String>
+	<String id="CF_GROUP_INFO">群信息
+	</String>
+	<String id="CF_DISUCSS_INFO">讨论组信息
+	</String>
+	<String id="CF_GROUPTOPTOOLBAR_QZONE">群空间
+	</String>
+	<String id="CF_GROUPTOPTOOLBAR_SUB_ENTERQZONE">进入群空间
+	</String>
+	<String id="CF_GROUPTOPTOOLBAR_SUB_NEWACTICLE">发表新文章
+	</String>
+	<String id="CF_GROUPTOPTOOLBAR_SUB_NEWPHOTO">上传新照片
+	</String>
+	<String id="CF_GROUPTOPTOOLBAR_SUB_HISTORY">群聊天记录
+	</String>
+	<String id="CF_GROUPTOPTOOLBAR_SETTING">群设置
+	</String>
+	<String id="CF_GROUPTOPTOOLBAR_SETTING_SUBUPDATE">更新群信息
+	</String>
+	<String id="CF_GROUPTOPTOOLBAR_SETTING_SUBVIEW">查看群信息
+	</String>
+	<String id="CF_GROUPTOPTOOLBAR_SETTING_SUBMODIFYCARD">修改自己的群名片
+	</String>
+	<String id="CF_GROUPTOPTOOLBAR_SETTING_SUBMEMMANAGE">成员管理
+	</String>
+	<String id="CF_GROUPTOPTOOLBAR_SETTING_SUBMSGSETTING">群消息设置
+	</String>
+	<String id="CF_GROUPTOPTOOLBAR_VIEWSETTING">视图设置
+	</String>
+	<String id="CF_GROUPTOPTOOLBAR_SETTING_SUBBAR">显示侧边
+	</String>
+	<String id="CF_GROUPTOPTOOLBAR_SETTING_SUBFOREMOST">本窗口总在最前
+	</String>
+	<String id="CF_GROUPTOPTOOLBAR_SETTING_SHIFTGROUP">转让该群
+	</String>
+  <String id="CF_GROUPTOPTOOLBAR_SETTING_DEVELOPGROUP">升级该群
+  </String>
+  <String id="CF_GROUPTOPTOOLBAR_SETTING_HOWTODEVELOP">如何升级
+  </String>
+	<String id="CF_GROUPTOPTOOLBAR_SETTING_DISMISSGROUP">解散该群
+	</String>
+	<String id="CF_GROUPTOPTOOLBAR_MUTILAUDIO">多人语音
+	</String>
+	<String id="CF_GROUPTOPTOOLBAR_MMS">短信
+	</String>
+	<String id="CF_GROUPTOPTOOLBAR_QQLIVE">QQ视频
+	</String>
+	<String id="CF_GROUPTOPTOOLBAR_SHARE">群文件
+	</String>
+	<String id="CF_GROUPMEMMENU_VIEWINFO">查看资料
+	</String>
+	<String id="CF_GROUPMEMMENU_MODIFYCARDINFO">修改群名片
+	</String>
+	<String id="CF_GROUPMEMMENU_SENDMSG">发送消息
+	</String>
+	<String id="CF_GROUPMEMMENU_QQZONE">QQ空间
+	</String>
+	<String id="CF_GROUPMEMMENU_ADDFRIEND">加为好友
+	</String>
+	<String id="BTN_GROUPMEMMENU_ADDFRIEND">加为好友
+	</String>
+	<String id="CF_GROUPMEMMENU_REMOVE">从本群中移除
+	</String>
+	<String id="CF_GROUPMEMMENU_SHIELD">屏蔽此人发言
+	</String>
+	<String id="CF_GROUPMEMMENU_REMOVE_TIPS">此操作将使该用户从本群中移除，确认是否继续？
+	</String>
+	<String id="CF_GROUP_CREATOR">创建者
+	</String>
+	<String id="CF_GROUP_ADM">管理员
+	</String>
+	<String id="CF_GROUPPLUGIN_GROUPMEMO" State="1">群动态
+	</String>
+	<String id="CF_GROUP_SHAREHOLDER">股东
+	</String>
+	<String id="CF_MESSAGE_TITLE">提示
+	</String>
+	<String id="CF_FloatWnd_TIPS">是否关闭浮动窗口？
+	</String>
+	<String id="CF_MESSAGE_TITLE_WARNING">警告
+	</String>
+	<String id="CF_TEMPSESSION_GROUPTITLE">所在群
+	</String>
+	<String id="CF_TEMPSESSION_OPENGROUPCARD">设置我的群名片
+	</String>
+	<String id="IDS_GROUP_ADDFRIEND_TIMEOUT">网络超时，操作失败。
+	</String>
+	<String id="CF_EXITGROUP_TIPS">您真的要退出该群吗？
+	</String>
+  <String id="CF_DEVELOPGROUP_TIPS">您真的要升级该群吗？
+  </String>
+	<String id="CF_EXITDISCUSS_TIPS">您真的要退出该讨论组吗？
+	</String>
+	<String id="CF_CREATEDISCUSS_FAIL">创建讨论组失败，请重新尝试。
+	</String>
+	<String id="CF_CREATEDISCUSS">发起多人会话
+	</String>
+	<String id="CF_EXITDISCUSS_SUCCESS">您已经成功退出讨论组:$DISCUSSNAME$。
+	</String>
+	<String id="CF_EXITGROUP_FAIL">您退出群:$GROUPNAME$失败，请重试。
+	</String>
+	<String id="CF_EXITDISCUSS_FAIL">您退出讨论组:$DISCUSSNAME$失败，请重试。
+	</String>
+	<String id="CF_SECURITY_TIP">交谈中请勿轻信汇款、中奖信息，勿轻易拨打陌生电话。
+	</String>
+	<String id="CF_GROUPMSG_TIP">来消息不提示
+	</String>
+	<String id="CF_MSGHISTORY">消息记录
+	</String>
+	<String id="CF_MSGHISTORY_SHOWRATIO">显示比例
+	</String>
+	<String id="SEARCH_CLEAR">清除
+	</String>
+	<String id="SEARCH_MSG">发起会话
+	</String>
+	<String id="CF_MSGHISTORY_SHOW">显示消息记录
+	</String>
+	<String id="CF_MSGHISTORY_NOTSHOW">不显示消息记录
+	</String>
+	<String id="CF_MSGHISTORY_CLEAR">清屏
+	</String>
+	<String id="CF_TEMPSESSION_FAILTIPS">会话签名验证失败。
+	</String>
+	<String id="CF_TEMPSESSION_FAILFORSELF">对不起，当前不支持与自己发起会话。
+	</String>
+	<String id="CF_TEMPSESSION_OLDWPAFAIL">对方在线状态按钮版本太低，不能发起会话。
+	</String>
+	<String id="CF_TEMPSESSION_OLDWPAADDFRIEND">您需要添加对方为好友，才能给对方发送会话消息。
+	</String>
+	<String id="CF_TEMPSESSION_SessionInvalid">会话已失效，您可以尝试从好友列表向对方发送消息。
+	</String>
+	<String id="CF_TEMPSESSION_PREVENTALL">是否确定屏蔽所有临时会话消息？
+	</String>
+	<String id="CF_TEMPSESSION_CANCEL_PREVENTALL">是否取消屏蔽所有临时会话消息？
+	</String>
+	<String id="CF_TempSession_OpenPreventAllTip">您设置了“不接收所有临时会话消息”，取消屏蔽后才能收到对方回复的临时会话消息，是否立即取消屏蔽？
+	</String>
+	<String id="CF_TempSession_OpenPreventSourceTip">该会话来源已经在您的屏蔽名单中，需要取消对该会话来源的屏蔽才能会话，是否立即取消屏蔽？
+	</String>
+	<String id="CF_TempSession_StopFail">设置禁用我的在线状态失败！
+	</String>
+	<String id="CF_TempSession_AddBuddyFail">添加好友失败，请重试！
+	</String>
+	<String id="CF_GroupMem_MobileLogin">手机QQ登录
+	</String>
+	<String id="ClientTypePrompt_Wap">WAPQQ在线
+	</String>
+	<String id="ClientTypePrompt_3G">3GQQ在线
+	</String>
+	<String id="ClientTypePrompt_PhoneQQ">手机QQ在线
+	</String>
+	<String id="Button_TempSession_AddFriend">添加好友
+	</String>
+	<String id="Button_TempSession_BlocklistMgr">管理屏蔽名单
+	</String>
+	<String id="Button_TempSession_PreventMgr">屏蔽设置管理
+	</String>
+	<String id="Button_TempSession_OK">确定
+	</String>
+	<String id="Button_TempSession_Cancel">取消
+	</String>
+	<String id="CF_View_Mode">查看更多...
+	</String>
+	<String id="CF_MSGHISTORY_MGR">消息管理器
+	</String>
+	<String id="Button_SeeMoreMsg">更多
+	</String>
+	<String id="CF_MSGHISTORY_SHOWRATIO_SUBBIG">放大   Ctrl+滚轮
+	</String>
+	<String id="CF_MSGHISTORY_SHOWRATIO_SUBSMALL">缩小
+	</String>
+	<String id="CF_SENDMSG">发送(&amp;S)
+	</String>
+	<String id="CF_CLOSE">关闭(&amp;C)
+	</String>
+	<String id="CF_Bold">加粗
+	</String>
+	<String id="CF_Italic">倾斜
+	</String>
+	<String id="CF_Underline">下划线
+	</String>
+	<String id="CF_Colorselect">颜色
+	</String>
+	<String id="CF_TEMPSESSION_TIP">为了防止恶意骚扰联系人，您需要先输入图中的验证字符才能发送消息。
+	</String>
+	<String id="CF_TEMPSESSION_CODE">验证码:
+	</String>
+	<String id="CF_TEMPSESSION_EXCEPTION">异常原因:
+	</String>
+	<String id="CF_TEMPSESSION_CODE_NOCASE">不区分大小写
+	</String>
+	<String id="CF_TEMPSESSION_CODE_NEXT">看不清，换一张
+	</String>
+	<String id="CF_TOPTOOLBAR_VIDIO">发起视频
+	</String>
+	<String id="CF_TOPTOOLBAR_VIDIOSETTING">视频设置
+	</String>
+	<String id="CF_TOPTOOLBAR_AUDIO">发起语音
+	</String>
+	<String id="CF_TOPTOOLBAR_AUDIOSETTING">语音设置
+	</String>
+	<String id="CF_GROUPa_GROUPMEMO">群公告
+	</String>
+	<String id="CF_GROUPPLUGIN_GROUPMEMLIST">成员列表
+	</String>
+	<String id="CF_GROUPDRAG_ERROR">添加联系人失败:您没有权限修改成员。
+	</String>
+	<String id="CF_Pic_Save_Name">未命名
+	</String>
+	<String id="CF_Pic_Save_Filter">图像文件(*.bmp;*.jpg;*.jpeg;*.gif)|*.jpg;*.jpeg;*.bmp;*.gif|所有文件(*.*)|*.*||"
+	</String>
+	<String id="CF_Pic_Save_Filter_PNG">图像文件(*.png)|*.png||"
+	</String>
+	<String id="CF_Pic_Save_Filter_JPG">图像文件(*.jpg)|*.jpg|图像文件(*.bmp)|*.bmp||"
+	</String>
+	<String id="CF_Pic_Save_Filter_GIF">图像文件(*.gif)|*.gif|图像文件(*.jpg)|*.jpg|图像文件(*.bmp)|*.bmp||"
+	</String>
+	<String id="CF_Pic_Open_Filter">图像文件(*.bmp;*.jpg;*.jpeg;*.gif)|*.jpg;*.jpeg;*.bmp;*.gif||"
+	</String>
+	<String id="CF_OPEN_PICTURE">打开图片
+	</String>
+	<String id="IDS_SAVE_PICTURE">保存图片
+	</String>
+	<String id="CF_OFFLINE_CANNOT_SEND_PICTURE">对方不在线或隐身，将无法接收到信息中包含的图片
+	</String>
+	<String id="CF_PICTURE_OVERSIZE">发送消息中包含的图片大小超过5M，请剪切图片后再发送。
+	</String>
+	<String id="CF_BUDDY_OFFLINE_TIP">对方“离线或隐身”，可能无法立即回复，您可以给他(她)
+	</String>
+	<String id="CF_BUDDY_OFFLINE_TIP_BINDMOBILE">发送手机短信或者发送邮件
+	</String>
+	<String id="CF_BUDDY_OFFLINE_TIP_SMS">发送手机短信
+	</String>
+	<String id="CF_BUDDY_OFFLINE_TIP_MAIL">发送邮件
+	</String>
+	<String id="CF_BUDDY_AWAY_TIP">对方“离开(忙碌)”，可能无法立即回复
+	</String>
+	<String id="CF_BUDDY_AWAY_TIP_SUB">对方“$STATUS$:$SUBSTATUS$”，可能无法立即回复
+	</String>
+	<String id="CF_BUDDY_QME_TIP">对方为“Q 我吧:$SUBSTATUS$”状态
+	</String>
+	<String id="CF_BUDDY_ONLINE_TIP">对方为“我在线上:$SUBSTATUS$”状态
+	</String>
+	<String id="CF_BUDDY_NODIS_TIP">对方为“请勿打扰”状态，可能不方便接收您的消息
+	</String>
+	<String id="CF_BUDDY_NODIS_TIP_FORMAT">对方为“请勿打扰:$SUBSTATUS$”状态，可能不方便接收您的消息
+	</String>
+	<String id="CF_BUDDY_MOBILE3G_TIP">该好友使用3GQQ登录，
+	</String>
+	<String id="CF_BUDDY_MOBILEWAP_TIP">该好友使用WAPQQ登录，
+	</String>
+	<String id="CF_BUDDY_MOBILE_TIP">该好友使用手机QQ登录，
+	</String>
+	<String id="CF_BUDDY_MOBILE_TIP_DETAIL">点击查看详情
+	</String>
+	<String id="CF_EDITMSG_DELETEIMAGE_MESSAGE">您所发信息中包含的图片可能已经被删除，信息不能发送。
+	</String>
+	<String id="CF_EDITMSG_NONE_MESSAGE">发送内容不能为空，请重新输入。
+	</String>
+	<String id="CF_EDITMSG_LARGE_MESSAGE">发送消息内容超长，请分条发送。
+	</String>
+	<String id="CF_SEND_ERROR">发送消息失败，请重新尝试。
+	</String>
+	<String id="CF_SENDTEMPSESSION_ERROR">很抱歉！您无法与对方继续会话，发送消息失败。
+	</String>
+	<String id="CF_SELF_OFFLINE">您已经处于离线状态，无法发送消息，请上线后再次尝试。
+	</String>
+    <String id="CF_SELF_NFOFFLINE_MSG">您已关闭网内服务，无法发送消息。
+    </String>
+    <String id="CF_SELF_NFOFFLINE_FILE">您已关闭网内服务，无法发送文件。
+    </String>
+    <String id="CF_NFBUDDY_OFFLINE">对方已退出网内服务，将无法收到您发的消息。
+	</String>
+    <String id="CF_AUDIOINPUT_NOTFOUND">未发现录音设备，无法进行录制。
+	</String>
+    <String id="CF_AudioMsg_Running_VideoAudio">您正在进行语音或视频聊天，暂时无法发送语音消息。
+    </String>
+	<String id="CF_SpliteButton_CloseTip">隐藏侧边
+	</String>
+	<String id="CF_SpliteButton_OpenTip">显示侧边
+	</String>
+	<String id="CustomHead_PromptText">您没有上传自定义头像的权限，请阅读自定义头像使用须知。
+	</String>
+	<String id="CustomHead_FetchingAuthorized">正在拉取自定义头像的权限，请稍后重试。
+	</String>
+	<String id="CustomHead_Preview">预览:
+	</String>
+	<String id="CustomHead_UploadFail">上传头像失败。
+	</String>
+	<String id="CustomHead_UploadTimeOut">上传头像超时。
+	</String>
+	<String id="CF_BEPREVENT_TIP">您屏蔽了对方的消息，对方发消息时，您不会收到任何提示
+	</String>
+	<String id="CF_SHOWTOPTOOLBAR_TEXT">显示文字标签
+	</String>
+	<String id="CF_SETFACE_TIP">选择表情
+	</String>
+	<String id="CF_SETFONT_TIP">设置字体颜色和格式
+	</String>
+	<String id="CF_TWITTER_TIP">向好友发送窗口抖动
+	</String>
+	<String id="CF_SENDPIC_TIP">发送图片
+	</String>
+	<String id="CF_CUTSCREEN_TIP">捕捉屏幕 Ctrl+Alt+A
+	</String>
+	<String id="CF_VIEWHISTORY_TIP">显示消息记录
+	</String>
+	<String id="CF_CTRLENTER_SENDMSG_TIP">按Ctrl+Enter键发送消息，按Enter键换行
+	</String>
+	<String id="CF_ENTER_SENDMSG_TIP">按Enter键发送消息，按Ctrl+Enter键换行
+	</String>
+	<String id="CF_STARTVIDEO_TIP">发起视频会话
+	</String>
+	<String id="CF_STARTAUDIO_TIP">发起语音会话
+	</String>
+	<String id="CF_TRANSPORTFILE_TIP">传送文件
+	</String>
+	<String id="CF_AMUSEMENT_TIP">娱乐功能
+	</String>
+	<String id="CF_APPLICATION_TIP">应用功能
+	</String>
+	<String id="CF_CAMERA">截图功能
+	</String>
+	<String id="CF_CAMERA_HIDDENCURRENTWINDOWS">截图时隐藏当前窗口
+	</String>
+	<String id="CF_CAMERA_SHOWTOOLBAR">显示截图编辑工具栏
+	</String>
+  <String id="Menu_DynaCaptureConfig">
+    截取动画设置
+  </String>
+  <String id="Menu_DynaCapturePicture">
+    截取影片图像
+  </String>
+  <String id="Menu_DynaCaptureMovie">
+    截取影片动画
+  </String>
+  <String id="Text_MovieCaptureSetting">
+    截取动画设置
+  </String>
+  <String id="Text_MovieImageSizeSettingTitle">
+    您可以设置截图影片动画的尺寸:
+  </String>
+  <String id="Text_MovieCaptureSmallSettingItem">
+    小尺寸
+  </String>
+  <String id="Text_MovieImageSizeSmallSettingItemComment">
+    截取的动画宽度为160像素，最长可以截取10秒。
+  </String>
+  <String id="Text_MovieImageSizeBigSettingItem">
+    大尺寸
+  </String>
+  <String id="Text_MovieImageSizeBigSettingItemComment">
+    截取的动画宽度为320像素，最长可以截取6秒。
+  </String>
+  <String id="Text_TipDlgContentText2">
+    秒之后自动完成截图。
+  </String>
+  <String id="Text_TipDlgContentText3_DynaPic">
+    请双击影片画面，获得截图。
+  </String>
+  <String id="Text_TipDlgContentText3_DynaMovie_Start">
+    请双击影片画面，开始截图。
+  </String>
+  <String id="Text_TipDlgContentText3_DynaMovie_Complete">
+    您也可以双击影片画面，完成截图。
+  </String>
+  <String id="Text_TipDlgContentText4">
+    按“ESC”键可以退出截图模式。
+  </String>
+  <String id="CF_INVITEFRIEND_TIP">邀请好友加入会话
+	</String>
+	<String id="CF_GROUPCOUNT_STATIC">群成员
+	</String>
+	<String id="CF_Group_Image_TooLarge">图片像素尺寸超过限制，不能发送
+	</String>
+	<String id="CF_Group_Image_TooBig">图片文件大小超过限制，不能发送
+	</String>
+	<String id="CF_Group_Image_TooManyCustomFace">自定义表情数目太多，不能发送
+	</String>
+	<String id="CF_Group_Image_TooManyImage">图片数目太多，不能发送
+	</String>
+	<String id="CF_TempSession_Title">临时会话
+	</String>
+	<String id="CF_Session_Title">会话
+	</String>
+	<String id="CF_Session_Unkown">未知
+	</String>
+	<String id="CF_TempSession_Title1">- 来自
+	</String>
+	<String id="CF_Group" fmt="true">群:
+	</String>
+	<String id="CF_Discuss" fmt="true">讨论组:
+	</String>
+	<String id="CF_OUT_Discuss">普通讨论组
+	</String>
+    <String id="CF_UNNAME_Discuss">未命名讨论组
+	</String>
+    <String id="GVideo_DiscussGrop_Default_Name_new">视频讨论组
+    </String>
+    <String id="GAudio_Text_GAudio_new">语音讨论组
+    </String>
+    <String id="NF_OUT_Discuss">网内讨论组
+	</String>
+	<String id="CF_PLEASE_ADDMEM_TIPS">选择联系人为空，请选择需要的成员。
+	</String>
+	<String id="CF_Discuss_Title">主题 -
+	</String>
+	<String id="CF_Discuss_Title_EDIT">点击编辑主题
+	</String>
+	<String id="CF_HAVEOPENSESSION_TIPS" fmt="true">您还有会话窗口未关闭，确认要退出$__PNAME$？
+	</String>
+	<String id="CF_TempSession_Setting">临时会话设置
+	</String>
+	<String id="Btn_TempSession_Setting">临时会话设置
+	</String>
+	<String id="CF_TempSession_Setting_SubVidio">允许视频
+	</String>
+	<String id="CF_TempSession_Setting_SubAudio">允许语音
+	</String>
+	<String id="CF_TempSession_Setting_SubFile">允许传文件
+	</String>
+	<String id="CF_TempSession_Setting_SubPic">允许发送图片
+	</String>
+	<String id="CF_TempSession_Setting_SubFace">允许自定义表情
+	</String>
+	<String id="CF_TempSession_Setting_BlackList">加入黑名单
+	</String>
+	<String id="CF_TempSession_Prevent">屏蔽会话来源
+	</String>
+	<String id="CF_TempSession_Setting_PreventAll">屏蔽所有临时会话消息
+	</String>
+	<String id="CF_TempSession_StopStatus">禁用我的在线状态
+	</String>
+	<String id="CF_TempSession_AddBlackTip">是否确定加入黑名单？
+	</String>
+	<String id="CF_TempSession_StopStatusTip">您是否确定禁用自己发布的在线状态按钮？
+	</String>
+	<String id="CF_TempSession_PreventSourceTip">您是否确定将会话来源“$SOURCENAME$”加入屏蔽名单？
+	</String>
+	<String id="CF_GROUPUSERINFO_REMARDTITLE">备注
+	</String>
+	<String id="CF_GROUPUSERINFO_EMAILTITLE">电子邮件
+	</String>
+	<String id="CF_GROUPUSERINFO_TELTITLE">电话
+	</String>
+	<String id="CF_GROUPUSERINFO_SEXTITLE">性别
+	</String>
+	<String id="CF_GROUPUSERINFO_NAMETITLE">姓名
+	</String>
+	<String id="CF_TUSERINFO_NICKTITLE">昵称
+	</String>
+	<String id="CF_TUSERINFO_AGETITLE">年龄
+	</String>
+	<String id="CF_TUSERINFO_PROVICETITLE">省份
+	</String>
+	<String id="CF_TUSERINFO_CITYTITLE">城市
+	</String>
+	<String id="CF_TUSERINFO_PERTITLE">个人说明
+	</String>
+	<String id="CF_DISCUSSTOPTOOLBAR_SETTING">讨论组设置
+	</String>
+	<String id="CF_DISCUSSTOPTOOLBAR_ADD">邀请加入讨论组
+	</String>
+	<String id="CF_DISCUSSTOPTOOLBAR_EXIT">退出讨论组
+	</String>
+	<String id="CF_DISCUSSCOUNT_STATIC">讨论组成员
+	</String>
+	<String id="CF_Close_Tip1">您按下ESC键,确认关闭聊天窗口吗?
+	</String>
+	<String id="CF_Close_Tip2">不再询问
+	</String>
+	<String id="CF_Mute_Close_Tip">不再提示
+	</String>
+	<String id="OFFLINE_CANNOT_SEND_PICTURE">对方不在线或隐身，将无法接收到信息中包含的图片
+	</String>
+	<String id="SERVICENAME_PAIPAI">拍拍
+	</String>
+	<String id="SERVICENAME_QZONE">QZone
+	</String>
+	<!-- RichEdit相关的字符串 -->
+	<String id="CLICK_HERE_TO_APPEND_FACE">点击右键添加到自定义表情或图片收藏夹
+	</String>
+	<String id="Rich_DEF_FONT">宋体
+	</String>
+	<String id="Rich_DEF_FONTSIZE">10
+	</String>
+	<String id="Rich_Menu_Cut">剪切(&amp;T)
+	</String>
+	<String id="Rich_Menu_Open">打开(&amp;O)
+	</String>
+	<String id="Rich_Menu_OpenFolder">打开文件夹(&amp;F)
+	</String>
+	<String id="Rich_Menu_Copy">复制(&amp;C)
+	</String>
+	<String id="Rich_Menu_Paste">粘贴(&amp;P)
+	</String>
+	<String id="Rich_Menu_Font">字体(&amp;F)
+	</String>
+	<String id="Rich_Menu_SelectAll">全部选择(&amp;A)
+	</String>
+	<String id="Rich_Menu_UserZYFInputFace">使用快捷键输入表情(&amp;U)
+	</String>
+	<String id="Rich_View_More">查看更多...
+	</String>
+	<String id="Rich_Pic_Saveas">另存为(&amp;S)...
+	</String>
+	<String id="Rich_Append_To_QQFace">添加到表情(&amp;E)
+	</String>
+	<String id="Rich_CLICK_HERE_TO_APPEND_FACE">单击右键添加到自定义表情或图片收藏夹
+	</String>
+	<String id="Rich_Pic_Save_Filter">图像文件(*.bmp;*.jpg;*.jpeg;*.gif)|*.jpg;*.bmp;*.gif|所有文件(*.*)|*.*||"
+	</String>
+	<String id="Rich_Pic_Open_Filter">图像文件(*.bmp;*.jpg;*.jpeg;*.gif)|*.jpg;*.bmp;*.gif|所有文件(*.*)|*.*||"
+	</String>
+	<String id="Rich_Out_Of_Edit">本窗口显示聊天信息已满，请点击确定进行清空，查看消息请点击会话窗口的“消息记录”
+	</String>
+	<!-- RichEdit相关的字符串结束 -->
+	<!-- 软键盘 -->
+	<String id="SOFTKEYBOARD_CLOSE">关闭
+	</String>
+	<String id="MainPanel_ChangeUser_Prompt">您确定要退出，更换其他帐号登录吗？
+	</String>
+	<String id="MainPanel_Close_TipTitle">关闭提示
+	</String>
+	<String id="MainPanel_Close_Tips">您点击了关闭按钮，您是想:
+	</String>
+	<String id="MainPanel_Close_Tip1">最小化到系统托盘区，不退出程序
+	</String>
+	<String id="MainPanel_Close_Tip2">退出程序
+	</String>
+	<String id="MainPanel_Close_Tip3">不再提醒
+	</String>
+	<String id="MainPanel_Mute_TipTitle">在线状态
+	</String>
+	<String id="MainPanel_Mute_TipHead">切换到“请勿打扰”状态
+	</String>
+	<String id="MainPanel_Mute_TipTail">收到未读消息将不再提示，直接保存到未读消息管理器中。
+	</String>
+	<String id="MainPanel_Menu_1">联系人显示
+	</String>
+	<String id="MainPanel_Menu_2">头像显示
+	</String>
+	<String id="MainPanel_Menu_3">添加联系人
+	</String>
+	<String id="MainPanel_Menu_4">添加分组
+	</String>
+	<String id="MainPanel_Menu_5">只显示在线好友
+	</String>
+	<String id="MainPanel_Menu_6">只显示QQ好友
+	</String>
+	<String id="MainPanel_Menu_7">显示全部联系人
+	</String>
+	<String id="MainPanel_Menu_8">大头像
+	</String>
+	<String id="MainPanel_Menu_9">小头像
+	</String>
+	<String id="MainPanel_Menu_0">标准头像
+	</String>
+	<String id="MainPanel_Menu_A">中头像
+	</String>
+	<String id="MainPanel_Menu_B">重命名
+	</String>
+	<String id="MainPanel_Menu_C">删除该组
+	</String>
+	<String id="MainPanel_Menu_D">发送即时消息
+	</String>
+	<String id="MainPanel_Menu_E">移动联系人至
+	</String>
+	<String id="MainPanel_Menu_F">移至黑名单
+	</String>
+	<String id="MainPanel_Menu_G">从主面板移除
+	</String>
+	<String id="MainPanel_Menu_H">设置权限
+	</String>
+	<String id="MainPanel_Menu_I">删除好友
+	</String>
+	<String id="MainPanel_Menu_J">修改备注姓名
+	</String>
+	<String id="MainPanel_Menu_K">消息记录
+	</String>
+	<String id="MainPanel_Menu_L">查看资料
+	</String>
+	<String id="MainPanel_Menu_M">屏蔽此人消息
+	</String>
+	<String id="MainPanel_Menu_N">隐身对其可见
+	</String>
+	<String id="Menu_CancelVisible">取消对其可见
+	</String>
+	<String id="MainPanel_Menu_O">访问群空间
+	</String>
+	<String id="MainPanel_Menu_P">查找添加群
+	</String>
+	<String id="MainPanel_Menu_Q">创建一个群
+	</String>
+	<String id="MainPanel_Menu_R">所有群消息设置
+	</String>
+	<String id="MainPanel_Menu_S">接收并提示消息
+	</String>
+	<String id="MainPanel_Menu_T">自动弹出消息
+	</String>
+	<String id="MainPanel_Menu_U">不提示消息只显示数目
+	</String>
+	<String id="MainPanel_Menu_V">接收不提示消息
+	</String>
+	<String id="MainPanel_Menu_X">完全阻止群内消息
+	</String>
+	<String id="MainPanel_Menu_Y">发送群组消息
+	</String>
+	<String id="MainPanel_Menu_Z">查看群组资料
+	</String>
+	<String id="Menu_GroupPage_ForbidPic">屏蔽群内图片
+	</String>
+	<String id="Menu_GroupPage_AttendContent">设置屏蔽时关注内容
+	</String>
+	<String id="MainPanel_Menu_AA">群消息设置
+	</String>
+	<String id="MainPanel_Menu_AB">查看消息记录
+	</String>
+	<String id="MainPanel_Menu_AC">退出该群
+	</String>
+	<String id="MainPanel_Menu_AD">成员管理
+	</String>
+	<String id="MainPanel_Menu_AE">转让创建者身份
+	</String>
+  <String id="MainPanel_Menu_AZ">升级该群
+  </String>
+  <String id="MainPanel_Menu_AZZ">如何升级
+  </String>
+  <String id="MainPanel_Menu_AF">解散该群
+	</String>
+	<String id="MainPanel_Menu_AG">使用群自身的消息设置
+	</String>
+	<String id="MainPanel_Menu_AH">所有群接收并提示消息
+	</String>
+	<String id="MainPanel_Menu_AI">所有群不提示消息只显示数目
+	</String>
+	<String id="MainPanel_Menu_AJ">所有群接收不显示消息
+	</String>
+	<String id="MainPanel_Menu_AK">所有群阻止一切群内消息
+	</String>
+	<String id="MainPanel_Menu_AL">从该组删除
+	</String>
+	<String id="MainPanel_Menu_AM">加为好友
+	</String>
+	<String id="MainPanel_Menu_AN">隐藏黑名单
+	</String>
+	<String id="MainPanel_Menu_AO">显示黑名单
+	</String>
+	<String id="MainPanel_Menu_AP">从最近联系列表移除
+	</String>
+	<String id="MainPanel_Menu_AQ">清空最近联系人列表
+	</String>
+	<String id="MainPanel_Menu_AR">发送手机短信
+	</String>
+	<String id="MainPanel_Menu_AS">发送电子邮件
+	</String>
+	<String id="MainPanel_Menu_AT">对不起，联系人分组数目已达到上限，您不能继续添加分组了。
+	</String>
+	<String id="MainPanel_Menu_AU">加为好友
+	</String>
+	<String id="MainPanel_Menu_AV">排序显示
+	</String>
+	<String id="MainPanel_Menu_AW">按时间排序
+	</String>
+	<String id="MainPanel_Menu_AX">按在线情况排序
+	</String>
+	<String id="MainPanel_Menu_AY">进入QQ空间
+	</String>
+	<String id="Menu_CloseSoundPrompt">关闭提示声音
+	</String>
+	<String id="MainPanel_Menu_StatusSetting">系统设置...
+	</String>
+	<String id="MainPanel_Menu_B0">上线
+	</String>
+	<String id="MainPanel_Menu_B1">忙碌
+	</String>
+	<String id="MainPanel_Menu_B2">离开
+	</String>
+	<String id="MainPanel_Menu_B3">隐身
+	</String>
+	<String id="MainPanel_Menu_B4">离线
+	</String>
+	<String id="MainPanel_Menu_B5">个性状态
+	</String>
+	<String id="MainPanel_Menu_B6">我的资料...
+	</String>
+	<String id="MainPanel_Menu_D1">发送讨论组消息
+	</String>
+	<String id="MainPanel_Menu_D2">更新讨论组信息
+	</String>
+	<String id="MainPanel_Menu_D3">退出讨论组
+	</String>
+	<String id="MainPanel_Menu_D4">讨论组消息设置
+	</String>
+	<String id="MainPanel_Menu_D5">创建讨论组
+	</String>
+	<String id="MainPanel_Menu_E1">打开我的邮箱
+  </String>
+	<String id="Menu_Impeach">举报
+	</String>
+	<String id="Menu_Impeach_User">举报此用户
+	</String>
+	<String id="Tips_ChatFrame_Impeach">举报
+	</String>
+	<String id="Btn_ChatFrame_Impeach">举报
+	</String>
+	<String id="Link_AddFrend_Impeach_User">举报
+	</String>
+	<String id="Title_Impeach">举报
+	</String>
+	<String id="ImpeachFrame_ImpeachUin">举报恶意QQ帐号
+	</String>
+	<String id="ImpeachFrame_BadUin">恶意帐号:
+	</String>
+	<String id="ImpeachFrame_ImpeachReason">举报原因:
+	</String>
+	<String id="ImpeachFrame_ImpeachProof">举报证据:
+	</String>
+	<String id="ImpeachFrame_Description">附加说明:
+	</String>
+	<String id="Link_ImpeachFrame_ImpeachMore">举报更多内容
+	</String>
+	<String id="Option_ImpeachFrame_Reason1">诈骗
+	</String>
+	<String id="Option_ImpeachFrame_Reason2">传播病毒
+	</String>
+	<String id="Option_ImpeachFrame_Reason3">骚扰
+	</String>
+	<String id="Option_ImpeachFrame_Reason4">勒索
+	</String>
+	<String id="Option_ImpeachFrame_Reason5">其他
+	</String>
+	<String id="ImpeachFrame_SelectProof">请选择最近的一条或多条聊天记录作为举报证据
+	</String>
+	<String id="Link_ImpeachFrame_Deal">腾讯将如何处理用户的举报？
+	</String>
+	<String id="Button_ImpeachFrame_Submit">提交
+	</String>
+	<String id="Button_ImpeachFrame_Cancel">取消
+	</String>
+	<String id="Button_NewsTipBtnView">查看
+	</String>
+	<String id="ImpeachFrame_ImpeachUrl">举报恶意行为
+	</String>
+	<String id="ImpeachFrame_BadUrl">恶意网址:
+	</String>
+	<String id="Option_ImpeachFrame_AlsoImpeachUin">同时举报此帐号
+	</String>
+	<String id="ImpeachFrame_Uin_Explain">您可以详细描述恶意行为(如对方发送图片中的不良信息)
+	</String>
+	<String id="ImpeachFrame_Url_Explain">您可以详细描述恶意内容或行为
+	</String>
+	<String id="ImpeachFrame_SafePrompt">——欢迎您和QQ共建安全健康网络环境
+	</String>
+	<String id="Menu_Delete_Friend">删除好友
+	</String>
+	<String id="Menu_MoveTo_BlackList">移至黑名单
+	</String>
+	<String id="MainPanel_AdjustColor">更改外观
+	</String>
+	<String id="MainPanel_AdjustColorEx">调色
+	</String>
+	<String id="MainPanel_AdjustBkg">底纹
+	</String>
+  <String id="MainPanel_AdjustTheme">皮肤
+  </String>
+	<String id="MainPanel_AdjustColor_CustomColor">自定义颜色
+	</String>
+	<String id="MainPanel_AdjustBkg_Tip1">经典蓝色
+	</String>
+	<String id="MainPanel_AdjustBkg_Tip2">君子青竹
+	</String>
+	<String id="MainPanel_AdjustBkg_Tip3">缤纷瑛海
+	</String>
+	<String id="MainPanel_AdjustBkg_Tip4">中华书蕴
+	</String>
+	<String id="MainPanel_AdjustBkg_Tip5">浪漫花饰
+	</String>
+	<String id="MainPanel_AdjustBkg_Tip6">莲犹吾心
+	</String>
+	<String id="MainPanel_AdjustBkg_Tip7">春意盎然
+	</String>
+	<String id="MainPanel_AdjustBkg_Tip8">悠悠琴声
+	</String>
+	<String id="MainPanel_AdjustBkg_Tip9">浩渺星空
+	</String>
+	<String id="MainPanel_AdjustColor_H">色调
+	</String>
+	<String id="MainPanel_AdjustColor_S">饱和度
+	</String>
+	<String id="MainPanel_AdjustColor_L">亮度
+	</String>
+	<String id="MainPanel_Menu_E2">进入迷你首页
+	</String>
+	<String id="MainPanel_Menu_E3">打开系统设置
+	</String>
+	<String id="MainPanel_Menu_E4">发送手机短信
+	</String>
+	<String id="MainPanel_Menu_E5">打开消息管理器
+	</String>
+	<String id="MainPanel_Menu_E6">查找联系人
+	</String>
+	<String id="MainPanel_Menu_E7">您已成功退出群:$GROUPNAME$($GROUPUIN$)。
+	</String>
+	<String id="MainPanel_Menu_EA">联系人
+	</String>
+	<String id="MainPanel_Menu_EB">群/讨论组/社区
+   </String>
+	<String id="MainPanel_Menu_EC">最近联系人
+	</String>
+	<String id="MainPanel_GroupTab_ToolTip">群/讨论组/社区
+	</String>
+	<String id="MainPanel_Menu_ED">暂时没有最近联系人
+	</String>
+	<String id="MainPanel_Menu_EE">我的服务
+	</String>
+	<String id="MainPanel_Menu_VipFunc">会员快捷功能
+	</String>
+	<String id="MainPanel_Menu_SetRing">设置会员炫铃
+	</String>
+	<String id="MainPanel_Menu_VipCard">会员贺卡
+	</String>
+	<String id="MainPanel_Menu_MFace">会员魔法表情
+	</String>
+  <String id="MainPanel_Menu_CRM">进入企业空间
+  </String>
+	<String id="MainPanel_Menu_BuddyClone">好友克隆
+	</String>
+	<String id="MainPanel_Menu_MobileNotify">设置手机通知
+	</String>
+	<String id="MainPanel_Menu_TempSession_SendMsg">发送消息
+	</String>
+	<String id="MainPanel_Menu_TempSession_ForbidMsg">屏蔽消息
+	</String>
+	<String id="MainPanel_Menu_TempSession_AddBlackList">添加到黑名单
+	</String>
+	<String id="MainPanel_Menu_TempSession_MsgHistory">聊天记录
+	</String>
+	<String id="MainPanel_Menu_TempSession_ViewInfo">查看资料
+	</String>
+	<String id="MainPanel_Menu_TempSession_AddFriend">加为好友
+	</String>
+	<String id="MainPanel_Folder_0">黑名单
+	</String>
+	<String id="MainPanel_Folder_1">删除分组
+	</String>
+	<String id="MainPanel_Folder_2">选定的分组将被删除，组内联系人将会移至系统默认分组“$FOLDERNAME$”。您确定要删除该分组吗？
+	</String>
+	<String id="MainPanel_Folder_3">您确认要把$USER$删除，并把您从对方的好友列表中删除吗？
+	</String>
+	<String id="MainPanel_Folder_4">删除好友
+	</String>
+	<String id="MainPanel_Folder_5">未命名分组
+	</String>
+	<String id="MainPanel_Folder_6">请输入分组名称
+	</String>
+	<String id="MB_RenameContactFail">修改备注姓名失败。
+	</String>
+	<String id="MB_UploadGroupCardInfoFail">修改群名片失败。
+	</String>
+	<String id="MainPanel_RenameContact">修改备注姓名
+	</String>
+	<String id="MainPanel_InputRemarkName">请输入备注姓名:
+	</String>
+	<!--群tips字符串-->--&gt;
+  <String id="IDS_GROUP_EMPTY">
+    群名称不能为空。
+  </String>
+	<String id="IDS_GROUP_ADMINCANCELa">
+    您已经被取消群$2&lt;$GNAME$($GID$)$&gt;的管理员身份。
+  </String>
+	<String id="IDS_GROUP_ADMINCHANGEa">
+    您已经成为群$2&lt;$GNAME$($GID$)$&gt;的管理员。
+  </String>
+	<String id="IDS_GROUP_SHARDHOLDERa">
+    您已经成为群$2&lt;$GNAME$($GID$)$&gt;的股东。
+  </String>
+	<String id="IDS_GROUP_SHARDHOLDER_CANCELa">
+    您在群$2&lt;$GNAME$($GID$)$&gt;的股东身份已经过期。
+  </String>
+	<String id="IDS_GROUP_ADMINCANCELb">
+    $1&lt;$MEMNAME$$&gt;已经被取消群$2&lt;$GNAME$($GID$)$&gt;的管理员身份。
+  </String>
+	<String id="IDS_GROUP_ADMINCHANGEb">
+    $1&lt;$MEMNAME$$&gt;已经成为群$2&lt;$GNAME$($GID$)$&gt;的管理员。
+  </String>
+	<String id="IDS_GROUP_SHARDHOLDERb">
+    $1&lt;$MEMNAME$$&gt;已经成为群$2&lt;$GNAME$($GID$)$&gt;的股东。
+  </String>
+	<String id="IDS_GROUP_SHARDHOLDER_CANCELb">
+    $1&lt;$MEMNAME$$&gt;在群$2&lt;$GNAME$($GID$)$&gt;的股东身份已经过期。
+  </String>
+	<!--申请加入群-->--&gt;
+  <String id="IDS_GROUP_WANTJOIN_1">
+    $1&lt;$MEMNAME$$&gt;申请加入群$2&lt;$GNAME$($GID$)$&gt;$CRLF$附加信息:($TIME$)$CRLF$$STRMSG$
+  </String>
+	<String id="IDS_GROUP_WANTJOIN_2">
+    附加信息:
+  </String>
+	<String id="IDS_GROUP_WANTJOIN_3">
+    $1&lt;$MEMNAME$$&gt;申请加入群$2&lt;$GNAME$($GID$)$&gt;$CRLF2$附加信息:$CRLF$$STRMSG$
+  </String>
+	<String id="IDS_GroupJoin_TimeOut">
+    "对不起，您加入群时发生了超时。"
+  </String>
+	<String id="IDS_Group_JoinError">
+    "对不起，您加入群时发生了错误。"
+  </String>
+	<!--退出群-->
+	<String id="IDS_GROUP_MEMEXIT_SELF">
+    您已经成功退出群。
+  </String>
+	<String id="IDS_GROUP_MEMEXIT_EXIT">
+    $1&lt;$MEMNAME$$&gt;退出群$2&lt;$GNAME$($GID$)$&gt;。
+  </String>
+	<String id="IDS_GROUP_MEMEXIT_ADMIN">
+    $2&lt;$GNAME$($GID$)$&gt;管理员$1&lt;$MEMNAME$$&gt;已将您移出该群。
+  </String>
+	<String id="IDS_GROUP_MEMEXIT_ADMIN2">
+    $1&lt;$MEMNAME$$&gt;已被管理员$3&lt;$ADMNAME$$&gt;移出群$2&lt;$GNAME$($GID$)$&gt;。
+  </String>
+	<String id="IDS_GROUP_MEMEXIT_ADMIN_Creator">
+    $2&lt;$GNAME$($GID$)$&gt;群主$1&lt;$MEMNAME$$&gt;已将您移出该群。
+  </String>
+	<String id="IDS_GROUP_MEMEXIT_ADMIN2_Creator">
+    $1&lt;$MEMNAME$$&gt;已被群主$3&lt;$ADMNAME$$&gt;移出群$2&lt;$GNAME$($GID$)$&gt;。
+  </String>
+	<!--群解散-->--&gt;
+  <String id="IDS_GROUP_DESTORY_SELF">
+    您已经成功地解散了群$2&lt;$GNAME$($GID$)$&gt;。
+  </String>
+	<String id="IDS_GROUP_DESTORY">
+    $GROUP$的群主$1&lt;$MEMNAME$$&gt;已经解散该群。
+  </String>
+	<!--群转让-->--&gt;
+  <String id="IDS_GROUP_CREATORSHIFT_SELF_1">
+    您已经成功将群$2&lt;$GNAME$($GID$)$&gt;的群主身份转让给$1&lt;$MEMNAME$$&gt;。
+  </String>
+	<String id="IDS_GROUP_CREATORSHIFT_1">
+    $2&lt;$GNAME$($GID$)$&gt;的群主$1&lt;$MEMNAME$$&gt;已将该群转让给您，现在您为该群的群主。
+  </String>
+	<String id="IDS_GROUP_CREATORSHIFT_3">
+    $1&lt;$MEMNAME$$&gt;已将$2&lt;$GNAME$($GID$)$&gt;的群主身份转让给$3&lt;$ADMNAME$$&gt;。
+  </String>
+	<!--创建群-->--&gt;
+  <String id="IDS_GROUP_NEWGROUP">
+    您已经成功创建群$2&lt;$GNAME$($GID$)$&gt;，马上邀请您的好友加入吧。
+  </String>
+	<String id="IDS_GROUP_NEWGROUP_1">
+    $1&lt;$MEMNAME$$&gt;创建了群$2&lt;$GNAME$($GID$)$&gt;，群主将您加入该群中。
+  </String>
+	<!--新成员-->--&gt;
+  <String id="IDS_GROUP_NEWMEMBER_1">
+    $2&lt;$GNAME$($GID$)$&gt;管理员$1&lt;$MEMNAME$$&gt;已通过您的加群请求。
+  </String>
+	<String id="IDS_GROUP_NEWMEMBER_INVITE_1">
+    您的好友$1&lt;$MEMNAME$$&gt;$CRLF$邀请您加入群$2&lt;$GNAME$($GID$)$&gt;
+    <!--您已经加入群$2&lt;$GNAME$($GID$)$&gt;，邀请者为$1&lt;$MEMNAME$$&gt;。-->
+	</String>
+	<String id="IDS_GROUP_NEWMEMBER_INVITE_2">
+    您的好友$1&lt;$MEMNAME$$&gt;$CRLF$邀请您加入群$2&lt;$GNAME$($GID$)$&gt;$CRLF2$附加信息: $CRLF3$$MSG$
+  </String>
+	<String id="IDS_GROUP_NEWMEMBER_INVITE_ACCEPT">
+    您的好友$1&lt;$MEMNAME$$&gt;$CRLF$已经同意加入群$2&lt;$GNAME$($GID$)$&gt;
+  </String>
+	<String id="IDS_GROUP_NEWMEMBER_INVITE_ACCEPT2">
+    您的好友$1&lt;$MEMNAME$$&gt;$CRLF$已经同意加入群$2&lt;$GNAME$($GID$)$&gt;$CRLF2$附加消息: $MSG$
+  </String>
+	<String id="IDS_GROUP_NEWMEMBER_INVITE_ACCEPT3">
+    您的好友$1&lt;$MEMNAME$$&gt;$CRLF$已经同意加入群$2&lt;$GNAME$($GID$)$&gt;$CRLF2$附加信息: $CRLF3$$MSG$
+  </String>
+	<String id="IDS_GROUP_NEWMEMBER_INVITE_REJECT2">
+    您的好友$1&lt;$MEMNAME$$&gt;$CRLF$拒绝加入群$2&lt;$GNAME$($GID$)$&gt;$CRLF2$附加消息: $MSG$
+  </String>
+	<String id="IDS_GROUP_NEWMEMBER_INVITE_REJECT">
+    您的好友$1&lt;$MEMNAME$$&gt;$CRLF$拒绝入群$2&lt;$GNAME$($GID$)$&gt;
+  </String>
+	<String id="IDS_GROUP_NEWMEMBER_INVITE_REJECT3">
+    您的好友$1&lt;$MEMNAME$$&gt;$CRLF$拒绝加入群$2&lt;$GNAME$($GID$)$&gt;$CRLF2$拒绝理由: $CRLF3$$MSG$
+  </String>
+	<String id="Text_GroupSysMsg_NULL">    
+    (无)
+  </String>
+	<String id="Group_OldVersion_Tip"/>
+	<!--同意或拒绝加入群-->
+	<String id="IDS_GROUP_ACCEPTJOIN_1">
+    $2&lt;$GNAME$($GID$)$&gt;管理员$1&lt;$MEMNAME$$&gt;已通过您的加群请求。
+  </String>
+	<String id="IDS_GROUP_REJECTJOIN_1">
+    $2&lt;$GNAME$($GID$)$&gt;管理员$1&lt;$MEMNAME$$&gt;已拒绝了您的加群请求。$&gt;$DOT$拒绝理由: $MSG$
+  </String>
+	<String id="IDS_GROUP_REJECTJOIN_2">
+    $2&lt;$GNAME$($GID$)$&gt;管理员$1&lt;$MEMNAME$$&gt;已拒绝了您的加群请求。$CRLF2$拒绝理由: $CRLF3$$MSG$
+  </String>
+	<String id="IDS_AIO_GROUP_ADMINCHANGE">
+    $OLD$已将本群的群主身份转让给$NEW$
+  </String>
+	<!--群tips字符串结束-->--&gt;
+  <!--群管理器-->
+	<String id="IDS_GROUP_CONFIG_GENDER_MALE">
+    男
+  </String>
+	<String id="IDS_GROUP_CONFIG_GENDER_FEMALE">
+    女
+  </String>
+	<String id="IDS_GROUP_CONFIG_GENDER_NONE">
+    -
+  </String>
+	<String id="GROUP_CONFIG_WINDOW_TITLE">
+    群设置
+  </String>
+	<String id="IDS_GROUP_CONFIG_TIP_TITLE">
+    提示
+  </String>
+	<String id="IDS_GROUP_CONFIG_TIP_TIP">
+    提示
+  </String>
+	<String id="IS_SAVE_YOUR_SETTING">
+    您已经对设置作了修改，是否保存？
+  </String>
+  <String id="ConfigCenter_EnterOkPrompt">
+    是否保存并关闭系统设置窗口？
+  </String>
+	<String id="IDS_GROUP_CONFIG_CARD_MSG_SUCCEED">
+    设置群名片成功。
+  </String>
+	<String id="IDS_GROUP_CONFIG_CARD_MSG_FAILED">
+    设置群名片失败。
+  </String>
+	<String id="IDS_GROUP_CONFIG_CARD_MSG_FAILED_TITLE">
+    设置群名片失败
+  </String>
+	<String id="IDS_GROUP_CONFIG_CARD_MSG_TIMEOUT">
+    设置群名片超时。
+  </String>
+	<String id="IDS_GROUP_CONFIG_BASE_MSG_SUCCEED">
+    设置群基本资料成功。
+  </String>
+	<String id="IDS_GROUP_CONFIG_BASE_MSG_FAILED">
+    设置群基本资料失败。
+  </String>
+	<String id="IDS_GROUP_CONFIG_BASE_MSG_FAILED_TITLE">
+    设置群基本资料失败
+  </String>
+	<String id="IDS_GROUP_CONFIG_BASE_MSG_TIMEOUT">
+    设置群基本资料超时。
+  </String>
+	<String id="IDS_GROUP_CONFIG_BASE_MSGTYPE_SUCCEED">
+    设置群消息接收方式成功。
+  </String>
+	<String id="IDS_GROUP_CONFIG_BASE_MSGTYPE_FAILED">
+    设置群消息接收方式失败。
+  </String>
+	<String id="IDS_GROUP_CONFIG_BASE_MSGTYPE_TIMEOUT">
+    设置群消息接收方式超时。
+  </String>
+	<String id="IDS_GROUP_CONFIG_BASE_SET_SUCCEED">
+    设置群身份验证方式成功。
+  </String>
+	<String id="IDS_GROUP_CONFIG_BASE_SET_FAILED">
+    设置群身份验证方式失败。
+  </String>
+	<String id="IDS_GROUP_CONFIG_BASE_SET_FAILED_TITLE">
+    设置群身份验证方式失败
+  </String>
+	<String id="IDS_GROUP_CONFIG_BASE_SET_TIMEOUT">
+    设置群身份验证方式超时。
+  </String>
+	<String id="IDS_GROUP_CONFIG_BASE_IDCHECK_SUCCEED">
+    设置群身份验证成功。
+  </String>
+	<String id="IDS_GROUP_CONFIG_BASE_IDCHECK_FAILED">
+    设置群消息接收方式失败。
+  </String>
+	<String id="IDS_GROUP_CONFIG_BASE_IDCHECK_TIMEOUT">
+    设置群消息接收方式超时。
+  </String>
+	<String id="IDS_GROUP_CONFIG_SET_MEM_SUCCEED">
+    设置群成员成功。
+  </String>
+	<String id="IDS_GROUP_CONFIG_SET_MEM_FAILED">
+    设置群成员失败。
+  </String>
+	<String id="IDS_GROUP_CONFIG_SET_MEM_TIMEOUT">
+    设置群成员超时。
+  </String>
+	<String id="IDS_GROUP_CONFIG_DEL_MEM_SUCCEED">
+    删除群成员成功。
+  </String>
+	<String id="IDS_GROUP_CONFIG_DEL_MEM_FAILED">
+    删除群成员失败。
+  </String>
+	<String id="IDS_GROUP_CONFIG_DEL_MEM_TIMEOUT">
+    删除群成员超时。
+  </String>
+	<String id="IDS_GROUP_CONFIG_SET_MANAGER_SUCCEED">
+    设置群管理员成功。
+  </String>
+	<String id="IDS_GROUP_CONFIG_SET_MANAGER_FAILED">
+    设置群管理员失败。
+  </String>
+	<String id="IDS_GROUP_CONFIG_SET_MANAGER_FAILED_New">
+    设置群管理员失败:
+  </String>
+	<String id="IDS_GROUP_CONFIG_SET_MANAGER_TIMEOUT">
+    设置群管理员超时。
+  </String>
+	<String id="IDS_GROUP_CONFIG_CANEL_MANAGER_SUCCEED">
+    取消群管理员成功。
+  </String>
+	<String id="IDS_GROUP_CONFIG_CANEL_MANAGER_FAILED">
+    取消群管理员失败。
+  </String>
+	<String id="IDS_GROUP_CONFIG_CANEL_MANAGER_TIMEOUT">
+    取消群管理员超时。
+  </String>
+	<String id="IDS_GROUP_CONFIG_SHIFT_CREATOR_SUCCEED">
+    设置群创建者转移成功。
+  </String>
+	<String id="IDS_GROUP_CONFIG_SHIFT_CREATOR_FAILED">
+    设置群创建者转移失败。
+  </String>
+	<String id="IDS_GROUP_CONFIG_SHIFT_CREATOR_TIMEOUT">
+    设置群创建者转移超时。
+  </String>
+	<String id="IDS_GROUP_SELECTCONTACT_ERROR">
+    接受请求失败。
+  </String>
+	<String id="IDS_GROUP_SELECTCONTACT_ALL">
+    全部联系人
+  </String>
+	<String id="IDS_GROUP_SELECTCONTACT_MOBILE">
+    手机联系人
+  </String>
+	<String id="IDS_GROUP_SETMEM_SUCCEED">
+    设置成员成功。
+  </String>
+	<String id="IDS_GROUP_SETMEM_TIMEOUT">
+    设置成员超时。
+  </String>
+	<!--群管理器字符串结束-->--&gt;
+  <!-- 消息管理器相关 -->
+	<String id="Menu_MSGMGR_SHOWALL">
+    显示所有项
+  </String>
+	<String id="Menu_MSGMGR_SHOWMSG">
+    仅显示有记录的项
+  </String>
+	<String id="MSGMGR_PROMPT">
+    提示
+  </String>
+	<String id="MSGMGR_DATE">
+    日期:
+  </String>
+	<String id="MSGMGR_VIEW">
+    查看(&amp;V)
+  </String>
+	<String id="MSGMGR_VIEWSYS">
+    查看
+  </String>
+	<String id="MSGMGR_NOMSG">
+    您还没有任何交谈记录。
+  </String>
+	<String id="MSGMGR_VIEWMSG">
+    查看前后消息
+  </String>
+	<String id="MSGMGR_REMOVEMSG">
+    您确定删除选中$USER$的所有消息记录吗？
+  </String>
+	<String id="MSGMGR_DELETEMSG">
+    您确定删除选中的消息记录吗？
+  </String>
+	<String id="MSGMGR_SELECTONEMSG">
+    请先选择一条记录再进行删除。
+  </String>
+	<String id="MSGMGR_NODE_MOBILEUSER">
+    手机联系人
+  </String>
+	<String id="MSGMGR_NODE_STRANGER">
+    陌生人
+  </String>
+	<String id="MSGMGR_NODE_FRIENDROOT">
+    所有分组
+  </String>
+	<String id="MSGMGR_NODE_GROUPROOT">
+    群列表
+  </String>
+	<String id="MSGMGR_NODE_GROUPROOTEX">
+    已退出的群
+  </String>
+	<String id="MSGMGR_MARKINGMSG">
+    营销消息
+  </String>
+	<String id="MSGMGR_BROADCAST">
+    广播消息
+  </String>
+	<String id="MSGMGR_VALIDATE">
+    验证消息
+  </String>
+	<String id="MSGMGR_SYSMSG">
+    系统消息
+  </String>
+	<String id="MSGMGR_GROUPSYSMSG">
+    群系统消息
+  </String>
+	<String id="MSGMGR_GROUP">
+    群
+  </String>
+	<String id="MSGMGR_CURRENTSEL">
+    当前联系人
+  </String>
+	<String id="MSGMGR_DISCUSS">
+    讨论组
+  </String>
+	<String id="MSGMGR_DISCUSSX">
+    讨论组已不存在
+  </String>
+	<String id="MSGMGR_MOBILE1">
+    手机联系人
+  </String>
+	<String id="MSGMGR_LINKMAN">
+    联系人
+  </String>
+	<String id="MSGMGR_FOLDER">
+    分组
+  </String>
+	<String id="MSGMGR_SECURITYSYSMSG">
+    安全中心消息
+  </String>
+	<String id="MSGMGR_SELECTITEM">
+    对不起，暂不支持导出多个对象，请选择单个对象
+  </String>
+	<String id="MSGMGR_SELECTITEM_DELETE">
+    对不起，暂不支持删除多个对象，请选择单个对象
+  </String>
+	<String id="MSGMGR_MSGREC">
+    消息记录
+  </String>
+	<String id="MSGMGR_MSGFOLDER">
+    消息分组
+  </String>
+	<String id="MSGMGR_NOTHISMSG">
+    此消息不存在。
+  </String>
+	<String id="MSGMGR_MSGOBJ">
+    消息对象
+  </String>
+	<String id="MSGMGR_ALL">
+    全部
+  </String>
+	<String id="MSGMGR_EXPORT1">
+    导出消息记录(&amp;E)
+  </String>
+	<String id="MSGMGR_IMPORT1">
+    导入消息记录
+  </String>
+	<String id="MSG_IMPORT_WAZARD">
+    数据导入工具
+  </String>
+	<String id="MSGMGR_DELETE1">
+    删除消息记录(&amp;D)
+  </String>
+	<String id="MSGMGR_REFERESH">
+    刷新(&amp;R)
+  </String>
+	<String id="Menu_MsgMgr_ContactInfo">
+    查看联系人资料(&amp;V)
+  </String>
+	<String id="Menu_MsgMgr_GroupInfo">
+    查看群资料(&amp;V)
+  </String>
+	<String id="MSGMGR_CHAT">
+    发送即时消息(&amp;C)
+  </String>
+	<String id="MSGMGR_EXPORTMSG">
+    导出消息记录
+  </String>
+	<String id="MSGMGR_FIND">
+    查找
+  </String>
+	<String id="MSGMGR_FINDING">
+    正在查找...
+  </String>
+	<String id="MSGMGR_FINDINGNODE">
+    正在查找$NODE$中的记录...
+  </String>
+	<String id="MSGMGR_EXPORTING">
+    正在导出消息记录...
+  </String>
+	<String id="MSGMGR_IMPORTING">
+    正在导入消息记录...
+  </String>
+	<String id="MSGMGR_PLEASEINPUTWORD">
+    请输入要查找的字符
+  </String>
+	<String id="MSGMGR_ERRORFORSEARH">
+    查找范围有错
+  </String>
+	<String id="MSGMGR_EXPORTFILTER">
+    加密文件(*.bak)|*.bak|网页格式(*.mht)|*.mht|文本文件(*.txt)|*.txt||
+  </String>
+	<String id="MSGMGR_IMPORTFILTER">
+    加密文件(*.bak)|*.bak||
+  </String>
+	
+	<String id="MSGMGR_Export">
+    导出
+  </String>
+	<String id="MSGMGR_Import">
+    导入
+  </String>
+	<String id="MSGMGR_ExportOrImport">
+    导入和导出
+  </String>
+	<String id="MSGMGR_Delete">
+    删除
+  </String>
+	<String id="MSGMGR_Update">
+    刷新
+  </String>
+	<String id="MSGMGR_Addr">
+    联系人管理
+  </String>
+	<String id="MSGMGR_FindText">
+    查找内容:
+  </String>
+	<String id="MSGMGR_FindArea">
+    查找范围:
+  </String>
+	<String id="MSGMGR_Search">
+    立即查找
+  </String>
+	<String id="MSGMGR_Clear">
+    清除
+  </String>
+	<String id="MSGMGR_User">
+    联系人
+  </String>
+	<String id="MSGMGR_Account">
+    帐号
+  </String>
+	<String id="MSGMGR_LastTime">
+    最后会话时间
+  </String>
+	<String id="MSGMGR_Page">
+    页
+  </String>
+	<String id="MSGMGR_Goto">
+    转到
+  </String>
+	<String id="MSGMGR_Other">
+    其他
+  </String>
+	<String id="MSGMGR_BlackList">
+    黑名单/已删除联系人
+  </String>
+	<String id="MSGMGR_TempSession">
+    临时会话
+  </String>
+	<String id="Group_GroupDeleted">
+    已退出群
+  </String>
+	<String id="MSGMGR_Mobile">
+    手机联系人
+  </String>
+	<String id="MSGMGR_ChatAtGroup">
+    在$GROUP$的消息记录
+  </String>
+	<String id="MSGMGR_ChatWithUser">
+    与$USER$的消息记录
+  </String>
+	<String id="MSGMGR_SearchResult">
+    已搜索到$COUNT$条消息记录
+  </String>
+	<String id="MSGMGR_SearchNoResult">
+    搜索不到结果
+  </String>
+	<String id="MSGMGR_ImportOver">
+    导入消息记录完毕
+  </String>
+	<String id="Tips_MSGMGR_CurPage">
+    第$PAGE$页/共$PAGES$页
+  </String>
+	<String id="MSGMGR_NeedCorrectPage">
+    请输入正确的页面
+  </String>
+	<String id="MSGMGR_MsgType">
+    消息类型
+  </String>
+	<String id="MSGMGR_MsgAbs">
+    消息摘要
+  </String>
+	<String id="MSGMGR_MsgRevTime">
+    信息接收时间
+  </String>
+	<!-- 消息管理器相关结束 -->
+	<String id="TIP_VIEW">
+    查看
+  </String>
+	<String id="TIP_VIEWALL">
+    查看全部
+  </String>
+	<String id="TIP_TITLE">
+    系统消息
+  </String>
+	<String id="TIP_BUTTON_TIP">
+    点击查看详情
+  </String>
+	<String id="TIP_CLOSE">
+    关闭
+  </String>
+	<String id="TIP_NEGLECTS">
+    忽略
+  </String>
+	<String id="SYSMSG_SYSFACE">
+    [表情]
+  </String>
+	<String id="SYSMSG_IMAGE">
+    [图片]
+  </String>
+    <String id="SYSMSG_SOUND">
+		[语音]
+  </String>
+	<String id="REONLINE_TITLE">
+    与服务器连接中断
+  </String>
+	<String id="REONLINE_DETAIL" fmt="true">
+    与服务器连接中断，$__PNAME$在_DELAY_TIME后重新尝试建立连接。
+  </String>
+	<String id="RECONNCETING_TEXT" fmt="true">
+    正在登录…
+  </String>
+	<String id="REONLINE_TRYONLINE">
+    立即登录
+  </String>
+	<String id="REONLINE_CANCEL">
+    取消
+  </String>
+	<!-- Begin 查看资料人资料 -->
+	<String id="ContactInfo_MB_Title">
+    提示
+  </String>
+	<String id="ContactInfo_Male">
+    男
+  </String>
+	<String id="ContactInfo_Female">
+    女
+  </String>
+	<String id="ContactInfo_ContactSecrecy_1">
+    完全公开
+  </String>
+	<String id="ContactInfo_ContactSecrecy_2">
+    仅好友可见
+  </String>
+	<String id="ContactInfo_ContactSecrecy_3">
+    完全保密
+  </String>
+	<String id="ContactInfo_Animals_1">
+    鼠
+  </String>
+	<String id="ContactInfo_Animals_2">
+    牛
+  </String>
+	<String id="ContactInfo_Animals_3">
+    虎
+  </String>
+	<String id="ContactInfo_Animals_4">
+    兔
+  </String>
+	<String id="ContactInfo_Animals_5">
+    龙
+  </String>
+	<String id="ContactInfo_Animals_6">
+    蛇
+  </String>
+	<String id="ContactInfo_Animals_7">
+    马
+  </String>
+	<String id="ContactInfo_Animals_8">
+    羊
+  </String>
+	<String id="ContactInfo_Animals_9">
+    猴
+  </String>
+	<String id="ContactInfo_Animals_10">
+    鸡
+  </String>
+	<String id="ContactInfo_Animals_11">
+    狗
+  </String>
+	<String id="ContactInfo_Animals_12">
+    猪
+  </String>
+	<String id="ContactInfo_Constellation_1">
+    水瓶座
+  </String>
+	<String id="ContactInfo_Constellation_2">
+    双鱼座
+  </String>
+	<String id="ContactInfo_Constellation_3">
+    白羊座
+  </String>
+	<String id="ContactInfo_Constellation_4">
+    金牛座
+  </String>
+	<String id="ContactInfo_Constellation_5">
+    双子座
+  </String>
+	<String id="ContactInfo_Constellation_6">
+    巨蟹座
+  </String>
+	<String id="ContactInfo_Constellation_7">
+    狮子座
+  </String>
+	<String id="ContactInfo_Constellation_8">
+    处女座
+  </String>
+	<String id="ContactInfo_Constellation_9">
+    天秤座
+  </String>
+	<String id="ContactInfo_Constellation_10">
+    天蝎座
+  </String>
+	<String id="ContactInfo_Constellation_11">
+    射手座
+  </String>
+	<String id="ContactInfo_Constellation_12">
+    摩羯座
+  </String>
+	<String id="ContactInfo_BloodType_1">
+    A型
+  </String>
+	<String id="ContactInfo_BloodType_2">
+    B型
+  </String>
+	<String id="ContactInfo_BloodType_3">
+    O型
+  </String>
+	<String id="ContactInfo_BloodType_4">
+    AB型
+  </String>
+	<String id="ContactInfo_BloodType_5">
+    其它
+  </String>
+	<String id="ContactInfo_Month_1">
+    1月
+  </String>
+	<String id="ContactInfo_Month_2">
+    2月
+  </String>
+	<String id="ContactInfo_Month_3">
+    3月
+  </String>
+	<String id="ContactInfo_Month_4">
+    4月
+  </String>
+	<String id="ContactInfo_Month_5">
+    5月
+  </String>
+	<String id="ContactInfo_Month_6">
+    6月
+  </String>
+	<String id="ContactInfo_Month_7">
+    7月
+  </String>
+	<String id="ContactInfo_Month_8">
+    8月
+  </String>
+	<String id="ContactInfo_Month_9">
+    9月
+  </String>
+	<String id="ContactInfo_Month_10">
+    10月
+  </String>
+	<String id="ContactInfo_Month_11">
+    11月
+  </String>
+	<String id="ContactInfo_Month_12">
+    12月
+  </String>
+	<!--生日字段中，日的后缀，英文版请翻译为空-->--&gt;
+  <String id="ContactInfo_Day">
+    日
+  </String>
+	<String id="ContactInfo_Tips_NickError">
+    昵称不允许为空，请重新输入。
+  </String>
+	<String id="ContactInfo_Tips_AgeError">
+    年龄必须在1至119之间，请重新输入。
+  </String>
+	<String id="ContactInfo_Tips_EmailError">
+    Email格式不正确，请重新输入。
+  </String>
+	<String id="ContactInfo_Tips_MobileError">
+    手机格式不正确，请重新输入。
+  </String>
+	<String id="Field_Name">
+    姓名:
+  </String>
+	<String id="Field_Account">
+    帐号:
+  </String>
+	<String id="Field_Nick">
+    昵称:
+  </String>
+	<String id="Field_Birthday">
+    生日:
+  </String>
+	<String id="Field_Language">
+    语言:
+  </String>
+	<String id="Field_RemarkName">
+    备注姓名:
+  </String>
+	<String id="Field_LongNick">
+    个性签名:
+  </String>
+	<String id="Field_Gender">
+    性别:
+  </String>
+	<String id="Field_Age">
+    年龄:
+  </String>
+	<String id="Field_Country">
+    国家/地区:
+  </String>
+	<String id="Field_Province">
+    省份:
+  </String>
+	<String id="Field_City">
+    城市:
+  </String>
+	<String id="Field_Phone">
+    电话:
+  </String>
+	<String id="Field_Mobile">
+    手机:
+  </String>
+	<String id="Field_Email">
+    邮箱:
+  </String>
+	<String id="Field_More">
+    更多:
+  </String>
+	<String id="Field_QQLevel">
+    等级:
+  </String>
+	<String id="ContactInfoTab_BasicInfo">
+    基本资料
+  </String>
+	<String id="ContactInfoTab_MoreInfo">
+    更多资料
+  </String>
+	<String id="ContactInfoTab_RichInfo">
+    备注
+  </String>
+	<String id="ContactInfoTab_Setting">
+    设置
+  </String>
+	<String id="ContactInfoTab_GroudCard">
+    群名片
+  </String>
+	<String id="Tag_AddRemarkName">
+    点此添加备注姓名
+  </String>
+	<String id="Field_InfoShowType">
+    请选择以下联系资料显示范围:
+  </String>
+	<String id="Field_Remark">
+    备注:
+  </String>
+	<String id="Tag_RemarkInfo">
+    备注信息
+  </String>
+	<String id="Field_Animals">
+    生肖:
+  </String>
+	<String id="Field_Constellation">
+    星座:
+  </String>
+	<String id="Field_BloodType">
+    血型:
+  </String>
+	<String id="Field_Occupation">
+    职业:
+  </String>
+	<String id="Field_College">
+    毕业院校:
+  </String>
+	<String id="Field_Homepage">
+    个人主页:
+  </String>
+	<String id="Field_PersonalInfo">
+    个人说明:
+  </String>
+	<String id="Tag_PrivacySetting">
+    权限设置
+  </String>
+	<String id="Tag_PromptSetting">
+    提示设置
+  </String>
+	<String id="Tag_ShieldMsg">
+    屏蔽此联系人消息
+  </String>
+	<String id="Tag_HiddenView">
+    隐身对其可见
+  </String>
+	<String id="Tag_ViewHidden">
+    在线对其隐身
+  </String>
+	<String id="Menu_Cancel_ViewHidden">
+    取消对其隐身
+  </String>
+	<String id="Tag_OnlinePrompt">
+    此联系人上线，自动弹出提示
+  </String>
+	<String id="Tag_OfflinePrompt">
+    此联系人下线，自动弹出提示
+  </String>
+	<String id="MB_UpdateContactInfoFail">
+    拉取联系人资料失败。
+  </String>
+	<String id="MB_UploadRichInfoFail">
+    修改备注资料失败。
+  </String>
+	<String id="MB_UploadPrivacyInfoFail">
+    修改权限资料失败。
+  </String>
+	<String id="MB_UploadQQInfoFail">
+    修改资料失败。
+  </String>
+	<String id="Title_MyInfo">
+    我的资料
+  </String>
+	<String id="Title_XXXInfo">
+    的资料
+  </String>
+	<String id="UploadInfo_ValidateCodePrompt">
+    为保护帐号安全，您需要先输入图中的验证字符才能修改个人资料。
+  </String>
+	<String id="ContactInfo_ValidateCodeCancel">
+    您取消了输入验证码，保存无法继续。
+  </String>
+	<String id="ContactInfo_Kind_BasicInfo">
+    个人资料
+  </String>
+	<String id="ContactInfo_Kind_ExtInfo">
+    丰富资料
+  </String>
+	<String id="ContactInfo_BindEmailAccount">
+    (绑定邮箱帐号)
+  </String>
+	<String id="ContactInfo_ChangeViewAccount">
+    (更改显示帐号)
+  </String>
+	<String id="ContactInfo_UpdateRichInfoFail">
+    更新备注资料失败，您将不能修改备注资料。
+  </String>
+	<String id="ContactInfo_CloseSavePrompt">
+    您已经对设置作了修改，是否保存？
+  </String>
+	<String id="Title_ContactInfo_CloseSavePrompt">
+    保存资料
+  </String>
+	<!-- End 查看资料人资料 -->
+	<!-- Begin 统一验证码 -->
+	<String id="ValidateCode_ViewExceptionDetail">
+    查看异常详情
+  </String>
+	<String id="ValidateCode_GetFailed">
+    拉取验证码失败
+  </String>
+	<String id="ValidateCode_GetTimeOut">
+    拉取验证码超时
+  </String>
+	<String id="ValidateCode_CheckFailed">
+    验证码输入错误
+  </String>
+	<String id="ValidateCode_ValidateCodeNull">
+    验证码不能为空
+  </String>
+	<String id="ValidateCode_CheckTimeOut">
+    验证码验证超时
+  </String>
+	<String id="ValidateCode_UnknowError">
+    验证码发生未知错误
+  </String>
+	<String id="ValidateCode_Prompt">
+    为了您的帐号安全，我们需要在执行操作之前验证您的身份，请在输入框中输入下图中的验证字符。
+  </String>
+	<!-- End 统一验证码 -->
+	<String id="AddGroup_NextValidImage">
+    看不清，换一张
+  </String>
+	<String id="CreatorNeedIndentifyYou">
+    创建人需要验证您的身份，请输入您的请求信息:
+  </String>
+	<String id="YouWillAddGroup">
+    您将申请加入群
+  </String>
+	<String id="CheckValidCodeTimeOut">
+    验证码验证超时
+  </String>
+	<String id="AddGroup_GroupCreator">
+    创建人:
+  </String>
+	<String id="InputIndentifyKeyInPic">
+    请输入图片中的验证信息
+  </String>
+	<String id="AddGroup">
+    添加群
+  </String>
+	<String id="AboutDlg_Title" fmt="true">
+    关于$__PNAME_V_SV$
+  </String>
+	<String id="GIPS_VERSION_INFO">
+    Portions Copyright (C) 1999-2009 Global IP Sound Inc. All rights reserved.
+    Global IP Sound, GIPS, SoundWare, NetEQ, iPCM, iLBC, GIPS VoiceEngine, and associated design marks and logos are trademarks owned or used under license by Global IP Sound AB, and may be registered in the United States and other countries.
+    Patents and Patents Pending, Global IP Sound Inc.
+    www.globalipsound.com
+
+    本软件中使用的Purevoice SDK专利技术及其相关商标为QUALCOMM Incorporated所有.
+    Patents and trademarks,QUALCOMM Incorporated.
+  </String>
+	<String id="ContactFolderSys">
+    我的好友
+  </String>
+	<String id="Copyright_Info">
+    腾讯公司 版权所有
+    Copyright(C) 1998-2009 Tencent. All Rights Reserved.
+  </String>
+	<String id="PLEASE_SELECT_ONE_GROUP">
+    请选中一个群
+  </String>
+	<String id="IsLoadingValidCodeInfo">
+    正在拉取验证码信息
+  </String>
+	<String id="YouHaveInTheGroup">
+    您已经是该群的成员，不能重复添加。
+  </String>
+	<String id="Group_JoinError">
+    对不起，您加入群时发生了错误。
+  </String>
+	<String id="TYPE_RecvAndTip">
+    接收并提示消息
+  </String>
+	<String id="TYPE_AutoTip">
+    自动弹出消息
+  </String>
+	<String id="TYPE_NumOnly">
+    来消息时只显示消息数目
+  </String>
+	<String id="TYPE_RecvNotTip">
+    接收但不提示消息(只保存在聊天记录中)
+  </String>
+	<String id="TYPE_BanAll">
+    阻止一切该群的消息
+  </String>
+	<String id="TYPE_SaveAll">
+    以上设置保存在服务器上
+  </String>
+	<String id="TYPE_TitleTip">
+    收到来自该群的消息时
+  </String>
+	<String id="TYPE_Check">
+    身份验证
+  </String>
+	<String id="TYPE_AddAll">
+    允许任何人加入该群
+  </String>
+	<String id="TYPE_NeedCheck">
+    需要身份验证才能加入该群
+  </String>
+	<String id="TYPE_UnAddAll">
+    不允许任何人加入该群
+  </String>
+	<String id="AddGroupResultFrame_Refuse">
+    服务器拒绝您的请求，对方拒绝加入成员。
+  </String>
+	<String id="ReadValidInfoSuccess">
+    读取验证信息成功
+  </String>
+	<String id="ReadValidInfoFail">
+    读取验证码失败
+  </String>
+	<String id="ReadValidInfoTimeOut">
+    读取验证码超时
+  </String>
+	<String id="CheckValidCodeSuccess">
+    验证码验证成功
+  </String>
+	<String id="CheckValidCodeFail">
+    验证码验证失败
+  </String>
+	<String id="AddGroupResultFrame_JoinSucceded">
+    您已成功加入群
+  </String>
+	<String id="ADD_GROUP_TIMEOUT">
+    对不起，您加入群时发生了超时。
+  </String>
+	<String id="HasSendValidInfo">
+    请求已发送，请等候验证。
+  </String>
+	<String id="MainPanel_DelContactPrompt_Title">
+    删除好友
+  </String>
+	<String id="Configcenter_Prompt">
+    提示
+  </String>
+	<String id="ConfigCenter_VipRestrict">
+    对不起，该功能仅对会员开放。点击确定立即升级为会员，或拨打电话16885886快捷开通！
+  </String>
+	<String id="MainPanel_DelContact_PromptContent">
+    您确定要删除以下联系人吗？
+  </String>
+	<String id="MainPanel_DelContact_MoveToBlackList">
+    同时移至黑名单(&amp;M)
+  </String>
+	<String id="Button_OK">
+    确定(&amp;O)
+  </String>
+	<String id="Button_Cancel">
+    取消(&amp;C)
+  </String>
+	<String id="Button_Help">
+    帮助(&amp;H)
+  </String>
+	<String id="Button_Retry">
+    重试(&amp;R)
+  </String>
+	<String id="Button_Ignore">
+    忽略(&amp;I)
+  </String>
+	<String id="Button_Abort">
+    终止(&amp;A)
+  </String>
+	<String id="MainPanel_DelContact_StatusText">
+    正在删除联系人，请稍候…
+  </String>
+	<String id="MAINMENU_CONTACT">
+    联系人
+  </String>
+	<String id="MAINMENU_SETTING">
+    系统设置
+  </String>
+	<String id="MAINMENU_TOOL">
+    工具
+  </String>
+	<String id="MAINMENU_SecrityCenter">
+    安全中心
+  </String>
+	<String id="MAINMENU_HELPS">
+    帮助
+  </String>
+	<String id="MAINMENU_OnlineUpdate">
+    在线升级
+  </String>
+	<String id="MAINMENU_IAmQQ">
+    I’ M QQ官网
+  </String>
+	<String id="MAINMENU_QuestionAndAdvance">
+    问题与建议
+  </String>
+	<String id="Menu_Ecommerce_QQCharge">
+    QQ充值
+  </String>
+	<String id="Menu_Ecommerce_MobileCharge">
+    手机充值
+  </String>
+	<String id="Menu_ProductBlog">
+    产品博客
+  </String>
+	<String id="Menu_HelpTheme">
+    帮助主题
+  </String>
+	<String id="GroupDirect_0">
+    您可以选择一个功能
+  </String>
+	<String id="GroupDirect_1">
+    添加查找群
+  </String>
+	<String id="GroupDirect_2">
+    创建新群
+  </String>
+	<String id="GroupDirect_3">
+    也可以了解更多...
+  </String>
+	<String id="GroupDirect_4">
+    什么是群
+  </String>
+	<String id="GroupDirect_5">
+    登录群空间
+  </String>
+	<String id="MainPanel_DelContact_StatusText_FAILED">
+    删除联系人失败，请重试。
+  </String>
+	<String id="MainPanel_DelContact_StatusText_SUCCEEDED">
+    成功删除联系人。
+  </String>
+	<String id="MainMenu_Save_Net">
+    网络收藏夹
+  </String>
+	<String id="MainMenu_Manage_Net">
+    管理网络收藏夹
+  </String>
+	<String id="MainMenu_Upload_Net">
+    导入本地收藏夹
+  </String>
+	<String id="MainMenu_Dowload_Net">
+    导出网络收藏夹
+  </String>
+	<String id="MainMenu_Contact_MsgMgr">
+    消息管理器
+  </String>
+	<String id="MainMenu_Contact_FindContact">
+    查找
+  </String>
+	<String id="MainMenu_Setting_SelfInfo">
+    个人资料
+  </String>
+	<String id="MainMenu_Setting_General">
+    基本设置
+  </String>
+	<String id="MainMenu_Setting_Status">
+    状态和提醒
+  </String>
+	<String id="MainMenu_Setting_Safe">
+    安全和隐私
+  </String>
+	<String id="MainMenu_Setting_Favor">
+    好友和聊天
+  </String>
+	<String id="MainMenu_Setting_Comm">
+    通信
+  </String>
+	<String id="MainMenu_Tool_SendNote">
+    发送手机短信
+  </String>
+	<String id="MainMenu_Help_CustomerCenter">
+    腾讯客服
+  </String>
+	<String id="MainMenu_Help_UserAgreement">
+    用户协议
+  </String>
+	<String id="MainMenu_Help_AboutDlg" fmt="true">
+    关于$__PNAME_V$
+  </String>
+	<String id="MainMenu_SecrityCenter_SafeCenterHomepage">
+    安全中心首页
+  </String>
+	<String id="MainMenu_SecrityCenter_ChangePwd">
+    修改密码
+  </String>
+	<String id="MainMenu_SecrityCenter_PwdPtotect">
+    申请密码保护
+  </String>
+	<String id="MainMenu_SecrityCenter_OnlineHelp">
+    安全帮助手册
+  </String>
+	<String id="MainMenu_SecrityCenter_ReportMalice">
+    举报恶意行为
+  </String>
+	<String id="QZone">
+    QQ空间
+  </String>
+	<String id="QQClub">
+    会员专区
+  </String>
+	<String id="ValidCodeNoCaseSense">
+    验证码(不区分大小写):
+  </String>
+	<String id="FetchingValidateCodePleaseWait">
+    正在获取验证码信息，请稍后重试。
+  </String>
+	<String id="MainPanel_MoveToBlackList_PromptContent">
+    您确定将以下联系人移至黑名单吗？
+  </String>
+	<String id="MainPanel_DelContactPrompt_Title_MoveBlack">
+    移至黑名单
+  </String>
+	<String id="MainPanel_DelContact_StatusText_MoveBlack">
+    正在移至黑名单，请稍候…
+  </String>
+	<String id="MainPanel_DelContact_StatusText_FAILED_MoveBlack">
+    移至黑名单失败，请重试。
+  </String>
+	<String id="MainPanel_DelContact_StatusText_SUCCEEDED_MoveBlack">
+    成功移至黑名单。
+  </String>
+	<String id="CF_URL_WARNING_1">
+    警告:该消息包含的链接可能存在潜在的不安全因素，已经被
+  </String>
+	<String id="CF_URL_WARNING_2">
+    过滤，对方收到的消息将不会包含任何链接，请点击这里
+  </String>
+	<String id="CF_QQSAFECENTER">
+    安全中心
+  </String>
+	<String id="CF_LOOK_DETAIL">
+    查看风险详情
+  </String>
+	<String id="CF_RECEIVE_URL_WARNING_1">
+    警告:该消息包含的链接可能存在潜在的不安全因素，已经被
+  </String>
+	<String id="CF_RECEIVE_URL_WARNING_2">
+    过滤，请点这里
+  </String>
+	<String id="AutoStartTM" fmt="true">
+    启动Windows时自动启动$__PNAME$
+  </String>
+	<String id="RememberPwd">
+    记住我的密码
+  </String>
+	<String id="AutoLogin" fmt="true">
+    启动$__PNAME$时为我自动登录
+  </String>
+	<String id="StatusAfterLogin">
+    登录后状态为:
+  </String>
+	<String id="ExitClearAccount" fmt="true">
+    退出$__PNAME$时自动清除所有消息记录
+  </String>
+	<String id="Start">
+    启动和登录
+  </String>
+	<String id="Login">
+    登录
+  </String>
+	<String id="MainPanel">
+    主面板
+  </String>
+	<String id="MainPanelTopMost">
+    始终保持在其他窗口前端
+  </String>
+	<String id="HideMainPanelOnEdge">
+    停靠在桌面边缘时自动隐藏
+  </String>
+	<String id="ShowIconInTray" fmt="true">
+    在任务栏通知区域显示$__PNAME$图标
+  </String>
+	<String id="CloseSet">
+    关闭
+  </String>
+	<String id="SmallToTaskBar">
+    在任务栏显示窗口控制按钮(下次启动生效)
+  </String>
+	<String id="ExitToTray">
+    隐藏到任务栏通知区域，不退出程序
+  </String>
+	<String id="CantAddStatus">
+    您的自定义状态已达到最大限制$MAX$个，不能再添加。
+  </String>
+	<String id="CantAddAutoReplay">
+    自动回复已达到最大限制$MAX$个，不能再添加。
+  </String>
+	<String id="ExitPrograme">
+    退出程序
+  </String>
+	<String id="NotShowTipAlways">
+    以上选项关闭时不再提醒
+  </String>
+	<String id="AskEveryTime">
+    每次都弹出确认按纽
+  </String>
+	<String id="BasicSet">
+    基本设置
+  </String>
+	<String id="GENERAL">
+    常规
+  </String>
+	<String id="HOTKEY">
+    热键
+  </String>
+	<String id="SKIN1">
+    外观
+  </String>
+	<String id="PROMPT">
+    提示
+  </String>
+	<String id="ConfigCenter_SoundTab">
+    声音
+  </String>
+	<String id="FAVORLOVE">
+    常规
+  </String>
+	<String id="File_No_Exist_PROMPT">
+    提示
+  </String>
+	<String id="Button_MemTip">
+    总是打开会员登录提示(会员设置项)
+  </String>
+	<String id="CloseMainTip">
+    关闭主面板时:
+  </String>
+	<String id="NETSETTING">
+    网络连接
+  </String>
+	<String id="PRIVACY">
+    状态和提醒
+  </String>
+	<String id="STATUES">
+    在线状态
+  </String>
+	<String id="AutoReplaySetting">
+    自动回复
+  </String>
+	<String id="InstantStatus">
+    即时共享
+  </String>
+	<String id="InstantSatatusShare">
+    即时状态共享
+  </String>
+	<String id="InstantSatatusShareTip">
+    您将向好友展示以下选中的信息:
+  </String>
+	<String id="InstatusTipForBlock">
+    您可以设置是否允许您的好友查看您的即时状态，比如正在收听的QQ音乐等等。
+  </String>
+	<String id="Msg_Receiver">
+    陌生人消息
+  </String>
+	<String id="BlockTempList_Source">
+    会话来源
+  </String>
+	<String id="FindContact">
+    被查找条件
+  </String>
+	<String id="FindContactTip">
+    请选择允许别人查找到您的方式:
+  </String>
+	<String id="Msg_Come">
+    来消息提醒方式
+  </String>
+	<String id="Msg_ComeTip">
+    设置在不同的在线状态下采用不同的来消息提醒方式
+  </String>
+	<String id="MsgCome_Set">
+    设置
+  </String>
+	<String id="BLOCKLIST">
+    联系人屏蔽
+  </String>
+	<String id="ACCOUNTMGR">
+    帐号和资料管理
+  </String>
+	<String id="PLUGIN">
+    功能和插件
+  </String>
+	<String id="SAFE_SETTING">
+    安全和隐私
+  </String>
+	<String id="UPDATE">
+    软件更新
+  </String>
+	<String id="PWD_SAFE">
+    安全
+  </String>
+	<String id="HOMEPAGE">
+    系统设置主页
+  </String>
+	<String id="SCENEMODE1">
+    情景模式设置
+  </String>
+	<String id="FavorSetting">
+    好友和聊天
+  </String>
+	<String id="FriendHead">
+    好友头像
+  </String>
+	<String id="CommSetting">
+    通信
+  </String>
+	<String id="StatusChoice">
+    状态切换选项
+  </String>
+	<String id="StatusChangeWhenNoEvent">
+    无鼠标键盘动作时自动切换状态
+  </String>
+	<String id="StatusChangeTimeFormatFail">
+    输入时间必须在1到60分钟之间
+  </String>
+	<String id="KeyBoardNoActive">
+    鼠标键盘无动作
+  </String>
+	<String id="minsAutoChange">
+    分钟，自动切换到
+  </String>
+	<String id="FULLSCREENTOBUSY">
+    运行全屏程序时，自动将状态转为忙碌
+  </String>
+	<String id="STATUSINFOLIST">
+    状态信息列表
+  </String>
+	<String id="ADD">
+    添加
+  </String>
+	<String id="CHANGE">
+    修改
+  </String>
+	<String id="REMOVE">
+    删除
+  </String>
+	<String id="MainPanel_Menu_B7">
+    修改头像尺寸
+  </String>
+	<String id="Small">
+    小
+  </String>
+	<String id="Middle">
+    标准
+  </String>
+	<String id="Big">
+    大
+  </String>
+	<String id="StatusInfoSet">
+    状态信息设置
+  </String>
+	<String id="StatusDescrib">
+    文字内容(32字以内)
+  </String>
+	<String id="ChooseIcon">
+    选择状态类别
+  </String>
+	<String id="STATUSINFOCANTNULL">
+    状态信息不能为空
+  </String>
+	<String id="ReplyInfoCannotEmpty">
+    自动回复不能为空
+  </String>
+	<String id="SetQuestion">
+    设置问题
+  </String>
+	<String id="SetAnswer">
+    设置答案
+  </String>
+	<String id="PreventAnnoy">
+    隐私保护
+  </String>
+	<String id="BeIncludeInVideoUser">
+    通过查找视频用户列表找到我
+  </String>
+	<String id="NpBeIncludeInOnlieUser">
+    只能通过帐号或昵称找到我
+  </String>
+	<String id="AllowAnyBodyAddMe">
+    允许任何人把我列为好友
+  </String>
+	<String id="AddMeNeedCheck">
+    需要身份认证才能把我列为好友
+  </String>
+	<String id="CantAddMe">
+    不允许任何人把我列为好友
+  </String>
+	<String id="AddMeNeedAnswerQuestion">
+    需要正确回答问题才能把我列为好友
+  </String>
+	<String id="Finger_GroupConditionPrompt">
+    按条件查找的结果将跳转至网页显示
+  </String>
+	<String id="Finger_FingerResultForYou">
+    以下是为您查找到的用户。
+  </String>
+	<String id="Finger_NotValidateGroup">
+    您输入的群号码有误，请重新输入
+  </String>
+	<String id="Finger_TimeOut">
+    查找超时。
+  </String>
+	<String id="Finger_UnkownError">
+    未知错误。
+  </String>
+	<String id="Finger_InputAccount">
+    请输入对方帐号
+  </String>
+	<String id="Finger_InputNick">
+    请输入对方昵称
+  </String>
+	<String id="Finger_GroupFingerResultForYou">
+    以下是为您查找到的群。
+  </String>
+	<String id="Finger_CurrentOnlineNum">
+    当前在线人数:$NUM$
+  </String>
+	<String id="Finger_CurrentOnlineNum_Unkown">
+    当前在线人数:未知
+  </String>
+	<String id="Finger_CurrentPageNum">
+    当前第$NUM$页
+  </String>
+	<String id="Finger_Account">
+    帐号
+  </String>
+	<String id="Finger_Nickname">
+    昵称
+  </String>
+	<String id="Finger_ComeFrom">
+    来自
+  </String>
+	<String id="Finger_Sex">
+    性别
+  </String>
+	<String id="Finger_Age1">
+    年龄
+  </String>
+	<String id="Finger_GroupNum">
+    群组号码
+  </String>
+	<String id="Finger_GroupName">
+    群组名称
+  </String>
+	<String id="Finger_GroupOwner">
+    群组创建人
+  </String>
+	<String id="Finger_PleaseSelectAContact">
+    请选择一个联系人
+  </String>
+	<String id="Finger_FingerTitle">
+    查找联系人/群
+  </String>
+	<String id="Finger_Finger">
+    查找
+  </String>
+	<String id="Finger_AddBuddy">
+    添加好友
+  </String>
+	<String id="Finger_AddGroup">
+    加入该群
+  </String>
+	<String id="Finger_Fingering">
+    正在查找...
+  </String>
+	<String id="Finger_FingerNoUser">
+    未查找到符合条件的用户
+  </String>
+	<String id="Finger_DisRegiment">
+    不限
+  </String>
+	<String id="Finger_GenderMale">
+    男
+  </String>
+	<String id="Finger_GenderFemale">
+    女
+  </String>
+	<String id="Finger_ZeroToFifteen">
+    0-15岁
+  </String>
+	<String id="Finger_SixteenToTwentyTwo">
+    16-22岁
+  </String>
+	<String id="Finger_TwentyThreeToThirty">
+    23-30岁
+  </String>
+	<String id="Finger_ThirtyOneToForty">
+    31-40岁
+  </String>
+	<String id="Finger_FortyOneToInfinit">
+    41-无限
+  </String>
+	<String id="Finger_FingerWay">
+    查找方式
+  </String>
+	<String id="Finger_ContactFinger">
+    查找联系人
+  </String>
+	<String id="Finger_ExactFinger">
+    精确查找
+  </String>
+	<String id="Finger_ClassFinger">
+    按条件查找
+  </String>
+	<String id="Finger_GroupFinger">
+    查找群
+  </String>
+	<String id="Finger_ExactFingerCondition">
+    精确查找的条件:
+  </String>
+	<String id="Finger_ContactAccount">
+    帐号:
+  </String>
+	<String id="Finger_ContactNick">
+    昵称:
+  </String>
+	<String id="Finger_YourFingerCondition">
+    查找条件
+  </String>
+	<String id="Finger_Online">
+    在线
+  </String>
+	<String id="Finger_WithCamera">
+    有摄像头的
+  </String>
+	<String id="Finger_Country">
+    国家:
+  </String>
+	<String id="Finger_Province">
+    省份:
+  </String>
+	<String id="Finger_City">
+    城市:
+  </String>
+	<String id="Finger_Age">
+    年龄:
+  </String>
+	<String id="Finger_Gender">
+    性别:
+  </String>
+	<String id="Finger_Language">
+    语言:
+  </String>
+	<String id="Finger_Condition">
+    查找的条件:
+  </String>
+	<String id="Finger_InputGroupNum">
+    群号码:
+  </String>
+	<String id="Finger_InputGroupNumPrompt">
+    请输入群号码
+  </String>
+	<String id="Finger_GroupClass1">
+    查找范围:
+  </String>
+	<String id="Finger_GroupClass2">
+    二级分类:
+  </String>
+	<String id="Finger_GroupClass3">
+    三级分类:
+  </String>
+	<String id="Finger_GroupFingerKey">
+    查找关键字:
+  </String>
+	<String id="Finger_Key">
+    关键字
+  </String>
+	<String id="Finger_Advance">
+    高级查找
+  </String>
+	<String id="Finger_All">
+    全部
+  </String>
+	<String id="Finger_ViewInfo">
+    查看资料
+  </String>
+	<String id="Finger_LastPage">
+    上页
+  </String>
+	<String id="Finger_NextPage">
+    下页
+  </String>
+	<String id="Finger_LastStep">
+    上一步
+  </String>
+	<String id="Finger_Cancel">
+    取消
+  </String>
+	<String id="Finger_Close">
+    关闭
+  </String>
+	<String id="Finger_ExactAccountError">
+    您输入的帐号有误，请重新输入
+  </String>
+	<String id="Finger_ExactAccoutCantNull">
+    请至少输入一个查询条件
+  </String>
+	<String id="AddBuddy_RejectReason">
+    拒绝理由
+  </String>
+	<String id="AddBuddy_AgreeAndAdd">
+    同意并添加对方为好友
+  </String>
+	<String id="AddBuddy_Agree">
+    同意
+  </String>
+	<String id="AddBuddy_Reject">
+    拒绝
+  </String>
+	<String id="Button_NewGrp">
+    新建分组
+  </String>
+	<String id="Button_NewGrp_FailTitle">
+    新建分组失败
+  </String>
+	<String id="Button_NewGrp_FailText">
+    您的好友分组数量已达上限，无法新建分组。
+  </String>
+	<String id="Title_NewGrp">
+    好友分组
+  </String>
+	<String id="Text_FolderName">
+    分组名称:
+  </String>
+	<String id="AddBuddy_DelFromBlackList">
+    此联系人已在您的黑名单，添加好友将会从黑名单中将其删除，您确定要添加他为好友吗？
+  </String>
+	<String id="AddBuddy_Group">
+    分组:
+  </String>
+	<String id="AddBuddy_Session">
+    发起会话
+  </String>
+	<String id="AddBuddy_Addtional">
+    附加信息:
+  </String>
+	<String id="AddBuddy_Confirm">
+    确定
+  </String>
+	<String id="AddBuddy_Finish">
+    完成
+  </String>
+	<String id="Addbuddy_Vip_Prompt">
+    ，成为QQ会员VIP4可添加1000个好友。
+  </String>
+	<String id="Addbuddy_Vip_Viewdetails">
+    了解详情
+  </String>
+	<String id="Addbuddy_ServerBusy">
+    服务器繁忙，请关闭后重试新建分组
+  </String>
+	<String id="AddBuddy_BeAskedToAnswer">
+    对方需要您回答一下验证问题:
+  </String>
+	<String id="AddBuddy_ValidateCode">
+    验证码:
+  </String>
+	<String id="AddBuddy_NoCapslock">
+    以下字符不区分大小写
+  </String>
+	<String id="AddBuddy_NotClear">
+    看不清，换一张
+  </String>
+	<String id="AddBuddy_InputValidateInfo">
+    请输入验证信息:
+  </String>
+	<String id="AddBuddy_Cancel">
+    取消
+  </String>
+	<String id="AddBuddy_Close">
+    关闭
+  </String>
+	<String id="AddBuddy_AnoySetting">
+    设置隐私保护
+  </String>
+	<String id="AddBuddy_YouWillAdd">
+    您将添加$CON$为好友
+  </String>
+	<String id="AddBuddy_Add">
+    添加好友
+  </String>
+	<String id="AddBuddy_AskToBeAdded">
+    $CON$请求添加您为好友
+  </String>
+	<String id="AddBuddy_Send">
+    发送
+  </String>
+	<String id="AddBuddy_RepeatedBody">
+    已经是您的好友，不能重复添加。
+  </String>
+	<String id="AddBuddy_Accept">
+    $CON$接受了您的添加请求
+  </String>
+	<String id="AddBuddy_AddYou">
+    $CON$添加您为好友
+  </String>
+	<String id="AddBuddy_YouRequesWasDeclined">
+    $CON$拒绝了您的添加请求
+  </String>
+	<String id="AddBuddy_AcceptAndAdd">
+    $CON$接受了您的添加请求并添加您为好友
+  </String>
+	<String id="AddBuddy_AddOpSucceed">
+    您成功添加$CON$为好友
+  </String>
+	<String id="AddBuddy_AddRemark">
+    备注[可选]:
+  </String>
+	<String id="AddBuddy_RefuseToBeAdd">
+    $CON$拒绝被添加
+  </String>
+	<String id="AddBuddy_RequestHasBeenSent">
+    验证请求已发送
+  </String>
+	<String id="AddBuddy_ToBlackList">
+    拒绝再接收此人请求
+  </String>
+	<String id="AddBuddy_RequestMissed">
+    提交请求失败
+  </String>
+	<String id="AddBuddy_HasBeenYourBuddy">
+    对方已经是您的好友，不能重复添加
+  </String>
+	<String id="AddBuddy_CantAddSelf">
+    不能添加自己为好友
+  </String>
+	<String id="AddBuddy_UnkownError">
+    未知错误
+  </String>
+	<String id="AddBuddy_GetQuestionFailed">
+    拉取验证问题失败
+  </String>
+	<String id="AddBuddy_AnswerError">
+    答案错误。
+  </String>
+	<String id="AddBuddy_AnswerNull">
+    答案不能为空。
+  </String>
+	<String id="AddBuddy_GettingValidateInfo">
+    正在拉取验证信息
+  </String>
+	<String id="AddBuddy_ContactRefusesBeAdded">
+    对方拒绝被添加
+  </String>
+	<String id="AddBuddy_WillAddThisBuddy">
+    您将添加以下好友:
+  </String>
+	<String id="AddBuddy_ApllySending">
+    正在提交验证信息
+  </String>
+	<String id="LoginPanel_IM_Fail" fmt="true">
+    无法完成验证，可能是$__PNAME$的文件已损坏，您需要重新安装$__PNAME$。
+  </String>
+	<String id="LoginPanel_QQLogin" fmt="true">
+    $__PNAME$登录
+  </String>
+	<String id="LoginPanel_InputYourPsw">
+    请输入密码
+  </String>
+	<String id="LoginPanel_InputPswBeforeLogin">
+    请您输入密码后再登录
+  </String>
+	<String id="LoginPanel_Return">
+    返回
+  </String>
+	<String id="LoginPanel_LoginFailReason">
+    如果您确认已输入密码，产生此问题的原因可能是:
+  </String>
+	<String id="LoginPanel_ErrorReason">
+    木马病毒窃取了您的键盘输入，&lt;TITLE="点击这里",URL="http://safe.qq.com/help/signin/pe.shtml"&gt;查看解决方法及更多原因。
+  </String>
+	<String id="LoginPanel_DelAccountFromList">
+    从列表中删除此帐号
+  </String>
+	<String id="LoginPanel_DelAccountAllMsg">
+    删除此帐号的所有记录文件
+  </String>
+	<String id="LoginPanel_DelAccountAllMsg_Prompt">
+    此操作会删除该帐号的所有记录文件(包括聊天记录等)，请谨慎操作。
+  </String>
+	<String id="LoginPanel_DelAccount_Title">
+    删除帐号
+  </String>
+	<String id="LoginPanel_DelAccount_Tips">
+    删除帐号信息
+  </String>
+	<String id="LoginPanel_DelAccount_InUse">
+    该帐号正在使用，不允许删除。
+  </String>
+  <String id="LoginPanel_PwdGuardPrompt">
+    根据您的设置，在登录前需要进行安全验证。
+  </String>
+	<String id="ReLoginWnd_ReLogin">
+    重新登录
+  </String>
+	<String id="Tips_ReLoginWnd_InputPwd">
+    请输入您的密码
+  </String>
+	<String id="ReLoginWnd_Prompt">
+    为了您的帐号安全，请您重新输入密码。
+  </String>
+	<String id="AddBuddy_GetValidateCodeFailed">
+    拉取验证码失败
+  </String>
+	<String id="AddBuddy_ValidateCodeTimeOut">
+    拉取验证码超时
+  </String>
+	<String id="AddBuddy_ValidateCodeError">
+    验证码错误
+  </String>
+	<String id="AddBuddy_ValidateCodeNull">
+    验证码不能为空
+  </String>
+	<String id="AddBuddy_UnkownConnectError">
+    未知网络错误
+  </String>
+	<String id="AddBuddy_ValidateCodeValidateTimeOut">
+    验证码验证超时
+  </String>
+	<String id="ContactTips_Remark">
+    备注信息
+  </String>
+	<String id="ContactTips_ViewDetailInfo">
+    ，点击查看详细资料
+  </String>
+	<String id="ContactTips_ActiveDays">
+    在线天数:
+  </String>
+	<String id="ContactTips_RemainDays">
+    升级剩余天数:
+  </String>
+	<String id="ContactTips_QQLevelTileFMT">
+    在线天数: $ActDays$，升级剩余天数: $RemainDays$
+  </String>
+	<String id="ContactTips_Day">
+    天
+  </String>
+	<String id="ContactTips_Name">
+    姓名:
+  </String>
+	<String id="ContactTips_Mobile">
+    手机:
+  </String>
+	<String id="ContactTips_Mail">
+    邮箱:
+  </String>
+	<String id="ContactTips_LoginWAP">
+    WAPQQ登录中
+  </String>
+	<String id="ContactTips_LoginPhone">
+    手机QQ登录中
+  </String>
+	<String id="ContactTips_Login3G">
+    3GQQ登录中
+  </String>
+	<String id="LoginPanel_LoginFailed">
+    登录失败
+  </String>
+	<String id="LoginPanel_Ok">
+    确定
+  </String>
+	<String id="LoginPanel_Close">
+    关闭
+  </String>
+	<String id="LoginPanel_InvalidAccountTitle">
+    提示
+  </String>
+	<String id="LoginPanel_InvalidAccountPrompt">
+    请输入正确的帐号，帐号可以为数字或Email地址。
+  </String>
+	<String id="LoginPanel_Update">
+    立即下载并安装
+  </String>
+	<String id="LoginPanel_Validate">
+    身份验证
+  </String>
+	<String id="LoginPanel_Safe2">
+    验证码:
+  </String>
+	<String id="LoginPanel_NoCaplock">
+    以下字符不区分大小写
+  </String>
+	<String id="LoginPanel_NotClear">
+    看不清，换一张
+  </String>
+	<String id="LoginPanel_Safe3">
+    安全中心发现您的帐号存在异常，为保护帐号安全，您需要输入图中的字符。
+  </String>
+	<String id="LoginPanel_ViewDetail">
+    查看异常详情
+  </String>
+	<String id="LoginPanel_TimeOut">
+    登录超时!
+  </String>
+	<String id="LoginPanel_NoNetwork">
+    网络连接失败，请检查网络。
+  </String>
+	<String id="LoginPanel_NewEncypt">
+    服务器要求使用新加密方法登录！
+  </String>
+	<String id="LoginPanel_FindBackPsw">
+    找回密码
+  </String>
+	<String id="LoginPanel_ClearAccount">
+    清除帐号
+  </String>
+	<String id="LoginPanel_TheSameAccount">
+    您已登录了一个相同的帐号$ACCOUNT$，不能重复登录。
+  </String>
+	<String id="LoginPanel_ExceedAppNum">
+    您登录的QQ数量已经达到了上限。
+  </String>
+	<String id="LoginPanel_CantZero">
+    请您输入帐号后再登录
+  </String>
+	<String id="LoginPanel_InputPsw">
+    请输入密码
+  </String>
+	<String id="LoginPanel_CapslockOpen">
+    大写锁定已打开
+  </String>
+	<String id="LoginPanel_UseQQNumLogin">
+    请输入QQ帐号
+  </String>
+	<String id="LoginPanel_ReLogin">
+    重新登录
+  </String>
+	<String id="NetSetting_Port">
+    端口:
+  </String>
+	<String id="NetSetting_Type">
+    类型:
+  </String>
+	<String id="NetSetting_Address">
+    地址:
+  </String>
+	<String id="NetSetting_UserName">
+    用户名:
+  </String>
+	<String id="NetSetting_Psw">
+    密码:
+  </String>
+	<String id="NetSetting_Domain">
+    域:
+  </String>
+	<String id="NetSetting_Test">
+    测试
+  </String>
+	<String id="NetSetting_LoginServer">
+    登录服务器
+  </String>
+	<String id="AreadlyHaveThisStatus">
+    已存在一个相同的状态
+  </String>
+	<String id="LoginSetting_UseStdPanel" fmt="true">
+    使用$__PNAME_V$登录窗口
+  </String>
+	<String id="LoginSetting_UseMiniPanel">
+    使用经典登录窗口
+  </String>
+	<String id="LoginSetting_LoginPanel">
+    登录窗口
+  </String>
+  <String id="ServerKickout_ChangePwd">
+    建议您&lt;link config="RSLinkTextHandNode" label="LinkLabel_ChangePwd"&gt;修改密码&lt;/link&gt;。
+  </String>
+	<String id="ServerKickout_Help">
+    如有疑问，请&lt;link config="RSLinkTextHandNode" label="LinkLabel_Help"&gt;点击这里&lt;/link&gt;。
+  </String>
+	<String id="AutoShowMiniPage">
+    登录后自动显示迷你首页
+  </String>
+	<String id="NOTEFRAME_0">
+    收信人
+  </String>
+	<String id="NOTEFRAME_1">
+    发送短信
+  </String>
+	<String id="NOTEFRAME_2">
+    签名:
+  </String>
+	<String id="NOTEFRAME_3">
+    发送成功
+  </String>
+	<String id="NOTEFRAME_4">
+    发送失败
+  </String>
+	<String id="NOTEFRAME_5">
+    ★
+  </String>
+	<String id="NOTEFRAME_6">
+    发送中，请稍候
+  </String>
+	<String id="NOTEFRAME_7">
+    已输入$lLENGTH$个字符，分为$nCOUNT$条
+  </String>
+	<String id="NOTEFRAME_8">
+    回复
+  </String>
+	<String id="NOTEFRAME_9">
+    来     自:
+  </String>
+	<String id="NOTEFRAME_A">
+    短信内容
+  </String>
+	<String id="NOTEFRAME_B">
+    消息记录
+  </String>
+	<String id="NOTEFRAME_C">
+    资费说明
+  </String>
+	<String id="NOTEFRAME_D">
+    短信服务
+  </String>
+	<String id="NOTEFRAME_E">
+    ←点击查看消息记录
+  </String>
+	<String id="NOTEFRAME_F">
+    已超过字数上限，请分两次发送
+  </String>
+	<String id="NOTEFRAME_G">
+    ←点击继续发送短信
+  </String>
+	<String id="NOTEFRAME_H">
+    暂无消息记录
+  </String>
+	<String id="NOTEFRAME_I">
+    接收短信
+  </String>
+	<String id="AddMeValidateQuestion1">
+    我的email地址？
+  </String>
+	<String id="AddMeValidateQuestion2">
+    我的车的牌子？
+  </String>
+	<String id="AddMeValidateQuestion3">
+    我的电话号码？
+  </String>
+	<String id="AddMeValidateQuestion4">
+    我的手机号码？
+  </String>
+	<String id="AddMeValidateQuestion5">
+    我的真实名字？
+  </String>
+	<String id="AddMeValidateQuestion6">
+    我公司的名字？
+  </String>
+	<String id="MyBlockList">
+    被我屏蔽消息的联系人
+  </String>
+	<String id="BlockList_guid">
+    您不会收到来自列表中的联系人给您发送的消息
+  </String>
+	<String id="BlockList_Temp">
+    您不会收到来自列表中的讨论组成员或者群成员的临时会话消息
+  </String>
+	<String id="MoveOut">
+    解除屏蔽
+  </String>
+	<String id="Update_Guid" fmt="true">
+    　　$__PNAME$自动更新程序能够自动找到可用更新并通知您，请您选择一种自动更新$__PNAME$的方式:
+  </String>
+	<String id="AutoUpdate">
+    自动下载更新，开始安装时提示您(推荐)
+  </String>
+	<String id="TellMeBeforeDownLoad">
+    不自动下载推荐的更新，下载前提示您
+  </String>
+	<String id="CloseAutoUpdate">
+    关闭自动更新，但仍提示安装安全等关键更新
+  </String>
+	<String id="QQPWD">
+    密码安全
+  </String>
+	<String id="ChangeYourPwd">
+    为了您的帐号安全，请定期&lt;link config="RSLinkTextHandNode" label="LinkLabel_ChangePwd"&gt;修改密码&lt;/link&gt;。
+  </String>
+	<String id="ChangePwd">
+    修改密码
+  </String>
+	<String id="RememberPwdTip">
+    您设置了记住密码，登录时无须再输入。
+  </String>
+	<String id="NotRememberPwdTip">
+    您没有设置记住登录密码。
+  </String>
+	<String id="Button_ClearPwd">
+    取消记住密码
+  </String>
+	<String id="PwdProtect">
+    申请密码保护
+  </String>
+	<String id="PwdProtect_Guid" fmt="true">
+    为了您在丢失密码时能够轻松取回，现在就去&lt;link config="RSLinkTextHandNode" label="LinkLabel_PwdProtect"&gt;申请密码保护&lt;/link&gt;。
+  </String>
+	<String id="ApllyPwdProtect">
+    申请密码保护
+  </String>
+	<String id="QuesOrAnswerCantNull">
+    问题和答案不能为空
+  </String>
+	<String id="BlockList_Account">
+    帐号
+  </String>
+	<String id="BlockList_Name">
+    昵称/姓名
+  </String>
+	<String id="BlockList_Sex">
+    性别
+  </String>
+	<String id="HomePage_Guid">
+    　　欢迎使用系统设置，您不但可以设置自己喜欢的操作习惯，还可以进行个性状态、防打扰和安全保护等设置。
+  </String>
+	<String id="CCHotKey_PickUpMsg">
+    提取消息
+  </String>
+	<String id="CCHotKey_Camera">
+    捕捉屏幕
+  </String>
+	<String id="CCHotKey_Default">
+    默认热键
+  </String>
+	<String id="CCHotKey_Custom">
+    自定义热键
+  </String>
+	<String id="CCHotKey_SendMsgCtrlEnter">
+    按Ctrl + Enter键发送消息
+  </String>
+	<String id="CCHotKey_SendMsgEnter">
+    按Enter键发送消息
+  </String>
+	<String id="CCHotKey_SendMsg">
+    发送消息
+  </String>
+	<String id="NetSetting_NoProxy">
+    不使用代理
+  </String>
+	<String id="NetSetting_NoServer">
+    不使用高级选项
+  </String>
+	<String id="FaceMgr_AddCustomFace">
+    添加自定义表情
+  </String>
+	<String id="FaceMgr_SelectPic">
+    指定图片:
+  </String>
+	<String id="FaceMgr_Browse">
+    浏览
+  </String>
+	<String id="FaceMgr_Group">
+    分组:
+  </String>
+	<String id="FaceMgr_AddNewGroup">
+    添加新的分组
+  </String>
+	<String id="FaceMgr_AddNewGroup_Tip">
+    添加新的表情分组
+  </String>
+	<String id="FaceMgr_ShortCut">
+    键盘快捷方式(可选):
+  </String>
+	<String id="FaceMgr_Max_Six_Character">
+    最多六个字符
+  </String>
+	<String id="FaceMgr_EmotionName">
+    表情名称(可选):
+  </String>
+	<String id="FaceMgr_Pre_Photo">
+    上一张
+  </String>
+	<String id="FaceMgr_Next_Photo">
+    下一张
+  </String>
+	<String id="FaceMgr_Use_FileName_As_ShortCut">
+    使用文件名作为快捷键
+  </String>
+	<String id="FaceMgr_Use_FileName_As_Name">
+    使用文件名作为表情名称
+  </String>
+	<String id="FaceMgr_OK">
+    确定
+  </String>
+	<String id="FaceMgr_Cancel">
+    取消
+  </String>
+	<String id="FaceMgr_GroupName">
+    分组名:
+  </String>
+	<String id="CF_Only_Open_Safe_URL" fmt="true">
+    为了您的$__PNAME$安全，请只打开来源可靠的网址。
+  </String>
+	<String id="CF_OPEN_URL">
+    打开网址
+  </String>
+	<String id="CF_COPY">
+    复制
+  </String>
+	<String id="CF_IMPEACH">
+    举报
+  </String>
+	<String id="Link_CF_SaveUrl">
+    收藏
+  </String>
+	<String id="FaceMgr_Importing_Face">
+    正在导入表情，请耐心等待...
+  </String>
+	<String id="FaceMgr_FacePack">
+    所有格式(*.eip;*.eif)|*.eip;*.eif|表情安装包(*.eip)|*.eip|表情导出文件(*.eif)|*.eif||
+  </String>
+	<String id="FaceMgr_Whether_Import_GroupInfo">
+    是否导入分组信息？
+  </String>
+	<String id="FaceMgr_FaceManage">
+    表情管理
+  </String>
+	<String id="FaceMgr_CurSel_None_CustomFace">
+    当前没有选择任何自定义表情。
+  </String>
+	<String id="FaceMgr_Tip">
+    提示
+  </String>
+	<String id="FaceMgr_Have_None_CustomFace">
+    当前没有任何自定义表情。
+  </String>
+	<String id="FaceMgr_Exporting_Face">
+    正在导出表情，请耐心等待...
+  </String>
+  <String id="FaceMgr_Importing_FaceErr">
+    您好，暂不支持导入该类型的表情包。
+  </String>
+	<String id="FaceMgr_FaceExportFile">
+    表情导出文件(*.eif)|*.eif||"
+  </String>
+	<String id="FaceMgr_Export_Face_Succ">
+    表情已经成功导出。
+  </String>
+	<String id="FaceMgr_Export_Face_Fail">
+    导出失败。
+  </String>
+	<String id="FaceMgr_Import_Result">
+    您已经导入了$TOTALCOUNT$个表情，有$EXISTCOUNT$个表情已经存在。
+  </String>
+	<String id="FaceMgr_Import_Some_Faces">
+    您已经导入了$COUNT$个表情。
+  </String>
+	<String id="FaceMgr_AddGroup">
+    添加分组
+  </String>
+	<String id="FaceMgr_Group_MovePre">
+    向前移动分组
+  </String>
+	<String id="FaceMgr_Group_MoveNext">
+    向后移动分组
+  </String>
+	<String id="FaceMgr_Rename">
+    重命名
+  </String>
+	<String id="FaceMgr_Del_Group">
+    删除分组
+  </String>
+	<String id="FaceMgr_Export_Sel_Faces">
+    导出选定自定义表情
+  </String>
+	<String id="FaceMgr_Export_Cur_Group_CustomFaces">
+    导出本组自定义表情
+  </String>
+	<String id="FaceMgr_Export_All_CustomFaces">
+    导出全部自定义表情
+  </String>
+	<String id="FaceMgr_Import_Face">
+    导入表情
+  </String>
+	<String id="FaceMgr_Export_Group">
+    导出分组
+  </String>
+	<String id="FaceMgr_Cannot_obliqueLine_As_Shortcut">
+    不能以“/”作为快捷键方式。
+  </String>
+	<String id="FaceMgr_Add_Fail">
+    添加失败
+  </String>
+	<String id="FaceMgr_Modify_Fail">
+    修改失败
+  </String>
+	<String id="FaceMgr_Face_Exist">
+    该表情已经存在。
+  </String>
+	<String id="FaceMgr_Single_Add_Succ">
+    已成功添加到$GROUP$组。
+  </String>
+	<String id="FaceMgr_Single_Add_Succ_Title">
+    提示
+  </String>
+	<String id="FaceMgr_Picture_OverSize">
+    图片尺寸超出范围，请用"发送图片"发送。
+  </String>
+	<String id="FaceMgr_Picture_No_Exist">
+    表情文件不存在。
+  </String>
+	<String id="FaceMgr_Exist_Some_Faces">
+    ，有$COUNT$个表情已经存在
+  </String>
+	<String id="FaceMgr_Some_Faces_OverSize">
+    ，有$COUNT$个表情文件尺寸超出范围
+  </String>
+	<String id="FaceMgr_Succ_To_Add_Faces">
+    您已成功加入了$COUNT$个表情$OVERSIZE$$EXIST$。
+  </String>
+	<String id="FaceMgr_Emotion_FileType">
+    图片文件(*.jpg;*.jpeg;*.bmp;*.gif;*.png)|*.jpg;*.jpeg;*.bmp;*.gif;*.png|(*.jpg;*.jpeg)|*.jpg;*.jpeg|(*.bmp)|*.bmp|(*.gif)|*.gif|(*.png)|*.png||
+  </String>
+	<String id="FaceMgr_Selected__More_Files">
+    选择了多个文件
+  </String>
+	<String id="FaceMgr_AddFace">
+    添加表情
+  </String>
+	<String id="FaceMgr_ModifyFace">
+    修改表情
+  </String>
+	<String id="FaceMgr_DelFace">
+    删除表情
+  </String>
+	<String id="FaceMgr_MoveTo">
+    移动到
+  </String>
+	<String id="FaceMgr_GroupManage">
+    分组管理
+  </String>
+	<String id="FaceMgr_ImportExport">
+    导入和导出
+  </String>
+	<String id="FaceMgr_SelectAll">
+    全选
+  </String>
+	<String id="FaecMgr_MovePre">
+    前移
+  </String>
+	<String id="FaceMgr_MoveNext">
+    后移
+  </String>
+	<String id="FaceMgr_DelFaceGroup">
+    删除表情分组
+  </String>
+	<String id="FaceMgr_DelCurGroupAllFaces">
+    删除该组所有表情
+  </String>
+	<String id="FaceMgr_RemoveAllFaceWhileDelGroup">
+    删除该组时，把该组表情移动到
+  </String>
+	<String id="FaceMgr_ModifyCustomFace">
+    修改自定义表情
+  </String>
+	<String id="GroupSysMsg_OK">
+    确定
+  </String>
+	<String id="GroupSysMsg_Cancel">
+    取消
+  </String>
+	<String id="GroupSysMsg_InputReason">
+    请输入拒绝理由
+  </String>
+	<String id="GroupSysMsg_AddToBlack">
+    不再接受此联系人请求
+  </String>
+	<String id="GroupSysMsg_Agree">
+    同意
+  </String>
+	<String id="GroupSysMsg_Reject">
+    拒绝
+  </String>
+	<String id="GroupSysMsg_GrpReject">
+    不再接受该群的邀请
+  </String>
+	<String id="IDS_MobileDefaultText">
+    请输入手机号码(仅支持中国大陆手机)
+  </String>
+	<String id="MsgPromptSetting">
+    消息提醒
+  </String>
+	<String id="AutoChatFrameTip">
+    来消息时自动弹出会话窗口
+  </String>
+	<String id="DisableTipWhenFullScreen">
+    当计算机运行全屏程序时屏蔽所有消息提醒框
+  </String>
+	<String id="CheckButton_OpenSoundPrompt">
+    开启声音提示
+  </String>
+	<String id="ChangeSoundPromptHint">
+    您可以设置开启不同类型的声音提示，点击可切换“状态”。
+  </String>
+	<String id="SoundPrompt">
+    声音提示
+  </String>
+	<String id="DisableSoundPrompt">
+    关闭声音提示
+  </String>
+	<String id="SoundFile">
+    声音文件
+  </String>
+	<String id="PlaySound">
+    状态
+  </String>
+	<String id="PlaySoundFile">
+    试听
+  </String>
+	<String id="SoundType">
+    声音类型
+  </String>
+	<String id="ClientSound">
+    好友消息
+  </String>
+	<String id="GroupSound">
+    群消息
+  </String>
+	<String id="AudioSound">
+    语音呼叫
+  </String>
+	<String id="OnlineSound">
+    好友上线
+  </String>
+	<String id="CreateDiscuss">
+    创建讨论组
+  </String>
+	<String id="SelectContact_AllFriends">
+    全部好友
+  </String>
+	<String id="SelectContact_AllGroupMembers">
+    全部群成员
+  </String>
+	<String id="SelectContact_AllContacts">
+    全部联系人
+  </String>
+	<String id="SelectContact_MaxContactCount">
+    已经达到最大人数。
+  </String>
+	<String id="SelectContact_AddFail">
+    添加失败
+  </String>
+	<String id="SelectContact_CannotFindContact">
+    没有找到您要搜索的联系人
+  </String>
+	<String id="FaceMgr_GroupNameExist">
+    分组名称已经存在。
+  </String>
+	<String id="FaceMgr_AddGroupError">
+    发生了异常错误，可以尝试用其它的名称。
+  </String>
+	<String id="FaceMgr_ModifyFaceGroup">
+    修改表情分组
+  </String>
+	<String id="FaceMgr_DelFaceTip">
+    当前选择的表情中包含了系统表情，系统表情是不可删除的，继续吗？
+  </String>
+	<String id="FaceMgr_Edit">
+    修改
+  </String>
+	<String id="FaceMgr_FaceMovePre">
+    向前移动表情
+  </String>
+	<String id="FaceMgr_FaceMoveNext">
+    向后移动表情
+  </String>
+	<String id="FaceMgr_Del">
+    删除
+  </String>
+	<String id="FaceMgr_MoveFaceTip">
+    当前选择的表情中包含了系统表情，系统表情是不可移动的，继续吗？
+  </String>
+	<String id="CF_IMPEACH_URL">
+    举报
+  </String>
+	<String id="GroupConfig_GroupNum">
+    号码:
+  </String>
+	<String id="GroupConfig_GroupCreator">
+    创建人:
+  </String>
+	<String id="GroupConfig_GroupName">
+    名称:
+  </String>
+	<String id="GroupConfig_GroupRemark">
+    备注:
+  </String>
+	<String id="GroupConfig_GroupClass">
+    分类:
+  </String>
+	<String id="GroupConfig_Set">
+    设置
+  </String>
+	<String id="GroupConfig_GroupMemo">
+    群内公告(仅成员可见):
+  </String>
+	<String id="GroupConfig_GroupIntro">
+    群的简介(所有人可见):
+  </String>
+	<String id="GroupConfig_BasicInfo">
+    群资料
+  </String>
+	<String id="GroupConfig_GroupMem">
+    群成员
+  </String>
+	<String id="GroupConfig_GroupCard">
+    群名片
+  </String>
+	<String id="GroupConfig_GroupSet">
+    群设置
+  </String>
+	<String id="GroupConfig_CardName">
+    姓    名:
+  </String>
+	<String id="GroupConfig_CardGender">
+    性    别:
+  </String>
+	<String id="GroupConfig_CardTel">
+    电    话:
+  </String>
+	<String id="GroupConfig_CardEmail">
+    邮    箱:
+  </String>
+	<String id="GroupConfig_CardMemo">
+    备    注:
+  </String>
+	<String id="ConfigCenter_CheckLastVersion">
+    在线升级
+  </String>
+	<String id="GotoDowload">
+    到 http://im.qq.com 下载最新版本
+  </String>
+	<String id="SelectContact_WhetherSaveModification">
+    是否保存修改？
+  </String>
+	<String id="ConfigCenter_SaveFailed">
+    保存设置失败。
+  </String>
+	<String id="SelectContact_Tip">
+    提示
+  </String>
+	<String id="ShowMyInputStatus">
+    我的输入状态
+  </String>
+	<String id="NotReceiveTempChatMsg">
+    不接收任何陌生人的消息
+  </String>
+	<String id="ConfigCenter_title">
+    系统设置
+  </String>
+	<String id="Button_ConfigCenter">
+    系统设置
+  </String>
+	<String id="FaceMgr_Unknown_Error">
+    发生未知错误。
+  </String>
+	<String id="AddGroup_ValidCode">
+    验证码:
+  </String>
+	<String id="ContactStatus_QMe_Desc">
+    当您处于“Q我吧”状态时，如果收到消息，会自动为您打开会话窗口(会话窗口自动弹出)。
+  </String>
+	<String id="ContactStatus_Busy_Desc">
+    当您处于忙碌状态时，来消息不会有消息提示和声音提示。
+  </String>
+	<String id="ContactStatus_Quiet_Desc">
+    当您处于请勿打扰状态时，来消息不会有消息提示和声音提示，任务栏通知区域也不会闪动好友头像。
+  </String>
+	<String id="MainMenu_MyQZone">
+    我的空间
+  </String>
+	<String id="MainMenu_Exit">
+    退出
+  </String>
+	<String id="MainMenu_ChangeAccount">
+    更改用户
+  </String>
+	<String id="UseAgreement_Title">
+    软件许可及服务协议
+  </String>
+	<String id="HotKeyCollision">
+    热键冲突，请重新设置另外的热键。
+  </String>
+	<String id="FaceMgr_Group_2">
+    分组
+  </String>
+	<String id="FaceMgr_Add">
+    添加
+  </String>
+	<String id="SelectContact_SelectBound">
+    选择范围:
+  </String>
+	<String id="SelectContact_InputSearchKeyWord">
+    输入查找关键字
+  </String>
+	<String id="SelectContact_SelectContact">
+    选择联系人
+  </String>
+	<String id="SelectContact_SelectedContacts">
+    已选联系人:
+  </String>
+	<String id="SelectContact_Add">
+    添加 &gt;
+  </String>
+	<String id="SelectContact_Del">
+    &lt; 删除
+  </String>
+	<String id="IE_LoadingText">
+    正在加载页面，请稍候...
+  </String>
+	<String id="IE_ErrText">
+    由于网络原因，页面显示遇到问题
+  </String>
+	<String id="IE_RetryText">
+    请点击 $REFRESH$ 后重试
+  </String>
+	<String id="IE_Refresh">
+    刷新
+  </String>
+	<String id="CustomHead_WndTitle">
+    更换头像
+  </String>
+	<String id="CustomHead_NeedToKown">
+    &lt;自定义头像使用须知&gt;
+  </String>
+	<String id="CustomHead_NeedToKownPrompt">
+    请您选择自定义头像，使用自定义头像之前请阅读&lt;自定义头像使用须知&gt;
+  </String>
+	<String id="CustomHead_NonVipPrompt">
+    您还不是会员，升级QQ会员后享受会员精彩头像及40余项专属特权。
+  </String>
+	<String id="CustomHead_SelfDefine">
+    本地使用过的自定义头像(共$NUM$个)
+  </String>
+	<String id="CustomHead_Fashion">
+    推荐头像(共$NUM$个)
+  </String>
+  <String id="CustomHead_Man">
+    男士头像(共$NUM$个)
+  </String>
+	<String id="CustomHead_Woman">
+    女士头像(共$NUM$个)
+  </String>
+	<String id="CustomHead_Pet">
+    宠物头像(共$NUM$个)
+  </String>
+	<String id="CustomHead_QQTang">
+    QQ堂头像(共$NUM$个)
+  </String>
+	<String id="CustomHead_Music">
+    QQ音速头像(共$NUM$个)
+  </String>
+	<String id="CustomHead_DNF">
+    地下城与勇士头像(共$NUM$个)
+  </String>
+	<String id="CustomHead_QQSG">
+    QQ三国头像(共$NUM$个)
+  </String>
+	<String id="CustomHead_QQHuaXia">
+    QQ华夏头像(共$NUM$个)
+  </String>
+	<String id="CustomHead_QQFO">
+    QQ幻想头像(共$NUM$个)
+  </String>
+	<String id="CustomHead_XunXian">
+    QQ寻仙头像(共$NUM$个)
+  </String>
+	<String id="CustomHead_CF">
+    穿越火线头像(共$NUM$个)
+  </String>
+	<String id="CustomHead_QQDANCER">
+    QQ炫舞头像(共$NUM$个)
+  </String>
+	<String id="CustomHead_QQSPEED">
+    QQ飞车头像(共$NUM$个)
+  </String>
+	<String id="CustomHead_QQFlYISLAND">
+    QQ飞行岛头像(共$NUM$个)
+  </String>
+	<String id="CustomHead_QQGame">
+    QQGame头像(共$NUM$个)
+  </String>
+	<String id="CustomHead_QQPet">
+    QQ宠物头像(共$NUM$个)
+  </String>
+	<String id="Button_CustomHead_Vip_Dyn">
+    会员动态头像
+  </String>
+	<String id="Button_CustomHead_Vip_Classic">
+    会员经典头像
+  </String>
+	<String id="Button_CustomHead_Vip_Fun">
+    会员特色功能
+  </String>
+	<String id="CustomHead_VipIntro">
+    会员介绍
+  </String>
+	<String id="CustomHead_HowToVip">
+    如何成为会员
+  </String>
+	<String id="CustomHead_MoreVipHead">
+    更多&gt;&gt;
+  </String>
+	<String id="CustomHead_MoreVipHeadTitle">
+    QQ会员专区——QQ会员为您提供QQ世界里最尊贵，个性和贴心的服务
+  </String>
+	<String id="CustomHead_Local">
+    本地上传
+  </String>
+	<String id="CustomHead_SelectFileFilter">
+    图像文件(*.bmp;*.jpg;*.jpeg;*.gif)|*.bmp;*.jpg;*.jpeg;*.gif||
+  </String>
+	<String id="NetSetting_LinkToProxy">
+    成功连接到代理服务器
+  </String>
+	<String id="NetSetting_CantLinkToProxy">
+    无法连接到代理服务器
+  </String>
+	<String id="NetSetting_ProxyTest">
+    代理测试结果
+  </String>
+	<String id="NetSetting_HttpProxy">
+    HTTP代理
+  </String>
+	<String id="NetSetting_Sock5Proxy">
+    SOCKS5代理
+  </String>
+	<String id="NetSetting_UseBrowser">
+    使用浏览器设置
+  </String>
+	<String id="NetSetting_UDPType">
+    UDP类型
+  </String>
+	<String id="NetSetting_TCPType">
+    TCP类型
+  </String>
+	<String id="FaceMgr_MoveFaceTo">
+    移动该表情到:
+  </String>
+	<String id="FaceMgr_FaceExisted">
+    该表情已经存在于 $NAME$ 中。
+  </String>
+	<String id="MSGFILE_IN_SHARE">
+    暂时无法登录，请稍后重试。
+  </String>
+	<String id="AutherValidcodeInfo">
+    为保护帐号安全，您需要先输入图中的验证字符才能修改系统设置。
+  </String>
+	<String id="InputStatusSet">
+    状态提示
+  </String>
+	<String id="ChangeHead">
+    更换头像
+  </String>
+	<String id="ChangeHeadValidcodeInfo">
+    为保护帐号安全，您需要先输入图中的验证字符才能更换头像。
+  </String>
+	<String id="SaveSetTimeOut">
+    网络超时，保存设置失败
+  </String>
+	<String id="AnybodyOnline">
+    上线了
+  </String>
+	<String id="OnlinePrompt">
+    上线提醒
+  </String>
+	<String id="OfflinePrompt">
+    离线提醒
+  </String>
+	<String id="OnlinePromptPhoneQQ">
+    通过手机QQ上线了
+  </String>
+	<String id="OfflinePromptPhoneQQ">
+    通过手机QQ下线了
+  </String>
+	<String id="OnlinePromptMobile_3G">
+    通过3GQQ上线了
+  </String>
+	<String id="OfflinePromptMobile_3G">
+    通过3GQQ下线了
+  </String>
+	<String id="OnlineSetting">
+    设置
+  </String>
+	<String id="PromptWhenOnline">
+    联系人上线时自动提醒
+  </String>
+	<String id="CurrentMode">
+    软件当前应用
+  </String>
+	<String id="ModeName_Fun">
+    休闲情景模式
+  </String>
+	<String id="ModeName_Work">
+    工作情景模式
+  </String>
+	<String id="MainPanelClickToSwitchMode">
+    切换情景模式,满足不同场合使用需要
+  </String>
+	<String id="FunModeSetting">
+    休闲情景模式详细设置
+  </String>
+	<String id="WorkModeSetting">
+    工作情景模式详细设置
+  </String>
+	<String id="WorkModeView">
+    工作情景模式:
+  </String>
+	<String id="WorkModeViewDesc">
+    工作情景模式为您设计了更加简洁的界面，配置了防骚扰的设置方案，更加适合您学习或者办公时使用。
+  </String>
+	<String id="FunModeView">
+    休闲情景模式:
+  </String>
+	<String id="FunModeViewDesc">
+    休闲情景模式为您设计了个性化的界面，让您使用更加丰富的QQ个性化功能和服务，为您的沟通增添乐趣。
+  </String>
+	<String id="ResetModeSetting">
+    恢复所有默认值
+  </String>
+	<String id="StatusSetting_MsgNotifyPolicy">
+    来消息提示:
+  </String>
+	<String id="Option_FlashTrayIcon">
+    头像闪动
+  </String>
+	<String id="Option_BubbleTrayIcon">
+    显示气泡图标
+  </String>
+	<String id="Option_AutoPopChatFrame">
+    自动弹出消息
+  </String>
+	<String id="Option_DisableSound">
+    屏蔽声音
+  </String>
+	<String id="Option_DisableMsgTip">
+    屏蔽消息提醒框
+  </String>
+	<String id="ResetModeAlert">
+    如果要恢复默认设置，以下设置项将可能被更改:
+  </String>
+	<String id="ResetSkin">
+    - 外观表现
+  </String>
+	<String id="ResetSound">
+    - 声音
+  </String>
+	<String id="ResetOpt">
+    - 丰富信息的表现方式
+  </String>
+	<String id="ResetFun">
+    - 娱乐类功能
+  </String>
+	<String id="ConfirmResetMode">
+    您确定要恢复默认设置吗？
+  </String>
+	<String id="ViewAllSetting">
+    查看详细设置
+  </String>
+	<String id="SoundSetting">
+    声音设置
+  </String>
+	<String id="ContactSetting">
+    联系人资料显示设置
+  </String>
+	<String id="StatusSetting">
+    状态设置
+  </String>
+	<String id="SceneMode">
+    情景模式
+  </String>
+	<String id="WhatisSceneMode">
+    什么是情景模式？
+  </String>
+	<String id="DifferOfSceneMode">
+    不同情景模式有什么不同
+  </String>
+	<String id="ChangeSetting">
+    更改设置
+  </String>
+	<String id="SceneModeDescribing">
+    情景模式是一套皮肤、声音以及基础功能设置的组合，有工作和休闲两个情景模式。你可以根据您的当前环境，选择使用工作或者休闲情景模式。
+  </String>
+	<String id="SceneModeDescribing1">
+    两种情景模式下的皮肤、声音以及基础功能的设置会有所不同，您可以在下表中查询您在两个模式下的设置项值。
+  </String>
+	<String id="BeOpen">
+    开启
+  </String>
+	<String id="BeClose">
+    关闭
+  </String>
+	<String id="HeadMode">
+    在好友列表中显示好友的
+  </String>
+	<String id="ViewOperationIconOfContact">
+    查看QQ增值服务相关信息项
+  </String>
+	<String id="Button_AlwaysShowLongNick">
+    显示小头像的时候,在昵称后始终显示个性签名.
+  </String>
+	<String id="FriendList">
+    在主面板好友列表项上
+  </String>
+	<String id="Button_ShowValuedAddService">
+    显示好友业务更新信息
+  </String>
+	<String id="Button_ShowRichStatus">
+    显示好友的游戏/音乐/QQ视频状态
+  </String>
+	<String id="ContactTipsShow">
+    好友信息展示
+  </String>
+	<String id="Button_ShowVasFlag">
+    在迷你资料卡上显示业务图标
+  </String>
+	<String id="Button_ShowAbstarct">
+    在迷你资料卡上显示更新摘要
+  </String>
+	<String id="ChatFrameShow">
+    聊天窗口
+  </String>
+	<String id="Button_ShowVasInAIO">
+    在聊天窗口内展示好友的更新摘要
+  </String>
+	<String id="Button_ShowPaipaiInAIO">
+    显示好友的拍拍卖家资料
+  </String>
+	<String id="ViewLevelOfContact">
+    查看QQ等级
+  </String>
+	<String id="OperationIconOfContact">
+    QQ增值服务相关信息项
+  </String>
+	<String id="LevelOfContact">
+    QQ等级
+  </String>
+	<String id="ShowTipsWhenMsg">
+    来消息时Tips提示
+  </String>
+	<String id="ShowTipsWhenOnline">
+    好友上线Tips提示
+  </String>
+	<String id="ShowRichStatus">
+    丰富即时状态信息
+  </String>
+	<String id="NetSettingTip">
+    查看您当前的网络设置，包括登录类型，服务器等。
+  </String>
+	<String id="Button_ViewNetSetting">
+    查看
+  </String>
+	<String id="NotShow">
+    不显示
+  </String>
+	<String id="Use">
+    使用
+  </String>
+	<String id="NotUse">
+    不使用
+  </String>
+	<String id="BigHeadMode">
+    大头像
+  </String>
+	<String id="BigHeadMode_Desc">
+    已设置在好友列表中显示好友的大头像
+  </String>
+	<String id="SmallHeadMode">
+    小头像
+  </String>
+	<String id="SmallHeadMode_Desc">
+    已设置在好友列表中显示好友的小头像
+  </String>
+	<String id="StandHeadMode">
+    标准头像
+  </String>
+	<String id="StandHeadMode_Desc">
+    已设置在好友列表中显示好友的标准头像
+  </String>
+	<String id="SelectSceneMode">
+    选择情景模式
+  </String>
+	<String id="SelectSceneMode1">
+    选择合适的情景模式，让QQ更加贴心！
+  </String>
+	<String id="SelectSceneMode2">
+    情景模式是一套基础功能设置的组合，有工作和休闲情景两个情景模式。您可以根据您当前的环境，选择使用工作或者休闲情景模式。
+    工作情景模式为您配置了防骚扰的设置方案以及适合您工作和学习使用的功能，更加适合您学习或者办公时使用；
+    休闲情景模式为您提供了更加丰富的QQ个性化功能和服务，为您的沟通增添乐趣。
+  </String>
+	<String id="SelectSceneMode3">
+    了解更多关于QQ情景模式的信息，
+  </String>
+	<String id="ClickHere">
+    请点击这里。
+  </String>
+	<String id="ModeFlagTipText">
+    您注意到了吗？标为+的设置项仅会对当前情景模式生效。
+  </String>
+	<String id="ShowMyRichStatus">
+    显示我的即时丰富状态(QQ音乐\QQ游戏等)
+  </String>
+	<String id="ShowMsgNotifyTips">
+    来消息时使用系统通知区Tips提示
+  </String>
+	<String id="ContactInfomation">
+    联系人资料
+  </String>
+	<String id="UseSceneMode">
+    使用场景
+  </String>
+	<String id="SoftKeyboard_Key_Shift">
+    Shift
+  </String>
+	<String id="SoftKeyboard_Key_CapsLock">
+    Caps Lock
+  </String>
+	<String id="SoftKeyboard_Key_BackSpace">
+    ←
+  </String>
+	<String id="VipTip_VipEntry">
+    QQ会员专区
+  </String>
+  <String id="VipTip_VipPortal">
+    QQ会员官网
+  </String>
+	<String id="VipIeWnd_Title">
+    QQ会员专区——QQ会员为您提供QQ世界里最尊贵，个性和贴心的服务
+  </String>
+	<String id="ClearAllCustomStatus">
+    清除自定义状态
+  </String>
+	<String id="FillterAdds">
+    我是会员，我要过滤广告
+  </String>
+	<String id="Vip_AlwaysOpenTip">
+    总是打开登录提示
+  </String>
+	<String id="Vip_AlwaysCloseTip">
+    总是关闭登录提示
+  </String>
+	<String id="VipTipPromptSetting">
+    会员登录设置
+  </String>
+	<String id="PreventFriend">
+    屏蔽此联系人
+  </String>
+	<String id="PreventAnnoySetting">
+    防打扰设置
+  </String>
+	<String id="ModeBuleTipText">
+    !您注意到了吗？更改标志为+的选项仅会对当前情景模式有效。
+  </String>
+	<String id="DoyouKnow">
+    您知道吗？
+  </String>
+	<String id="ModeTipText">
+    当您切换情景模式时，某些设置项会跟随情景模式而变化。这些项在系统设置中都已经使用+为您标识出来。
+  </String>
+	<String id="FileNotExist">
+    此文件不存在。
+  </String>
+	<String id="Finger_ConnectToServer">
+    请您先登录服务器！
+  </String>
+	<String id="Finger_ConnectToServer_Title">
+    提示
+  </String>
+	<String id="Version">
+    版本
+  </String>
+	<String id="PublicDate">
+    发布于
+  </String>
+	<String id="AppName">
+    服务名称
+  </String>
+	<String id="AppStatus">
+    状态
+  </String>
+	<String id="AppStatusEnable">
+    已启用
+  </String>
+	<String id="AppStatusDisable">
+    已停用
+  </String>
+	<String id="SMS_ErrorNum">
+    收信人号码有误，请重新检查或输入。
+  </String>
+	<String id="AppEnable">
+    启用
+  </String>
+	<String id="AppDisable">
+    停用
+  </String>
+	<String id="AppSetting">
+    设置
+  </String>
+	<String id="OpenAppCenter">
+    打开插件管理器
+  </String>
+	<String id="ShareRequest">
+    应用服务邀请
+  </String>
+	<String id="Button_TipIgnore">
+    忽略
+  </String>
+	<String id="Button_TipStart">
+    现在启用
+  </String>
+	<String id="Button_TipNotTips">
+    不再提醒
+  </String>
+	<String id="ChatFrame_PluginStart">
+    现在启用
+  </String>
+	<String id="PluginStartTip">
+    插件启用
+  </String>
+	<String id="PluginMgr">
+    管理我的插件
+  </String>
+	<String id="IDS_SENDFILE_TAB">传文件</String>
+	<String id="AppService">
+    应用服务
+  </String>
+	<String id="PluginTip_Title">
+    提示
+  </String>
+	<String id="PluginEnableSuccess">
+    $PLUGINNAME$插件成功启用。
+  </String>
+	<String id="PluginEnableFailed">
+    $PLUGINNAME$插件启用失败，请重新尝试。
+  </String>
+	<String id="PluginEnableAlready">
+    $PLUGINNAME$插件已经处于启用状态。
+  </String>
+	<String id="StartPluginTipContent">
+    您还没有启用$PLUGINNAME$插件，无法使用此功能。是否启用插件？
+  </String>
+	<String id="DefaultPluginName">
+    相应的
+  </String>
+	<String id="StartPluginFail">
+    启用插件失败，无法使用此功能
+  </String>
+	<String id="PluginCenterTitle">
+    提示
+  </String>
+	<String id="PluginTipContent">
+    $NAME$邀请您使用$PLUGINNAME$，您还没有启用该项服务。
+  </String>
+	<String id="WelcomeAppCenter">
+    欢迎来到插件管理中心！ 在这里，您可以定制插件选项，调用多项强大功能，让操作更自由，交流更轻松。
+    当前，您已经启用了$COUNT$项服务，还有更多功能和乐趣等待您的发现哦。
+  </String>
+	<String id="AppCenter">
+    插件管理
+  </String>
+	<String id="EnablePluginFailed" fmt="true">
+    $__PNAME$软件已被破坏或部分文件丢失，无法继续使用，请重新安装$__PNAME$。
+  </String>
+	<String id="SMS_ErrorNumTitle">
+    错误提示
+  </String>
+	<String id="StatusPromptSetting">
+    状态提醒设置
+  </String>
+	<String id="PopupNotify">
+    消息提醒框
+  </String>
+	<String id="PromptNotify">
+    消息提醒
+  </String>
+	<String id="MsgNotifyPolicy">
+    来消息提示方式
+  </String>
+	<String id="ContactStatus">
+    状态
+  </String>
+	<String id="FlashTrayIcon">
+    任务栏头像闪动
+  </String>
+	<String id="AutoPopChatFrame">
+    自动弹出会话窗口
+  </String>
+	<String id="BubbleTrayIcon">
+    任务栏显示气泡
+  </String>
+	<String id="AutoReplayOnBusy">
+    离开、忙碌、请勿打扰时自动回复(100字以内)
+  </String>
+	<String id="AutoReplayOnNormal">
+    在线、Q我吧时自动回复(100字以内)
+  </String>
+	<String id="SafePrompt_MsgEncrypt" fmt="true">
+    $__PNAME$已对您发送的消息进行了加密处理，可以防止他人非法获取您的聊天内容。
+  </String>
+	<String id="AutoReplayText">
+    回复内容(100字以内):
+  </String>
+	<String id="Grp_To">
+    为其
+  </String>
+	<String id="Grp_SetGrpCard">
+    设置群名片
+  </String>
+	<String id="MainPanel_SingleCol">
+    单列显示
+  </String>
+	<String id="MainPanel_MutilCol">
+    多列平铺
+  </String>
+	<String id="MainPanel_ShowColMode">
+    列表显示
+  </String>
+	<String id="MailPanel_FolderMode">
+    分组
+  </String>
+	<String id="MailPanel_DefaultFolder">
+    按默认分组
+  </String>
+	<String id="MailPanel_StatusFolder">
+    按状态分组
+  </String>
+	<String id="MailPanel_Sort">
+    排序
+  </String>
+	<String id="MailPanel_SortLastLogin">
+    活跃度筛选
+  </String>
+	<String id="MailPanel_SortOn1">
+    按身份标识排序
+  </String>
+	<String id="MailPanel_SortOn2">
+    按业务更新排序
+  </String>
+	<String id="MailPanel_SortOn3">
+    按名称排序
+  </String>
+	<String id="MailPanel_Filter">
+    过滤
+  </String>
+	<String id="MailPanel_FilterAll">
+    显示全部联系人
+  </String>
+	<String id="MailPanel_FilterOnline">
+    显示在线联系人
+  </String>
+	<String id="MailPanel_ShowStrangeFolder">
+    显示陌生人分组
+  </String>
+	<String id="EnableSoundInCase">
+    可以为不同状态设置提醒方式。
+  </String>
+	<String id="EnableTipInCase">
+    在不同的在线状态下设置开启弹出通知
+  </String>
+	<String id="NotifyHint">
+    您可以设置开启不同类型的消息提醒框，点击可切换“状态”。
+  </String>
+	<String id="NotifyContent">
+    类型
+  </String>
+	<String id="NotifyContentOnline">
+    好友上线提醒
+  </String>
+	<String id="NotifyContentOnlineDesc">
+    当好友上线时浮现
+  </String>
+	<String id="NotifyContentMsg">
+    会话消息提醒
+  </String>
+	<String id="NotifyContentMsgDesc">
+    收到会话消息时浮现
+  </String>
+	<String id="NotifyContentOperation">
+    服务消息
+  </String>
+	<String id="NotifyContentOperationDesc">
+    收到服务消息时浮现
+  </String>
+	<String id="NotifyContentMail">
+    新邮件提醒
+  </String>
+	<String id="NotifyContentMailDesc">
+    收到新邮件时浮现
+  </String>
+	<String id="Sound">
+    声音
+  </String>
+	<String id="Notify">
+    消息提醒框
+  </String>
+	<String id="MsgTip">
+    会话消息
+  </String>
+	<String id="AdvanceSetting">
+    高级设置
+  </String>
+	<String id="PromptSetting">
+    系统设置
+  </String>
+	<String id="UserDefineReplyInfo">
+    自定义信息
+  </String>
+	<String id="Button_Open">
+    开启
+  </String>
+	<String id="Button_Close">
+    关闭
+  </String>
+	<String id="CurrentState">
+    状态
+  </String>
+	<String id="ChooseThisPanel">
+    切换到该面板
+  </String>
+	<String id="Hide">
+    隐藏
+  </String>
+	<String id="Show">
+    显示
+  </String>
+	<String id="PutUp">
+    上移
+  </String>
+	<String id="PutDown">
+    下移
+  </String>
+	<String id="CustomPanel">
+    自定义面板
+  </String>
+	<String id="AutoReplayText1">
+    您好，我现在有事不在，一会再和您联系。
+  </String>
+	<String id="AutoReplayText2">
+    工作中，请勿打扰。
+  </String>
+	<String id="AutoReplayText3">
+    我去吃饭了，一会再联系。
+  </String>
+	<String id="AutoReplay">
+    自动回复
+  </String>
+	<String id="AutoReplayErr">
+    自动回复选择不能为空
+  </String>
+	<String id="ShowNickType">
+    名称显示
+  </String>
+	<String id="Title_SkinMgr">
+    皮肤管理器
+  </String>
+	<String id="Skin">
+    皮肤
+  </String>
+  <String id="SettingSkin">
+    设置皮肤
+  </String>
+	<String id="SkinMgr_use">
+    启用
+  </String>
+	<String id="SkinMgr_delete">
+    删除
+  </String>
+	<String id="SkinMgr_SkinList">
+    皮肤列表
+  </String>
+	<String id="SkinMgr_SkinPreview">
+    皮肤预览
+  </String>
+	<String id="PanelCenter_PanelICON">
+    图标
+  </String>
+	<String id="PanelCenter_PanelName">
+    面板名称
+  </String>
+	<String id="PanelCenter_PanelStatus">
+    状态
+  </String>
+	<String id="PanelCenter_Show">
+    显示
+  </String>
+	<String id="PanelCenter_Hide">
+    隐藏
+  </String>
+	<String id="PanelCenter_PutUp">
+    上移
+  </String>
+	<String id="PanelCenter_PutDown">
+    下移
+  </String>
+	<String id="PanelCenter_PanelShow">
+    已显示
+  </String>
+	<String id="PanelCenter_PanelHide">
+    已隐藏
+  </String>
+	<String id="ModeShow">
+    外观
+  </String>
+	<String id="ModeSkinFun">
+    系统皮肤经典效果
+  </String>
+	<String id="ModeSkinFun_Desc">
+    已启用系统皮肤经典效果，确定后您将看到经典的外观效果
+  </String>
+	<String id="ModeSkinWork">
+    系统皮肤工作模式效果
+  </String>
+	<String id="ModeSkinWork_Desc">
+    已启用系统皮肤工作模式效果，确定后您将看到简洁的外观效果
+  </String>
+	<String id="ModeSkinCustom">
+    个性化皮肤
+  </String>
+	<String id="SoundMode">
+    声音方案
+  </String>
+	<String id="ModeSoundNormal">
+    QQ经典声音方案
+  </String>
+	<String id="ModeSoundNormal_Desc">
+    已启用QQ经典声音方案，确定后您将在使用中听到QQ经典声音，包括来消息提示音、好友上线提示音等
+  </String>
+	<String id="ModeSoundWork">
+    适合办公环境的声音方案
+  </String>
+	<String id="ModeSoundCustom">
+    自定义声音方案
+  </String>
+	<String id="ModeSoundWork_Desc">
+    已启用适合办公环境的声音方案，确定后您将在使用中听到更适合办公环境的声音，包括来消息提示音、好友上线提示音等
+  </String>
+	<String id="SystemNotifyMsg">
+    系统通知
+  </String>
+	<String id="ModeShowOptMsg">
+    实时接收业务通知消息
+  </String>
+	<String id="ModeNotShowOptMsg">
+    不实时接收业务通知消息
+  </String>
+	<String id="ModeShowOptMsg_Desc">
+    已设置实时接收业务通知消息
+  </String>
+	<String id="ModeNotShowOptMsg_Desc">
+    已取消设置实时接收业务通知消息
+  </String>
+	<String id="OptInfoShow">
+    丰富信息展示
+  </String>
+	<String id="InMainPanel">
+    好友列表中显示好友的
+  </String>
+	<String id="InContactTip">
+    好友迷你资料卡中显示
+  </String>
+	<String id="InChatFrame">
+    好友聊天窗口中显示
+  </String>
+	<String id="EnableModeShowUpdateInfoInMainPanel">
+    好友列表中显示业务更新的信息
+  </String>
+	<String id="EnableModeShowUpdateInfoInMainPanel_Desc">
+    已设置在好友列表中显示好友的业务更新信息，确定后您将在好友列表中看到好友空间\拍拍\问问的更新动态提示
+  </String>
+	<String id="DisableModeShowUpdateInfoInMainPanel">
+    好友列表中不显示业务更新的信息
+  </String>
+	<String id="DisableModeShowUpdateInfoInMainPanel_Desc">
+    已设置在好友列表中隐藏好友的业务更新信息，确定后好友列表中将不显示好友空间\拍拍\问问的更新动态提示
+  </String>
+	<String id="EnableModeShowRichStatusInMainPanel">
+    好友列表中显示游戏\音乐\QQ视频状态
+  </String>
+	<String id="EnableModeShowRichStatusInMainPanel_Desc">
+    已设置在好友列表中显示好友的游戏\音乐\QQ视频状态，确定后您将在好友列表中看到好友游戏\音乐\QQ视频状态
+  </String>
+	<String id="DisableModeShowRichStatusInMainPanel">
+    好友列表中不显示游戏\音乐\QQ视频状态
+  </String>
+	<String id="DisableModeShowRichStatusInMainPanel_Desc">
+    已设置在好友列表中隐藏好友的游戏\音乐\QQ视频状态，确定后好友列表中将不显示好友游戏\音乐\QQ视频状态
+  </String>
+	<String id="EnableModeShowOptListInContactTip">
+    业务图标
+  </String>
+	<String id="EnableModeShowOptListInContactTip_Desc">
+    已设置在好友迷你资料卡中显示业务图标，确定后您将在好友迷你资料卡中看到好友业务图标栏
+  </String>
+	<String id="DisableModeShowOptListInContactTip">
+    好友迷你资料卡中不显示业务图标
+  </String>
+	<String id="DisableModeShowOptListInContactTip_Desc">
+    已设置在好友迷你资料卡中隐藏业务图标，确定后好友迷你资料卡中不显示好友业务图标栏
+  </String>
+	<String id="EnableModeShowUpdateInfoInContactTip">
+    更新信息
+  </String>
+	<String id="EnableModeShowUpdateInfoInContactTip_Desc">
+    已设置在好友迷你资料卡中显示业务更新信息，确定后您将在好友迷你资料卡中看到对方空间\拍拍\问问的更新动态
+  </String>
+	<String id="DisableModeShowUpdateInfoInContactTip">
+    好友迷你资料卡中不显示更新信息
+  </String>
+	<String id="DisableModeShowUpdateInfoInContactTip_Desc">
+    已设置在好友迷你资料卡中隐藏业务更新信息，确定后好友迷你资料卡中不显示好友空间\拍拍\问问的更新动态
+  </String>
+	<String id="EnableModeShowUpdateInfoInChatFrame">
+    业务更新摘要
+  </String>
+	<String id="EnableModeShowUpdateInfoInChatFrame_Desc">
+    已设置在好友聊天窗口中显示业务更新摘要，确定后聊天窗口中将显示好友空间\拍拍的更新动态
+  </String>
+	<String id="DisableModeShowUpdateInfoInChatFrame">
+    好友聊天窗口中不显示业务更新摘要
+  </String>
+	<String id="DisableModeShowUpdateInfoInChatFrame_Desc">
+    已设置在好友聊天窗口中隐藏业务更新摘要，确定后聊天窗口内将不显示好友空间\拍拍的更新动态
+  </String>
+	<String id="EnableQQRing_Desc">
+    已启用炫铃，确定后您可以听到好友对您设置的个性炫铃，并可以对好友设置个性化铃音
+  </String>
+	<String id="DisableQQRing_Desc">
+    已停用炫铃，确定后您将不能听到好友对您设置的个性炫铃
+  </String>
+	<String id="EnableQQMusic_Desc">
+    已启用QQ音乐，确定后您可以从主面板上直接进入使用
+  </String>
+	<String id="DisableQQMusic_Desc">
+    已停用QQ音乐，确定后主面板上的QQ音乐入口将隐藏，如果您想直接使用请重新开启
+  </String>
+	<String id="EnableQQGame_Desc">
+    已启用QQ游戏，确定后您可以从主面板上直接进入使用
+  </String>
+	<String id="DisableQQGame_Desc">
+    已停用QQ游戏，确定后主面板上的QQ游戏入口将隐藏，如果您想直接使用请重新开启
+  </String>
+	<String id="EnableQQLive_Desc">
+    已启用QQ视频，确定后您可以从主面板上直接进入使用
+  </String>
+	<String id="DisableQQLive_Desc">
+    已停用QQ视频，确定后主面板上的QQ视频入口将隐藏，如果您想直接使用请重新开启
+  </String>
+	<String id="ModeShowUpdateInfoInMainPanel">
+    业务更新信息
+  </String>
+	<String id="ModeShowRichStatusInMainPanel">
+    游戏\音乐\QQ视频状态
+  </String>
+	<String id="ModeShowOptPageInContactTip">
+    业务资料页签
+  </String>
+	<String id="ModeShowOptListInContactTip">
+    显示好友已开通业务的图标
+  </String>
+	<String id="ModeShowUpdateInfoInChatFrame">
+    显示业务更新摘要
+  </String>
+	<String id="Application">
+    应用
+  </String>
+	<String id="MainMenu_AllServices">
+    所有服务
+  </String>
+	<String id="MainMenu_QZone">
+    QQ空间
+  </String>
+	<String id="MainMenu_PaiPai">
+    拍拍购物
+  </String>
+	<String id="MainMenu_QQCOM">
+    QQ.COM
+  </String>
+	<String id="MainMenu_SOSO">
+    SOSO搜索
+  </String>
+	<String id="MainMenu_NetGames">
+    网络游戏
+  </String>
+	<String id="MainMenu_QQMobile">
+    手机QQ
+  </String>
+	<String id="MainMenu_News">
+    新闻资讯
+  </String>
+	<String id="MainMenu_Ecommerce">
+    财付通
+  </String>
+	<String id="MainMenu_SoftwareCenter">
+    软件中心
+  </String>
+	<String id="MainMenu_Entertainment_QQShow">
+    QQ秀商城
+  </String>
+	<String id="MainMenu_Entertainment_QQSanGuo">
+    QQ三国
+  </String>
+	<String id="MainMenu_QQMobile_Lastist">
+    最新推荐
+  </String>
+	<String id="MainMenu_QQMobile_Bind">
+    绑定手机
+  </String>
+	<String id="MainMenu_QQMobile_MobileQQ">
+    手机QQ
+  </String>
+	<String id="MainMenu_News_Order">
+    订阅新闻
+  </String>
+	<String id="MainMenu_News_TodayNews">
+    今日焦点
+  </String>
+	<String id="MainMenu_Ecommerce_MoneyBag">
+    我的钱包
+  </String>
+	<String id="MainMenu_QQMobile_3GQQ">
+    手机腾讯网
+  </String>
+	<String id="MainMenu_QQMobile_WAP">
+    WAP
+  </String>
+	<String id="MainMenu_QQMobile_Game">
+    手机游戏
+  </String>
+	<String id="MainMenu_QQMobile_Ring">
+    彩铃
+  </String>
+	<String id="MainMenu_QQMobile_lingtong">
+    小灵通
+  </String>
+	<String id="MainMenu_QQMobile_qianliyan">
+    QQ千里眼
+  </String>
+	<String id="MainMenu_QQMobile_MsgSuper">
+    短信超人
+  </String>
+	<String id="MainMenu_QQMobile_SuperQQ">
+    超级QQ
+  </String>
+	<String id="MainMenu_QQMobile_Msg">
+    彩信
+  </String>
+	<String id="MainMenu_QQMobile_AudioVIP">
+    语音VIP
+  </String>
+	<String id="Tip_Contact_Panel">
+    QQ好友面板
+  </String>
+	<String id="List_Contact_Panel">
+    QQ面板(系统)
+  </String>
+	<String id="PanelCenter">
+    面板管理器
+  </String>
+	<String id="Title_PanelCenter">
+    全部面板列表
+  </String>
+	<String id="MainMenu_HeadTips_ChangeInfo">
+    修改个人资料
+  </String>
+	<String id="Menu_QQMobile_Lastist_Title">
+    手机玩QQ-最新推荐
+  </String>
+	<String id="Menu_QQMobile_Bind_Title">
+    手机绑定向导
+  </String>
+	<String id="CustomModeSetting">
+    自定义设置
+  </String>
+	<String id="MsgImport_MsgEncrypt">
+    消息记录已加密。请输入消息密码:
+  </String>
+	<String id="MsgImport_MsgPswdError">
+    &lt;text config=&quot;RedStatic&quot;&gt;密码不正确。&lt;/text&gt;&lt;text&gt;请重新输入消息密码:&lt;/text&gt;
+  </String>
+	<String id="MsgImport_InputAnswer">
+    如果你忘了密码，请回答密码提示问题:
+  </String>
+	<String id="MsgImport_useQuestion">
+    密码提示
+  </String>
+	<String id="MsgImport_usePassword">
+    密码提示
+  </String>
+	<String id="Button_Skip">
+    跳过
+  </String>
+	<String id="MsgImport_AccountError">
+    输入密码错误，导入聊天记录文件失败，请重新导入
+  </String>
+	<String id="MsgImport_PswdError">
+    输入加密口令错误，导入聊天记录文件失败，请重新导入
+  </String>
+	<String id="MsgImport_AnswerError">
+    输入提示问题答案错误，导入聊天记录文件失败，请重新导入
+  </String>
+	<String id="Tips_ImportTaskTray">
+    $__PNAME_V$正在导入历史数据，已导入$PERCENT$%
+  </String>
+	<String id="Tips_ImportFinish">
+    数据导入已完成
+  </String>
+	<String id="Menu_ImportOpenWizard">
+    显示界面
+  </String>
+	<String id="Menu_ImportCancel">
+    取消
+  </String>
+	<String id="Menu_ImportExit">
+    退出
+  </String>
+	<String id="Option_AllowEdit">
+    允许管理员协助修改我的群名片
+  </String>
+	<String id="Static_SkinPubName">
+    名    称:
+  </String>
+	<String id="Static_SkinAuthor">
+    作    者:
+  </String>
+	<String id="Static_SkinTime">
+    时    间:
+  </String>
+	<String id="Static_SkinCopyright">
+    版    权:
+  </String>
+	<String id="Static_SkinExplain">
+    说    明:
+  </String>
+	<String id="SkinMgr_InstallSkin">
+    已安装皮肤
+  </String>
+	<String id="SkinMgr_Current">
+    (当前)
+  </String>
+	<String id="Button_SkinConfig_ChangeSkin">
+    更多皮肤
+  </String>
+	<String id="SkinConfig_AdjustColor">
+    调色
+  </String>
+	<String id="SkinConfig_AdjustBk">
+    底纹
+  </String>
+	<String id="Tips_SkinMgr">
+    皮肤管理器
+  </String>
+	<String id="SkinMgr_ClassicSkin_Name">
+    经典
+  </String>
+	<String id="SkinMgr_OfficeSkin_Name">
+    简洁
+  </String>
+	<String id="SkinMgr_SysSkin_Author">
+    Tencent
+  </String>
+	<String id="SkinMgr_SysSkin_ReleaseDate">
+    2008-01-01
+  </String>
+	<String id="SkinMgr_SysSkin_Copyright">
+    Tencent
+  </String>
+	<String id="SkinMgr_ClassicSkin_Description" fmt="true">
+    $__PNAME_V_TYPE$经典皮肤
+  </String>
+	<String id="SkinMgr_OfficeSkin_Description" fmt="true">
+    $__PNAME_V_TYPE$简洁皮肤
+  </String>
+	<String id="SkinMgr_TMClassicSkin_Description" fmt="true">
+    $__PNAME_V_TYPE$经典皮肤
+  </String>
+	<String id="SkinMgr_TMOfficeSkin_Description" fmt="true">
+    $__PNAME_V_TYPE$简洁皮肤
+  </String>
+	<String id="MsgImport_MsgEncrypt_Account">
+    此聊天记录文件已加密，请输入帐号密码完成导入:
+  </String>
+	<String id="Title_ClickInst_WndTitle">
+    在线安装
+  </String>
+	<String id="ClickInst_NeedInst">
+    欢迎使用$CON$，请先安装或升级。
+  </String>
+	<String id="Button_ClickInst_DetailBtnText">
+    详细信息
+  </String>
+	<String id="Button_ClickInst_Install">
+    安装
+  </String>
+	<String id="Button_ClickInst_Cancel">
+    取消
+  </String>
+	<String id="ClickInst_Introduction">
+    什么是$CON$:
+  </String>
+	<String id="ClickInst_DownloadText">
+    正在为您下载$CON$的安装包，这个过程可能需要几分钟的时间，请稍候...
+  </String>
+	<String id="ClickInst_DownloadFromNetText">
+    从网站下载
+  </String>
+	<String id="ClickInst_DownloadTipText">
+    如果下载缓慢，点击这里从网站下载
+  </String>
+	<String id="Button_ClickInst_ErrorOk">
+    确定
+  </String>
+	<String id="ClickInst_Installing">
+    $CON$已有一个安装正在进行
+  </String>
+	<String id="ClickInst_FAIL_NET">
+    $CON$安装包下载失败，请确认网络连接正常然后重试。$LINE$您也可以从网站下载该安装包。
+  </String>
+	<String id="ClickInst_FAIL_NETNO">
+    $CON$安装包下载失败，请确认网络连接正常然后重试。
+  </String>
+	<String id="ClickInst_FAIL_WRITE">
+    $CON$安装包保存失败，可能是硬盘空间不足或被写保护。
+  </String>
+	<String id="Link_CF_CopyUrl">
+    复制网址
+  </String>
+	<String id="Link_CF_prevent">
+    反骗术中心
+  </String>
+	<String id="Link_CF_Report">
+    报告风险
+  </String>
+	<String id="Link_CF_Identify">
+    如何识别假冒腾讯网站
+  </String>
+	<String id="CF_CopyToClipBoard">
+    此网址已经成功复制到剪贴板
+  </String>
+	<String id="Menu_Tool_PluinMgr">
+    插件管理器
+  </String>
+	<String id="Title_PluinMgr">
+    插件管理器
+  </String>
+	<String id="Title_MsgImport">
+    消息记录导入
+  </String>
+	<String id="SkinMgr_SN_Name">
+    星空
+  </String>
+	<String id="SkinMgr_SN_Author">
+    Tencent
+  </String>
+	<String id="SkinMgr_SN_Copyright">
+    Tencent
+  </String>
+	<String id="SkinMgr_SN_ReleaseDate">
+    2008-01-01
+  </String>
+	<String id="SkinMgr_SN_Description" fmt="true">
+    $__PNAME_V_TYPE$星空皮肤
+  </String>
+	<String id="ToolTip_PutUp">
+    上移
+  </String>
+	<String id="ToolTip_PutDown">
+    下移
+  </String>
+	<String id="ToolTip_OpenSideBar">
+    展开侧边栏
+  </String>
+	<String id="ToolTip_CloseSideBar">
+    收起侧边栏
+  </String>
+	<String id="SkinConfig_ChangeSkin">
+    皮肤管理
+  </String>
+  <String id="Theme_Remove">
+    您确定要删除该皮肤吗？
+  </String>
+  <String id="Theme_DeleteAndRecover">
+    您要删除正在使用的皮肤，恢复默认皮肤吗？
+  </String>
+	<String id="SkinConfig_SelectSkin">
+    选择您使用的皮肤为:
+  </String>
+	<String id="CanResetStatusSetting">
+    确认要恢复默认状态设置吗？
+  </String>
+	<String id="Button_ShowSlideEffect">
+    切换好友列表时显示滑动效果
+  </String>
+	<String id="PopTips_SideBar_MoreService">
+    想体验更多服务，展开侧边栏后切换。
+  </String>
+	<String id="PopTips_SideBar_Hide">
+    您已经隐藏了侧边栏。想体验更多服务，点击按钮展开。
+  </String>
+	<String id="IDS_Modify_Profile">
+    修改个人资料
+  </String>
+	<String id="IDS_Modify_Head">
+    更换头像
+  </String>
+	<String id="Menu_SlideEffect">
+    滑动效果
+  </String>
+	<String id="IDS_Modify_Setting">
+    系统设置
+  </String>
+	<String id="Title_FaceEdit">
+    编辑涂鸦表情
+  </String>
+	<String id="Btn_SelectAPicture">
+    选择本地图片
+  </String>
+	<String id="Btn_FaceEdit_Finish">
+    完成
+  </String>
+	<String id="Btn_FaceEdit_Cancel">
+    取消
+  </String>
+	<String id="Tip_FaceEdit_Add">
+    点击添加表情
+  </String>
+	<String id="Tip_FaceEdit_SaveAs">
+    点击另存为...
+  </String>
+	<String id="Tip_FaceEdit_Edit">
+    点击编辑表情
+  </String>
+	<String id="Rich_Edit_To_QQFace">
+    编辑表情
+  </String>
+	<String id="Tip_FaceEdit_EditText">
+    编辑
+  </String>
+	<String id="FaceEdit_VipText">
+    尊敬的QQ会员，您可以免费无限次使用涂鸦表情。
+  </String>
+	<String id="FaceEdit_ViewDetail">
+    查看功能详情
+  </String>
+	<String id="FaceEdit_ChooseTextFrm">
+    请选择修饰框:
+  </String>
+	<String id="FaceEdit_NoVipText">
+    您还不是会员，开通QQ会员即可使用$LinkText$。
+  </String>
+	<String id="FaceEdit_NoVipTextLink">
+    涂鸦表情功能
+  </String>
+	<String id="VipTips_ChangeLocation">
+    更改登录地点
+  </String>
+	<String id="Btn_FaceEdit_OpenVip">
+    开通会员
+  </String>
+	<String id="FaceEdit_MoveText">
+    您可以拖动调整边框的位置及大小。
+  </String>
+	<String id="FaceEdit_AddToGroup">
+    添加表情到分组:
+  </String>
+	<String id="FaceEdit_FontSetting">
+    字体设置
+  </String>
+	<String id="FaceEdit_FontDefault">
+    幼圆
+  </String>
+	<String id="FaceEdit_ErrNotPromptNext">
+    下次不再提示
+  </String>
+	<String id="FaceEdit_ErrWndTitle">
+    提示
+  </String>
+	<String id="FaceList_MoveTo">
+    移动到
+  </String>
+	<String id="FaceList_EditFace">
+    编辑表情
+  </String>
+	<String id="FaceList_DeleteFace">
+    删除
+  </String>
+	<String id="FaceList_AddNew">
+    新增自定义表情
+  </String>
+	<String id="FaceRoam_Info_Text">
+    表情漫游为会员专属特权:现在就升级QQ会员，享受40余项精彩特权？
+  </String>
+	<String id="FaceRoam_Info_TextPerGrp">
+    单个分组最多可传$NUM$张，系统将自动上传前$NUM$张，是否确认设置？
+  </String>
+	<String id="FaceRoam_Info_TextPerVip">
+    您本组内表情大于VIP$VIPNUM$可上传上限，我们将自动为您上传前$NUM$，是否确定上传？
+  </String>
+	<String id="FaceRoam_Info_TextGrpNum">
+    表情漫游分组设置不能多于$NUM$个，请调整漫游分组$NUM$个以下后再次操作。
+  </String>
+	<String id="FaceRoam_Info_CancelRoam">
+    取消表情漫游后，本组表情将从服务器删除且不再自动上传及下载，是否确认取消？
+  </String>
+	<String id="FaceRoam_Info_KnowMore">
+    了解表情漫游详情
+  </String>
+	<String id="FaceRoam_RoamTips">
+    QQ会员特权:更换计算机后仍可使用本组表情
+  </String>
+	<String id="FaceRoam_RoamText">
+    启用本组表情漫游
+  </String>
+	<String id="FaceRoam_CancelRoam">
+    取消本组表情漫游
+  </String>
+	<String id="FaceRoam_RoamResult">
+    表情漫游$NUM$个
+  </String>
+	<String id="FaceRoam_SetRoam">
+    设置此表情漫游
+  </String>
+	<String id="FaceRoam_CancelOneRoam">
+    取消此表情漫游
+  </String>
+	<String id="FaceRoam_AllReadyRoam">
+    已漫游
+  </String>
+	<String id="FaceRoam_MaxPicNum">
+    上限
+  </String>
+	<String id="FaceRoam_WaitingText">
+    等待上传中，请稍候...
+  </String>
+	<String id="FaceRoam_Uploading">
+    正在上传:
+  </String>
+	<String id="FaceRoam_Ignor">
+    忽略
+  </String>
+	<String id="FaceRoam_UpResult1">
+    已上传$NUM$个表情
+  </String>
+	<String id="FaceRoam_UpResult2">
+    已上传$NUM1$，$NUM2$个连接超时
+  </String>
+	<String id="FaceRoam_UpResult3">
+    已上传$NUM1$，$NUM2$个超过$NUM3$K
+  </String>
+	<String id="FaceRoam_Retry">
+    重试
+  </String>
+	<String id="FaceRoam_RomeGrpText">
+    本组表情已漫游:此后添加的表情将自动上传和下载。
+  </String>
+	<String id="FaceRoam_OneRoamPrompText">
+    您可保存服务器的图片已达上限，是否将本表情添加到本地？
+  </String>
+	<String id="FaceEdit_FileFilter">
+    所有支持的图像文件(*.gif;*.jpg;*.bmp;*.png)|*.gif;*.jpg;*.jpeg;*.bmp;*.png|GIF图像文件(*.gif)|*.gif|JPG图像文件(*.jpg;*.jpeg)|*.jpg;*.jpeg|BMP图像文件(*.bmp)|*.bmp|PNG图像文件(*.png)|*.png||
+  </String>
+	<String id="FaceRoam_RomeResultTextTmp">
+    表情漫游 $NUM$个(目前仅支持下载已漫游表情到本地)
+  </String>
+	<String id="FaceRoam_FaceTipTextEditPt">
+    新增表情编辑功能，单击右键选择操作
+  </String>
+	<String id="FaceRoam_FaceTipText2">
+    已上传到服务器
+  </String>
+	<String id="FaceRoam_FaceTipText3">
+    该表情因大于$NUM$K上传失败
+  </String>
+	<String id="FaceRoam_FaceTipText4">
+    该表情因超时上传失败
+  </String>
+	<String id="FaceRoam_FaceTipText5">
+    已主动取消表情漫游
+  </String>
+	<String id="FaceRoam_FaceTipTextWait">
+    已在上传队列中，等待上传
+  </String>
+	<String id="FaceRoam_FaceTipTextTooMany">
+    超过上传限制
+  </String>
+	<String id="FaceRoam_NetErr">
+    网络超时
+  </String>
+	<String id="FaceRoam_NetErrPrmt">
+    提示
+  </String>
+	<String id="FaceRoam_MaxTabErrPrmt">
+    表情漫游分组设置不能多于$NUM$个,请调整漫游分组至$NUM$个以下后操作
+  </String>
+	<String id="FaceRoam_TooMany">
+    您的上传表情总和已达到VIP$NUM$上限,不能再进行添加。
+  </String>
+	<String id="FaceRoam_TooManyByTabLimit">
+    单个分组最多可传$NUM$个表情,建议你添加到其它分组。
+  </String>
+	<String id="FaceRoam_FaceRoam">
+    表情漫游
+  </String>
+	<String id="Tip_VAS_SpecialNumber">
+    QQ靓号
+  </String>
+	<String id="Title_FaceEdit_Alert">
+    提示:
+  </String>
+	<String id="Text_FaceEdit_Alert">
+    您选择的图片超过预定大小，会影响您的加载速度，是否确认继续使用此图片?
+  </String>
+	<String id="Text_FaceEdit_Alert2">
+    您选择的图片超过预定大小，系统将对图片进行压缩，您是否确定继续编辑此图片?
+  </String>
+	<String id="Chb_FaceEdit_PromptNext">
+    下次再提示
+  </String>
+	<String id="Btn_FaceEdit_Ok">
+    确定
+  </String>
+	<String id="Tip_QQMemberRedColorNick">
+    QQ会员红色昵称
+  </String>
+  <String id="MsgRecord">
+    消息记录:
+  </String>
+	<String id="LocalMsgRecord">
+    本地消息记录
+  </String>
+	<String id="RomMsgRecord">
+    漫游消息记录
+  </String>
+  <String id="UpMsgRecord">
+    上传消息记录
+  </String>
+  <String id="LocalMsgChat">
+    本地
+  </String>
+  <String id="RomMsgChat">
+    已漫游
+  </String>
+  <String id="UpMsgChat">
+    已上传
+  </String>
+  <String id="LookUpMsg">
+    查看上传消息
+  </String>
+  <String id="UpMsgTitle">
+    上传聊天记录
+  </String>
+  <String id="UpMsgWelcomeTextHead">
+    尊敬的用户:
+  </String>
+  <String id="UpMsgWelcomeTextBefor">
+    欢迎您使用
+  </String>
+  <String id="UpMsgWelcomeLink">
+    消息记录上传功能
+  </String>
+  <String id="UpMsgWelcomeTextEnd">
+    。消息上传以后，更换电脑也可以看见上传的消息，方便你随时查看重要信息。
+  </String>
+  <String id="SafeText">
+    信息安全说明:
+  </String>
+  <String id="KeyProtect">
+    申请2代密保
+  </String>
+  <String id="SafeTextContent">
+    1.为了消息记录的安全性，每次您查看上传消息记录的时候我们都会自动判断您的号码是否有异常，如果有异常的话则不能成功查看。&#10;2.开通2代密码保护的用户在查看上传消息前，如果QQ号码异常则需要回答密码保护问题，通过验证则可成功查看。&#10;3.为了您的消息安全，我们建议您申请2代密码保护。
+  </String>
+  <String id="SafeSure">
+    我已阅读并同意消息上传下载规则
+  </String>
+  <String id="UpStart">
+    开始上传
+  </String>
+  <String id="UpFriendName">
+    上传与$FriendName$的消息记录到服务器
+  </String>
+  <String id="UpMsgToday">
+    上传当天消息记录
+  </String>
+  <String id="UpMsgDuring">
+    选择一段时间内的消息记录上传
+  </String>
+  <String id="StaticFrom">
+    从:
+  </String>
+  <String id="StaticTo">
+    到:
+  </String>
+  <String id="StaticFileName">
+    文件保存为:
+  </String>
+  <String id="StaticKB">
+    KB
+  </String>
+  <String id="StaticDate">
+    时间:
+  </String>
+  <String id="StaticUsed">
+    剩余空间:
+  </String>
+  <String id="TimeFromTips">
+    设置上传起始时间
+  </String>
+  <String id="TimeToTips">
+    设置上传结束时间
+  </String>
+  <String id="ProcessTitle">
+    上传消息记录
+  </String>
+  <String id="LocalMsg">
+    查看本地消息
+  </String>
+  <String id="RoamMsg">
+    查看漫游消息
+  </String>
+  <String id="UploadMsg">
+    查看上传消息
+  </String>
+  <String id="SuccesWord">
+    消息记录上传成功
+  </String>
+  <String id="FailWord">
+    消息记录上传失败
+  </String>
+  <String id="FillTitle">
+    上传提示
+  </String>
+  <String id="FailTitle">
+    上传失败
+  </String>
+  <String id="SystemFail">
+    系统繁忙，请稍后再试。
+  </String>
+  <String id="SystemFail_OverFil">
+    单次文件上传过大，请缩小上传范围，重新选择（建议每次低于2000条）。
+  </String>
+  <String id="EmptyFail">
+    所选区域没有消息记录，请重新选择。
+  </String>
+  <String id="DuringError">
+    所选时间段有误，请重新选择。
+  </String>
+  <String id="OkWord">
+    确定
+  </String>
+  <String id="CancelWord">
+    取消
+  </String>
+  <String id="ShutWord">
+    关闭
+  </String>
+  <String id="UpProcessWord">
+    正在上传$FileName$...
+  </String>
+  <String id="OpenVip">
+    升级会员
+  </String>
+  <String id="FillCommonWord">
+    你的消息记录上传已超过$FileSize$KB，请升级为会员获得更大上传特权。
+  </String>
+  <String id="ToKnowVip">
+    了解会员详情
+  </String>
+  <String id="FillVipWord">
+    您上传的消息记录超过了您的QQ会员等级允许上传的最大容量，感谢您使用QQ会员，您的会员升级以后将获取更大上传特权。
+  </String>
+  <String id="UploadMouseOver">
+    点击上传消息记录
+  </String>
+	<String id="InCorrectPage">
+    请输入正确的页码
+  </String>
+	<String id="Title_InCorrectPage">
+    错误
+  </String>
+	<String id="MsgPage">
+    第
+  </String>
+	<String id="MsgTotalPage">
+    页/$PAGES$页
+  </String>
+	<String id="MsgTotalPage_0">
+    页/0页
+  </String>
+	<String id="Sunday_Simple">
+    日
+  </String>
+	<String id="Monday_Simple">
+    一
+  </String>
+	<String id="Tuesday_Simple">
+    二
+  </String>
+	<String id="Wednesday_Simple">
+    三
+  </String>
+	<String id="Thursday_Simple">
+    四
+  </String>
+	<String id="Friday_Simple">
+    五
+  </String>
+	<String id="Saturday_Simple">
+    六
+  </String>
+	<String id="Sunday">
+    星期日
+  </String>
+	<String id="Monday">
+    星期一
+  </String>
+	<String id="Tuesday">
+    星期二
+  </String>
+	<String id="Wednesday">
+    星期三
+  </String>
+	<String id="Thursday">
+    星期四
+  </String>
+	<String id="Friday">
+    星期五
+  </String>
+	<String id="Saturday">
+    星期六
+  </String>
+	<String id="PreYear">
+    上一年(长按连续递减)
+  </String>
+	<String id="NextYear">
+    下一年(长按连续递增)
+  </String>
+	<String id="PreMonth">
+    上一月(长按连续递减)
+  </String>
+	<String id="NextMonth">
+    下一月(长按连续递增)
+  </String>
+	<String id="MonthCalCtrl_Help">
+    帮助
+  </String>
+	<String id="MonthCalCtrl_Close">
+    关闭
+  </String>
+	<String id="KnowMore">
+    了解详情
+  </String>
+	<String id="UpdateToNumber">
+    升级为会员
+  </String>
+	<String id="Title_AuthSettingNotify">
+    权限设置提示
+  </String>
+	<String id="PromptVisible">
+    设置成功，您隐身时该好友也可以看到您的在线状态。
+  </String>
+	<String id="PromptInVisible">
+    设置成功，该好友将看不到您的在线状态。
+  </String>
+	<String id="Menu_ChangeMyHeadImage">
+    更改我的头像
+  </String>
+	<String id="Menu_ChangeMyInfo">
+    个人资料
+  </String><String id="Tips_Camera_Toolbar_BtnRectangleTip">
+    添加矩形
+  </String>
+	<String id="Menu_ShowMyHeadImage">
+    显示我的头像
+  </String><String id="Tips_Camera_Toolbar_CircleTip">
+    添加椭圆
+  </String>
+	<String id="RomAllMsgRecordSet">
+    永久漫游好友聊天记录，已设置$SET$人/
+  </String><String id="Tips_Camera_Toolbar_ArrowTip">
+    添加箭头
+  </String>
+	<String id="RomThisMsgRecordSet">
+    永久漫游此好友聊天记录(已设置$SET$人/
+  </String><String id="Tips_Camera_Toolbar_TextTip">
+    添加文字
+  </String>
+	<String id="RomThisMsgRecordCount">
+    $COUNT$人)
+  </String><String id="Tips_Camera_Toolbar_UndoTip">
+    撤销编辑
+  </String>
+	<String id="RomAllMsgRecordCount">
+    $COUNT$人
+  </String>
+	<String id="RomAllMsgRecordLastMonth">
+    漫游全体好友最近1个月的记录
+  </String><String id="Tips_Camera_Toolbar_SaveTip">
+    保存
+  </String>
+	<String id="MsgRom">
+    消息漫游
+  </String>
+	<String id="Desc">
+    描述
+  </String><String id="Tips_Camera_Toolbar_ExitTip">
+    退出截图
+  </String>
+	<String id="Empty_Menu">
+    (空)
+  </String><String id="Tips_Camera_Toolbar_FinishTip">
+    完成截图
+  </String>
+	<String id="Title_ImpeachFrame_Prompt">
+    提示
+  </String><String id="Menu_Camera_PopMenu_Rectangle">
+    添加矩形
+  </String>
+	<String id="ImpeachFrame_WrongUin">
+    您输入的帐号不属于这个群或讨论组。请您输入该会话的参与者作为举报对象。
+  </String><String id="Menu_Camera_PopMenu_Circle">
+    添加椭圆
+  </String>
+	<String id="ImpeachFrame_SelfUin">
+    对不起，您不能举报自己。
+  </String><String id="Menu_Camera_PopMenu_Arrow">
+    添加箭头
+  </String>
+	<String id="ImpeachFrame_EmptyUin">
+    请您先填写“恶意帐号”内容后，再提交举报。
+  </String><String id="Menu_Camera_PopMenu_Text">
+    添加文字
+  </String>
+	<String id="ImpeachFrame_Success">
+    举报已成功提交，系统将立刻审核处理。
+  </String><String id="Menu_Camera_PopMenu_Undo">
+    撤销编辑
+  </String>
+	<String id="ImpeachFrame_Fail">
+    举报信息提交失败，请您稍后重试。
+  </String><String id="Menu_Camera_PopMenu_Reset">
+    重新选择截图区域
+  </String>
+	<String id="Register">
+    开通
+  </String><String id="Menu_Camera_PopMenu_Copy">
+    复制并退出截图
+  </String>
+	<String id="MsgRoamMgr">
+    管理
+  </String><String id="Menu_Camera_PopMenu_SaveAs">
+    另存为
+  </String>
+	<String id="MsgBoxCancelRoamAll">
+    取消漫游全体好友1个月记录后，聊天记录将不再上传服务器，是否确认取消设置？
+  </String><String id="Menu_Camera_PopMenu_Hide">
+    隐藏编辑工具栏
+  </String>
+	<String id="Menu_Camera_PopMenu_Show">
+    显示编辑工具栏
+  </String>
+	<String id="MsgBoxCancelRoamOne1">
+    取消永久漫游此好友记录后，与此好友的聊天记录将不再上传服务器，是否确认取消设置？
+  </String><String id="Menu_Camera_PopMenu_Exit">
+    退出截图
+  </String>
+	<String id="MsgBoxCancelRoamOne2">
+    是否确认取消与此好友的永久漫游设置？
+  </String>
+	<String id="SaveSettingOK">
+    保存设置成功
+  </String>
+	<String id="MsgRecordRoam">
+    消息记录漫游
+  </String>
+	<String id="Title_MsgRecordRoamSetting">
+    消息漫游设置
+  </String>
+	<String id="MsgBoxNotSetRoam">
+    您还未开启聊天记录漫游的首次设置，请您打开任一好友的会话窗口，在右侧聊天记录窗口里，进行开启漫游的设置。
+  </String>
+	<String id="MsgBoxSetRoamErr">
+    您还不是QQ会员，请开通会员后体验聊天记录漫游功能。
+  </String>
+	<String id="MsgBoxSetRoamOverdueErr">
+    您的会员业务已过期，请重新开通QQ会员后查询已漫游聊天记录信息。
+  </String>
+	<String id="Button_ToBeMember">
+    开通会员(&amp;M)
+  </String>
+	<String id="MsgBoxSetRoamLimit">
+    您设置的漫游好友人数已达VIP$VIP$上限，请调整至$COUNT$人以下后继续设置。
+  </String>
+	<String id="MsgBoxOutRoamLimit">
+    超出VIP$VIP$设置上限，不能添加。
+  </String>
+	<String id="IDS_FONTSIZE_LIST">
+    8,9,10,11,12,14,16,18,20,22
+  </String>
+	<String id="Tip_ScreenCapButton">
+    屏幕截图
+  </String>
+	<String id="Tip_PwdGuardState">
+    密保级别 $LEVEL$，$LINK$
+  </String>
+	<String id="PwdGuardStateTipLink">
+    了解详情
+  </String>
+	<String id="PwdGuardStateLevel_High">
+    高
+  </String>
+	<String id="PwdGuardStateLevel_Mid">
+    中
+  </String>
+	<String id="PwdGuardStateLevel_Low">
+    低
+  </String>
+	<String id="Font_SongTi">
+    宋体
+  </String>
+	<String id="Font_YaHei">
+    微软雅黑
+  </String>
+	<String id="Font_Tahoma">
+    Tahoma
+  </String>
+	<String id="CameraSaveAs_FileFilter">
+    PNG (*.png)|*.png|BMP文件 (*.bmp)|*.bmp|PEG (*.jpg;*.jpeg)|*.jpg;*.jpeg|GIF (*.gif)|*.gif||
+  </String>
+	<String id="CameraSaveAs_FileFilter_PNG">
+    PNG (*.png)|*.png|
+  </String>
+	<String id="CameraSaveAs_FileFilter_BMP">
+    BMP文件 (*.bmp)|*.bmp|
+  </String>
+	<String id="CameraSaveAs_FileFilter_JPG">
+    JPEG (*.jpg;*.jpeg)|*.jpg;*.jpeg|
+  </String>
+	<String id="CameraSaveAs_FileFilter_GIF">
+    GIF (*.gif)|*.gif|
+  </String>
+	<String id="CameraSaveAs_DefaultFileName">
+    QQ截图未命名
+  </String>
+	<String id="CameraSaveAs_DefaultFileExt">
+    png
+  </String>
+	<String id="Button_PrevPage">
+    上一页
+  </String>
+	<String id="Button_NextPage">
+    下一页
+  </String>
+	<String id="Button_FirstPage">
+    第一页
+  </String>
+	<String id="Button_LastPage">
+    最后页
+  </String>
+	<String id="Tips_Forward">
+    向前
+  </String>
+	<String id="Tips_Backward">
+    向后
+  </String>
+	<String id="Tips_MonthCtrl">
+    按日期查看消息记录
+  </String>
+	<String id="ReturnBack">
+    返回
+  </String>
+	<String id="Tips_QInterLiveCheckError">
+    验证号码失败。
+  </String>
+	<String id="Tips_OfflinePicTips">
+    您知道吗？现在您可以向离线好友发送带自定义图片的消息了，赶快试试吧。
+  </String>
+	<String id="BlueBarTips_SinglePicTooLarge">
+    离线图片发送失败，单张图片大小不能超过$NUM$K。
+  </String>
+	<String id="BlueBarTips_TotalSizeTooLarge">
+    离线图片发送失败，单条消息图片量超过$NUM$K。
+  </String>
+	<String id="BlueBarTips_TooManyPics">
+    离线图片发送失败，单条消息图片超过$NUM$张。
+  </String>
+	<String id="Title_AdvGroup">
+    高级群
+  </String>
+	<String id="Title_SuperGroup">
+    超级群
+  </String>
+	<String id="Title_SuperGroupSuffix">
+    -已过期
+  </String>
+	<String id="Title_SuperGroupOverdue">
+    (本超级群已过期)
+  </String>
+	<String id="Tips_OfflinePicSuccessTips">
+    离线图片已经发送完毕！
+  </String>
+	<String id="Tips_OfflinePicFailTips">
+    离线图片发送失败。
+  </String>
+	<String id="MainPanel_Menu_ShowRemarkAndNick">
+    显示备注和昵称
+  </String>
+	<String id="MainPanel_Menu_ShowRemark">
+    显示备注
+  </String>
+	<String id="MainPanel_Menu_ShowRemarkOnly">
+    只显示备注
+  </String>
+	<String id="MainPanel_Menu_ShowNick">
+    显示昵称
+  </String>
+	<String id="MainPanel_Menu_ShowNickOnly">
+    只显示昵称
+  </String>
+	<String id="MainPanel_Menu_CleanlilyMode">
+    显示清爽资料
+  </String>
+	<String id="Link_ContactInfoFrame_ChangeHead">
+    更换头像
+  </String>
+	<String id="CampusUser_VASFLAG_Tips">
+    QQ校友
+  </String>
+	<String id="Title_GroupAttendContentFrame">
+    设置关注内容
+  </String>
+	<String id="Title_GroupAttendUin">
+    关注群成员列表
+  </String>
+	<String id="Button_SetMember">
+    设置成员
+  </String>
+	<String id="Title_SetGroupAttendMember">
+    选择关注群成员
+  </String>
+	<String id="Text_GroupAttendUin">
+    当列表中的成员发送消息时将自动取消屏蔽
+  </String>
+	<String id="Title_GroupAttendText">
+    请输入您所关注的关键字
+  </String>
+	<String id="One">
+    1.
+  </String>
+	<String id="Two">
+    2.
+  </String>
+	<String id="Three">
+    3.
+  </String>
+	<String id="Four">
+    4.
+  </String>
+	<String id="Five">
+    5.
+  </String>
+	<String id="Title_ModifyGroupRemark">
+    修改备注名称
+  </String>
+	<String id="Menu_ModifyGroupRemark">
+    修改备注名称
+  </String>
+	<String id="Text_ModifyGroupRemark">
+    请输入备注名称:
+  </String>
+	<String id="MB_ModifyGroupRemarkFail">
+    修改备注名称失败。
+  </String>
+	<String id="Text_GroupProp">
+    属性: 
+  </String>
+	<String id="Text_GroupClass">
+    类别: 
+  </String>
+	<String id="Tips_GroupClass">
+    $CLASS$，点击查看详情
+  </String>
+	<String id="Format_GroupNameAndCode">
+    $NAME$($CODE$)
+  </String>
+	<String id="Tips_GroupNameAndCode">
+    $NAMEANDCODE$，点击查看群资料
+  </String>
+	<String id="Text_NormalGroup">
+    普通群
+  </String>
+	<String id="Text_AdvGroup">
+    高级群
+  </String>
+	<String id="Text_SuperGroup">
+    超级群
+  </String>
+	<String id="Text_SuperGroup_Overdue">
+    -已过期
+  </String>
+	<String id="CampusGroup_AIOToolBar_HomePage">
+    班级主页
+  </String>
+	<String id="CampusGroup_AIOToolBar_BBS">
+    班级论坛
+  </String>
+	<String id="CampusGroup_KEY">
+    kk$@%$#^%$&amp;23DS1
+  </String>
+	<String id="CampusGroup_MD5">
+    *&amp;74%2@Zhu&amp;Xi&gt;
+  </String>
+	<String id="MainPanel_Menu_CapmusHomePage">
+    访问班级主页
+  </String>
+	<String id="CAMPUSGROUP_AIO_EXTTAB_TITLE">
+    班级动静
+  </String>
+	<String id="OldSysBroadcast_See_Detail">
+    查看详情
+  </String>
+	<String id="Title_OldSysBroadcast">
+    系统消息
+  </String>
+	<String id="CustomGroupHead_NeedToKnow">
+    &lt;自定义图标使用须知&gt;
+  </String>
+	<String id="CustomGroupHead_NeedToKnowPrompt">
+    请您选择自定义图标，使用自定义图标之前请阅读&lt;自定义图标使用须知&gt;
+  </String>
+	<String id="CustomGroupHead_SelfDefine">
+    自定义群图标(共$NUM$个)
+  </String>
+	<String id="CustomGroupHead_Commend">
+    推荐群图标(共$NUM$个)
+  </String>
+	<String id="CustomGroupHead_Special">
+    推荐高级群和超级群图标
+  </String>
+	<String id="CustomGroupHead_BubbleTip1">
+    普通群还不能使用推荐高级群和超级群图标，请先升级为高级群
+  </String>
+	<String id="CustomGroupHead_BubbleTip2">
+    普通群还不能上传自定义图标，请先升级为高级群
+  </String>
+	<String id="CustomGroupHead_BubbleTip3">
+    普通群还不能使用自定义图标，请先升级为高级群
+  </String>
+	<String id="Link_BeAdvGroup">
+    立即升级
+  </String>
+	<String id="Button_OldBroadcast_close">
+    关闭
+  </String>
+	<String id="Button_OldBroadcast_Next">
+    下一条
+  </String>
+	<String id="Button_OldBroadcast_Look">
+    查看
+  </String>
+	<String id="Tips_NoMember_NoDynHead">
+    图片不动？开通会员，
+让头像动起来
+  </String>
+	<String id="Tips_BeMember_Link">
+    立即升级
+  </String>
+	<String id="CustomHead_Format_Error">
+    图片格式错误，请重新选择。
+  </String>
+	<String id="CustomHead_TooManyFrame">
+    您选择的动态图片帧数超过40帧，请重新选择。
+  </String>
+	<String id="CustomHead_TooLarge">
+    文件大小超过限制！请选择小一点的图片。
+  </String>
+	<String id="CustomHead_UnkownError">
+    图片处理错误。
+  </String>
+	<String id="CampusGroup_CollegeExtName">
+    校园生活
+  </String>
+	<String id="CampusGroup_RefreshHeadImage">
+    刷新
+  </String>
+	<String id="CampusGroup_JoinCollegeTime">
+    %u年入学
+  </String>
+	<String id="CampusGroup_ViewInfo">
+    点击查看资料
+  </String>
+	<String id="Button_CustomGroupHead">
+    更换图标
+  </String>
+	<String id="Title_CustomGroupHead">
+    更换群图标
+  </String>
+	<String id="VASFlag_VasPrompt">
+    开通服务:
+  </String>
+	<String id="VipConfig_ForbidAd">
+    不显示广告(会员设置项)
+  </String>
+	<String id="OldSysBroadcast_Click_Detail">
+    详情请点击
+  </String>
+	<String id="ShakeWindow_Offline_Tip">
+    您的好友不在线或隐身，不能发送窗口抖动。
+  </String>
+	<String id="ShakeWindow_LowVer_Tip">
+    您不能向此联系人发送窗口抖动，因为对方使用的版本不支持此功能。
+  </String>
+	<String id="ShakeWindow_TooMany_Tip">
+    您发送窗口抖动过于频繁，请稍候再发。
+  </String>
+	<String id="ShakeWindow_SendComplete_Tip">
+    您发送了一个窗口抖动。
+  </String>
+	<String id="ShakeWindow_Receive_Tip">
+    $NAME$给您发送了一个窗口抖动。
+  </String>
+	<String id="ShakeWindow_Receive_Tip2">
+    发送了一个窗口抖动
+  </String>
+	<String id="ShakeWindow_TipTitle">
+    窗口抖动
+  </String>
+	<String id="ShakeWindow_Setting">
+    允许接收窗口抖动
+  </String>
+	<String id="ChatFrameSplit_Setting">
+    总是显示好友聊天窗口侧边栏
+  </String>
+	<String id="Button_MsgBoxEx_Ok">
+    确定
+  </String>
+	<String id="Button_MsgBoxEx_Cancel">
+    取消
+  </String>
+	<String id="Button_MsgBoxEx_Retry">
+    重试
+  </String>
+	<String id="Button_MsgBoxEx_Yes">
+    是
+  </String>
+	<String id="Button_MsgBoxEx_No">
+    否
+  </String>
+	<String id="Title_SecurityWnd">
+    QQ安全中心
+  </String>
+	<String id="Button_PwdGuard_Update">
+    立即升级
+  </String>
+	<String id="Add_too_more">
+    对不起，您一次最多可以添加100个成员，请重新选择。
+  </String>
+	<String id="ESC_Char1">/微笑/</String>
+	<String id="ESC_Char2">/呲牙/</String>
+	<String id="ESC_Char3">/爱心/</String>
+	<String id="ESC_Char4">/玫瑰/</String>
+	<String id="ESC_Char5">/强/</String>
+	<String id="ESC_Char6">/胜利/</String>
+	<String id="ESC_Char7">/拳头/</String>
+	<String id="ESC_Char8">/OK/</String>
+	<String id="ESC_Char9">/爱你/</String>
+	<String id="ESC_Char10">/太阳/</String>
+	<String id="ESC_Char11">/奋斗/</String>
+	<String id="ESC_Char12">/飞吻/</String>
+	<String id="AIO_Campus_Title">班级群</String>
+	<String id="Title_GroupWnd_Fmt">$TITLE$ — $NAME$</String>
+	<String id="CF_PICTURE_OVERSIZE_PRECHECK">
+    发送消息中包含的图片大小超过5M，请采用传送文件的方式发送。
+  </String>
+	<String id="AutoUpdate_Warning">
+    提示
+  </String>
+	<String id="AutoUpdate_WarningText">
+    已经有一个升级实例在运行。
+  </String>
+	<String id="GroupPanel_Menu_BigHead">
+    大图标
+  </String>
+	<String id="GroupPanel_Menu_SmallHead">
+    小图标
+  </String>
+	<String id="GroupPanel_Menu_StandarHead">
+    标准图标
+  </String>
+	<String id="GroupPanel_Menu_GroupHead">
+    图标显示
+  </String>
+	<String id="TempSession_OfflineSendPic_Tip">
+    对方不在线或者隐身，无法发送图片。
+  </String>
+	<String id="Button_AddBuddyFrame_AddBuddy">
+    加为好友
+  </String>
+	<String id="Text_AddBuddyFrame_NULL">
+    (无)
+  </String>
+	<String id="Menu_GroupMember_AddBuddy">
+    加为好友
+  </String>
+	<String id="Button_ContactInfo_AddBuddy">
+    加为好友
+  </String>
+	<String id="Tip_OpenNotify">
+    点击开启该提醒
+  </String>
+	<String id="Tip_CloseNotify">
+    点击关闭该提醒
+  </String>
+	<String id="ViewImageTip">
+    双击查看原图
+  </String>
+	<String id="ShortcutReplySetting">
+    快捷回复设置
+  </String>
+	<String id="SetShortcutReplyContent">
+    设置快捷回复(50字以内)
+  </String>
+	<String id="QuickReplyText1">
+    哦
+  </String>
+	<String id="QuickReplyText2">
+    好了,好了,我知道了
+  </String>
+	<String id="QuickReplyText3">
+    是吗?
+  </String>
+	<String id="QuickReplyText4">
+    不会是真的吧?
+  </String>
+	<String id="AddQuickRepley">
+    添加
+  </String>
+	<String id="DelQuickReply">
+    删除
+  </String>
+	<String id="MsgBoxReplyNotNull">
+    留言不能为空
+  </String>
+	<String id="MsgBoxReplyNotNullTitle">
+    请注意
+  </String>
+	<string id="Transparent">
+    透明度
+  </string>
+	<String id="QuickReplyMenuSetting">
+    进行快捷回复菜单设置...
+  </String>
+	<String id="ChatFrameMiniSizeTitle">
+    $NickName$ - 正在输入
+  </String>
+	<String id="TransPercentErrorTip">
+    透明度为0%--80%之间的一个整数
+  </String>
+	<!--主意这里的空格为全角的,设置半角的空格tips的宽度和static显示的宽度是不一致的.-->
+	<String id="InfoPage_NickName">
+    昵　　称
+  </String>
+	<String id="InfoPage_RemarkName">
+    备注姓名
+  </String>
+	<String id="InfoPage_LongNick">
+    个性签名
+  </String>
+	<String id="InfoPage_Account">
+    帐　　号
+  </String>
+	<String id="InfoPage_Gender">
+    性　　别
+  </String>
+	<String id="InfoPage_BloodType">
+    血　　型
+  </String>
+	<String id="IDS_MobileQQ_ChatFrameEntry">
+    手机免费聊QQ
+  </String>
+	<String id="ContactTips_PhoneQQBtn">
+    手机QQ
+  </String>
+	<String id="ContactTips_WapQQBtn">
+    WAPQQ用户
+  </String>
+	<String id="ContactTips_3GQQBtn">
+    手机腾讯网用户
+  </String>
+	<String id="ContactTips_3GQQBut_LevelX">
+    手机腾讯网用户$LEVEL$级
+  </String>
+	<String id="IDS_WAPQQ_MSG">WAPQQ消息</String>
+	<String id="InfoPage_VASFlag">
+    开通服务
+  </String>
+	<String id="InfoPage_MobilePhone">
+    手　　机
+  </String>
+	<String id="InfoPage_Email">
+    邮　　箱
+  </String>
+	<String id="InfoPage_Job">
+    职　　业
+  </String>
+	<String id="InfoPage_Age">
+    年　　龄
+  </String>
+	<String id="InfoPage_Animal">
+    生　　肖
+  </String>
+	<String id="InfoPage_Province">
+    省　　份
+  </String>
+	<String id="InfoPage_Birthday">
+    生　　日
+  </String>
+	<String id="InfoPage_Constellation">
+    星　　座
+  </String>
+	<String id="InfoPage_City">
+    城　　市
+  </String>
+	<String id="InfoPage_Phone">
+    电　　话
+  </String>
+	<String id="InfoPage_RichInfo">
+    备注信息
+  </String>
+	<String id="InfoPage_Language">
+    语　　言
+  </String>
+	<String id="InfoPage_Country">
+    国家/地区
+  </String>
+	<String id="InfoPage_College">
+    毕业院校
+  </String>
+	<String id="InfoPage_Homepage">
+    个人主页
+  </String>
+	<String id="InfoPage_PersonalInfo">
+    个人说明
+  </String>
+	<String id="_Update">
+    更新
+  </String>
+	<String id="GroupCard_RealName">
+    姓　　名:
+  </String>
+	<String id="GroupCard_Gender">
+    性　　别:
+  </String>
+	<String id="GroupCard_Phone">
+    电　　话:
+  </String>
+	<String id="GroupCard_Email">
+    邮　　箱:
+  </String>
+	<String id="GroupCard_Remark">
+    备　　注:
+  </String>
+	<String id="Percent_Symbol">
+    %
+  </String>
+	<String id="Button_AddDisplyName">
+    添加
+  </String>
+	<String id="Button_ReDisplyName">
+    修改
+  </String>
+	<String id="Button_AddRemarkInfo">
+    添加备注信息
+  </String>
+	<String id="Button_ReRemarkInfo">
+    修改备注信息
+  </String>
+	<String id="Text_RemarkIntro">
+    您还没有对 $name$ 添加备注信息。备注信息可以帮助您记录好友的真实资料、联系方式、事件行为等一系列信息。
+  </String>
+	<String id="Button_Remark_Ok">
+    确定
+  </String>
+	<String id="Button_Remark_Cannel">
+    取消
+  </String>
+	<String id="Text_PleaseTypeinRemark">
+    请输入备注姓名:
+  </String>
+	<String id="Title_PleaseTypeinRemark">
+    $action$备注姓名
+  </String>
+	<String id="Title_PleaseTypeinRemarkInfo">
+    $action$备注信息
+  </String>
+	<String id="RemarkInfo_Mobile">
+    手机:
+  </String>
+	<String id="RemarkInfo_Email">
+    邮箱:
+  </String>
+	<String id="RemarkInfo_More">
+    更多:
+  </String>
+	<String id="RemarkInfoText_Mobile">
+    手机
+  </String>
+	<String id="RemarkInfoText_Email">
+    邮箱
+  </String>
+	<String id="Text_Dot">
+    :
+  </String>
+	<String id="CUSTOMFACE_SHORTCUT_KEY">使用快捷键</String>
+	<String id="ToolTip_MainMenu">
+    主菜单
+  </String>
+	<String id="Cancle">
+    取消
+  </String>
+	<String id="Close">
+    关闭
+  </String>
+	<String id="Tip_Change">
+    更改
+  </String>
+	<String id="Flash_ErrorText">
+    您的flash播放器版本过低，为了能够正常显示，请您点击下载最新版本。
+  </String>
+  <String id="RichFindResult_Sex">
+    性别:
+  </String>
+  <String id="RichFindResult_Age">
+    年龄:
+  </String>
+  <String id="RichFindResult_Area">
+    来自:
+  </String>
+  <String id="RichFindResult_ViewInfo">
+    查看资料
+  </String>
+  <String id="RichFindResult_AddFrd">
+    添加好友
+  </String>
+  <String id="Title_AreaMgr">
+    界面管理器
+  </String>
+  <String id="AreaMgrTab_SideBar">
+    侧边栏
+  </String>
+  <String id="AreaMgrTab_PersonalInfo">
+    个人信息区
+  </String>
+  <String id="AreaMgrTab_QuickStart">
+    快速启动栏
+  </String>
+  <String id="Button_AreaMgr_OK">
+    确定
+  </String>
+  <String id="Button_AreaMgr_Cancel">
+    取消
+  </String>
+  <String id="Button_AreaMgr_Apply">
+    应用
+  </String>
+  <String id="SideBar_Wording">
+    面板列表:
+  </String>
+  <String id="SideBar_ColumnName_1">
+    显示
+  </String>
+  <String id="SideBar_ColumnName_2">
+    面板
+  </String>
+  <String id="PersonalInfo_Wording">
+    已开通的服务:
+  </String>
+  <String id="PersonalInfo_ColumnName_1">
+    显示
+  </String>
+  <String id="PersonalInfo_ColumnName_2">
+    启动按钮
+  </String>
+  <String id="QuickStart_Wording">
+    快速启动按钮:
+  </String>
+  <String id="QuickStart_ColumnName_1">
+    显示
+  </String>
+  <String id="QuickStart_ColumnName_2">
+    启动按钮
+  </String>
+  <String id="AreaMgrPage_PutUpBtn">
+    上移
+  </String>
+  <String id="AreaMgrPage_PutDownBtn">
+    下移
+  </String>
+  <String id="AreaMgrList_PutUpMenu">
+    上移
+  </String>
+  <String id="AreaMgrList_PutDownMenu">
+    下移
+  </String>
+  <String id="Option_EnableMsgEncrypt">
+    启用消息记录加密
+  </String>
+  <String id="MsgEncrypt_Pswd">
+    口令:
+  </String>
+  <String id="MsgEncrypt_PswdAck">
+    确认:
+  </String>
+  <String id="Option_MsgEncryptAnswer">
+    启用加密口令提示
+  </String>
+  <String id="MsgEncryptQuestion">
+    提示问题:
+  </String>
+  <String id="MsgEncryptAnswer">
+    问题答案:
+  </String>
+  <String id="Tips_PswdEmpty">
+    必须输入一个密码
+  </String>
+  <String id="Tips_PswdNotSame">
+    两次输入的密码不同，请重新输入
+  </String>
+  <String id="Tips_QuestionEmpty">
+    问题不能为空
+  </String>
+  <String id="Tips_AnswerEmpty">
+    答案不能为空
+  </String>
+  <String id="VerifyMsgPswd">
+    验证消息记录密码
+  </String>
+  <String id="Title_MsgEncryptLogin" fmt="true">
+   $__PNAME$登录
+  </String>
+  <String id="Option_MsgQuestion1">
+    您的生日是什么时候？
+  </String>
+  <String id="Option_MsgQuestion2">
+    您的真名是什么？
+  </String>
+  <String id="Option_MsgQuestion3">
+    您最喜欢听的音乐是什么？
+  </String>
+  <String id="Option_MsgQuestion4">
+    What's the matrix？
+  </String>
+  <String id="Link_Reply">
+    回复
+  </String>
+  <String id="Title_DownLoad">
+    下载
+  </String>
+  <String id="Title_Setup">
+    安装
+  </String>
+  <String id="Title_Prompt">
+    提示
+  </String>  
+  <String id="DownloadingTheme">
+    正在下载皮肤...
+  </String>
+  <String id="SetupTheme">
+    正在安装皮肤...
+  </String>
+  <String id="SetupCustom">
+    正在导入自定义表情...
+  </String>
+  <String id="DownloadThemeError">
+    下载失败
+  </String>
+  <String id="AdvancedSearch">
+    高级搜索
+  </String>
+  <String id="Survey_Title">
+    QQ满意度调查
+  </String>
+  <String id="Survey_Submit">
+    提交
+  </String>
+  <String id="Survey_Close">
+    关闭
+  </String>
+  <String id="IDS_CRMForwardTips">
+    企业空间
+  </String>
+  <String id="IDS_CRMForwardTips_Tail">
+    点击查看
+  </String>
+  <String id="IDS_UserSoftReport_ReadMore">
+    阅读有关&lt;link config=&quot;RSLinkTextHandNode&quot; label=&quot;LinkLabel_UserSoftReport&quot;&gt;软件体验计划&lt;/link&gt;的更多信息。
+  </String>
+  <String id="IDS_UserSoftReport_Article">
+    亲爱的用户:&#10;我们邀请您加入“软件体验计划”以帮助我们改善我们的软件和服务质量。如果您接收此邀请，我们将收集您如何使用我们的软件，以及其他软件和服务的匿名信息，以帮助我们了解您在使用我们的软件和服务时遇到的问题，帮助我们确定趋势和向您推荐您适用的使用模式。我们不会收集您的姓名、地址或任何其他个人可以识别的信息。
+  </String>
+  <String id="IDS_UserSoftReport_Title">
+    软件体验计划
+  </String>
+  <String id="IDS_UserSoftReport_OK">
+    确定
+  </String>
+  <String id="IDS_UserSoftReport_Cancel">
+    取消
+  </String>
+  <String id="IDS_UserSoftReport_Join">
+    我想帮助腾讯公司完善软件和服务(推荐)
+  </String>
+  <String id="IDS_UserSoftReport_NotJoin">
+    目前不想参加
+  </String>
+  <String id="IDS_UserSoftReport_NotJoin_More">
+    该计划暂不支持主动申请，退出后可能无法再次加入。
+  </String>
+  <String id="IDS_UserSoftReport_TENCENT_Experience_Cn">
+    腾讯体验中心
+  </String>
+  <String id="IDS_UserSoftReport_TENCENT_Experience_En">
+    EXPERIENCE CENTER
+  </String>
+  <String id="IDS_UserSoftReport_TENCENT_Experience_TENCENT_En">
+    TENCENT
+  </String>
+  <String id="IDS_GroupSpace_Oper_NewPost">
+  发表帖子
+  </String>
+  <String id="IDS_GroupSpace_Oper_ReplyPost">
+  回复帖子
+  </String>
+  <String id="IDS_GroupSpace_Oper_NewPhoto">
+  上传图片
+  </String>
+  <String id="IDS_GroupSpace_Oper_ReplyPhoto">
+  评论图片
+  </String>
+  <String id="IDS_GroupSpace_Oper_PostReply">
+  回复
+  </String>
+  <String id="IDS_GroupSpace_Oper_ViewPost">
+  查看帖子
+  </String>
+  <String id="IDS_GroupSpace_Oper_PhotoReply">
+  评论
+  </String>
+  <String id="IDS_GroupSpace_Oper_ViewPhoto">
+  查看原图
+  </String>
+  <String id="IDS_QQMAIL_FMT">
+    $UIN$@qq.com
+  </String>
+  <String id="Link_ChatFrame_UnusualPlace">
+    查看详情
+  </String>
+  <String id="IDS_ContactFilter_TipFirst">
+    本组以下好友$FilterLabel$
+  </String>
+  <String id="IDS_ContactFilter_TipsDelAll">
+    全部删除
+  </String>
+  <String id="IDS_ContactFilter_TipsTemplate">$TipFirst$
+&lt;link config="RSLinkTextNode" label="DelAll"&gt;$TipsDelAll$&lt;/link&gt;
+  </String>
+  <String id="IDS_BatchDelContact_ReadyPrompt">
+    您确定要删除以下联系人吗？
+  </String>
+  <String id="IDS_BatchDelContact_Caption">
+    删除好友
+  </String>
+  <String id="IDS_BatchDelContact_DeletingPrompt">
+    正在删除好友...
+  </String>
+  <String id="IDS_BatchDelContact_DelBox_Deleting">
+    正在删除...
+  </String>
+  <String id="IDS_BatchDelContact_DelBox_Deleted">
+    已经删除
+  </String>
+  <String id="ClientTypePrompt_WebQQ">
+    WebQQ在线
+  </String>
+  <String id="CF_GroupMem_WebQQLogin">
+    WebQQ登录
+  </String>
+  <String id="MainMenu_UserSoftReport">
+    退出体验计划
+  </String>
+  <String id="MainMenu_UserSoftReport_Thank">
+    感谢您参与软件体验计划
+  </String>
+  <String id="MainMenu_UserSoftReport_Hint">
+    提示：如果您要退出，请点击菜单 - 帮助 - 退出体验计划。
+  </String>
+  <String id="MainMenu_UserSoftReport_Exit_Result">
+    您已经退出软件体验计划。
+  </String>
+  <String id="MainMenu_UserSoftReport_Exit_Hint">
+    提示：由于软件体验计划为定期随机选取用户参加，您此次退出后很可能将无法再次加入此计划。
+  </String>
+  <String id="GroupPage_GroupSpaceUpdate">
+    群友动态有更新，点击查看
+  </String>
+  <String id="RichFinger_ShowDetail">
+    显示详细信息Beta
+  </String>
+  <String id="Disclaimer_Statement">
+    免责声明
+  </String>
+    <String id="Age">岁</String>
+    <String id="IDS_CONTACT_MENU">发送文件</String>
+    <String id="CF_TRANSPORTFILE_TIP">传送文件</String>
+    <String id="IDS_SENDFILE_TIP">发送文件请求:</String>
+    <String id="IDS_SENDFILE_RECEIVE_TIP">收到文件请求:</String>
+    <String id="IDS_SENDFILE_TRANSFERING_TIP">接收文件:</String>
+    <String id="IDS_SENDFILE_TRANSFERING_SENDING_TIP">发送文件:</String>
+    <String id="IDS_SENDFILE_TIP_OFFLINE">发送离线文件:</String>
+    <String id="IDS_SENDFILE_RECEIVE_TIP_OFFLINE">收到离线文件</String>
+    <String id="IDS_SENDFILE_TRANSFERING_TIP_OFFLINE">接收离线文件:</String>
+    <String id="IDS_SENDFILE_TRANSFERING_SENDING_TIP_OFFLINE">发送离线文件:</String>
+    <String id="IDS_SENDFILE_RERECEIVE">另存为</String>
+    <String id="IDS_SENDFILE_CONTINUE_RECEIVE">续传</String>
+    <String id="IDS_SENDFILE_RECEIVE">接收</String>
+    <String id="IDS_SENDFILE_SAVEAS">另存为</String>
+    <String id="IDS_SENDFILE_REFUSE">拒绝</String>
+    <String id="IDS_SENDFILE_CANCEL">取消</String>
+    <String id="IDS_SENDFILE_RECVNEXTTIME">下次接收</String>
+    <String id="IDS_SENDFILE_SENDOFFLINEFILE">发送离线文件</String>
+    <String id="IDS_SENDFILE_TRANSFERSPEED">速度:0KB/S</String>
+    <String id="IDS_SENDFILE_TRANSFERING_TRANSFERSPEED">速度:$SPEED$/S</String>
+    <String id="IDS_SENDFILE_EXPIRETIME_OFFLINE">($DATE$到期)</String>
+    <String id="IDS_SENDFILE_EXPIRETODAY_HOUR_OFFLINE">($TIME$小时后到期)</String>
+    <String id="IDS_SENDFILE_EXPIRETODAY_MINUTE_OFFLINE">($TIME$分钟后到期)</String>
+    <String id="IDS_SENDOFFLINEFILE_Rec_Reply_Sus">对方已成功接收了您发送的离线文件。</String>
+    <String id="IDS_SENDFILE_BEACCEPT_BLUEBAR">对方已经接受您的请求，开始传输文件。</String>
+    <String id="IDS_SENDFILE_RECEIVE_BLUEBAR">您接受对方的请求，开始传输文件。</String>
+    <String id="IDS_SENDFILE_BEREQUEST_BLUEBAR_TIP">对方请求发送文件。</String>
+    <String id="IDS_SENDFILE_BEREQUEST_BLUEBAR_TIP_OFFLINE">对方给您发送了离线文件。</String>
+    <String id="IDS_SENDFILE_BEREQUEST_TIP_OPER">向您发送文件</String>
+    <String id="IDS_SENDFILE_BEREQUEST_TIP_OPER_OFFLINE">向您发送离线文件</String>
+    <String id="IDS_SENDFILE_TIP_CANCELSEND">取消发送文件</String>
+    <String id="IDS_SENDFILE_TIP_CANCELSENDING">中止发送文件</String>
+    <String id="IDS_SENDFILE_TIP_SENDOFFLINE">将文件保存至服务器，好友上线后将收到提醒进行接收</String>
+    <String id="IDS_SENDFILE_TIP_CANCELSEND_OFFLINE">取消发送离线文件</String>
+    <String id="IDS_SENDFILE_TIP_CANCELSENDING_OFFLINE">中止发送离线文件</String>
+    <String id="IDS_SENDFILE_TIP_RECV">保存文件到$PATH$</String>
+    <String id="IDS_SENDFILE_TIP_CONTINUERECV">继续接收上次未传完的文件</String>
+    <String id="IDS_SENDFILE_TIP_SAVEAS">自定义文件的存放位置</String>
+    <String id="IDS_SENDFILE_TIP_CONTINUESAVEAS">重新接收并重新选择文件的存放位置</String>
+    <String id="IDS_SENDFILE_TIP_REFUSE">拒绝接收该文件</String>
+    <String id="IDS_SENDFILE_TIP_CANCELRECVING">中止接收文件</String>
+    <String id="IDS_SENDFILE_TIP_REFUSE_OFFLINE">拒绝接收此离线文件，不再提醒</String>
+    <String id="IDS_SENDFILE_TIP_CANCELRECVING_OFFLINE">中止本次接收，不再提醒</String>
+    <String id="IDS_SENDFILE_TIP_RECVNEXTTIME_OFFLINE">取消本次接收，在下次登录QQ后进行提醒</String>
+    <String id="IDS_SENDFILE_TIP_RECVNEXTTIME_OFFLINE_RECVING">中止本次接收，下次上线后再次提醒</String>
+    <!--  消息记录  -->
+    <String id="IDS_SENDFILE_RECEIVE_SUCC">成功接收文件 $C_TIME$</String>
+    <String id="IDS_SENDFILE_RECEIVE_SUCC_OFFLINE">成功接收离线文件 $C_TIME$</String>
+    <String id="IDS_SENDFILE_SEND_SUCC_OFFLINE">成功发送离线文件 $C_TIME$</String>
+    <String id="IDS_SENDFILE_OPEN_FILE">打开文件</String>
+    <String id="IDS_SENDFOLDER_OPEN_FILE">打开文件夹</String>
+    <String id="IDS_SENDFILE_OPEN_FOLDER">打开所在文件夹</String>
+    <String id="IDS_SENDFILE_BEFEFUSED_TIP">对方拒绝接收，文件发送失败 $C_TIME$</String>
+    <String id="IDS_SENDFILE_REFUSE_MSG_TIP">您拒绝接收，文件传输失败 $C_TIME$</String>
+    <String id="IDS_SENDFILE_SEND_SUCC">成功发送文件 $C_TIME$</String>
+    <String id="IDS_SENDFILE_RECEIVE_TARGET_CANCEL">
+        $UIN$中断发送，该文件已经接收$TRANSIZE$ $C_TIME$
+    </String>
+    <String id="IDS_SENDFILE_SENDING_TARGET_CANCEL">
+        $UIN$中断接收，该文件已经发送$TRANSIZE$ $C_TIME$
+    </String>
+    <String id="IDS_SENDFILE_RECEIVE_TARGET_BROKEN_OFFLINE">接收离线文件时遇到网络错误，该文件已经接收$TRANSIZE$。</String>
+    <String id="IDS_SENDFILE_SENDING_TARGET_BROKEN_OFFLINE">发送离线文件时遇到网络错误，该文件已经发送$TRANSIZE$。</String>
+    <String id="IDS_SENDFILE_SENDING_SELF_CANCEL">您中止了发送，该文件已经发送$TRANSIZE$ $C_TIME$</String>
+    <String id="IDS_SENDFILE_RECVING_SELF_CANCEL">您中止了接收，该文件已经接收$TRANSIZE$ $C_TIME$</String>
+    <String id="IDS_SENDFILE_SENDING_CONTINUE_NEXTTIME_OFFLINE">下次您发送同一离线文件时，QQ将为您续传。</String>
+    <String id="IDS_SENDFILE_SENDING_SELF_CANCEL_OFFLINE">
+        您中止了离线文件的发送，该文件已经发送$TRANSIZE$ $C_TIME$
+    </String>
+    <String id="IDS_SENDFILE_RECVING_SELF_CANCEL_OFFLINE">
+        您中止了离线文件的接收，该文件已经接收$TRANSIZE$ $C_TIME$
+    </String>
+    <String id="IDS_SENDFILE_RECVING_NET_ERROR">网络连接失败，接收中止，该文件已经接收$TRANSIZE$。</String>
+    <String id="IDS_SENDFILE_SENDING_NET_ERROR">网络连接失败，发送中止，该文件已经发送$TRANSIZE$。</String>
+    <String id="IDS_SENDFILE_RECVING_UNKOWN_ERROR">网络等原因，接收中止，该文件已经接收$TRANSIZE$。</String>
+    <String id="IDS_SENDFILE_SENDING_UNKOWN_ERROR">网络等原因，发送中止，该文件已经发送$TRANSIZE$。</String>
+    <String id="IDS_SENDFILE_SENDING_SELF_CANCEL_RESEND">再次发送</String>
+    <String id="IDS_SENDFILE_SENDING_SELF_CANCEL_RERECV">再次接收</String>
+    <String id="IDS_SENDFILE_RECEIVE_RECVNEXTIME">您取消了离线文件“$FILE$”的接收，我们将在您下次登录QQ后进行提醒 $C_TIME$</String>
+    <String id="IDS_SENDFILE_RECEING_RECVNEXTIME">您中止了离线文件的接收，我们将在您下次登录QQ后进行提醒。</String>
+    <String id="IDS_SENDFILE_BRREQUEST_BERECEIVE">您已在其他设备上接收了该文件</String>
+    <String id="IDS_SENDFILE_BRREQUEST_BECANCEL">$UIN$取消发送,文件传输失败 $C_TIME$</String>
+    <String id="IDS_SENDFILE_SELF_CANCEL_SEND">您取消了发送，文件传输失败 $C_TIME$</String>
+    <String id="IDS_SENDFILE_RECVING_CONTINUE_REVEIVE">
+        对方请求发送文件，此文件在您的计算机上已经接收了$TRANSIZE$。
+    </String>
+    <String id="IDS_SENDFILE_RECVING_CONTINUE_REVEIVE_OFFLINE">
+        对方通过离线方式向您发送文件，此文件在您的计算机上已经接收了$TRANSIZE$。
+    </String>
+    <String id="IDS_SENDFILE_AIO_OPEN_FAIL">会话窗口打开失败。</String>
+    <String id="IDS_SENDFILE_AIO_CANT_SEND_DIR">对不起，目前暂不支持发送文件夹。</String>
+    <String id="IDS_SENDFILE_HINT_TITLE">提示</String>
+    <String id="IDS_SENDFILE_SECURITY_SEE_MORE">了解详情</String>
+    <String id="IDS_SENDFILE_SECURITY_SETTING">查看设置</String>
+    <String id="IDS_SENDFILE_SECURITY_VIEW_MOREINFO">查看详细帮助</String>
+    <String id="IDS_SENDFILE_SECURITY_RENAME">请去掉文件名中的“.$SUFFIX$”后再打开</String>
+    <String id="IDS_FILETRANSFER_DEFAULT_DIR_TOOL_LONG">文件默认接收目录不能超过200个字符。</String>
+    <String id="IDS_FILETRANSFER_RENAME_FAIL">传输文件时出现错误导致接收失败，文件可能被其他程序占用或已经损坏。</String>
+    <String id="IDS_SENDFILE_SENDING_SERVERREFUSE_OFFLINE">服务器拒绝了您发送离线文件“$FILE$”的请求。</String>
+    <String id="IDS_SENDFILE_RECVING_SERVERREFUSE_OFFLINE">服务器拒绝了您接收离线文件“$FILE$”的请求。</String>
+    <String id="IDS_SENDFILE_TRANSFER_SERVERREFUSE_OFFLINE">服务器拒绝了您传输离线文件“$FILE$”的请求。</String>
+    <String id="IDS_SENDFOLDER_SEND_FAIL">部分文件因安全等原因传输失败。</String>
+    <String id="IDS_SENDFOLDER_LOG_FILENAME">错误文件名</String>
+    <String id="IDS_SENDFOLDER_LOG_FILESIZE">文件大小</String>
+    <String id="IDS_SENDFOLDER_LOG_FAILREASON">失败原因</String>
+    <String id="IDS_SENDFOLDER_LOG_DONOTCARE">不关心文件大小</String>
+    <String id="IDS_SENDFOLDER_LOG_DUPLICATENAME">大小写不敏感时文件名重复</String>
+    <String id="IDS_SENDFOLDER_LOG_UNUSUALCHAR">文件名有异常字符</String>
+    <!--  发送错误  -->
+    <String id="IDS_SENDFILE_ONLINEFILE_NOTE">如果对方长时间未接收，建议您发送离线文件。</String>
+    <String id="IDS_SENDFILE_SENDINGCOUNTTOOLARGE_OFFLINE">您同时发送的离线文件数超过30个，请减少文件个数后再尝试。</String>
+    <String id="IDS_SENDFILE_ERROR_FILE_SIZE_ZERO">“$FILE$”为空文件夹或其内文件均出现异常，无法发送，请您重新选择。</String>
+    <String id="IDS_SENDFILE_ERROR_FILE_SIZE_TOO_BIG">文件“$FILE$”大于4G，不能发送。</String>
+    <String id="IDS_SENDFILE_ERROR_FILE_SIZE_TOO_BIG_64G">文件“$FILE$”大于64G，不能发送。</String>
+    <String id="IDS_SENDFILE_ERROR_FILE_OPEN_FAIL">当前文件被占用，请关闭后再次发送。</String>
+    <String id="IDS_SENDFILE_ERROR_FILE_SEND_REPEAT">文件“$FILE$”正在发送中，不能重复发送。</String>
+    <String id="IDS_SENDFILE_ERROR_FILE_SEND_REPEAT_OFFLINE">离线文件“$FILE$”正在发送中，不能重复发送。</String>
+    <String id="IDS_SENDFILE_ERROR_NO_ENOUGH_SPACE">您的磁盘空间已满，请更换存放位置或进行清理之后再接收。</String>
+    <String id="IDS_SENDFILE_ERROR_CONNECT_FAIL">传输失败。</String>
+    <String id="IDS_SENDFILE_ERROR_FILE_SEND_BEREFUSE">对方拒绝了“$FILE$”的文件发送请求。</String>
+    <String id="IDS_SENDFILE_ERROR_OPENFILEFAIL">打开文件“$FILE$”错误。</String>
+    <String id="IDS_SENDFILE_ERROR_UNKNOW">发送文件“$FILE$”失败，未知错误类型。</String>
+    <String id="IDS_SENDFILE_ERROR_SELF_OFFLINE">您现在处于离线状态，无法发送文件，请上线后再尝试。</String>
+    <String id="IDS_SENDFILE_ERROR_FILE_NAME_TOO_LONG">“$FILE$”文件名太长，发送失败。</String>
+    <String id="IDS_SENDFILE_ERROR_DISC_NO_SPACE">分区“$SPACE$”空间已满，接收失败。</String>
+    <String id="IDS_SENDFILE_ERROR_REQUEST_TIMEOUT">发送超时。</String>
+    <String id="IDS_SENDFILE_ERROR_OPENFILEFAIL_REVC">打开文件“$FILE$”失败，文件传输中止。</String>
+    <String id="IDS_SENDFILE_ERROR_FILEEXCEPTION">对文件“$FILE$”的操作发生异常，文件传输中止。</String>
+    <String id="IDS_SENDFILE_ERROR_UN">处理文件“$FILE$”时发生异常，文件传输中止。</String>
+    <String id="IDS_SENDFILE_ERROR_UNKNOW2">传输文件“$FILE$”失败，未知错误类型。</String>
+    <String id="IDS_SENDFILE_FILE_NO_EXIST">此文件不存在。</String>
+    <String id="FILETRANS_ABORTIFCLOSE_AIOCLOSE">如果关闭窗口，将会中止文件传送。是否关闭窗口？</String>
+    <String id="IDS_SENDFILE_ERROR_FILE_FULL_NAME_TOO_LONG">文件全路径太长，接收失败。</String>
+    <String id="IDS_SENDFILE_TIMEDURATION_HOUR" fmt="true">小时</String>
+    <String id="IDS_SENDFILE_TIMEDURATION_MINUTE" fmt="true">分</String>
+    <String id="IDS_SENDFILE_TIMEDURATION_SECOND" fmt="true">秒</String>
+    <String id="IDS_SENDFILE_SEND_SUC_NOTE">文件已经发送完毕，用时$TIME$，平均速度$SPEED$/S。</String>
+    <String id="IDS_SENDFILE_RECV_SUC_NOTE">文件已经接收完毕，用时$TIME$，平均速度$SPEED$/S。</String>
+    <String id="IDS_SENDFILE_ERROR_FILESIZE_BIG">对方QQ版本过低，不支持2G以上文件的发送。</String>
+    <String id="IDS_SENDFILE_ERROR_FILESIZE_BIG_4G">对方QQ版本过低，不支持4G以上文件的传输。</String>
+    <String id="IDS_SENDFILE_ERROR_FILESIZE_BIG_4G_UNKNOWN_VER">对方离线或隐身，无法判断对方QQ版本，不支持4G以上文件传输。</String>
+    <String id="IDS_SENDFOLDER_ERROR_FILESIZE_BIG_4G">文件夹中包含4G以上文件，但对方QQ版本过低，不支持4G以上文件的传输。</String>
+    <String id="IDS_SENDFILE_ERROR_DISC_4G">您选择的本地磁盘的文件系统不支持保存4G以上文件，请重新选择文件保存路径。</String>
+    <String id="IDS_SENDFOLDER_ERROR_DISC_4G">文件系统不支持4G</String>
+    <String id="IDS_SENDFILE_ERROR_REASON_SECURITY_UNSAFEFILE">病毒文件</String>
+    <String id="IDS_SENDFILE_ERROR_REASON_SECURITY_RENAME">文件被重命名</String>
+    <String id="IDS_SENDFILE_ERROR_REASON_EXCEED4G">文件超过4G，且对方版本过低或未知</String>
+    <String id="IDS_SENDFILE_ERROR_REASON_EXCEED64G">文件超过64G</String>
+    <String id="IDS_SENDFILE_ERROR_REASON_OPENFAIL">文件被占用</String>
+    <String id="IDS_SENDFILE_ERROR_REASON_INEXISTENCE">文件不存在</String>
+    <String id="IDS_SENDFILE_ERROR_REASON_NAMELENEXCEED">文件名过长</String>
+    <String id="IDS_SENDFILE_ERROR_REASON_INVALIDNAME">文件名不合法</String>
+    <String id="IDS_SENDFILE_ERROR_REASON_UNKNOWN">网络原因</String>
+    <!--  Setting  -->
+    <String id="SETTING_FILETRANSFER_NAME">文件传输</String>
+    <String id="SETTING_FILETRANSFER_DEFAULT_DIR">默认把接收到的文件保存到此文件夹中:</String>
+    <String id="SETTING_FILETRANSFER_CHANGE_DEFAULT_DIR">更改目录</String>
+    <String id="SETTING_FILETRANSFER_SERCURITY">文件传输安全</String>
+    <String id="SETTING_FILETRANSFER_REFUSE_EXE_FILE">阻止接收高安全风险文件(少数常用类型的文件除外)。</String>
+    <String id="SETTING_FILETRANSFER_RECEIVE_FILE">允许接收任何文件，但强制重命名接收到的可执行文件。</String>
+    <String id="SETTING_FILETRANSFER_REFUSE_FILE">阻止接收任何文件。</String>
+    <String id="SETTING_FILETRANSFER_SECURITY_HIGH">安全级 - 高</String>
+    <String id="SETTING_FILETRANSFER_SECURITY_MID">安全级 - 中(推荐)</String>
+    <String id="SETTING_FILETRANSFER_SECURITY_LOW">安全级 - 低</String>
+    <String id="SETTING_FILETRANSFER_SECURITY_FILE_HINT">什么是有风险的文件？</String>
+    <String id="SETTING_FILETRANSFER_SELECT_DEFAULT_DIR">请选择传输文件的默认目录:</String>
+    <String id="SafeLevel_Adjust">调整接收文件的安全保护等级。</String>
+    <String id="Button_ChangeSafeAdjust">更改安全等级</String>
+    <String id="Safe_level">安全等级</String>
+    <!--  SecurityCenter  -->
+    <String id="SECURITYCENTER_RECV_REFUSE_PROMPT">
+        对方尝试向您发送“$FILE$”。QQ安全中心阻止了此次发送。可能是因为该文件存在安全风险，或者这是由您的安全级别设置所做的处理。
+    </String>
+    <String id="SECURITYCENTER_SEND_REFUSE_PROMPT">您尝试了发送文件“$FILE$”，对方QQ安全中心拒绝接收该文件。</String>
+    <String id="SECURITYCENTER_RECV_RENAME_PROMPT">
+        对方尝试向您发送“$FILE$”。QQ安全中心已经自动重命名此文件(在文件名后添加“.$RENAMESUFFIX$”)。
+    </String>
+    <String id="SECURITYCENTER_RECV_RENAME_SUFFIX">重命名</String>
+    <String id="SECURITYCENTER_RECV_OF_REFUSE_PROMPT">
+        对方尝试向您发送离线文件“$FILE$”。QQ安全中心阻止了此次发送。可能是因为该文件存在安全风险，或者这是由您的安全级别设置所做的处理。
+    </String>
+    <String id="SECURITYCENTER_RECV_OF_RENAME_PROMPT">
+        对方尝试向您发送离线文件“$FILE$”。QQ安全中心已经自动重命名此文件(在文件名后添加“.$RENAMESUFFIX$”)。
+    </String>
+    <String id="SECURITYCENTER_RECV_OF_DANGERTIP_PROMPT">对方尝试向您发送离线文件“$FILE$”。该文件可能存在风险。</String>
+    <String id="IDS_SENDFILE_Online">直接发送</String>
+    <String id="IDS_SENDFILE_Offline">发送离线文件</String>
+    <String id="IDS_SENDFILE_Setting">传文件设置</String>
+    <String id="IDS_SENDFILE_Oper_Offline">发送离线文件</String>
+    <String id="IDS_SENDFILE_Recv_Default_Dir">此目录路径无效或者只读，请重新设置默认的接收文件目录。</String>
+    <!--  传文件夹消息记录  -->
+    <String id="FOLDER_IDS_SENDFILE_SENDING_SELF_CANCEL_OFFLINE">
+        您中止了文件夹的发送，该文件夹已经发送$TRANSIZE$ $C_TIME$
+    </String>
+    <String id="FOLDER_IDS_SENDFILE_RECVING_SELF_CANCEL_OFFLINE">
+        您中止了文件夹的接收，该文件夹已经接收$TRANSIZE$ $C_TIME$
+    </String>
+    <String id="FOLDER_IDS_SENDFILE_SELF_CANCEL_SEND">您取消了文件夹的发送，文件夹传输失败 $C_TIME$</String>
+    <String id="FOLDER_IDS_SENDFILE_SENDING_SELF_CANCEL">
+        您中止了文件夹的发送，该文件夹已经发送$TRANSIZE$ $C_TIME$
+    </String>
+    <String id="FOLDER_IDS_SENDFILE_RECVING_SELF_CANCEL">
+        您中止了接收，该文件夹已经接收$TRANSIZE$ $C_TIME$
+    </String>
+    <String id="FOLDER_IDS_SENDFILE_RECEIVE_TARGET_CANCEL">
+        $UIN$中断了文件夹的发送，该文件夹已经接收$TRANSIZE$ $C_TIME$
+    </String>
+    <String id="FOLDER_IDS_SENDFILE_SENDING_TARGET_CANCEL">
+        $UIN$中断了文件夹的接收，该文件夹已经发送$TRANSIZE$ $C_TIME$
+    </String>
+    <String id="FOLDER_IDS_SENDFILE_BRREQUEST_BECANCEL">$UIN$取消了文件夹的发送,文件夹传输失败 $C_TIME$</String>
+    <String id="FOLDER_IDS_SENDFILE_RECEIVE_SUCC">成功接收文件夹 $C_TIME$</String>
+    <String id="FOLDER_IDS_SENDFILE_SEND_SUCC">成功发送文件夹 $C_TIME$</String>
+    <String id="FOLDER_IDS_SENDFILE_BEFEFUSED_TIP">对方拒绝接收文件夹，文件夹发送失败 $C_TIME$</String>
+    <String id="IDS_SENDFOLDER_SENDER_SECURITY_TIPS">
+        文件夹发送失败！由于对方QQ/TM的安全设置，您的文件夹传送请求被拒绝。
+    </String>
+    <String id="FOLDER_IDS_SENDFILE_REFUSE_MSG_TIP">您拒绝接收文件夹，文件夹传输失败 $C_TIME$</String>
+    <String id="FOLDER_IDS_SENDFILE_BEACCEPT_BLUEBAR">对方已经接受您的请求，开始传输文件夹。</String>
+    <String id="FOLDER_IDS_SENDFILE_RECEIVE_TOOMANY">您传输的文件夹中目录过多，传输失败</String>
+    <String id="FOLDER_IDS_SENDFILE_RECEIVE_TOOBIG">您传输的文件夹中文件大小超过限制，传输失败</String>
+    <String id="IDS_SENDFILE_ERROR_FOLDERNAMEERROR">您发送的的文件或文件夹中含有特殊字符，发送失败</String>
+    <String id="IDS_SENDFILE_ERROR_FILENAMEERROR">您发送的文件含有特殊字符，发送失败</String>
+    <String id="FOLDER_IDS_SENDFILE_MAXDEEPNUM">您传输的文件夹超过最大层数，传输失败</String>
+    <String id="FOLDER_IDS_SENDFILE_OLDVERSION">很抱歉，对方的QQ版本不支持文件夹传输</String>
+    <String id="FOLDER_IDS_SENDFILE_UNKNOWN">未知错误，传输失败</String>
+    <String id="FOLDER_IDS_SENDFILE_RECVING_NET_ERROR">网络连接失败，接收中止，该文件夹已经接收$TRANSIZE$。</String>
+    <String id="FOLDER_IDS_SENDFILE_SENDING_NET_ERROR">网络连接失败，发送中止，该文件夹已经发送$TRANSIZE$。</String>
+    <String id="FOLDER_IDS_SENDFILE_RECVING_UNKOWN_ERROR">网络等原因，接收中止，该文件夹已经接收$TRANSIZE$。</String>
+    <String id="FOLDER_IDS_SENDFILE_SENDING_UNKOWN_ERROR">网络等原因，发送中止，该文件夹已经发送$TRANSIZE$。</String>
+    <String id="IDS_SENDFILE_ERROR_FOLDERLONGERROR">文件名称过长，发送失败</String>
+
+  
+    
+    <!--  近场传文件夹消息记录  -->
+    <String id="NF_FOLDER_IDS_SENDFILE_SELF_CANCEL_SEND">您已取消网内讨论组文件发送 $C_TIME$</String>
+    
+    <String id="URL_WEB_PTT">http://ph.qq.com/web_ptt/$INFO$/PC</String>
+    <String id="Dis_NickName_Separator">、</String>
+</StringBundle>

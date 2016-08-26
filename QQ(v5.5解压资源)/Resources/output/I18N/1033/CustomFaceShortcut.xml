@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringBundle version="1.0">
+	<String id="FACE_SHORTCUT_CHINESE0">
+		/Smile
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE1">
+		/Grimace
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE2">
+		/Drooling
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE3">
+		/Scowl
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE4">
+		/Chill
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE5">
+		/Sob
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE6">
+		/Shy
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE7">
+		/Silence
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE8">
+		/Sleep
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE9">
+		/Cry
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE10">
+		/Embarrassed
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE11">
+		/On Fire
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE12">
+		/Wink
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE13">
+		/Grin
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE14">
+		/Surprised
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE15">
+		/Frown
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE16">
+		/Cool
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE17">
+		/Blush
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE18">
+		/Scream
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE19">
+		/Puke
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE20">
+		/Chuckle
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE21">
+		/Pleased
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE22">
+		/Doubtful
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE23">
+		/Smug
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE24">
+		/Sneer
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE25">
+		/Drowsy
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE26">
+		/Panic
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE27">
+		/Sweating
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE28">
+		/Laugh
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE29">
+		/Soldier
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE30">
+		/Strive
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE31">
+		/Scold
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE32">
+		/Confused
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE33">
+		/Shhh
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE34">
+		/Hypnotized
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE35">
+		/Frustrated
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE36">
+		/In the Dark
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE37">
+		/Skull
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE38">
+		/Hammer
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE39">
+		/Wave
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE40">
+		/Relieved
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE41">
+		/Pick Nose
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE42">
+		/Applause
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE43">
+		/Flushed
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE44">
+		/Hellooo
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE45">
+		/Snub 1
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE46">
+		/Snub 2
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE47">
+		/Yawn
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE48">
+		/Booo
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE49">
+		/Distressed
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE50">
+		/Sniffle
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE51">
+		/Sly
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE52">
+		/Pucker
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE53">
+		/Uh Oh
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE54">
+		/Whimper
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE55">
+		/Cleaver
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE56">
+		/Watermelon
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE57">
+		/Beer
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE58">
+		/Basketball
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE59">
+		/Ping Pong
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE60">
+		/Coffee
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE61">
+		/Rice
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE62">
+		/Pig
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE63">
+		/Rose
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE64">
+		/Wilt
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE65">
+		/Kisses
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE66">
+		/Heart
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE67">
+		/Broken Heart
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE68">
+		/Cake
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE69">
+		/Lightning
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE70">
+		/Bomb
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE71">
+		/Dagger
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE72">
+		/Soccer
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE73">
+		/Ladybug
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE74">
+		/Poop
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE75">
+		/Moon
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE76">
+		/Sun
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE77">
+		/Present
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE78">
+		/Hug
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE79">
+		/Thumbs Up
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE80">
+		/Thumbs Down
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE81">
+		/Shake
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE82">
+		/Victory
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE83">
+		/Admire
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE84">
+		/Beckon
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE85">
+		/Fist
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE86">
+		/Pinky
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE87">
+		/Love
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE88">
+		/No No
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE89">
+		/OK
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE90">
+		/Lovebirds
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE91">
+		/In Love
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE92">
+		/Waddle
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE93">
+		/Sit
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE94">
+		/Aaagh!
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE95">
+		/Twirl
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE96">
+		/Bow
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE97">
+		/Turn Away
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE98">
+		/Jump
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE99">
+		/Surrender
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE100">
+		/Hooray
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE101">
+		/Hey Hey
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE102">
+		/Smooches
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE103">
+		/Fighting Girl
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE104">
+		/Fighting Boy
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE105">
+		/非典
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE106">
+		/闪人
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE107">
+		/找
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE108">
+		/美眉
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE109">
+		/猫咪
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE110">
+		/小狗
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE111">
+		/钱
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE112">
+		/灯泡
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE113">
+		/酒杯
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE114">
+		/音乐
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE115">
+		/药丸
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE116">
+		/吻
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE117">
+		/会议
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE118">
+		/电话
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE119">
+		/时间
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE120">
+		/邮件
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE121">
+		/电视
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE122">
+		/多多
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE123">
+		/美女
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE124">
+		/汉良
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE125">
+		/毛毛
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE126">
+		/Q仔
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE127">
+		/白酒
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE128">
+		/汽水
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE129">
+		/下雨
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE130">
+		/多云
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE131">
+		/雪人
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE132">
+		/星星
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE133">
+		/女
+	</String>
+	<String id="FACE_SHORTCUT_CHINESE134">
+		/男
+	</String>
+</StringBundle>

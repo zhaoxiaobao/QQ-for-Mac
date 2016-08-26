@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StringBundle version="1.0">
+  <String id="QQVip_OpenVip">
+		http://pay.qq.com/qqvip/index.shtml?service_type=club
+	</String>
+  <String id="FaceRoam_ViewDetails_Url">
+		http://ptlogin2.qq.com/clubclient?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;from=486&amp;param=$UIN$
+	</String>
+  <String id="FaceRoam_Tenpay_Url">
+		http://ptlogin2.qq.com/clubclient?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;from=485
+	</String>
+  <String id="CustomFaceMgr_MoreFace">
+		http://ptlogin2.qq.com/facedownload?clientuin=$UIN$&amp;clientkey=$KEY$
+	</String>
+  <String id="SoSoFace_Default_URL">
+		http://ptlogin2.soso.com/expression_index?clientuin=$UIN$&amp;clientkey=$KEY$
+	</String>
+  <String id="URL_QQFaceFeedBack">
+		http://ptlogin2.qq.com/qqfacefeedback?clientuin=$UIN$&amp;clientkey=$KEY$&amp;keyindex=$KEY_INDEX$ 
+	</String>
+  <String id="QQSimilarFaceWnd_Url">http://style.qq.com/test/xsbq/index.html?cid=1</String>
+  <String id="QQFACE_TAB_ICON_CONFIG_URL">
+        http://imgcache.qq.com/club/item/parcel/icon.json
+   </String>
+  <String id="QQFACE_TAB_GRAY_ICON_URL">
+        http://imgcache.qq.com/club/item/parcel/icon/$ICON_INDEX$_gray.png
+    </String>
+  <String id="QQFACE_TAB_COLOR_ICON_URL">
+        http://imgcache.qq.com/club/item/parcel/icon/$ICON_INDEX$_color.png
+    </String>
+  <String id="QQFACE_STORE_PAGE_URL">
+        http://ptlogin2.qq.com/facestore?clientuin=$UIN$&amp;clientkey=$KEY$
+    </String>
+  <String id="QQFACE_STORE_PACKAGE_DETAIL_PAGE_URL">
+        http://ptlogin2.qq.com/facestore_detail01?clientuin=$UIN$&amp;clientkey=$KEY$&amp;parcelid=$PACKAGE_ID$
+    </String>
+  <String id="QQFACE_STORE_PACKAGE_DETAIL_PAGE_BY_FACEID_URL">
+        http://ptlogin2.qq.com/facestore_detail01?clientuin=$UIN$&amp;clientkey=$KEY$&amp;itemid=$FACE_ITEM_ID$
+    </String>
+  <String id="QQFACE_STORE_PACKAGE_PAYMENT_PAGE_URL">
+        http://ptlogin2.qq.com/facestore_payment?clientuin=$UIN$&amp;clientkey=$KEY$&amp;parcelid=$PACKAGE_ID$
+    </String>
+  <String id="QQFACE_STORE_UPDATE_TIMESTAMP_URL">
+        http://imgcache.qq.com/club/item/parcel/timestamp.json
+    </String>
+  <String id="QQFACE_TAB_WORDING_CONFIG_URL">
+        http://imgcache.qq.com/club/item/parcel/client_wording.json
+    </String>
+  <String id="RecommandFacePacket_List">http://imgcache.qq.com/club/item/parcel/reclist.json</String>
+  <String id="RecommandFacePacket_Image">http://imgcache.qq.com/club/item/parcel/$INDEX$/$PACKETID$/list.png</String>
+  <String id="StoreFace_ImageUrl_100">http://imgcache.qq.com/club/item/parcel/item/$DIR$/$MD5$/100_100</String>
+  <String id="StoreFace_ImageUrl_200">http://imgcache.qq.com/club/item/parcel/item/$DIR$/$MD5$/200_200</String>
+  <String id="StoreFace_TabInfoUrl">http://imgcache.qq.com/club/item/parcel/$DIR$/$TABID$.json</String>
+  <String id="StoreFace_FaceSoundUrl">http://imgcache.qq.com/club/item/parcel/item/$DIR$/$MD5$/ring.wav</String>
+  <String id="IDS_EMOJI_DOWNLOAD_URL">
+    http://dldir1.qq.com/qqfile/qq/Emoji.zip
+  </String>
+  <String id="CustomeFace_RecommendedFaceURL">
+    http://ptlogin2.qq.com/client_pushface?clientuin=$UIN$&amp;clientkey=$KEY$
+  </String>
+	<String id="BusninssFace_TabLogoUrl">http://pub.idqqimg.com/pc/qqclient/face/tab_$TABID$/logo</String>
+	<String id="BusninssFace_TabInfoUrl">http://pub.idqqimg.com/pc/qqclient/face/tab_$TABID$/data.json</String>
+	<String id="BusninssFace_ImageUrl">http://pub.idqqimg.com/pc/qqclient/face/tab_$TABID$/$MD5$</String>
+	<String id="BusninssFace_PTLinkPrefix">http://ptlogin2.qq.com/</String>
+</StringBundle>

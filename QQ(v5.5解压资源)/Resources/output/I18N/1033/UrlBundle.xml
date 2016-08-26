@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringBundle version="1.0">
+	<String id="IDS_MAIL_OPENONEMAIL">
+    http://ptlogin2.qq.com/qqmail?ptlang=$LANG$&amp;Fun=clientread&amp;uin=$UIN$&amp;k=$KEY$&amp;mailid=$ID$
+  </String>
+	<String id="IDS_MAIL_OPENALLMAIL">
+    http://ptlogin2.qq.com/qqmail?ptlang=$LANG$&amp;Fun=clientlogin&amp;uin=$UIN$&amp;k=$KEY$
+  </String>
+	<String id="IDS_WRITEEMAIL_TOBUDDY">
+    http://ptlogin2.qq.com/qqmail?Fun=clientwrite&amp;type=com_2&amp;email=$TOUIN$@qq.com&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;ptlang=$LANG$
+	</String>
+	<!-- group ChatFrame-->
+	<String id="IDS_GROUP_URL_MAIL">
+    http://ptlogin2.qq.com/qqmail?fun=clientread&amp;gid=$GID$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;ptlang=$LANG$
+ 	</String>
+	<String id="IDS_GROUP_URL_MAIL_NEW">
+    http://ptlogin2.qq.com/qqmail?fun=clientwrite&amp;gid=$GID$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;ptlang=$LANG$
+	</String>
+	<String id="IDS_GROUP_URL_SPACE">
+    http://ptlogin2.qq.com/group2?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;guin=$GUIN$&amp;type=0
+  </String>
+	<String id="IDS_GROUP_URL_NOGROUP_SPACE">
+    http://ptlogin2.qq.com/group2?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;guin=$GUIN$&amp;gid=$GID$&amp;type=3
+  </String>
+	<String id="IDS_GROUP_URL_NEW_ARTICLE">
+    http://ptlogin2.qq.com/group2?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;gid=$GID$&amp;type=19
+  </String>
+	<String id="IDS_GROUP_URL_NEW_PHOTO">
+    http://ptlogin2.qq.com/group2?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;gid=$GID$&amp;type=7
+  </String>
+	<String id="IDS_GROUP_URL_MSG_RECORD">
+    http://ptlogin2.qq.com/group2?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;gid=$GID$&amp;type=10
+  </String>
+	<String id="IDS_GROUP_URL_SHIFTGROUP">
+		http://ptlogin2.qq.com/group?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;guin=$GUIN$&amp;type=5&amp;version=2008
+	</String>
+	<String id="IDS_GROUP_URL_DISMISSGROUP">
+		http://ptlogin2.qq.com/group?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;guin=$GUIN$&amp;type=6&amp;version=2008
+	</String>
+	<String id="IDS_GROUP_URL_INTRO">
+		http://group.qq.com/cgi-bin/group_portal?func=1
+	</String>
+	<String id="IDS_GROUP_URL_CREATE">
+		http://ptlogin2.qq.com/group?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;guin=$GUIN$&amp;gid=$GID$&amp;type=4&amp;version=2008
+	</String>
+	<String id="IDS_GROUP_URL_FINGER">
+		http://ptlogin2.qq.com/group?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;guin=$GUIN$&amp;type=7&amp;keyword=$KEYWORD$&amp;catalog=$CATALOG$
+	</String>
+	<!-- bug report -->
+	<String id="BR_SERVER_URL">
+		http://bugreport.qq.com/cgi-bin/bugreport30
+	</String>
+	<String id="PORTAL_URL">
+		http://www.qq.com
+	</String>
+	<String id="QQGame_URL">
+		http://game.qq.com?clientuin=$UIN$&amp;clientkey=$KEY$
+	</String>
+	<String id="R2_URL">
+		http://r2.qq.com
+	</String>
+	<String id="FO_URL">
+		http://fo.qq.com/
+	</String>
+	<String id="QQTANG_URL">
+		http://ptlogin2.qq.com/clienturl_107
+	</String>
+	<String id="PET_URL">
+		http://pet.qq.com
+	</String>
+	<String id="MOBILE_URL">
+		http://mobile.qq.com
+	</String>
+	<String id="NOTICE_URL">
+		http://notice.qq.com
+	</String>
+	<String id="THREEG_URL">
+		http://3gqq.qq.com
+	</String>
+	<String id="SMS_URL">
+		http://sms.qq.com
+	</String>
+	<String id="CLUB_URL">
+		http://club.qq.com
+	</String>
+	<String id="BBS_URL">
+		http://bbs.qq.com
+	</String>
+	<String id="QQLIVE_URL">
+		http://tv.qq.com
+	</String>
+	<String id="MAG_URL">
+		http://mag.qq.com
+	</String>
+	<String id="LISTEN_URL">
+		http://listen.qq.com
+	</String>
+	<String id="Flash_DownloadUrl">
+    http://ptlogin2.qq.com/flash_plugin
+  </String>  
+	<String id="MAINMENU_PAIPAI_URL">
+		http://jump.paipai.com/client_jump?clickid=19&amp;RDTAG=199.8.2&amp;clientuin=$UIN$&amp;clientkey=$KEY$
+	</String>
+	<String id="TENPAY_URL">
+		https://www.tenpay.com
+	</String>
+	<String id="SAFE_CENTER_URL">
+		http://ptlogin2.qq.com/qq_safe?ptlang=$LANG$
+	</String>
+	<String id="ONLINESCANVIRUS_URL">
+		http://ptlogin2.qq.com/qq_safe_tso?ptlang=$LANG$
+	</String>
+	<String id="SERVICE_URL">
+		http://ptlogin2.qq.com/main_service?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$
+	</String>
+	<String id="TM_FEEDBACK_URL">
+		http://ptlogin2.qq.com/hummer_3?ptlang=$LANG$
+	</String>
+	<String id="QQ_FEEDBACK_URL">
+		http://ptlogin2.qq.com/clienturl_321?ptlang=$LANG$
+	</String>
+	<String id="PASSWORDPROTECT_URL">
+		https://account.qq.com/cgi-bin/DNA_Setup
+	</String>
+	<String id="REPORT_URL">
+		http://ptlogin2.qq.com/qq_safe_site?ptlang=$LANG$
+	</String>
+	<String id="SOFTCENTER_URL">
+		http://im.qq.com
+	</String>
+	<String id="QZONE_INDEX_URL">
+		http://qzone.qq.com/
+	</String>
+	<String id="QQCLUB_INDEX_URL">
+		http://vip.qq.com/
+	</String>
+	<String id="SOSO_URL">
+		http://www.soso.com/
+	</String>
+	<String id="RECEIVER_LOOK_DETAIL_URL">
+		http://ptlogin2.qq.com/qq_safe_detail?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;urlid=$URLID$
+	</String>
+	<String id="PwdProtect_URL">
+		http://ptlogin2.qq.com/clienturl_224?ptlang=$LANG$&amp;PcacheTime=1161589080
+	</String>
+	<String id="ChangePwd_URL">
+		https://account.qq.com/cgi-bin/auth_forget?forgetType=PW&amp;PcacheTime=1181788847
+	</String>
+	<String id="Wireless_Wizard">
+		http://smswizard.qq.com/zifei.htm?ADUIN=$UIN$
+	</String>
+	<String id="ConfigCenter_PwdProtect_URL">
+		http://ptlogin2.qq.com/main_pwd_safe?ptlang=$LANG$&amp;uin=$UIN$&amp;clientkey=$KEY$
+	</String>
+	<String id="ConfigCenter_ChangePwd_URL">
+		http://ptlogin2.qq.com/qq_changpwd?ptlang=$LANG$&amp;uin=$UIN$&amp;clientkey=$KEY$
+	</String>
+	<String id="IMPEACH_URL">
+		http://ptlogin2.qq.com/qq_safe_imp_site?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;urltarget=$URL$&amp;clienttype=1
+	</String>
+	<String id="CUSTOMERHEAD_SERVER_URL">
+		cface_tms.qq.com
+	</String>
+	<String id="INSTALL_IM_URL">
+		http://ptlogin2.qq.com/clienturl_245
+	</String>
+	<String id="NEW_ACCOUNT_URL">
+		http://ptlogin2.qq.com/qq_signup?ptlang=$LANG$
+	</String>
+	<String id="CUSTOMHEADUPLOAD_URL">
+		http://cface.qq.com/cgi-bin/cface/upload
+	</String>
+    <String id="GROUPHEADDOWNLOAD_URL">
+        http://p.qlogo.cn/gh/%u/%u/%d"
+    </String>
+    <String id="GROUPHEADDOWNLOAD_URL2">
+        http://p%d.qlogo.cn/gh/%u/%u/%d"
+    </String>
+	<String id="CFACE_NEED_KNOW">
+		http://cface_page.qq.com/user_need_know.shtml
+	</String>
+	<String id="FORGET_PASSWORD">
+		http://ptlogin2.qq.com/forget_pwd?ptlang=$LANG$
+	</String>
+	<String id="QQ_DOCTOR">
+		http://ptlogin2.qq.com/qq_safe_pro?ptlang=$LANG$
+	</String>
+	<String id="ContactInfo_BindEmailAccount_Url">
+		http://ptlogin2.qq.com/bindaccount?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$
+	</String>
+	<String id="ContactInfo_ChangeViewAccount_Url">
+		http://ptlogin2.qq.com/showaccount?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$
+	</String>
+	<String id="GroupConfig_JumpSetting">
+		http://ptlogin2.qq.com/group?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;guin=$GROUPID$&amp;type=21
+	</String>
+	<String id="LoginLogo_Download">
+		http://logo.qq.com/getlogo?QQ=$UIN$
+	</String>
+	<String id="MainPanel_GroupEmail">
+    http://ptlogin2.qq.com/qqmail?fun=clientread&amp;gid=$GROUPCODE$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;ptlang=$LANG$
+	</String>
+	<String id="MainPanel_ContactEmail">
+		http://www.qqmail.com/cgi-bin/landon?u=$UIN$&amp;m=4&amp;k=$KEY$&amp;ac=$EMAIL$&amp;templatename=compose&amp;subtmpl=onekey
+	</String>
+	<String id="Group_DownloadLayer">
+		http://ptlogin2.qq.com/group_categories?ptlang=$LANG$
+	</String>
+	<String id="CUSTOMHEAD_UPLOADURL">
+		http://cface.qq.com/cgi-bin/cface/upload
+	</String>
+	<String id="FINGERFRAM_ADVANCEDURL">
+		http://ptlogin2.qq.com/group?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;guin=0&amp;type=7&amp;keyword=&amp;catalog=0
+	</String>
+
+
+	<String id="CUSTOMFACE_ROAMURL">
+		http://faceroam.client.qq.com:8000
+	</String>
+
+	<String id="QQVip_VipURL">
+		http://ptlogin2.qq.com/clubclient?ptlang=$LANG$&amp;from=$WHERE$&amp;clientuin=$UIN$&amp;clientkey=$KEY$
+	</String>
+	<String id="QQVip_VipURL_Para">
+    http://ptlogin2.qq.com/clubclient?ptlang=$LANG$&amp;from=$WHERE$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;param=$PARA$&amp;url=$URL$
+  </String>
+  
+	<String id="Paipai_Url">
+		http://jump.paipai.com/client_jump?clickid=25&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;url=$URL$
+	</String>
+	<String id="QQLevelUrl">
+		http://ptlogin2.qq.com/clienturl_204?ptlang=$LANG$
+	</String>
+	<String id="Tips_Longnick_URL">
+		http://user.qzone.qq.com/$UIN$
+	</String>
+	<String id="Tips_Login_MobilePhoneQQ">
+    http://ptlogin2.qq.com/c_mobile_1?ptlang=$LANG$&amp;from=Mini_FriendTip
+  </String>
+  <String id="Tips_Login_MobileWapQQ">
+		http://ptlogin2.qq.com/wapqq006
+	</String>
+	<String id="Tips_Login_Mobile3G">
+		http://ptlogin2.qq.com/c_3g_1?from=Mini_FriendTip
+	</String>
+	<String id="HowToVip_URL">
+		http://paycenter.qq.com/cgi-bin/showopenservice.cgi?service_type=club&amp;subtype=1&amp;wid=VIP_NL_05010000&amp;cid=VIP_NL_05010001
+	</String>
+	<String id="MoreVipHead_URL">
+		http://face.qq.com/index.shtml?clientuin=$UIN$&amp;clientkey=$KEY$
+	</String>
+	<String id="VIP_FACE_URL">
+		http://ptlogin2.qq.com/client_clubface
+	</String>
+	<String id="QQDOCTOR_DOWNLIST_URL">
+		http://dl_dir.qq.com/qqfile/ims/qqdoctor/tseupdate.dat
+	</String>
+	<String id="QQDOCTOR_WHATISVIRUS_URL">
+		http://ptlogin2.qq.com/scan_help
+	</String>
+	<String id="QQDOCTOR_HELP">
+		http://ptlogin2.qq.com/qqscan?ptlang=$LANG$
+	</String>
+	<String id="MainMenu_QZone_Url">
+		http://ptlogin2.qq.com/main_qzone?ptlang=$LANG$
+	</String>
+	<String id="MainMenu_PaiPaiHome_Url">
+		http://ptlogin2.paipai.com/main_paipai?ptlang=$LANG$
+	</String>
+	<String id="MainMenu_QQCOM_Url">
+		http://ptlogin2.qq.com/main_qq?ptlang=$LANG$
+	</String>
+	<String id="MainMenu_SOSO_Url">
+		http://ptlogin2.soso.com/main_soso?ptlang=$LANG$
+	</String>
+	<String id="MainMenu_SofewareCenter_Url">
+		http://ptlogin2.qq.com/main_im?ptlang=$LANG$
+	</String>
+	<String id="MainMenu_Entertainment_QQShow_Url">
+		http://ptlogin2.qq.com/clienturl_254?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$
+	</String>
+	<String id="MainMenu_Entertainment_QQSanGuo_Url">
+		http://ptlogin2.qq.com/clienturl_286?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$
+	</String>
+	<String id="MainMenu_News_Order_Url">
+		http://ptlogin2.qq.com/clienturl_53?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$
+	</String>
+	<String id="MainMeun_USERQZONE_URL">
+		http://user.qzone.qq.com/$user$
+	</String>
+	<String id="MainMeun_QzoneNavigateUrl">
+		http://imgcache.qq.com/qzone/jump.html#zzpanelkey=$KEY$&amp;zzpaneluin=$UIN$&amp;url=$URL$
+	</String>
+	<String id="Menu_QQMobile_Lastist">
+		http://ptlogin2.qq.com/main_mobile_1?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;from=menu
+	</String>
+	<String id="Menu_QQMobile_Bind">
+		http://ptlogin2.qq.com/main_mobile_2?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;from=menu
+	</String>
+	<String id="Menu_QQMobile_MobileQQ">
+		http://ptlogin2.qq.com/c_mobile_1?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;from=MainMenu_MobileQQMenu
+	</String>
+	<String id="Menu_QQMobile_3GQQ">
+		http://ptlogin2.qq.com/main_mobile_4?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;from=qqmenu
+	</String>
+	<String id="Menu_QQMobile_WAP">
+		http://ptlogin2.qq.com/main_mobile_5?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$
+	</String>
+	<String id="Menu_QQMobile_Game">
+		http://ptlogin2.qq.com/main_mobile_6?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;from=client
+	</String>
+	<String id="Menu_QQMobile_Msg">
+		http://ptlogin2.qq.com/main_mobile_7?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;from=menu
+	</String>
+	<String id="Menu_QQMobile_AudioVIP">
+		http://ptlogin2.qq.com/main_mobile_8?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;from=menu
+	</String>
+	<String id="Menu_QQMobile_Ring">
+		http://ptlogin2.qq.com/main_mobile_9?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;from=menu
+	</String>
+	<String id="Menu_QQMobile_lingtong">
+		http://ptlogin2.qq.com/main_mobile_10?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;from=menu
+	</String>
+	<String id="Menu_QQMobile_qianliyan">
+		http://ptlogin2.qq.com/main_mobile_11?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;from=client
+	</String>
+	<String id="Menu_QQMobile_MsgSuper">
+		http://ptlogin2.qq.com/main_mobile_12?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;from=client
+	</String>
+	<String id="Menu_QQMobile_SuperQQ">
+		http://ptlogin2.qq.com/main_mobile_13?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;from=client
+	</String>
+	<String id="Safe_Prevent">
+		http://ptlogin2.qq.com/urlhelp1?ptlang=$LANG$
+	</String>
+	<String id="Safe_KnowTencentUrl">
+		http://ptlogin2.qq.com/urlhelp2?ptlang=$LANG$
+	</String>
+	<String id="Paipai_UserInfoUrl">
+		http://my.paipai.com/cgi-bin/show_item_info?u1=$UIN$&amp;u2=$FRIENDUIN$&amp;clientver=$VER$&amp;clientkey=$KEY$&amp;ppptlang=$LANG$
+	</String>
+
+	<String id="WirelessShow_Download_Url">
+		http://mobileshow.qq.com:28082
+	</String>
+	<String id="Group_Client">
+		groupclient.qq.com:9001
+	</String>
+	<String id="RCServer_Url">
+		rcserver.qq.com
+	</String>
+	<String id="ComBox_UDPLoginServer_1">
+		219.133.49.171:8000
+	</String>
+	<String id="ComBox_UDPLoginServer_2">
+		sz2.tencent.com:8000
+	</String>
+	<String id="ComBox_UDPLoginServer_3">
+		sz3.tencent.com:8000
+	</String>
+	<String id="ComBox_UDPLoginServer_4">
+		sz4.tencent.com:8000
+	</String>
+	<String id="ComBox_UDPLoginServer_5">
+		sz5.tencent.com:8000
+	</String>
+	<String id="ComBox_UDPLoginServer_6">
+		sz6.tencent.com:8000
+	</String>
+	<String id="ComBox_UDPLoginServer_7">
+		sz7.tencent.com:8000
+	</String>
+	<String id="ComBox_TCPLoginServer_1">
+		219.133.60.173:443
+	</String>
+	<String id="ComBox_TCPLoginServer_2">
+		tcpconn2.tencent.com:443
+	</String>
+	<String id="ComBox_TCPLoginServer_3">
+		tcpconn3.tencent.com:443
+	</String>
+	<String id="ComBox_TCPLoginServer_4">
+		tcpconn4.tencent.com:443
+	</String>
+
+	<String id="COMPLAIN_UIN_URL">
+		http://safe.qq.com/cgi-bin/eviluin/eviluin_upload_cli
+	</String>
+    
+    <String id="URL_BIG_DATA_HTTP_CONN_FORMAT">
+        http://$HOST$/cgi-bin/httpconn
+    </String>
+    
+	<String id="HttpProxyTestUrl">
+		http.tencent.com
+	</String>
+	<String id="ImpeachMore">
+		http://ptlogin2.qq.com/jubao?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$
+	</String>
+	<String id="ImpeachHelp">
+		http://ptlogin2.qq.com/jubao_help?ptlang=$LANG$
+	</String>
+	<String id="EditFace_Url_Base">
+		http://ptlogin2.qq.com/clubclient?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;from=$WHERE$
+	</String>
+	<String id="PwdGuardStateUrl1">
+		http://ptlogin2.qq.com/mibao1?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$
+	</String>
+	<String id="PwdGuardStateUrl2">
+		http://ptlogin2.qq.com/mibao2?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$
+	</String>
+	<String id="PwdGuardStateUrl3">
+		http://ptlogin2.qq.com/mibao3?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$
+	</String>
+	<String id="BlueBar_Mobile_Url_3G">
+		http://ptlogin2.qq.com/c_3g_1?from=IMChatWindow_MessageShow
+	</String>
+	<String id="BlueBar_Mobile_Url_WAP">
+		http://ptlogin2.qq.com/wapqq007
+	</String>
+	<String id="BlueBar_Mobile_Url">
+		http://ptlogin2.qq.com/c_mobile_1?from=IMChatWindow_MessageShow
+	</String>
+	<String id="CampusGroup_UserInfo_Server">
+		http://service.xiaoyou.qq.com/someonefeed/%u/%u
+	</String>
+	<String id="CampusGroup_UserHead_Server">
+		http://service.xiaoyou.qq.com/someonephoto/%u/%u
+	</String>
+	<String id="CampustGroup_AIOToolBar_HomePage">
+		http://ptlogin2.qq.com/jump?u1=http://xiaoyou.qq.com/goto.php?where=classportal&amp;groupcode=$GID$&amp;p=$EncryptKey$&amp;clientuin=$UIN$&amp;clientkey=$KEY$
+	</String>
+	<String id="CampustGroup_AIOToolBar_BBS">
+		http://ptlogin2.qq.com/jump?u1=http://xiaoyou.qq.com/goto.php?where=classqbar&amp;groupcode=$GID$&amp;p=$EncryptKey$&amp;clientuin=$UIN$&amp;clientkey=$KEY$
+	</String>
+	<String id="CampustGroup_AIOToolBar_ADDRBOOK">
+		http://ptlogin2.qq.com/jump?u1=http://xiaoyou.qq.com/goto.php?where=addrbook&amp;groupcode=$GID$&amp;p=$EncryptKey$&amp;clientuin=$UIN$&amp;clientkey=$KEY$
+	</String>
+	<String id="CampustGroup_AIOToolBar_EXIT">
+		http://ptlogin2.qq.com/jump?u1=http://xiaoyou.qq.com/goto.php?where=exit&amp;groupcode=$GID$&amp;p=$EncryptKey$&amp;clientuin=$UIN$&amp;clientkey=$KEY$
+	</String>
+	<String id="CampusGroup_VASFLAG_ENABLE">
+		http://ptlogin2.qq.com/jump?u1=http://xiaoyou.qq.com/goto.php?where=profile&amp;groupcode=$GID$&amp;qq=$QQUSER$&amp;p=$EncryptKey$&amp;clientuin=$UIN$&amp;clientkey=$KEY$
+	</String>
+	<String id="CampusGroup_VASFLAG_DISABLE">
+		http://ptlogin2.qq.com/jump?u1=http://xiaoyou.qq.com/goto.php?where=reg&amp;groupcode=$GID$&amp;p=$EncryptKey$&amp;clientuin=$UIN$&amp;clientkey=$KEY$
+	</String>
+	<String id="CampusGroup_AIODynIEDownloadUrl">
+		http://service.xiaoyou.qq.com/classfeed/%u
+	</String>
+	<String id="CampustGroup_AIOToolBar_EditClass">
+		http://ptlogin2.qq.com/jump?u1=http://xiaoyou.qq.com/goto.php?where=eidtclass&amp;groupcode=$GID$&amp;p=$EncryptKey$&amp;clientuin=$UIN$&amp;clientkey=$KEY$
+	</String>
+	<String id="CampusGroup_GroupCardIEDownloadUrl">
+		http://service.xiaoyou.qq.com/group.php?mod=somecard&amp;act=page&amp;groupcode=%u&amp;qq=%u
+	</String>
+	<String id="CampusGroup_GroupCardIEDownloadUrl2">
+		http://service.xiaoyou.qq.com/group.php?mod=somecard&amp;act=someone&amp;groupcode=%u&amp;qq=%u
+	</String>
+	<String id="CampusGroup_MemHomePage">
+		http://ptlogin2.qq.com/jump?u1=http://xiaoyou.qq.com/goto.php?where=profile&amp;groupcode=$GID$&amp;qq=$MEMUIN$&amp;p=$EncryptKey$&amp;clientuin=$UIN$&amp;clientkey=$KEY$
+	</String>
+	<String id="CampusGroup_MemberMgr">
+		http://ptlogin2.qq.com/jump?u1=http://xiaoyou.qq.com/goto.php?where=memberman&amp;groupcode=$GID$&amp;p=$EncryptKey$&amp;clientuin=$UIN$&amp;clientkey=$KEY$
+	</String>
+	<String id="GoupHead_NeedToKnow_Url">
+		http://ptlogin2.qq.com/clubclient?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;from=499&amp;param=$UIN$
+	</String>
+	<String id="GoupHead_BeAdvGroup_Url">
+		http://ptlogin2.qq.com/clubclient?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;from=516&amp;param=$UIN$
+	</String>
+	<String id="GoupHead_XmlDownloadUrl">
+		http://ptlogin2.qq.com/client_groupface
+	</String>
+	<String id="GoupClass_Url">
+		http://ptlogin2.qq.com/group_qq?clientuin=$UIN$&amp;clientkey=$KEY$&amp;guin=$GUIN$&amp;type=7&amp;keyword=&amp;catalog=$CLASS$
+	</String>
+	<String id="Menu_HelpTheme_Url">
+    http://ptlogin2.qq.com/client911?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$
+	</String>
+	<String id="Menu_ProductBlog_Url">
+    http://ptlogin2.qq.com/client910?ptlang=$LANG$
+  </String>
+	<String id="Menu_Ecommerce_QQCharge_Url">
+		http://ptlogin2.qq.com/clienturl_pay?clientuin=$UIN$&amp;clientkey=$KEY$
+	</String>
+	<String id="Menu_Ecommerce_MobileCharge_Url">
+		http://ptlogin2.tenpay.com/clienturl_phone?clientuin=$UIN$&amp;clientkey=$KEY$
+	</String>
+
+	<String id="FaceRoam_ViewDetails_Url">
+		http://ptlogin2.qq.com/clubclient?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;from=486&amp;param=$UIN$
+	</String>
+	<String id="FaceRoam_Tenpay_Url">
+		http://ptlogin2.qq.com/clubclient?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;from=485
+	</String>
+  <String id="PluginError_Url">
+    http://ptlogin2.qq.com/main_im?ptlang=$LANG$
+  </String>
+  <String id="OnlinePrompt_Url">
+    http://ptlogin2.qq.com/c_mobile_1?from=OnlineTip
+  </String>
+  <String id="OfflinePrompt_Url">
+    http://ptlogin2.qq.com/c_mobile_1?from=OfflineTip
+  </String>
+  <String id="OfflinePrompt_Url_3G">
+    http://ptlogin2.qq.com/c_3g_1?from=OfflineTip
+  </String>
+  <String id="OnlinePrompt_Url_3G">
+    http://ptlogin2.qq.com/c_3g_1?from=OnlineTip
+  </String>
+  <String id="CustomFaceMgr_MoreFace">
+    http://ptlogin2.qq.com/facedownload?clientuin=$UIN$&amp;clientkey=$KEY$
+  </String>
+  <String id="ThemeListDownloadUrl">
+    http://themef.qq.com/cgi-bin/theme_xml
+  </String>  
+  <String id="IDS_MobileQQ_ChatFrameEntryUrl">
+    http://ptlogin2.qq.com/c_3g_1?from=Tool_Bar_ent
+  </String>
+  <String id="ContactTips_PhoneQQBtn_URL">
+    http://ptlogin2.qq.com/c_mobile_1?from=logo
+  </String>
+  <String id="ContactTips_3GQQBtn_URL">
+    http://ptlogin2.qq.com/c_3g_1?from=logo
+  </String>
+  <String id="ContactTips_WapQQ_url_my">
+    http://ptlogin2.qq.com/wapqq001?clientuin=$UIN$&amp;clientkey=$KEY$
+  </String>
+  <String id="ContactTips_WapQQ_url_frnd">
+    http://ptlogin2.qq.com/wapqq002?clientuin=$UIN$&amp;clientkey=$KEY$
+  </String>
+  <String id="Addbuddy_ViewVipDetails">
+    http://ptlogin2.qq.com/clubclient?ptlang=$LANG$&amp;clientuin=$UIN$&amp;clientkey=$KEY$&amp;from=530
+  </String>
+  <String id="IDS_DOMAIN_PAIPAI">
+    paipai.com
+  </String>
+  <String id="strMsgWander_VipRoamPage">
+        http://ptlogin2.qq.com/client2cloudmsg?clientuin=$UIN$&amp;clientkey=$KEY$&amp;isvip=$ISVIP$&amp;cur=$ISOPENCUR$&amp;num=$OPENNUM$&amp;all=$ISOPENALL$&amp;param=$PARA$&amp;version=$VERSION$
+  </String>
+  <String id="strMsgWander_NoVipRoamPage">
+        http://ptlogin2.qq.com/client2cloudmsg?clientuin=$UIN$&amp;clientkey=$KEY$&amp;isvip=$ISVIP$&amp;level=$SELFLEVEL$&amp;flag=$ISREGISTER$&amp;pwd=$IFNEED2M$&amp;param=$PARA$&amp;version=$VERSION$
+  </String>
+</StringBundle>
