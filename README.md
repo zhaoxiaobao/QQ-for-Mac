@@ -1,2 +1,2 @@
-# mac-app-demo
-a good idea，a good app！
+# QQ-for-Mac
+脑袋发热，说不准过段时间就要删掉这个库！
