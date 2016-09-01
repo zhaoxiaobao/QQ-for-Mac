@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F25C5271D709F6E00CD0CC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F25C5261D709F6E00CD0CC0 /* AppDelegate.m */; };
+		3F25C52A1D709F6E00CD0CC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F25C5291D709F6E00CD0CC0 /* main.m */; };
+		3F25C52D1D709F6E00CD0CC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F25C52C1D709F6E00CD0CC0 /* ViewController.m */; };
+		3F25C52F1D709F6E00CD0CC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F25C52E1D709F6E00CD0CC0 /* Assets.xcassets */; };
+		3F25C5321D709F6E00CD0CC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F25C5301D709F6E00CD0CC0 /* Main.storyboard */; };
+		3F58AC5E1D7186BA00856128 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F58AC5D1D7186BA00856128 /* LoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F25C5221D709F6E00CD0CC0 /* QQ-for-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QQ-for-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F25C5251D709F6E00CD0CC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "QQ-for-Mac/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		3F25C5261D709F6E00CD0CC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "QQ-for-Mac/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
+		3F25C5291D709F6E00CD0CC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F25C52B1D709F6E00CD0CC0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		3F25C52C1D709F6E00CD0CC0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		3F25C52E1D709F6E00CD0CC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		3F25C5311D709F6E00CD0CC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F25C5331D709F6E00CD0CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F58AC5C1D7186BA00856128 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		3F58AC5D1D7186BA00856128 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F25C51F1D709F6D00CD0CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F25C5191D709F6D00CD0CC0 = {
+			isa = PBXGroup;
+			children = (
+				3F25C5241D709F6E00CD0CC0 /* QQ-for-Mac */,
+				3F25C5231D709F6E00CD0CC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F25C5231D709F6E00CD0CC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F25C5221D709F6E00CD0CC0 /* QQ-for-Mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F25C5241D709F6E00CD0CC0 /* QQ-for-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				3F58AC5A1D71824200856128 /* App */,
+				3F58AC5B1D71824200856128 /* Resource */,
+				3F58AC591D71820900856128 /* User */,
+				3F25C5281D709F6E00CD0CC0 /* Supporting Files */,
+			);
+			path = "QQ-for-Mac";
+			sourceTree = "<group>";
+		};
+		3F25C5281D709F6E00CD0CC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F25C5301D709F6E00CD0CC0 /* Main.storyboard */,
+				3F25C5331D709F6E00CD0CC0 /* Info.plist */,
+				3F25C5291D709F6E00CD0CC0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F58AC591D71820900856128 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				3F58AC5C1D7186BA00856128 /* LoginViewController.h */,
+				3F58AC5D1D7186BA00856128 /* LoginViewController.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		3F58AC5A1D71824200856128 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3F25C52B1D709F6E00CD0CC0 /* ViewController.h */,
+				3F25C52C1D709F6E00CD0CC0 /* ViewController.m */,
+				3F25C5251D709F6E00CD0CC0 /* AppDelegate.h */,
+				3F25C5261D709F6E00CD0CC0 /* AppDelegate.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3F58AC5B1D71824200856128 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3F25C52E1D709F6E00CD0CC0 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F25C5211D709F6D00CD0CC0 /* QQ-for-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F25C5361D709F6E00CD0CC0 /* Build configuration list for PBXNativeTarget "QQ-for-Mac" */;
+			buildPhases = (
+				3F25C51E1D709F6D00CD0CC0 /* Sources */,
+				3F25C51F1D709F6D00CD0CC0 /* Frameworks */,
+				3F25C5201D709F6D00CD0CC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QQ-for-Mac";
+			productName = "QQ-for-Mac";
+			productReference = 3F25C5221D709F6E00CD0CC0 /* QQ-for-Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F25C51A1D709F6D00CD0CC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zhaoyuan;
+				TargetAttributes = {
+					3F25C5211D709F6D00CD0CC0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3F25C51D1D709F6D00CD0CC0 /* Build configuration list for PBXProject "QQ-for-Mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F25C5191D709F6D00CD0CC0;
+			productRefGroup = 3F25C5231D709F6E00CD0CC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F25C5211D709F6D00CD0CC0 /* QQ-for-Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F25C5201D709F6D00CD0CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F25C52F1D709F6E00CD0CC0 /* Assets.xcassets in Resources */,
+				3F25C5321D709F6E00CD0CC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F25C51E1D709F6D00CD0CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F58AC5E1D7186BA00856128 /* LoginViewController.m in Sources */,
+				3F25C52D1D709F6E00CD0CC0 /* ViewController.m in Sources */,
+				3F25C52A1D709F6E00CD0CC0 /* main.m in Sources */,
+				3F25C5271D709F6E00CD0CC0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F25C5301D709F6E00CD0CC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F25C5311D709F6E00CD0CC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F25C5341D709F6E00CD0CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3F25C5351D709F6E00CD0CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3F25C5371D709F6E00CD0CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "QQ-for-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhaoyuan.QQ-for-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F25C5381D709F6E00CD0CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "QQ-for-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhaoyuan.QQ-for-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F25C51D1D709F6D00CD0CC0 /* Build configuration list for PBXProject "QQ-for-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F25C5341D709F6E00CD0CC0 /* Debug */,
+				3F25C5351D709F6E00CD0CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F25C5361D709F6E00CD0CC0 /* Build configuration list for PBXNativeTarget "QQ-for-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F25C5371D709F6E00CD0CC0 /* Debug */,
+				3F25C5381D709F6E00CD0CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F25C51A1D709F6D00CD0CC0 /* Project object */;
+}
